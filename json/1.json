@@ -1,0 +1,102 @@
+{
+    "body": "",
+    "name": "1.txt",
+    "sents": {
+        "0": {
+            "txt": "Hello everyone!",
+            "Complete": "Y",
+            "Ellipsis": "",
+            "Co-reference": ""
+        },
+        "1": {
+            "txt": "I'm back with another food instructable:Mug Brownie made with Hot Chocolate mix!!!*Sorry about the pictures.",
+            "Complete": "Y",
+            "Ellipsis": "",
+            "Co-reference": ""
+        },
+        "2": {
+            "txt": "I forgot to take a picture before I let my sister start eating it.",
+            "Complete": "I forgot to take a picture before I let my sister start eating Mug Brownie.",
+            "Ellipsis": "",
+            "Co-reference": ""
+        },
+        "3": {
+            "txt": "This recipe is pretty simple & it has no egg or cocoa powder.",
+            "Complete": "This recipe is pretty simple & Mug Brownie has no egg or cocoa powder.",
+            "Ellipsis": "",
+            "Co-reference": ""
+        },
+        "4": {
+            "txt": "Hope you enjoy this instructable!!!",
+            "Complete": "Y",
+            "Ellipsis": "",
+            "Co-reference": ""
+        },
+        "5": {
+            "txt": "Ingredients:- 6 tablespoons Hot Chocolate mix- 4 tablespoons",
+            "Complete": "Y",
+            "Ellipsis": "",
+            "Co-reference": ""
+        },
+        "6": {
+            "txt": "All-Purpose flour- 1/2 teaspoon vanilla extract- 2 tablespoons melted butter- 3 tablespoons waterMaterials:-",
+            "Complete": "Y",
+            "Ellipsis": "",
+            "Co-reference": ""
+        },
+        "7": {
+            "txt": "A coffee mug-",
+            "Complete": "Y",
+            "Ellipsis": "",
+            "Co-reference": ""
+        },
+        "8": {
+            "txt": "A fork (for mixing)-",
+            "Complete": "Y",
+            "Ellipsis": "",
+            "Co-reference": ""
+        },
+        "9": {
+            "txt": "Measuring spoons\n1.",
+            "Complete": "Y",
+            "Ellipsis": "",
+            "Co-reference": ""
+        },
+        "10": {
+            "txt": "Put the flour & Hot Chocolate mix into a mug and stir together well2.",
+            "Complete": "Y",
+            "Ellipsis": "",
+            "Co-reference": ""
+        },
+        "11": {
+            "txt": "Add the melted butter, water, & vanilla extract to the mug and mix until you don't see any more dry mixture.",
+            "Complete": "Y",
+            "Ellipsis": "",
+            "Co-reference": "Add the melted butter, water, & vanilla extract to  it and mix until you don't see any more dry mixture."
+        },
+        "12": {
+            "txt": "(Should have consistency of brownie batter)\nPut mug in microwave for 1 to 1 1/2 minutes.",
+            "Complete": "Y",
+            "Ellipsis": "",
+            "Co-reference": "Put it in microwave for 1 to 1 1/2 minutes."
+        },
+        "13": {
+            "txt": "DO NOT MICROWAVE TOO LONG!!!Should be slightly moist in center.",
+            "Complete": "Y",
+            "Ellipsis": "",
+            "Co-reference": ""
+        },
+        "14": {
+            "txt": "Add whip cream, ice cream or even both and enjoy!!!Again I am very sorry about the finished picture.",
+            "Complete": "Add whip cream, ice cream or even both to mug and enjoy!!!Again I am very sorry about the finished picture.",
+            "Ellipsis": "",
+            "Co-reference": ""
+        },
+        "15": {
+            "txt": "Untill next time peeps\n",
+            "Complete": "Y",
+            "Ellipsis": "",
+            "Co-reference": ""
+        }
+    }
+}

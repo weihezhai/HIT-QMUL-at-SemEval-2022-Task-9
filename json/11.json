@@ -1,0 +1,120 @@
+{
+    "body": "",
+    "name": "11.txt",
+    "sents": {
+        "0": {
+            "txt": "RED HOT Valentine Cookies\nThese cookies taste just like the little red candies but with a soft cake-like texture.",
+            "Complete": "Y",
+            "Ellipsis": "RED HOT Valentine Cookies",
+            "Co-reference": "These cookies taste just like the little red candies but with a soft cake-like texture."
+        },
+        "1": {
+            "txt": "I make a batch for my husband every Valentine's Day",
+            "Complete": "I make a batch cookies for my husband every Valentine's Day",
+            "Ellipsis": "",
+            "Co-reference": ""
+        },
+        "2": {
+            "txt": "and he loves them!",
+            "Complete": "and he loves cookies !",
+            "Ellipsis": "",
+            "Co-reference": ""
+        },
+        "3": {
+            "txt": "These cookies are very simple to make.",
+            "Complete": "Y",
+            "Ellipsis": "",
+            "Co-reference": " They are very simple to make."
+        },
+        "4": {
+            "txt": "They are good by themselves or sandwiched with ice cream.",
+            "Complete": "Cookies are good by themselves or sandwiched with ice cream.",
+            "Ellipsis": "",
+            "Co-reference": ""
+        },
+        "5": {
+            "txt": "This recipe will make 2 to 4 dozen cookies depending on the size cookie cutter used.",
+            "Complete": "Y",
+            "Ellipsis": "",
+            "Co-reference": ""
+        },
+        "6": {
+            "txt": "ENJOY!",
+            "Complete": "Y",
+            "Ellipsis": "",
+            "Co-reference": ""
+        },
+        "7": {
+            "txt": "\nINGREDIENTS\n1 box red velvet cake mix\n1/8 teaspoon baking powder\n2 eggs\n1/4 cup oil\n1/2 tablespoon natural cinnamon flavor\nFlour (as needed for rolling out dough)\nPreheat oven to 325 degrees.",
+            "Complete": "Y",
+            "Ellipsis": "",
+            "Co-reference": ""
+        },
+        "8": {
+            "txt": "\nMix the\u807dcake mix, baking powder, cinnamon flavor, eggs, and oil in a bowl until well blended and a solid dough forms.",
+            "Complete": "Mix the\u807dcake mix, baking powder, cinnamon flavor, eggs, and oil in a bowl until they are well blended and a solid dough forms.",
+            "Ellipsis": "",
+            "Co-reference": ""
+        },
+        "9": {
+            "txt": "\u807d\nPlace the dough on a floured surface and sprinkle with flour.",
+            "Complete": "Y",
+            "Ellipsis": "",
+            "Co-reference": "Place it on a floured surface and sprinkle with flour."
+        },
+        "10": {
+            "txt": "\nRoll out the dough to about a 1/4 inch thickness.",
+            "Complete": "Y",
+            "Ellipsis": "",
+            "Co-reference": "Roll out it to about a 1/4 inch thickness."
+        },
+        "11": {
+            "txt": "Use flour as needed to prevent sticky dough.",
+            "Complete": "Y",
+            "Ellipsis": "",
+            "Co-reference": ""
+        },
+        "12": {
+            "txt": "\nUse a cookie cutter to cut shapes and place on a cookie sheet.",
+            "Complete": "Use a cookie cutter to cut shapes and place dough on a cookie sheet.",
+            "Ellipsis": "",
+            "Co-reference": ""
+        },
+        "13": {
+            "txt": "I line my sheets with parchment paper but it is not necessary.",
+            "Complete": "Y",
+            "Ellipsis": "",
+            "Co-reference": ""
+        },
+        "14": {
+            "txt": "Bake at 325 for 8 to 12 minutes.",
+            "Complete": "Y",
+            "Ellipsis": "",
+            "Co-reference": ""
+        },
+        "15": {
+            "txt": "Cooking times\u807dmay vary depending on the size of the cookie cutters used.",
+            "Complete": "Y",
+            "Ellipsis": "",
+            "Co-reference": ""
+        },
+        "16": {
+            "txt": "Remove and cool on the cookie sheet 2 minutes then\u807dtransfer to a\u807dcooling rack.",
+            "Complete": "Remove and cool on the cookie sheet 2 minutes then\u807dtransfer cookie to a\u807dcooling rack.",
+            "Ellipsis": "",
+            "Co-reference": ""
+        },
+        "17": {
+            "txt": "\u807d\nServe and enjoy!",
+            "Complete": "Y",
+            "Ellipsis": "",
+            "Co-reference": ""
+        },
+        "18": {
+            "txt": "\n\u807d\n",
+            "Complete": "Y",
+            "Ellipsis": "",
+            "Co-reference": ""
+        }
+    }
+}
