@@ -145,12 +145,12 @@ def train(model,tokenizer, train_dataloader, testdataloader,device,fold):
             loop.set_postfix(loss=loss.item(),acc=acc)
 
         #保存模型
-        model_path = r"/home/mqfeng/R2QA/models/fold" + str(fold) + "_epoch" + str(epoch)
-        if os.path.exists(model_path):
-            os.mkdir(model_path)
-        model.save_pretrain(model_path)
-        tokenizer.save_pretrained(model_path)
-        print("fold: {},epoch {} saved!".format(fold,epoch))
+        #model_path = r"/home/mqfeng/R2QA/models/fold" + str(fold) + "_epoch" + str(epoch)
+        #if os.path.exists(model_path):
+        #    os.mkdir(model_path)
+        #model.save_pretrain(model_path)
+        #tokenizer.save_pretrained(model_path)
+        #print("fold: {},epoch {} saved!".format(fold,epoch))
 
         model.eval()
         test_acc = []
