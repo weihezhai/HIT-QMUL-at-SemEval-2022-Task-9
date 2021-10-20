@@ -93,16 +93,16 @@ class myDataset(Dataset):  # 需要继承data.Dataset
                                             truncation=True)
         input_ids, token_type_ids, token_type_ids = encode['input_ids'],encode['token_type_ids'],encode['token_type_ids']
         # 获取起始位置
-        start,end = self.start_end(a,text)
+        start,end = self.start_end(a,q,text)
         return  input_ids.squeeze(), token_type_ids.squeeze(), token_type_ids.squeeze(),torch.tensor([start]),torch.tensor([end])
 
     def __len__(self):
         return len(self.data)
 
-    def start_end(self,answer,text):
+    def start_end(self,answer,q,text):
         # 有问题
         answer_encode = self.tokenizer(answer)['input_ids'][1:-1]
-        text_encode = self.tokenizer(text)['input_ids']
+        text_encode = self.tokenizer(q, text)['input_ids']
         start_end=()
         for i in range(len(text_encode)):
             if text_encode[i] == answer_encode[0]:
@@ -111,6 +111,8 @@ class myDataset(Dataset):  # 需要继承data.Dataset
                     if text_encode[i + j] != answer_encode[j]:
                         break
                 if j == len(answer_encode) - 1:
+                    if text_encode[i + j] != answer_encode[j]:
+                        continue
                     start_end = (i, i + len(answer_encode) - 1)
             if len(start_end) != 0:
                 return start_end
@@ -177,7 +179,7 @@ def train(model,tokenizer, train_dataloader, testdataloader,device,fold,epoch=3)
 for fold in range(5):
     # 修改预训练模型所在的路径：下载链接（https://huggingface.co/bert-large-uncased-whole-word-masking-finetuned-squad/tree/main）
     # 新下载的pytorch_model.bin可能文件名不正确，需要重命名为pytorch_model.bin
-    model,tokenizer = get_premodel(r"bert-large-uncased-whole-word-masking-finetuned-squad")
+    model,tokenizer = get_premodel(r"bert-large-uncased-whole-word-masking-finetuned-squad")#
     # 划分五折交叉数据  #修改为本机路径
     train_data, test_data = split_data(r"text_data.json",fold)
     # 构造DataSet和DataLoader
@@ -188,6 +190,7 @@ for fold in range(5):
     test_Dataloader = DataLoader(test_Dataset, batch_size=1)
     # 训练
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+    # device = torch.device('cpu')
 
     print("----------------fold {} begin ----------------------".format(fold))
     train(model,tokenizer,train_Dataloader,test_Dataloader,device,fold,epoch=3)
