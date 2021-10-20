@@ -175,8 +175,8 @@ for fold in range(1):
     train_Dataloader = DataLoader(train_Dataset, batch_size=2,shuffle=True)
     test_Dataloader = DataLoader(test_Dataset, batch_size=1)
     # 训练
-    # device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-    device = torch.device('cpu')
+    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+    #device = torch.device('cpu')
 
     print("----------------fold {} begin ----------------------".format(fold))
     train(model,train_Dataloader,test_Dataloader,device,fold)
