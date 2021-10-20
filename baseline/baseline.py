@@ -172,7 +172,6 @@ def train(model,tokenizer, train_dataloader, testdataloader,device,fold,epoch=3)
 
                 test_acc.append(((start_pred == start).sum() / len(start_pred)).item())
                 test_acc.append(((end_pred == end).sum() / len(end_pred)).item())
-                break
         print("{},Train_acc:{} Val_acc:{}".format(epoch,np.mean(train_acc),np.mean(test_acc)))
 
 for fold in range(5):
