@@ -155,7 +155,6 @@ def train(model,tokenizer, train_dataloader, testdataloader,device,fold,epoch=3)
 
             loop.set_description(f'fold:{fold}  Epoch:{epoch}')
             loop.set_postfix(loss=loss.item(),acc=acc)
-            break
         #保存模型
         # model_to_save = model.module if hasattr(model, 'module') else model
         # model_path = r"/home/mqfeng/R2QA/models/fold" + str(fold) + "_epoch" + str(epoch)
@@ -183,7 +182,6 @@ def train(model,tokenizer, train_dataloader, testdataloader,device,fold,epoch=3)
                 test_acc.append(((start_pred == start).sum()).item())
                 test_acc.append(((end_pred == end).sum()).item())
                 test_loss.append(loss.item())
-                break
         print("{},Train_acc:{} Train_loss:{}-----Val_acc:{} Val_loss:{}".format(epoch,np.mean(train_acc),np.mean(train_loss),np.mean(test_acc),np.mean(test_loss)))
 
 for fold in range(5):
