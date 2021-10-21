@@ -91,10 +91,10 @@ class myDataset(Dataset):  # 需要继承data.Dataset
                                             max_length=450, padding='max_length',
                                             return_attention_mask=True, return_tensors='pt',
                                             truncation=True)
-        input_ids, token_type_ids, token_type_ids = encode['input_ids'],encode['token_type_ids'],encode['token_type_ids']
+        input_ids, token_type_ids, attention_mask = encode['input_ids'],encode['token_type_ids'],encode['attention_mask']
         # 获取起始位置
         start,end = self.start_end(a,q,text)
-        return  input_ids.squeeze(), token_type_ids.squeeze(), token_type_ids.squeeze(),torch.tensor([start]),torch.tensor([end])
+        return  input_ids.squeeze(), token_type_ids.squeeze(), attention_mask.squeeze(),torch.tensor([start]),torch.tensor([end])
 
     def __len__(self):
         return len(self.data)
