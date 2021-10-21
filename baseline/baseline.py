@@ -129,27 +129,33 @@ def train(model,tokenizer, train_dataloader, testdataloader,device,fold,epoch=3)
     for epoch in range(epoch):
         model.train()
         train_acc=[]
+        train_loss=[]
         loop = tqdm(train_dataloader, leave=True)
         for data in tqdm(loop):
             optim.zero_grad()
             data = tuple(t.to(device) for t in data)
             input_ids, token_type_ids, attention_mask,start,end= data
-            outputs = model(input_ids, token_type_ids, attention_mask,start_positions=start,end_positions=end)
+
+            outputs = model(input_ids,token_type_ids=token_type_ids, attention_mask=attention_mask,start_positions=start,end_positions=end)
             loss, start_logits, end_logits = outputs["loss"],outputs["start_logits"],outputs['end_logits']
             loss.backward()
             optim.step()
             scheduler.step()
 
             start_pred = torch.argmax(start_logits, dim=1)
-            end_pred = torch.argmax(outputs['end_logits'], dim=1)
+            end_pred = torch.argmax(end_logits, dim=1)
+            print(start,end)
+            print(start_pred,end_pred)
+
 
             acc = ((start_pred == start).sum() / len(start_pred)).item()
-            train_acc.append(((start_pred == start).sum() / len(start_pred)).item())
-            train_acc.append(((end_pred == end).sum() / len(end_pred)).item())
+            train_acc.append(((start_pred == start).sum()).item())
+            train_acc.append(((end_pred == end).sum()).item())
+            train_loss.append(loss.item())
 
             loop.set_description(f'fold:{fold}  Epoch:{epoch}')
             loop.set_postfix(loss=loss.item(),acc=acc)
-
+            break
         #保存模型
         # model_to_save = model.module if hasattr(model, 'module') else model
         # model_path = r"/home/mqfeng/R2QA/models/fold" + str(fold) + "_epoch" + str(epoch)
@@ -164,17 +170,21 @@ def train(model,tokenizer, train_dataloader, testdataloader,device,fold,epoch=3)
 
         model.eval()
         test_acc = []
+        test_loss=[]
         for data in tqdm(testdataloader):
             with torch.no_grad():
                 data = tuple(t.to(device) for t in data)
                 input_ids, token_type_ids, attention_mask, start, end = data
-                outputs = model(input_ids, attention_mask=attention_mask)
+                outputs = model(input_ids,token_type_ids=token_type_ids, attention_mask=attention_mask,start_positions=start,end_positions=end)
+                loss = outputs["loss"]
                 start_pred = torch.argmax(outputs['start_logits'], dim=1)
                 end_pred = torch.argmax(outputs['end_logits'], dim=1)
 
-                test_acc.append(((start_pred == start).sum() / len(start_pred)).item())
-                test_acc.append(((end_pred == end).sum() / len(end_pred)).item())
-        print("{},Train_acc:{} Val_acc:{}".format(epoch,np.mean(train_acc),np.mean(test_acc)))
+                test_acc.append(((start_pred == start).sum()).item())
+                test_acc.append(((end_pred == end).sum()).item())
+                test_loss.append(loss.item())
+                break
+        print("{},Train_acc:{} Train_loss:{}-----Val_acc:{} Val_loss:{}".format(epoch,np.mean(train_acc),np.mean(train_loss),np.mean(test_acc),np.mean(test_loss)))
 
 for fold in range(5):
     # 修改预训练模型所在的路径：下载链接（https://huggingface.co/bert-large-uncased-whole-word-masking-finetuned-squad/tree/main）
