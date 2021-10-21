@@ -88,7 +88,7 @@ class myDataset(Dataset):  # 需要继承data.Dataset
         q, a = qa.split("     ")
         # encode= self.tokenizer(q, text, add_special_tokens=True, return_tensors="pt")
         encode = self.tokenizer.encode_plus(q, text, add_special_tokens=True,
-                                            max_length=450, padding='max_length',
+                                            max_length=512, padding='max_length',
                                             return_attention_mask=True, return_tensors='pt',
                                             truncation=True)
         input_ids, token_type_ids, attention_mask = encode['input_ids'],encode['token_type_ids'],encode['attention_mask']
@@ -122,7 +122,7 @@ class myDataset(Dataset):  # 需要继承data.Dataset
 
 def train(model,tokenizer, train_dataloader, testdataloader,device,fold,epoch=3):
     model.to(device)
-    optim = AdamW(model.parameters(), lr=3e-5, weight_decay=0.2)
+    optim = AdamW(model.parameters(), lr=5e-5, weight_decay=0.1)
     scheduler = get_linear_schedule_with_warmup(
         optim, num_warmup_steps=400, num_training_steps=len(train_dataloader) * epoch)
 
@@ -144,9 +144,6 @@ def train(model,tokenizer, train_dataloader, testdataloader,device,fold,epoch=3)
 
             start_pred = torch.argmax(start_logits, dim=1)
             end_pred = torch.argmax(end_logits, dim=1)
-            print(start,end)
-            print(start_pred,end_pred)
-
 
             acc = ((start_pred == start).sum() / len(start_pred)).item()
             train_acc.append(((start_pred == start).sum()).item())
