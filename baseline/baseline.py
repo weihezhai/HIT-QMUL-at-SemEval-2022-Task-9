@@ -94,7 +94,7 @@ class myDataset(Dataset):  # 需要继承data.Dataset
         input_ids, token_type_ids, attention_mask = encode['input_ids'],encode['token_type_ids'],encode['attention_mask']
         # 获取起始位置
         start,end = self.start_end(a,q,text)
-        return  input_ids.squeeze(), token_type_ids.squeeze(), attention_mask.squeeze(),torch.tensor([start]),torch.tensor([end])
+        return  input_ids.squeeze(), token_type_ids.squeeze(), attention_mask.squeeze(),torch.tensor(start),torch.tensor(end)
 
     def __len__(self):
         return len(self.data)
@@ -140,14 +140,14 @@ def train(model,tokenizer, train_dataloader, testdataloader,device,fold,epoch=3)
             loss, start_logits, end_logits = outputs["loss"],outputs["start_logits"],outputs['end_logits']
             loss.backward()
             optim.step()
-            # scheduler.step()
+            scheduler.step()
 
             start_pred = torch.argmax(start_logits, dim=1)
             end_pred = torch.argmax(end_logits, dim=1)
 
             acc = ((start_pred == start).sum() / len(start_pred)).item()
-            train_acc.append(((start_pred == start).sum()).item())
-            train_acc.append(((end_pred == end).sum()).item())
+            train_acc.extend((start_pred == start).int())
+            train_acc.extend((end_pred == end).int())
             train_loss.append(loss.item())
 
             loop.set_description(f'fold:{fold}  Epoch:{epoch}')
@@ -176,8 +176,8 @@ def train(model,tokenizer, train_dataloader, testdataloader,device,fold,epoch=3)
                 start_pred = torch.argmax(outputs['start_logits'], dim=1)
                 end_pred = torch.argmax(outputs['end_logits'], dim=1)
 
-                test_acc.append(((start_pred == start).sum()).item())
-                test_acc.append(((end_pred == end).sum()).item())
+                test_acc.extend(((start_pred == start).int()))
+                test_acc.extend(((end_pred == end).int()))
                 test_loss.append(loss.item())
         print("{},Train_acc:{} Train_loss:{}-----Val_acc:{} Val_loss:{}".format(epoch,np.mean(train_acc),np.mean(train_loss),np.mean(test_acc),np.mean(test_loss)))
 
