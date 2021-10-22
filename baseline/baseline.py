@@ -146,8 +146,8 @@ def train(model,tokenizer, train_dataloader, testdataloader,device,fold,epoch=3)
             end_pred = torch.argmax(end_logits, dim=1)
 
             acc = ((start_pred == start).sum() / len(start_pred)).item()
-            train_acc.extend((start_pred == start).int())
-            train_acc.extend((end_pred == end).int())
+            train_acc.extend((start_pred == start).int().tolist())
+            train_acc.extend((end_pred == end).int().tolist())
             train_loss.append(loss.item())
 
             loop.set_description(f'fold:{fold}  Epoch:{epoch}')
@@ -176,8 +176,8 @@ def train(model,tokenizer, train_dataloader, testdataloader,device,fold,epoch=3)
                 start_pred = torch.argmax(outputs['start_logits'], dim=1)
                 end_pred = torch.argmax(outputs['end_logits'], dim=1)
 
-                test_acc.extend(((start_pred == start).int()))
-                test_acc.extend(((end_pred == end).int()))
+                test_acc.extend(((start_pred == start).int().tolist()))
+                test_acc.extend(((end_pred == end).int().tolist()))
                 test_loss.append(loss.item())
         print("{},Train_acc:{} Train_loss:{}-----Val_acc:{} Val_loss:{}".format(epoch,np.mean(train_acc),np.mean(train_loss),np.mean(test_acc),np.mean(test_loss)))
 
