@@ -122,7 +122,7 @@ class myDataset(Dataset):  # 需要继承data.Dataset
 
 def train(model,tokenizer, train_dataloader, testdataloader,device,fold,epoch=3):
     model.to(device)
-    optim = AdamW(model.parameters(), lr=5e-5, weight_decay=0.1)
+    optim = AdamW(model.parameters(), lr=1e-5, weight_decay=0.1)
     scheduler = get_linear_schedule_with_warmup(
         optim, num_warmup_steps=400, num_training_steps=len(train_dataloader) * epoch)
 
@@ -140,7 +140,7 @@ def train(model,tokenizer, train_dataloader, testdataloader,device,fold,epoch=3)
             loss, start_logits, end_logits = outputs["loss"],outputs["start_logits"],outputs['end_logits']
             loss.backward()
             optim.step()
-            scheduler.step()
+            # scheduler.step()
 
             start_pred = torch.argmax(start_logits, dim=1)
             end_pred = torch.argmax(end_logits, dim=1)
