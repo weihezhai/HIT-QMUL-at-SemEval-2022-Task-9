@@ -20,6 +20,7 @@ from transformers import WEIGHTS_NAME, CONFIG_NAME
 from transformers import get_linear_schedule_with_warmup
 from transformers import AutoTokenizer, AutoModelForQuestionAnswering
 # 随机数种子
+os.environ["CUDA_VISIBLE_DEVICES"] = '1'
 def setup_seed(seed):
     torch.manual_seed(seed)
     torch.cuda.manual_seed_all(seed)
@@ -163,7 +164,7 @@ def train(model,tokenizer, train_dataloader, testdataloader,device,fold,epoch=3)
             model_to_save = model.module if hasattr(model, 'module') else model
             model_path = r"/home/mqfeng/R2QA/models/fold" + str(fold) + "_epoch" + str(epoch)
             if not os.path.exists(model_path):
-                os.mkdir(model_path)
+                os.makedirs(model_path)
             output_model_file = os.path.join(model_path, WEIGHTS_NAME)
             output_config_file = os.path.join(model_path, CONFIG_NAME)
             torch.save(model_to_save.state_dict(), output_model_file)
