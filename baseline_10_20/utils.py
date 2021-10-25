@@ -5,6 +5,8 @@
 # @FileName: utils.py
 # @Software: PyCharm
 import json
+
+
 def extract():
     with open(r"E:\RecipeQA\data\数据集\train-10-20-2021\crl_srl_10-20-2021.csv", 'r', encoding='utf-8') as f:
         all_data = f.readlines()
@@ -34,6 +36,8 @@ def extract():
     fw = open("text_data2.json", "w", encoding="utf-8")
     json.dump(dicts, fw, ensure_ascii=False, indent=4)
     fw.close()
+
+
 def split_to_three():
     f = open("text_data2.json", "r", encoding="utf-8")
     data = json.load(f)
@@ -78,3 +82,24 @@ def split_to_three():
     fw = open("other.json", "w", encoding="utf-8")
     json.dump(dict_other, fw, ensure_ascii=False, indent=4)
     fw.close()
+
+def text_of_RecipeQA():
+    '''
+    得到RecipeQA的text，进行Uer-py微调
+    :return:
+    '''
+    fw = open('recipe_corpora.txt','w',encoding='utf-8')
+    with open(r"E:\RecipeQA\data\数据集\recipeQA\train.json",'r',encoding='utf-8') as f:
+        data = json.load(f)['data']
+    for item in data:
+        context = item['context'] #list
+        for  i in context:
+            text=i['body'].strip()
+            text=text.strip(" ")
+            text = text.replace("  ",' ')
+            text = text.replace("\n", ' ')
+            if len(text.split(" "))>2:
+                fw.write(text+'\n')
+
+    fw.close()
+text_of_RecipeQA()
