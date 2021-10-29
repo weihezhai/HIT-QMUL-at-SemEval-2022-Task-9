@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2021/10/19 22:24
 # @Author  : fengmq
-# @FileName: baseline.py
+# @FileName: bert4QA_baseline.py
 # @Software: PyCharm
 
 import json
@@ -215,7 +215,7 @@ for fold in range(5):
     # 新下载的pytorch_model.bin可能文件名不正确，需要重命名为pytorch_model.bin
     model, tokenizer = get_premodel(r"bert-large-uncased-whole-word-masking-finetuned-squad")  #
     # 划分五折交叉数据  #修改为本机路径
-    train_data, test_data = split_data(r"text_data2.json", fold)
+    train_data, test_data = split_data(r"text_data.json", fold)
     # 构造DataSet和DataLoader
     train_Dataset = myDataset(train_data, tokenizer)
     test_Dataset = myDataset(test_data, tokenizer)

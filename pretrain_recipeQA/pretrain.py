@@ -13,6 +13,7 @@ from transformers import AdamW, WEIGHTS_NAME, CONFIG_NAME
 from transformers import get_linear_schedule_with_warmup
 from transformers import AutoTokenizer, AutoModelForMaskedLM
 import torch.nn as nn
+os.environ["CUDA_VISIBLE_DEVICES"] = '1'
 # 加载模型
 def get_premodel(path=r"/home/mqfeng/preModels/albert-base-v2"):
     '''

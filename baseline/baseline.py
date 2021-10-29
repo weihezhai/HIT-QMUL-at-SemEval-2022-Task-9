@@ -2,11 +2,11 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2021/10/19 22:24
 # @Author  : fengmq
-# @FileName: baseline.py
+# @FileName: bert4QA_baseline.py
 # @Software: PyCharm
 
 # 按照知乎代码微调  参考：https://zhuanlan.zhihu.com/p/357528657
-# /home/mqfeng/.conda/envs/fmq/bin/python baseline.py
+# /home/mqfeng/.conda/envs/fmq/bin/python bert4QA_baseline.py
 import os
 
 import torch

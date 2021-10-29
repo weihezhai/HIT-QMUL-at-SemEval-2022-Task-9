@@ -8,7 +8,7 @@ import json
 
 
 def extract():
-    with open(r"E:\RecipeQA\data\数据集\train-10-20-2021\crl_srl_10-20-2021.csv", 'r', encoding='utf-8') as f:
+    with open(r"E:\RecipeQA\data\数据集\r2vq_train_10_28_2021\train\crl_srl.csv", 'r', encoding='utf-8') as f:
         all_data = f.readlines()
     dicts = {}
     question = []
@@ -33,6 +33,7 @@ def extract():
             question.append(qa)
         if 'text =' in item:
             text.append(item.split("=")[1].strip("\n"))
+    print(len(dicts))
     fw = open("text_data.json", "w", encoding="utf-8")
     json.dump(dicts, fw, ensure_ascii=False, indent=4)
     fw.close()
@@ -102,4 +103,4 @@ def text_of_RecipeQA():
                 fw.write(text+'\n')
 
     fw.close()
-text_of_RecipeQA()
+extract()
