@@ -1,4 +1,4 @@
 utils.py：工具库
 text_data.json:10_28号版本的问答对数据。
-AlMLMQA.py:利用Albert模型在recipeQA数据集的食谱数据上进行了MLM，领域内训练后。目前存在问题
+AlMLMQA.py:利用Albert模型在recipeQA数据集的食谱数据上进行了MLM，领域内训练后。
 QAhead_base.pickle和QAhead_large.pickle是Albert_base_v2和Albert_large_v2的答案问答头部。
