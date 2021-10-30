@@ -5,8 +5,8 @@
 # @FileName: utils.py
 # @Software: PyCharm
 import json
-
-
+import matplotlib.pyplot as plt
+import numpy as np
 def extract():
     with open(r"E:\RecipeQA\data\数据集\r2vq_train_10_28_2021\train\crl_srl.csv", 'r', encoding='utf-8') as f:
         all_data = f.readlines()
@@ -84,23 +84,45 @@ def split_to_three():
     json.dump(dict_other, fw, ensure_ascii=False, indent=4)
     fw.close()
 
+
 def text_of_RecipeQA():
     '''
     得到RecipeQA的text，进行预训练
     :return:
     '''
-    fw = open('recipe_corpora.txt','w',encoding='utf-8')
-    with open(r"E:\RecipeQA\data\数据集\recipeQA\train.json",'r',encoding='utf-8') as f:
+    fw = open('recipe_corpora.txt', 'w', encoding='utf-8')
+    with open(r"E:\RecipeQA\data\数据集\recipeQA\train.json", 'r', encoding='utf-8') as f:
         data = json.load(f)['data']
     for item in data:
-        context = item['context'] #list
-        for  i in context:
-            text=i['body'].strip()
-            text=text.strip(" ")
-            text = text.replace("  ",' ')
+        context = item['context']  # list
+        for i in context:
+            text = i['body'].strip()
+            text = text.strip(" ")
+            text = text.replace("  ", ' ')
             text = text.replace("\n", ' ')
-            if len(text.split(" "))>2:
-                fw.write(text+'\n')
+            if len(text.split(" ")) > 2:
+                fw.write(text + '\n')
 
     fw.close()
-extract()
+
+
+def pic():
+    lists=[]
+    with open(r"C:\Users\fengmq\Desktop\log2.log",'r',encoding='utf-8') as f:
+        data = f.readlines()[11:]
+    for i in data:
+        text = i.strip('\n')
+        if 'Epoch' in text and '=' in text:
+            _,loss = text.split("=")
+            loss = loss.strip(" ")
+            loss = loss[:-1]
+            lists.append(float(loss))
+
+
+    list2s= [(lists[i]) for i in range(len(lists)) if i % 3 != 0]
+
+    x=list(range(len(list2s)))
+    plt.title('albert_large')
+    plt.plot(x[:],list2s[:])
+    plt.show()
+pic()
