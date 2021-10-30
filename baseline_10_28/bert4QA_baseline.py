@@ -1,26 +1,25 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
-# @Time    : 2021/10/29 22:11
-# @Author  : hit-itnlp-fengmq
-# @FileName: AlMLMQA.py
+# @Time    : 2021/10/19 22:24
+# @Author  : fengmq
+# @FileName: bert4QA_baseline.py
 # @Software: PyCharm
 
-
-# 参考 https://zhuanlan.zhihu.com/p/140305264，他的代码基本正确，但是注释有问题
 import json
+# 按照知乎代码微调  参考：https://zhuanlan.zhihu.com/p/357528657
+# AutoModelForQuestionAnswering    bert-large-uncased-whole-word-masking-finetuned-squad
 import os
-import pickle
 import random
 
 import numpy as np
 import torch
-import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader
 from tqdm import tqdm
 from transformers import AdamW
-from transformers import AutoTokenizer, AutoModelForMaskedLM
+from transformers import AutoTokenizer, AutoModelForQuestionAnswering
+from transformers import WEIGHTS_NAME, CONFIG_NAME
 from transformers import get_linear_schedule_with_warmup
-from collections import namedtuple
+
 # 随机数种子
 os.environ["CUDA_VISIBLE_DEVICES"] = '1'
 
@@ -36,13 +35,13 @@ setup_seed(2021)
 
 
 # 加载模型
-def get_premodel(path=r"D:\Anaconda\learn\_Bert\pre_train_model\albert-base-v2"):
+def get_premodel(path=r"E:\RecipeQA\transformers_models\bert-large-uncased-whole-word-masking-finetuned-squad"):
     '''
-    :param path: 预训练模型在本机的路径
+    :param path: 预训练模型在本机的路径  下载链接（https://huggingface.co/bert-large-uncased-whole-word-masking-finetuned-squad/tree/main）
     :return:
     '''
     tokenizer = AutoTokenizer.from_pretrained(path)
-    model = AutoModelForMaskedLM.from_pretrained(path)  # Embedding(30000, 128) [MASK]:4
+    model = AutoModelForQuestionAnswering.from_pretrained(path)
     print("model load end!")
     return model, tokenizer
 
@@ -50,6 +49,7 @@ def get_premodel(path=r"D:\Anaconda\learn\_Bert\pre_train_model\albert-base-v2")
 # Dataset
 def split_data(path=r'text_data.json', fold=0):
     '''
+    总共1000个食谱，10202条问答对
     :param path: text_data.json的路径
     :param fold: 第几折，默认总共五折交叉
     :return: 返回划分好的训练集与验证集,是一个list，list的元素为一个字典，包含{qa：''，text：''}，其中qa以四个空格分割，q,a=qa.split("     ")
@@ -131,47 +131,8 @@ class myDataset(Dataset):  # 需要继承data.Dataset
         return start_end
 
 
-class MyModel(nn.Module):
-    def __init__(self, albert, QAhead):
-        super().__init__()
-        self.albert = albert
-
-        self.qa_outputs = QAhead  # self.qa_outputs = nn.Linear(768, 2,bias=True)
-
-    def forward(self, input_ids, token_type_ids, attention_mask, start_positions=None, end_positions=None):
-        albert_output = self.albert(input_ids=input_ids,
-                                    token_type_ids=token_type_ids,
-                                    attention_mask=attention_mask)
-        last_hidden_state = albert_output.last_hidden_state  # torch.Size([batchSize, 512, 768]) 512与max_length相关
-        logits = self.qa_outputs(last_hidden_state)  # torch.Size([batchSize, 512, 2])
-        start_logits, end_logits = logits.split(1, dim=-1)  # 分离出的start_logits/end_logits形状为([batchSize, 512, 1])
-        start_logits = start_logits.squeeze(-1)  # ([batchSize, 512])
-        end_logits = end_logits.squeeze(-1)  # ([batchSize, 512])
-
-        Outputs = namedtuple('Outputs', 'start_logits, end_logits')
-        outputs = Outputs(start_logits, end_logits)
-        if start_positions is not None and end_positions is not None:
-            # If we are on multi-GPU, split add a dimension
-            if len(start_positions.size()) > 1:
-                start_positions = start_positions.squeeze(-1)
-            if len(end_positions.size()) > 1:
-                end_positions = end_positions.squeeze(-1)
-            # sometimes the start/end positions are outside our model inputs, we ignore these terms
-            ignored_index = start_logits.size(1)
-            start_positions.clamp_(0, ignored_index)
-            end_positions.clamp_(0, ignored_index)
-            loss_fct = nn.CrossEntropyLoss(ignore_index=ignored_index)
-            start_loss = loss_fct(start_logits, start_positions)
-            end_loss = loss_fct(end_logits, end_positions)
-            total_loss = (start_loss + end_loss) / 2
-            Outputs = namedtuple('Outputs', 'loss,start_logits, end_logits')
-            outputs = Outputs(total_loss, start_logits, end_logits)
-        return outputs
-
-
-def train(model, tokenizer, train_dataloader, testdataloader, device, fold=0, epoch=3):
+def train(model, tokenizer, train_dataloader, testdataloader, device, fold, epoch=3):
     model.to(device)
-    criterion = nn.CrossEntropyLoss()
     optim = AdamW(model.parameters(), lr=1e-5, weight_decay=0.2)
     scheduler = get_linear_schedule_with_warmup(
         optim, num_warmup_steps=400, num_training_steps=len(train_dataloader) * epoch)
@@ -189,8 +150,7 @@ def train(model, tokenizer, train_dataloader, testdataloader, device, fold=0, ep
 
             outputs = model(input_ids, token_type_ids=token_type_ids, attention_mask=attention_mask,
                             start_positions=start, end_positions=end)
-            loss, start_logits, end_logits = outputs.loss, outputs.start_logits, outputs.end_logits
-
+            loss, start_logits, end_logits = outputs["loss"], outputs["start_logits"], outputs['end_logits']
             loss.backward()
             optim.step()
             scheduler.step()
@@ -205,21 +165,23 @@ def train(model, tokenizer, train_dataloader, testdataloader, device, fold=0, ep
             ends = (np.array((end_pred == end).cpu()))
             acc2 = np.all(np.array([starts, ends]).T, axis=-1).astype(int)
             train_acc2.extend(acc2)
+
             train_loss.append(loss.item())
 
             loop.set_description(f'fold:{fold}  Epoch:{epoch}')
             loop.set_postfix(loss=loss.item(), acc=acc)
-        # if epoch == 2:
-        #     model_to_save = model.module if hasattr(model, 'module') else model
-        #     model_path = r"fold" + str(fold) + "_epoch" + str(epoch)
-        #     if not os.path.exists(model_path):
-        #         os.makedirs(model_path)
-        #     output_model_file = os.path.join(model_path, WEIGHTS_NAME)
-        #     output_config_file = os.path.join(model_path, CONFIG_NAME)
-        #     torch.save(model_to_save.state_dict(), output_model_file)
-        #     model_to_save.config.to_json_file(output_config_file)
-        #     tokenizer.save_vocabulary(model_path)
-        #     print("fold: {},epoch {} saved!".format(fold, epoch))
+        # 保存模型
+        if epoch == 2:
+            model_to_save = model.module if hasattr(model, 'module') else model
+            model_path = r"/home/mqfeng/R2QA/models/fold" + str(fold) + "_epoch" + str(epoch)
+            if not os.path.exists(model_path):
+                os.makedirs(model_path)
+            output_model_file = os.path.join(model_path, WEIGHTS_NAME)
+            output_config_file = os.path.join(model_path, CONFIG_NAME)
+            torch.save(model_to_save.state_dict(), output_model_file)
+            model_to_save.config.to_json_file(output_config_file)
+            tokenizer.save_vocabulary(model_path)
+            print("fold: {},epoch {} saved!".format(fold, epoch))
 
         model.eval()
         test_acc = []
@@ -230,11 +192,10 @@ def train(model, tokenizer, train_dataloader, testdataloader, device, fold=0, ep
                 data = tuple(t.to(device) for t in data)
                 input_ids, token_type_ids, attention_mask, start, end = data
                 outputs = model(input_ids, token_type_ids=token_type_ids, attention_mask=attention_mask,
-                               start_positions=start, end_positions=end)
-
-                loss = outputs.loss
-                start_pred = torch.argmax(outputs.start_logits, dim=1)
-                end_pred = torch.argmax(outputs.end_logits, dim=1)
+                                start_positions=start, end_positions=end)
+                loss = outputs["loss"]
+                start_pred = torch.argmax(outputs['start_logits'], dim=1)
+                end_pred = torch.argmax(outputs['end_logits'], dim=1)
 
                 test_acc.extend(((start_pred == start).int().tolist()))
                 test_acc.extend(((end_pred == end).int().tolist()))
@@ -248,20 +209,22 @@ def train(model, tokenizer, train_dataloader, testdataloader, device, fold=0, ep
             epoch, np.mean(train_acc), np.mean(train_acc2), np.mean(train_loss), np.mean(test_acc), np.mean(test_acc2),
             np.mean(test_loss)))
 
-for fold in range(5):
-    model, tokenizer = get_premodel(r'/home/mqfeng/R2QA/pretrain_recipeQA/epoch2')
-    with open(r'QAhead_base.pickle', 'rb') as file:
-        QAhead = pickle.load(file)
-    myModel = MyModel(model.albert, QAhead)
 
-    train_data, test_data = split_data(r"text_data.json",fold)
+for fold in range(5):
+    # 修改预训练模型所在的路径：下载链接（https://huggingface.co/bert-large-uncased-whole-word-masking-finetuned-squad/tree/main）
+    # 新下载的pytorch_model.bin可能文件名不正确，需要重命名为pytorch_model.bin
+    model, tokenizer = get_premodel(r"bert-large-uncased-whole-word-masking-finetuned-squad")  #
+    # 划分五折交叉数据  #修改为本机路径
+    train_data, test_data = split_data(r"text_data.json", fold)
     # 构造DataSet和DataLoader
     train_Dataset = myDataset(train_data, tokenizer)
     test_Dataset = myDataset(test_data, tokenizer)
     # 修改batchsize
-    train_Dataloader = DataLoader(train_Dataset, batch_size=4, shuffle=True)
+    train_Dataloader = DataLoader(train_Dataset, batch_size=2, shuffle=True)
     test_Dataloader = DataLoader(test_Dataset, batch_size=1)
     # 训练
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     # device = torch.device('cpu')
-    train(myModel, tokenizer, train_Dataloader, test_Dataloader, device, fold, epoch=3)
+
+    print("----------------fold {} begin ----------------------".format(fold))
+    train(model, tokenizer, train_Dataloader, test_Dataloader, device, fold, epoch=3)
