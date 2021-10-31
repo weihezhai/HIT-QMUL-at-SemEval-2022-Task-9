@@ -1,12 +1,12 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
-# @Time    : 2021/10/29 22:11
+# @Time    : 2021/10/30 21:00
 # @Author  : hit-itnlp-fengmq
-# @FileName: AlMLMQA.py
+# @FileName: Albert_baseline.py
 # @Software: PyCharm
-
-
-# 参考 https://zhuanlan.zhihu.com/p/140305264，他的代码基本正确，但是注释有问题
+'''
+与AlMLMQA.py的唯一不同在于，这个albert没有经过在recipeQA上的预训练,作为对比实验
+'''#
 import json
 import os
 import pickle
@@ -22,7 +22,7 @@ from transformers import AutoTokenizer, AutoModelForMaskedLM
 from transformers import get_linear_schedule_with_warmup
 from collections import namedtuple
 # 随机数种子
-os.environ["CUDA_VISIBLE_DEVICES"] = '1'
+os.environ["CUDA_VISIBLE_DEVICES"] = '0'
 
 
 def setup_seed(seed):
@@ -36,7 +36,7 @@ setup_seed(2021)
 
 
 # 加载模型
-def get_premodel(path=r"D:\Anaconda\learn\_Bert\pre_train_model\albert-base-v2"):
+def get_premodel(path=r"/home/mqfeng/preModels/albert-base-v2"):
     '''
     :param path: 预训练模型在本机的路径
     :return:
@@ -248,7 +248,7 @@ def train(model, tokenizer, train_dataloader, testdataloader, device, fold=0, ep
             np.mean(test_loss)))
 
 for fold in range(5):
-    model, tokenizer = get_premodel(r'/home/mqfeng/R2QA/pretrain_recipeQA/epoch2')
+    model, tokenizer = get_premodel()
     with open(r'QAhead_base.pickle', 'rb') as file:
         QAhead = pickle.load(file)
     myModel = MyModel(model.albert, QAhead)
