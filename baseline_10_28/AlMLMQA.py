@@ -248,6 +248,7 @@ def train(model, tokenizer, train_dataloader, testdataloader, device, fold=0, ep
             np.mean(test_loss)))
 
 for fold in range(5):
+    #修改模型路径，以及对应的QAhead.pickle。根据设备酌情修改batchsize
     model, tokenizer = get_premodel(r'/home/mqfeng/R2QA/pretrain_recipeQA/epoch2')
     with open(r'QAhead_base.pickle', 'rb') as file:
         QAhead = pickle.load(file)
