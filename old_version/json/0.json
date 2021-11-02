@@ -1,0 +1,192 @@
+{
+    "body": "",
+    "name": "0.txt",
+    "sents": {
+        "0": {
+            "txt": "These brownies are unlike any you have tasted!",
+            "Complete": "These brownies are unlike any brownies  you have tasted!",
+            "Ellipsis": "",
+            "Co-reference": ""
+        },
+        "1": {
+            "txt": "They use not only brownie batter, but cookie dough and Oreos as well.",
+            "Complete": "Y",
+            "Ellipsis": "",
+            "Co-reference": ""
+        },
+        "2": {
+            "txt": "And best of all, they're incredibly easy to make!",
+            "Complete": "And best of all, brownies are incredibly easy to make!",
+            "Ellipsis": "",
+            "Co-reference": ""
+        },
+        "3": {
+            "txt": "You'll only need about 45 minutes from start to consumption.",
+            "Complete": "Y",
+            "Ellipsis": "",
+            "Co-reference": ""
+        },
+        "4": {
+            "txt": "Let's get started...",
+            "Complete": "Y",
+            "Ellipsis": "",
+            "Co-reference": ""
+        },
+        "5": {
+            "txt": "You'll need:1 3 dozen chocolate chip cookie mix 1 13x9 brownie mix 1 package of Double Stuf Oreos 1 tablespoon of olive oil 1/2 cup of water 1 stick of butter 2 eggs\nPreheat the oven to 350 degrees Fahrenheit.",
+            "Complete": "Y",
+            "Ellipsis": "",
+            "Co-reference": ""
+        },
+        "6": {
+            "txt": "\nDon't forget to wash your hands!",
+            "Complete": "Y",
+            "Ellipsis": "",
+            "Co-reference": ""
+        },
+        "7": {
+            "txt": "\nFollow the instructions on the back of your cookie mix.",
+            "Complete": "Y",
+            "Ellipsis": "",
+            "Co-reference": ""
+        },
+        "8": {
+            "txt": "For this specific package, we started by pouring the mix into a large mixing bowl.",
+            "Complete": "Y",
+            "Ellipsis": "",
+            "Co-reference": ""
+        },
+        "9": {
+            "txt": "Next, we added 1 stick of softened butter to the mix.",
+            "Complete": "Y",
+            "Ellipsis": "",
+            "Co-reference": "Next, we added 1 stick of softened butter to it."
+        },
+        "10": {
+            "txt": "Lastly, we added 1 egg.",
+            "Complete": "Y",
+            "Ellipsis": ":Lastly, we added 1 egg to the mix.",
+            "Co-reference": ""
+        },
+        "11": {
+            "txt": "We then mixed the dough ingredients together until it was a soft, doughy consistency.",
+            "Complete": "We then mixed the dough ingredients together until mix was a soft, doughy consistency.",
+            "Ellipsis": "",
+            "Co-reference": ""
+        },
+        "12": {
+            "txt": "\nFirst, grease the pan with Pam or a similar oil spray to prevent the dessert from sticking.",
+            "Complete": "Y",
+            "Ellipsis": "",
+            "Co-reference": ""
+        },
+        "13": {
+            "txt": "Then smush the cookie dough into the bottom of your 13x9 pan.",
+            "Complete": "Y",
+            "Ellipsis": "",
+            "Co-reference": "Then smush the cookie dough into the bottom of it."
+        },
+        "14": {
+            "txt": "Make sure the cookie dough covers the entire surface.",
+            "Complete": "Y",
+            "Ellipsis": "",
+            "Co-reference": "Make sure it covers the entire surface."
+        },
+        "15": {
+            "txt": "Now, add the Double Stuf Oreos to the pan.",
+            "Complete": "Y",
+            "Ellipsis": "",
+            "Co-reference": "Now, add the Double Stuf Oreos to it."
+        },
+        "16": {
+            "txt": "Simply lay down the Oreos to create a single layer on top of the cookie dough.",
+            "Complete": "Y",
+            "Ellipsis": "",
+            "Co-reference": "Simply lay down the Oreos to create a single layer on top of it."
+        },
+        "17": {
+            "txt": "For our third component, follow the instructions on the back of your 13x9 brownie mix.",
+            "Complete": "Y",
+            "Ellipsis": "",
+            "Co-reference": ""
+        },
+        "18": {
+            "txt": "For this specific mix, we first poured the dry brownie mix into a large mixing bowl.",
+            "Complete": "Y",
+            "Ellipsis": "",
+            "Co-reference": ""
+        },
+        "19": {
+            "txt": "We then added the 1/2 cup of water, 1 tablespoon of olive oil, and 1 egg.",
+            "Complete": "We then added the 1/2 cup of water to large mixing bowl, 1 tablespoon of olive oil to large mixing bowl, and 1 egg to large mixing bowl.",
+            "Ellipsis": "",
+            "Co-reference": ""
+        },
+        "20": {
+            "txt": "Stir the mix until it is a creamy consistency.",
+            "Complete": "Stir the mix until  mix is a creamy consistency.",
+            "Ellipsis": "",
+            "Co-reference": ""
+        },
+        "21": {
+            "txt": "\nPour the brownie batter on top of the Oreo layer.",
+            "Complete": "Y",
+            "Ellipsis": "",
+            "Co-reference": ""
+        },
+        "22": {
+            "txt": "Spread out the batter to cover all of the Oreos.",
+            "Complete": "Y",
+            "Ellipsis": "",
+            "Co-reference": "Spread out the batter to cover all of it."
+        },
+        "23": {
+            "txt": "Gently shake the pan from side to side on the counter to even out all of the mix.",
+            "Complete": "Y",
+            "Ellipsis": "",
+            "Co-reference": ""
+        },
+        "24": {
+            "txt": "\nPut the Oreo Cookie Brownies into the oven, and set a timer for 30 minutes.",
+            "Complete": "Y",
+            "Ellipsis": "",
+            "Co-reference": "Put it into the oven, and set a timer for 30 minutes."
+        },
+        "25": {
+            "txt": "\nRemove the dessert from the oven once the timer is up.",
+            "Complete": "Y",
+            "Ellipsis": "",
+            "Co-reference": "Remove the dessert from the there once the timer is up."
+        },
+        "26": {
+            "txt": "Be sure to protect your hands from the heat!",
+            "Complete": "Y",
+            "Ellipsis": "",
+            "Co-reference": ""
+        },
+        "27": {
+            "txt": "\nCut the dessert into any shape you prefer.",
+            "Complete": "Y",
+            "Ellipsis": "",
+            "Co-reference": ""
+        },
+        "28": {
+            "txt": "I usually cut them into 1-Oreo-sized portions.",
+            "Complete": "Y",
+            "Ellipsis": "",
+            "Co-reference": "I usually cut dessert into 1-Oreo-sized portions."
+        },
+        "29": {
+            "txt": "\nEnjoy!",
+            "Complete": "Y",
+            "Ellipsis": "",
+            "Co-reference": ""
+        },
+        "30": {
+            "txt": "Optional: ice cream on top!",
+            "Complete": "Y",
+            "Ellipsis": "",
+            "Co-reference": ""
+        }
+    }
+}
