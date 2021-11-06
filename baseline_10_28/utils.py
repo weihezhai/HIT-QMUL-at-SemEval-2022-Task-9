@@ -5,14 +5,20 @@
 # @FileName: utils.py
 # @Software: PyCharm
 import json
-import matplotlib.pyplot as plt
-import numpy as np
+import nltk
+from nltk.corpus import stopwords
+from tqdm import  tqdm
 def extract():
+    '''
+    从原来的csv提取出问答对json
+    :return:
+    '''
     with open(r"E:\RecipeQA\data\数据集\r2vq_train_10_28_2021\train\crl_srl.csv", 'r', encoding='utf-8') as f:
         all_data = f.readlines()
     dicts = {}
     question = []
     text = []
+    meta=[]
     newdoc_id = ''  # 防止报错
     for i in range(len(all_data) - 1):
         item = all_data[i]
@@ -20,12 +26,14 @@ def extract():
             if i != 0:
                 dicts[newdoc_id] = {}
                 dicts[newdoc_id]['question'] = question
-                text = " ".join(text)
+                # text = " ".join(text)
                 dicts[newdoc_id]['text'] = text
+                dicts[newdoc_id]['meta'] = meta
             # 清空--
             newdoc_id = item.split("=")[1].strip("\n")
             question = []
             text = []
+            meta = []
             continue
         item_next = all_data[i + 1]
         if 'question' in item and 'answer' in item_next:
@@ -33,11 +41,12 @@ def extract():
             question.append(qa)
         if 'text =' in item:
             text.append(item.split("=")[1].strip("\n"))
+        if 'metadata:url' in item:
+            meta.append(item.split('/')[-1].strip("\n"))
     print(len(dicts))
     fw = open("text_data.json", "w", encoding="utf-8")
     json.dump(dicts, fw, ensure_ascii=False, indent=4)
     fw.close()
-
 
 def split_to_three():
     f = open("text_data.json", "r", encoding="utf-8")
@@ -106,23 +115,69 @@ def text_of_RecipeQA():
     fw.close()
 
 
-def pic():
-    lists=[]
-    with open(r"C:\Users\fengmq\Desktop\log2.log",'r',encoding='utf-8') as f:
-        data = f.readlines()[11:]
-    for i in data:
-        text = i.strip('\n')
-        if 'Epoch' in text and '=' in text:
-            _,loss = text.split("=")
-            loss = loss.strip(" ")
-            loss = loss[:-1]
-            lists.append(float(loss))
+def similarity_question_text():
+    def scores(question:str,text:list):
+        '''
+        :param question: 针对一个问答对
+        :param text: 全部的text
+        :return:
+        # 词干提取与词型还原后续在考虑
+        # 大多数文本里的复数在问题仍旧是复数。
+        # 主要在于动词： serve-->served, combine-->combining
 
+        # min(3,>0)
 
-    list2s= [(lists[i]) for i in range(len(lists)) if i % 3 != 0]
+        # newdoc id = f-PH5TQR8X  f-PH5TQR8X原始数据集有问题
+        '''
+        STOP_WORDS=["What's","How","how",'many']
+        score=[]
+        question_list=question.replace("?","").lower()#去除问题当中的问号
+        question_list=question_list.strip().split(" ")
+        question_list = [i for i in question_list if i not in stopwords.words('english') + STOP_WORDS ] #去除没有语义的停用词
+        for item in text:
+            item = item.replace(".","").replace(",","").replace("\"","").replace(":","").replace("  "," ").lower()#去除句子当中的标点
+            item = item.strip().split(" ")
+            item = [i for i in item if i not in stopwords.words('english') + STOP_WORDS] #去停用词
 
-    x=list(range(len(list2s)))
-    plt.title('albert_large')
-    plt.plot(x[:],list2s[:])
-    plt.show()
-pic()
+            inter = set(question_list).intersection(set(item))
+            union = set(question_list).union(set(item))
+            if len(item)==0:
+                score.append(1)
+                print(question)
+            else:
+                score.append(len(inter)/len(item))
+        result = []
+        for i in range(len(text)):
+            if score[i]>0:
+                result.append(text[i])
+        return result
+
+    f = open("text_data.json", "r", encoding="utf-8")
+    datas = json.load(f)
+    f.close()
+
+    dict_new={}
+    for key,value in tqdm(datas.items()):
+
+        meta = value['meta']
+        text = value['text']
+        questions = value['question']
+
+        dict_new[key] = {}
+        dict_new[key]['meta']=meta
+        groups=[]
+        for question in questions:
+            group={}
+            ques,ans = question.split("     ")
+            result = scores(ques,text)
+            group['question']=ques
+            group['answer']=ans
+            group['text'] = ' '.join(result)
+            groups.append(group)
+        dict_new[key]['group'] = groups
+        dict_new[key]['text_all'] = text
+    fw = open("text_data2.json", "w", encoding="utf-8")
+    json.dump(dict_new, fw, ensure_ascii=False, indent=4)
+    fw.close()
+
+similarity_question_text()
