@@ -6,13 +6,18 @@
 # @Software: PyCharm
 import json
 
+import torch
 from nltk.corpus import stopwords
+from sentence_transformers import SentenceTransformer, util
 from tqdm import tqdm
 
 
-def extract():
+# torch.cuda.set_device(1)
+
+
+def extract2():
     '''
-    从原来的csv提取出问答对json,没有标注原材料。详见extract2（）
+    从原来的csv提取出问答对json,将原材料单独标注出来
     :return:
     '''
     with open(r"E:\RecipeQA\data\数据集\r2vq_train_10_28_2021\train\crl_srl.csv", 'r', encoding='utf-8') as f:
@@ -21,6 +26,7 @@ def extract():
     question = []
     text = []
     meta = []
+    ingredients = []
     newdoc_id = ''  # 防止报错
     for i in range(len(all_data) - 1):
         item = all_data[i]
@@ -31,24 +37,162 @@ def extract():
                 # text = " ".join(text)
                 dicts[newdoc_id]['text'] = text
                 dicts[newdoc_id]['meta'] = meta
+                dicts[newdoc_id]['ingredients'] = ingredients
             # 清空--
             newdoc_id = item.split("=")[1].strip("\n")
             question = []
             text = []
             meta = []
+            ingredients = []
             continue
         item_next = all_data[i + 1]
         if 'question' in item and 'answer' in item_next:
             qa = item.split("=")[1].strip("\n") + "    " + item_next.split("=")[1].strip("\n")
             question.append(qa)
         if 'text =' in item:
-            text.append(item.split("=")[1].strip("\n"))
+            item_pre = all_data[i - 1]
+            if 'ingredients' in item_pre:
+                ingredients.append(item.split("=")[1].strip("\n"))
+            else:
+                text.append(item.split("=")[1].strip("\n"))
         if 'metadata:url' in item:
             meta.append(item.split('/')[-1].strip("\n"))
     print(len(dicts))
     fw = open("text_data.json", "w", encoding="utf-8")
     json.dump(dicts, fw, ensure_ascii=False, indent=4)
     fw.close()
+
+
+def similarity_question_text_SBert():
+    '''利用sbert将文本与问题最相似的句子拿出来
+    :return:
+    '''
+
+    def scores(question: str, text: list, model, top_k: int = 2):
+        text_embeddings = model.encode(text, convert_to_tensor=True)
+        query_embedding = model.encode(question, convert_to_tensor=True)
+
+        if torch.cuda.is_available():
+            text_embeddings.to('cuda')
+            query_embedding = torch.unsqueeze(query_embedding, dim=0)
+            query_embedding.to('cuda')
+            text_embeddings = util.normalize_embeddings(text_embeddings)
+            query_embedding = util.normalize_embeddings(query_embedding)
+        top_results = util.semantic_search(query_embedding, text_embeddings,
+                                           top_k=top_k)  # [[{corpus_id:,score:},{},{}]]
+        text_ids = [item['corpus_id'] for item in top_results[0]]
+        # 还原顺序
+        text_ids.sort()
+        result = []
+        for id in text_ids:
+            result.append(text[id])
+        return result
+
+    model = SentenceTransformer('/home/mqfeng/preModels/all-MiniLM-L6-v2')
+    f = open(r"/home/mqfeng/R2QA/text_data.json", "r", encoding="utf-8")
+    datas = json.load(f)
+    f.close()
+
+    dict_new = {}
+    for key, value in tqdm(datas.items()):
+        meta = value['meta']
+        text = value['text']
+        ingredients = value['ingredients']
+        questions = value['question']
+
+        dict_new[key] = {}
+        dict_new[key]['meta'] = meta
+        groups = []
+        for question in questions:
+            group = {}
+            ques, ans = question.split("     ")
+            result_text = scores(ques, text, model, top_k=2)
+            result_ingre = scores(ques, ingredients, model, top_k=2)
+            group['question'] = ques
+            group['answer'] = ans
+            group['text'] = result_ingre + result_text
+            groups.append(group)
+        dict_new[key]['group'] = groups
+        dict_new[key]['ingredients_all'] = ingredients
+        dict_new[key]['text_all'] = text
+    fw = open("text_data2.json", "w", encoding="utf-8")
+    json.dump(dict_new, fw, ensure_ascii=False, indent=4)
+    fw.close()
+
+
+def analyse():
+    '''
+    all 26503
+    first_event 1920
+    second_event 1871
+    NotAnswer 2790
+    num 3306
+    :return:
+    '''
+    all=0
+    first_event=0
+    second_event = 0
+    NotAnswer = 0
+    num,how_many=0,0
+    match=0
+    what,how,where,other=0,0,0,0
+    others_all=0
+    others_data=[]
+    f = open(r"E:\RecipeQA\data\ITNLP_Semeval2022_Task6\old_version\text_data.json", "r", encoding="utf-8")
+    datas = json.load(f)
+    f.close()
+
+    for key, value in tqdm(datas.items()):
+        meta = value['meta']
+        text = value['text']
+        ingredients = value['ingredients']
+        questions = value['question']
+        text=(meta[0]+":"+"".join(ingredients)+"."+"".join(text)).lower()
+        for question in questions:
+            all+=1
+            ques, ans = question.split("     ")
+            if ques.lower().strip().startswith('how many') and ans !='N/A':
+                how_many+=1
+
+            if ans=='the first event':
+                first_event+=1
+            elif ans=="the second event":
+                second_event+=1
+            elif ans =='N/A':
+                NotAnswer+=1
+            elif ans.isdigit():
+                num+=1
+            elif ans.lower() in text.lower():
+                match+=1
+            else:
+                if ques.lower().strip().startswith('what'):
+                    what+=1
+                elif ques.lower().strip().startswith('how'):
+                    how+=1
+                elif ques.lower().strip().startswith('where'):
+                    where+=1
+                else:
+                    other+=1
+                others_data.append(question+'\n'+text)
+                others_all+=1
+    # fw=open("others.txt",'w',encoding='utf-8')
+    #
+    # for i in others_data:
+    #     fw.write(i+'\n\n')
+    # fw.close()
+    print("all",all)
+    print('first_event',first_event)
+    print('second_event', second_event)
+    print('NotAnswer', NotAnswer)
+    print('num', num)
+    print('how_many', how_many)
+    print('match', match)
+    print('what', what)
+    print('how', how)
+    print('where', where)
+    print('other', other)
+    print('others_all', others_all)
+    pass
 
 
 def similarity_question_text_common_words():
@@ -120,54 +264,11 @@ def similarity_question_text_common_words():
     fw.close()
 
 
-def similarity_question_text_SBert():
-
-    pass
-
-
-def ss():
-    '''
-    alltext:匹配不到的：8701   匹配到的：7915    first secon n/a 6581 数字 3306   总数26503
-    :return:10537  6079   26503 6581 3306
-    '''
-    num = 0
-    alls = 0
-    ddd = 0
-    n_a = 0
-    digital = 0
-    fw = open(r"aa.txt", 'w', encoding='utf-8')
-    f = open(r"E:\RecipeQA\data\ITNLP_Semeval2022_Task6\baseline_10_28\text_data2.json", 'r', encoding='utf-8')
-    data = json.load(f)
-    f.close()
-    for key in data.keys():
-        item = data[key]['group']
-        text_all = data[key]['text_all']
-        ddd += len(item)
-        for it in item:
-
-            ans = it['answer']
-            text = it['text']
-            ques = it['question']
-            if ans not in ['the second event', 'the first event', "N/A"]:
-                if ans.lower() not in text.lower() and not ans.isdigit():  # text.lower()
-                    fw.write(ques + '\t' + ans.lower() + '\t' + " ".join(text_all).lower() + '\n')
-                    num += 1
-                elif ans.isdigit():
-                    digital += 1
-                else:
-                    alls += 1
-
-            else:
-                n_a += 1
-    print(num)
-    print(alls)
-    print(ddd)
-    print(n_a)
-    print(digital)
-    fw.close()
-
-
 def split_to_three():
+    '''
+    简单将数据集划分为how many ,first-event/second-event,其他类
+    :return:
+    '''
     f = open("text_data.json", "r", encoding="utf-8")
     data = json.load(f)
     f.close()
@@ -234,9 +335,9 @@ def text_of_RecipeQA():
     fw.close()
 
 
-def extract2():
+def extract():
     '''
-    从原来的csv提取出问答对json,将原材料单独标注出来
+    从原来的csv提取出问答对json,没有标注原材料。详见extract2（）
     :return:
     '''
     with open(r"E:\RecipeQA\data\数据集\r2vq_train_10_28_2021\train\crl_srl.csv", 'r', encoding='utf-8') as f:
@@ -245,7 +346,6 @@ def extract2():
     question = []
     text = []
     meta = []
-    ingredients=[]
     newdoc_id = ''  # 防止报错
     for i in range(len(all_data) - 1):
         item = all_data[i]
@@ -256,30 +356,21 @@ def extract2():
                 # text = " ".join(text)
                 dicts[newdoc_id]['text'] = text
                 dicts[newdoc_id]['meta'] = meta
-                dicts[newdoc_id]['ingredients'] =ingredients
             # 清空--
             newdoc_id = item.split("=")[1].strip("\n")
             question = []
             text = []
             meta = []
-            ingredients=[]
             continue
         item_next = all_data[i + 1]
         if 'question' in item and 'answer' in item_next:
             qa = item.split("=")[1].strip("\n") + "    " + item_next.split("=")[1].strip("\n")
             question.append(qa)
         if 'text =' in item:
-            item_pre = all_data[i - 1]
-            if 'ingredients' in item_pre:
-                ingredients.append(item.split("=")[1].strip("\n"))
-            else:
-                text.append(item.split("=")[1].strip("\n"))
+            text.append(item.split("=")[1].strip("\n"))
         if 'metadata:url' in item:
             meta.append(item.split('/')[-1].strip("\n"))
     print(len(dicts))
     fw = open("text_data.json", "w", encoding="utf-8")
     json.dump(dicts, fw, ensure_ascii=False, indent=4)
     fw.close()
-
-
-extract2()
