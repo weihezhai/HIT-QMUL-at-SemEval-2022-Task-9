@@ -1,0 +1,47 @@
+Log 9th/Nov.
+
+1.	Question IDs are question types, then there are in total 19 kind of classes in the dataset. (26252 pairs in total)
+
+0: How many actions does it take to …...? (Need reasoning, no exact match with context)
+
+1: what should be ……? (exact match)
+
+2: how do you / where do you ? answers are tools and habitats (some tools and habitats are hidden but are labelled as cooking roles in the dataset)
+
+3: Mixture related questions, usually start with what’s in the <RESULT>? or how did you get the <RESULT>? (Answers cannot be answered directly from context and reasoning, it should come from CRL.)
+
+4: first / second event selection. Based on the EVENT tags and order. There should be more than two entities in the question, but exactly two EVENTs exist.
+
+5:  To what extend do you……? (answers exact match with context)
+
+6: how do you …. ? answers always include B-instrument.
+
+7:  for how long do you …? Answers usually from B-Time tagged text.
+
+8: where do you do the action…? Answer from B-Habitat and B-destination labelled text.
+
+9: (145) By how much do you do the action ? Answer from B-Extent (only a few of questions are from this type (145 questions of them)).
+
+10: (2000) How do you ….? Compared to the 6th type of question, the 10th need B-attribute label from CRL labels to answer the question.
+
+11: Why do you ….? Only 11 questions are from this type. Answers are text with B-Cause tags.
+
+12: (600) where do you …? Answer often with ADP
+
+13: (99) what do you do action with? Where do you …? Answers are with  B-Co-Theme tags.
+
+14: (376) How do you … ? Answer with B-Goal tags
+
+15: (587) why do you … ? answer with B-purpose
+
+16: (400) From where do you …? Answer from B-Source
+
+17: (2700) where was the thing before it was done the action? Answer can be found by looking at the first B-Habitat labelled text before the B-Event verb directly after the ‘before’ word.
+
+18: (5500) N/A
+
+
+
+2.	Observations: 
+1)	Lots of ingredients are not useful, almost none of questions are about them. Maybe padding them with the ingredient tag.
+2)	Need CRL embedding
