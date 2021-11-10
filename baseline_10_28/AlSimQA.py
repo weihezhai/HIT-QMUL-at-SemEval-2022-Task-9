@@ -87,7 +87,7 @@ def split_data(Sbert, path=r'E:\RecipeQA\data\ITNLP_Semeval2022_Task6\old_versio
 
             if answer.lower() in text_str.lower() and not answer.isdigit():
                 data = {}
-                data['question'] = question
+                data['question'] = ques
                 data['answer'] = answer
                 data['text'] = [meta, ingredients, text]
                 datas.append(data)
@@ -136,7 +136,7 @@ class myDataset(Dataset):  # 需要继承data.Dataset
         a = item['answer']
         text = item['text']
         # encode= self.tokenizer(q, text, add_special_tokens=True, return_tensors="pt")
-        encode = self.tokenizer.encode_plus(q, text, add_special_tokens=True,
+        encode = self.tokenizer.encode_plus(q.strip().lower(), text.strip().lower(), add_special_tokens=True,
                                             max_length=512, padding='max_length',
                                             return_attention_mask=True, return_tensors='pt',
                                             truncation=True)
@@ -152,8 +152,8 @@ class myDataset(Dataset):  # 需要继承data.Dataset
 
     def start_end(self, answer, q, text):
         # 有问题
-        answer_encode = self.tokenizer(answer.lower())['input_ids'][1:-1]
-        text_encode = self.tokenizer(q, text.lower())['input_ids']
+        answer_encode = self.tokenizer(answer.strip().lower())['input_ids'][1:-1]
+        text_encode = self.tokenizer(q.strip().lower(), text.strip().lower())['input_ids']
         start_end = ()
         for i in range(len(text_encode)):
             if text_encode[i] == answer_encode[0]:
