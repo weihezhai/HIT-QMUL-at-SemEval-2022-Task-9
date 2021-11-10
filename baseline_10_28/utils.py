@@ -66,6 +66,8 @@ def extract2():
 def similarity_question_text_SBert():
     '''利用sbert将文本与问题最相似的句子拿出来
     :return:
+    top3 :match有6400条
+    all:match 7916条
     '''
 
     def scores(question: str, text: list, model, top_k: int = 2):
@@ -129,15 +131,24 @@ def analyse():
     num 3306
     :return:
     '''
-    all=0
-    first_event=0
+    all = 0
+    first_event = 0
     second_event = 0
     NotAnswer = 0
-    num,how_many=0,0
-    match=0
-    what,how,where,other=0,0,0,0
-    others_all=0
-    others_data=[]
+    num, how_many = 0, 0
+    match = 0
+    what, how, where, other = 0, 0, 0, 0
+    others_all = 0
+
+    event_data = []
+    NotAnswer_data = []
+    num_data = []
+    match_data = []
+    what_data = []
+    how_data = []
+    where_data = []
+    other_data = []
+    others_data = []
     f = open(r"E:\RecipeQA\data\ITNLP_Semeval2022_Task6\old_version\text_data.json", "r", encoding="utf-8")
     datas = json.load(f)
     f.close()
@@ -147,41 +158,72 @@ def analyse():
         text = value['text']
         ingredients = value['ingredients']
         questions = value['question']
-        text=(meta[0]+":"+"".join(ingredients)+"."+"".join(text)).lower()
+        text = (meta[0] + ":" + "".join(ingredients) + "." + "".join(text)).lower()
         for question in questions:
-            all+=1
+            all += 1
             ques, ans = question.split("     ")
-            if ques.lower().strip().startswith('how many') and ans !='N/A':
-                how_many+=1
+            if ques.lower().strip().startswith('how many') and ans != 'N/A':
+                how_many += 1
 
-            if ans=='the first event':
-                first_event+=1
-            elif ans=="the second event":
-                second_event+=1
-            elif ans =='N/A':
-                NotAnswer+=1
+            if ans == 'the first event':
+                first_event += 1
+                event_data.append(meta[0] + '     ' + question + '\n' + text)
+            elif ans == "the second event":
+                second_event += 1
+                event_data.append(meta[0] + '     ' + question + '\n' + text)
+            elif ans == 'N/A':
+                NotAnswer += 1
+                NotAnswer_data.append(meta[0] + '     ' + question + '\n' + text)
             elif ans.isdigit():
-                num+=1
+                num_data.append(meta[0] + '     ' + question + '\n' + text)
+                num += 1
             elif ans.lower() in text.lower():
-                match+=1
+                match_data.append(meta[0] + '     ' + question + '\n' + text)
+                match += 1
             else:
                 if ques.lower().strip().startswith('what'):
-                    what+=1
+                    what_data.append(meta[0] + '     ' + question + '\n' + text)
+                    what += 1
                 elif ques.lower().strip().startswith('how'):
-                    how+=1
+                    how_data.append(meta[0] + '     ' + question + '\n' + text)
+                    how += 1
                 elif ques.lower().strip().startswith('where'):
-                    where+=1
+                    where_data.append(meta[0] + '     ' + question + '\n' + text)
+                    where += 1
                 else:
-                    other+=1
-                others_data.append(question+'\n'+text)
-                others_all+=1
-    # fw=open("others.txt",'w',encoding='utf-8')
-    #
-    # for i in others_data:
-    #     fw.write(i+'\n\n')
-    # fw.close()
-    print("all",all)
-    print('first_event',first_event)
+                    other_data.append(meta[0] + '     ' + question + '\n' + text)
+                    other += 1
+                others_data.append(meta[0] + '     ' + question + '\n' + text)
+                others_all += 1
+    with open(r"E:\RecipeQA\data\subdatas\others.txt", 'w', encoding='utf-8') as f:
+        for i in others_data:
+            f.write(i + '\n\n')
+    with open(r"E:\RecipeQA\data\subdatas\other.txt", 'w', encoding='utf-8') as f:
+        for i in other_data:
+            f.write(i + '\n\n')
+    with open(r"E:\RecipeQA\data\subdatas\where.txt", 'w', encoding='utf-8') as f:
+        for i in where_data:
+            f.write(i + '\n\n')
+    with open(r"E:\RecipeQA\data\subdatas\how.txt", 'w', encoding='utf-8') as f:
+        for i in how_data:
+            f.write(i + '\n\n')
+    with open(r"E:\RecipeQA\data\subdatas\what.txt", 'w', encoding='utf-8') as f:
+        for i in what_data:
+            f.write(i + '\n\n')
+    with open(r"E:\RecipeQA\data\subdatas\match.txt", 'w', encoding='utf-8') as f:
+        for i in match_data:
+            f.write(i + '\n\n')
+    with open(r"E:\RecipeQA\data\subdatas\num.txt", 'w', encoding='utf-8') as f:
+        for i in num_data:
+            f.write(i + '\n\n')
+    with open(r"E:\RecipeQA\data\subdatas\NotAnswer.txt", 'w', encoding='utf-8') as f:
+        for i in NotAnswer_data:
+            f.write(i + '\n\n')
+    with open(r"E:\RecipeQA\data\subdatas\event.txt", 'w', encoding='utf-8') as f:
+        for i in event_data:
+            f.write(i + '\n\n')
+    print("all", all)
+    print('first_event', first_event)
     print('second_event', second_event)
     print('NotAnswer', NotAnswer)
     print('num', num)
@@ -193,125 +235,6 @@ def analyse():
     print('other', other)
     print('others_all', others_all)
     pass
-
-
-def similarity_question_text_common_words():
-    def scores(question: str, text: list):
-        '''
-        :param question: 针对一个问答对
-        :param text: 全部的text
-        :return:
-        # 词干提取与词型还原后续在考虑
-        # 大多数文本里的复数在问题仍旧是复数。
-        # 主要在于动词： serve-->served, combine-->combining
-
-        # min(3,>0)
-
-        # newdoc id = f-PH5TQR8X  f-PH5TQR8X原始数据集有问题
-        '''
-        STOP_WORDS = ["What's", "How", "how", 'many']
-        score = []
-        question_list = question.replace("?", "").lower()  # 去除问题当中的问号
-        question_list = question_list.strip().split(" ")
-        question_list = [i for i in question_list if i not in stopwords.words('english') + STOP_WORDS]  # 去除没有语义的停用词
-        for item in text:
-            item = item.replace(".", "").replace(",", "").replace("\"", "").replace(":", "").replace("  ",
-                                                                                                     " ").lower()  # 去除句子当中的标点
-            item = item.strip().split(" ")
-            item = [i for i in item if i not in stopwords.words('english') + STOP_WORDS]  # 去停用词
-
-            inter = set(question_list).intersection(set(item))
-            union = set(question_list).union(set(item))
-            if len(item) == 0:
-                score.append(1)
-                print(question)
-                print(text)
-                print('---------------------------')
-            else:
-                score.append(len(inter) / len(item))
-        result = []
-        for i in range(len(text)):
-            if score[i] > 0:
-                result.append(text[i])
-        return result
-
-    f = open("text_data.json", "r", encoding="utf-8")
-    datas = json.load(f)
-    f.close()
-
-    dict_new = {}
-    for key, value in tqdm(datas.items()):
-
-        meta = value['meta']
-        text = value['text']
-        questions = value['question']
-
-        dict_new[key] = {}
-        dict_new[key]['meta'] = meta
-        groups = []
-        for question in questions:
-            group = {}
-            ques, ans = question.split("     ")
-            result = scores(ques, text)
-            group['question'] = ques
-            group['answer'] = ans
-            group['text'] = ' '.join(result)
-            groups.append(group)
-        dict_new[key]['group'] = groups
-        dict_new[key]['text_all'] = text
-    fw = open("text_data2.json", "w", encoding="utf-8")
-    json.dump(dict_new, fw, ensure_ascii=False, indent=4)
-    fw.close()
-
-
-def split_to_three():
-    '''
-    简单将数据集划分为how many ,first-event/second-event,其他类
-    :return:
-    '''
-    f = open("text_data.json", "r", encoding="utf-8")
-    data = json.load(f)
-    f.close()
-
-    idnum = 1
-    idevent = 1
-    idother = 1
-    dict_num = {}
-    dict_event = {}
-    dict_other = {}
-    for key in data.keys():
-
-        que = data[key]['question']
-        text = data[key]['text']
-        for i in que:
-            q, a = i.split("     ")
-            q = q.strip()
-            item = {}
-            item['key'] = key
-            item['question'] = q
-            item['answer'] = a
-            item['text'] = text
-            if q.startswith("How many"):
-                dict_num[idnum] = item
-                idnum += 1
-            elif q.endswith("which comes first?"):
-                dict_event[idevent] = item
-                idevent += 1
-            else:
-                dict_other[idother] = item
-                idother += 1
-
-    fw = open("number.json", "w", encoding="utf-8")
-    json.dump(dict_num, fw, ensure_ascii=False, indent=4)
-    fw.close()
-
-    fw = open("event.json", "w", encoding="utf-8")
-    json.dump(dict_event, fw, ensure_ascii=False, indent=4)
-    fw.close()
-
-    fw = open("other.json", "w", encoding="utf-8")
-    json.dump(dict_other, fw, ensure_ascii=False, indent=4)
-    fw.close()
 
 
 def text_of_RecipeQA():
