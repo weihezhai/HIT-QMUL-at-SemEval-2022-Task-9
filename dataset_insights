@@ -2,7 +2,7 @@ Log 9th/Nov.
 
 Question IDs are question types, then there are in total 19 kind of classes in the dataset. (26252 pairs in total)
 
-0: How many actions does it take to …...? (Need reasoning, no exact match with context)
+0: How many actions does it take to …...? / how many things are used? (Need reasoning, no exact match with context) Update: can be done with coreference tags and DROP_ tags.
 
 1: what should be ……? (exact match)
 
@@ -26,22 +26,30 @@ Question IDs are question types, then there are in total 19 kind of classes in t
 
 11: Why do you ….? Only 11 questions are from this type. Answers are text with B-Cause tags.
 
-12: (600) where do you …? Answer often with ADP
+12: (300) where do you …? Answer often with ADP
 
-13: (99) what do you do action with? Where do you …? Answers are with  B-Co-Theme tags.
+13: (50) what do you do action with? Where do you …? Answers are with  B-Co-Theme tags.
 
-14: (376) How do you … ? Answer with B-Goal tags
+14: (190) How do you … ? Answer with B-Goal tags
 
-15: (587) why do you … ? answer with B-purpose
+15: (300) why do you … ? answer with B-purpose
 
-16: (400) From where do you …? Answer from B-Source
+16: (200) From where do you …? Answer from B-Source
 
-17: (2700) where was the thing before it was done the action? Answer can be found by looking at the first B-Habitat labelled text before the B-Event verb directly after the ‘before’ word.
+17: (1300) where was the thing before it was done the action? Answer can be found by looking at the first B-Habitat labelled text before the B-Event verb directly after the ‘before’ word.
 
-18: (5500) N/A
+18: (2600) N/A
 
 
 
 2.	Observations: 
 1)	Lots of ingredients are not useful, almost none of questions are about them. Maybe padding them with the ingredient tag.
 2)	Need CRL embedding
+3). N/A comes just from randomly mix one question from other recipe with current one. 
+
+
+
+
+
+
+
