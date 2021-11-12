@@ -14,7 +14,7 @@ import torch
 import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader
 from tqdm import tqdm
-from transformers import AdamW
+from transformers import AdamW, WEIGHTS_NAME, CONFIG_NAME
 from transformers import AutoTokenizer, AutoModelForMaskedLM
 from transformers import get_linear_schedule_with_warmup
 from collections import namedtuple
@@ -249,17 +249,13 @@ def train(model, tokenizer, train_dataloader, testdataloader, device, fold=0, ep
 
             loop.set_description(f'fold:{fold}  Epoch:{epoch}')
             loop.set_postfix(loss=loss.item(), acc=acc)
-        # if epoch == 2:
+        # if epoch >=3:
         #     model_to_save = model.module if hasattr(model, 'module') else model
         #     model_path = r"fold" + str(fold) + "_epoch" + str(epoch)
         #     if not os.path.exists(model_path):
         #         os.makedirs(model_path)
-        #     output_model_file = os.path.join(model_path, WEIGHTS_NAME)
-        #     output_config_file = os.path.join(model_path, CONFIG_NAME)
-        #     torch.save(model_to_save.state_dict(), output_model_file)
-        #     model_to_save.config.to_json_file(output_config_file)
-        #     tokenizer.save_vocabulary(model_path)
-        #     print("fold: {},epoch {} saved!".format(fold, epoch))
+        #     torch.save(model_to_save, os.path.join(model_path,'model.pt'))
+
 
         model.eval()
         test_acc = []

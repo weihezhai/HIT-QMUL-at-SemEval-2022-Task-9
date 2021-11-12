@@ -6,8 +6,8 @@
 # @Software: PyCharm
 import json
 
+import numpy as np
 import torch
-from nltk.corpus import stopwords
 from sentence_transformers import SentenceTransformer, util
 from tqdm import tqdm
 
@@ -120,6 +120,55 @@ def similarity_question_text_SBert():
     fw = open("text_data2.json", "w", encoding="utf-8")
     json.dump(dict_new, fw, ensure_ascii=False, indent=4)
     fw.close()
+
+
+def N_A():
+    '''阈值的设置及对于准确率
+    0.51 0.973
+    0.52 0.977
+    0.53 0.981
+    0.54 0.986
+    0.55 0.987
+    0.56 0.988
+    0.57 0.9906
+    0.58 0.9928
+    '''  #
+
+    def scores(question: str, text: list, model, top_k: int = 2):
+        text_embeddings = model.encode(text, convert_to_tensor=True)
+        query_embedding = model.encode(question, convert_to_tensor=True)
+
+        if torch.cuda.is_available():
+            text_embeddings.to('cuda')
+            query_embedding = torch.unsqueeze(query_embedding, dim=0)
+            query_embedding.to('cuda')
+            text_embeddings = util.normalize_embeddings(text_embeddings)
+            query_embedding = util.normalize_embeddings(query_embedding)
+        top_results = util.semantic_search(query_embedding, text_embeddings,
+                                           top_k=top_k)  # [[{corpus_id:,score:},{},{}]]
+        top_results = [item['score'] for item in top_results[0]]
+
+        return np.mean(top_results)
+
+    Sbert = SentenceTransformer(r'/home/mqfeng/preModels/all-MiniLM-L6-v2')
+    path = 'text_data.json'
+    f = open(path, 'r', encoding='utf-8')
+    json_data = json.load(f)
+    f.close()
+    for score_temp in [0.55, 0.56, 0.57, 0.58]:
+        num_all = 0
+        correct = 0
+        for key, value in tqdm(json_data.items()):
+            questions = value['question']
+            text = value['text']
+            for question in questions:
+                ques, answer = question.split("     ")
+                if answer == r'N/A':
+                    num_all += 1
+                    score = scores(question, text, Sbert)
+                    if score < score_temp:
+                        correct += 1
+        print(correct / num_all)
 
 
 def analyse():
