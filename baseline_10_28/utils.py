@@ -5,6 +5,7 @@
 # @FileName: utils.py
 # @Software: PyCharm
 import json
+import random
 
 import numpy as np
 import torch
@@ -346,3 +347,100 @@ def extract():
     fw = open("text_data.json", "w", encoding="utf-8")
     json.dump(dicts, fw, ensure_ascii=False, indent=4)
     fw.close()
+
+
+
+
+
+
+
+
+
+def setup_seed(seed):
+    torch.manual_seed(seed)
+    torch.cuda.manual_seed_all(seed)
+    np.random.seed(seed)
+    random.seed(seed)
+
+
+setup_seed(2021)
+
+def scores(question: str, text: list, model, top_k: int = 4):
+    text_embeddings = model.encode(text, convert_to_tensor=True)
+    query_embedding = model.encode(question, convert_to_tensor=True)
+
+    if torch.cuda.is_available():
+        text_embeddings.to('cuda')
+        query_embedding = torch.unsqueeze(query_embedding, dim=0)
+        query_embedding.to('cuda')
+        text_embeddings = util.normalize_embeddings(text_embeddings)
+        query_embedding = util.normalize_embeddings(query_embedding)
+    top_results = util.semantic_search(query_embedding, text_embeddings,
+                                           top_k=top_k)  # [[{corpus_id:,score:},{},{}]]
+    text_ids = [item['corpus_id'] for item in top_results[0]]
+    # 还原顺序
+    text_ids.sort()
+    result = []
+    for id in text_ids:
+        result.append(text[id])
+    return result
+
+def split_data(Sbert, path=r'text_data.json', fold=0):
+    '''
+    :param path: text_data.json的路径
+    :param fold: 第几折，默认总共五折交叉
+    :return: 返回划分好的训练集与验证集,是一个list，list的元素为一个字典，包含{qa：''，text：''}，其中qa以四个空格分割，q,a=qa.split("     ")
+    '''
+    f = open(path, 'r', encoding='utf-8')
+    json_data = json.load(f)
+    f.close()
+
+    datas = []
+    for key, value in json_data.items():
+        meta = value['meta']
+        questions = value['question']
+        ingredients = value['ingredients']
+        text = value['text']
+        text_str = (meta[0] + ":" + "".join(ingredients) + "." + "".join(text)).lower()
+        for question in questions:
+            ques, answer = question.split("     ")
+
+            if answer.lower() in text_str.lower() and not answer.isdigit():
+                data = {}
+                data['question'] = ques
+                data['answer'] = answer
+                # data['text'] = [meta, ingredients, text]
+                data['text'] = text
+                datas.append(data)
+    num_data = len(datas)
+    num_test = num_data // 5
+    random.shuffle(datas)
+    test = datas[fold * num_test:(fold + 1) * num_test]
+    if fold == 0:
+        train = datas[num_test:]
+    else:
+        train = datas[:num_test * fold]
+        train.extend(datas[num_test * (fold + 1):])
+    # 处理验证集加速Sbert
+    print(len(test))
+    # new_test = []
+    # for i in tqdm(test):
+    #     meta, ingredients, text = i['text']
+    #     question = i['question']
+    #     answer = i['answer']
+    #     result_text = scores(question, text, Sbert, top_k=4)
+    #     result_ingres = scores(question, ingredients, Sbert, top_k=2)
+    #     result = meta[0] + "".join(result_ingres + result_text)
+    #     result1 = (result_ingres + result_text)
+    #     if answer.lower() in result.lower():
+    #         data = {}
+    #         data['question'] = question
+    #         data['answer'] = answer.lower()
+    #         data['text'] = result1
+    #         new_test.append(data)
+    fw = open("test_all.json", "w", encoding="utf-8")
+    json.dump(test, fw, ensure_ascii=False, indent=4)
+    fw.close()
+    # print(len(new_test))
+Sbert = SentenceTransformer(r'D:\Anaconda\learn\_Bert\pre_train_model\all-MiniLM-L6-v2')
+split_data(Sbert)
