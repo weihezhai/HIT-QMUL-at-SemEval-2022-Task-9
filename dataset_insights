@@ -2,27 +2,35 @@ Log 9th/Nov.
 
 Question IDs are question types, then there are in total 19 kind of classes in the dataset. (26252 pairs in total)
 
-0: How many actions does it take to …...? / how many things are used? (Need reasoning, no exact match with context) Update: can be done with coreference tags and DROP_ tags.
+0: How many actions does it take to …...? / how many things are used? (Need reasoning, 
+   no exact match with context) Update: can be done with coreference tags and DROP_ tags. 
+   answer with magnitude more than 4 can be misleading.
 
 1: what should be ……? (exact match)
 
-2: how do you / where do you ? answers are tools and habitats (some tools and habitats are hidden but are labelled as cooking roles in the dataset)
+2: how do you mix / where should you ? answers are tools and habitats (some tools and habitats are hidden but are labelled as cooking roles in the dataset) 
+   when answering 'where' question, only habitat tag would be used, (exact match)
+   when answering 'how' problem, answer starts with 'by using a' and then tool and other infomation would be used. 
 
-3: Mixture related questions, usually start with what’s in the <RESULT>? or how did you get the <RESULT>? (Answers cannot be answered directly from context and reasoning, it should come from CRL.)
-
+3: Mixture related questions, usually start with what’s in the <RESULT>? or how did you get the <RESULT>? 
+  (Answers cannot be answered directly from context and reasoning, it should come from CRL.)
+  {span prediction }'how' question could be answered by using easy generating method as the answer are simply some words plus some easy grammar.
+    'by' + Ving + the + things + (in/on/at somewhere) + (with + tools).
+  {multispan extraction} 'what' question could be answered without generation but just span extraction and put them in order (no order pattern found).
+  
 4: first / second event selection. Based on the EVENT tags and order. There should be more than two entities in the question, but exactly two EVENTs exist.
 
-5:  To what extend do you……? (answers exact match with context)
+5: To what extend do you……? (answers exact match with context)
 
 6: how do you …. ? answers always include B-instrument.
 
-7:  for how long do you …? Answers usually from B-Time tagged text.
+7: for how long do you …? Answers usually from B-Time tagged text.
 
 8: where do you do the action…? Answer from B-Habitat and B-destination labelled text.
 
 9: (145) By how much do you do the action ? Answer from B-Extent (only a few of questions are from this type (145 questions of them)).
 
-10: (2000) How do you ….? Compared to the 6th type of question, the 10th need B-attribute label from CRL labels to answer the question.
+10: (2000) How do you ….? Compared to the 6th type of question, the 10th need B-attribute label (works like ADV.) from CRL labels to answer the question.
 
 11: Why do you ….? Only 11 questions are from this type. Answers are text with B-Cause tags.
 
