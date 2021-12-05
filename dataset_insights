@@ -2,7 +2,8 @@ Log 9th/Nov.
 
 Question IDs are question types, then there are in total 19 kind of classes in the dataset. (26252 pairs in total)
 
-0: How many actions does it take to …...? / how many things are used? (Need reasoning, 
+0: How many actions does it take to …...? (asnwers need part/ DROP / RESULT col)/ how many things are used? (answers are always 1) /how many times ...?
+    (Need reasoning,
    no exact match with context) Update: can be done with coreference tags and DROP_ tags. 
    answer with magnitude more than 4 can be misleading.
 
