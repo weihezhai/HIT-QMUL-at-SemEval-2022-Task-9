@@ -4,27 +4,27 @@
 # @Author  : hit-itnlp-fengmq
 # @FileName: sub2_question_merge.py
 # @Software: PyCharm
-#!/usr/bin/python3
+# !/usr/bin/python3
 # -*- coding: utf-8 -*-
 # @Time    : 2021/11/25 12:40
 # @Author  : hit-itnlp-fengmq
 # @FileName: sub2_question_concat.py
 # @Software: PyCharm
 import json
-import os
 import pickle
 import random
+from collections import namedtuple
 
 import numpy as np
 import torch
 import torch.nn as nn
+from sentence_transformers import SentenceTransformer, util
 from torch.utils.data import Dataset, DataLoader
 from tqdm import tqdm
 from transformers import AdamW
 from transformers import AutoTokenizer, AutoModelForMaskedLM
 from transformers import get_linear_schedule_with_warmup
-from collections import namedtuple
-from sentence_transformers import SentenceTransformer, util
+
 # os.environ["CUDA_VISIBLE_DEVICES"] = '1'
 def setup_seed(seed):
     torch.manual_seed(seed)
@@ -187,6 +187,8 @@ def pre_process(data):
         new_data.append(item)
     print("pre_process data end !")
     return new_data
+
+
 class myDataset(Dataset):  # 需要继承data.Dataset
     def __init__(self, data, tokenizer):
         self.data = data
@@ -202,18 +204,18 @@ class myDataset(Dataset):  # 需要继承data.Dataset
             a = a.split(" ")[3:]
             a = " ".join(a)
         # 处理text和tag
-        text,tag=[],[]
+        text, tag = [], []
         for item_text in texts:
             text += item_text['text'].strip(" ").split(" ")
             tag += item_text['tags']
-        if len(text)!=len(tag):
+        if len(text) != len(tag):
             print("length not equal!")
         new_text = []
         for i in range(len(text)):
-            if tag[i]=="_":
+            if tag[i] == "_":
                 new_text.append(text[i])
             else:
-                new_text.append(text[i]+" "+tag[i])
+                new_text.append(text[i] + " " + tag[i])
         text = " ".join(new_text)
         ##q,a,text,tag
         # encode= self.tokenizer(q, text+tag, add_special_tokens=True, return_tensors="pt")
@@ -256,6 +258,7 @@ class myDataset(Dataset):  # 需要继承data.Dataset
             start_end = (0, 0)
         return start_end
 
+
 class MyModel(nn.Module):
     def __init__(self, albert, QAhead):
         super().__init__()
@@ -292,6 +295,7 @@ class MyModel(nn.Module):
             Outputs = namedtuple('Outputs', 'loss,start_logits, end_logits')
             outputs = Outputs(total_loss, start_logits, end_logits)
         return outputs
+
 
 def train(model, train_dataloader, testdataloader, device, fold=0, epoch=5):
     model.to(device)
@@ -336,7 +340,6 @@ def train(model, train_dataloader, testdataloader, device, fold=0, epoch=5):
         #         os.makedirs(model_path)
         #     torch.save(model_to_save, os.path.join(model_path,'model.pt'))
 
-
         model.eval()
         test_loss = []
         test_acc2 = []
@@ -345,12 +348,11 @@ def train(model, train_dataloader, testdataloader, device, fold=0, epoch=5):
                 data = tuple(t.to(device) for t in data)
                 input_ids, token_type_ids, attention_mask, start, end = data
                 outputs = model(input_ids, token_type_ids=token_type_ids, attention_mask=attention_mask,
-                               start_positions=start, end_positions=end)
+                                start_positions=start, end_positions=end)
 
                 loss = outputs.loss
                 start_pred = torch.argmax(outputs.start_logits, dim=1)
                 end_pred = torch.argmax(outputs.end_logits, dim=1)
-
 
                 starts = (np.array((start_pred == start).cpu()))
                 ends = (np.array((end_pred == end).cpu()))
@@ -358,18 +360,18 @@ def train(model, train_dataloader, testdataloader, device, fold=0, epoch=5):
                 test_acc2.extend(acc2)
                 test_loss.append(loss.item())
         print("{}, Train_acc2:{} Train_loss:{}-----Val_acc:{}  Val_loss:{}".format(
-            epoch,  np.mean(train_acc2), np.mean(train_loss), np.mean(test_acc2),
+            epoch, np.mean(train_acc2), np.mean(train_loss), np.mean(test_acc2),
             np.mean(test_loss)))
 
 
 for fold in range(1):
-    #     # 修改模型路径，以及对应的QAhead.pickle。根据设备酌情修改batchsize
+    #修改模型路径，以及对应的QAhead.pickle。根据设备酌情修改batchsize
     model, tokenizer = get_premodel(r'/home/mqfeng/R2QA/pretrain_recipeQA/large/epoch2')
     with open(r'QAhead_large.pickle', 'rb') as file:
         QAhead = pickle.load(file)
     myModel = MyModel(model.albert, QAhead)
     Sbert = SentenceTransformer(r'/home/mqfeng/preModels/all-MiniLM-L6-v2')
-    train_data, test_data = split_data(is_topk=True,Sbert = Sbert)
+    train_data, test_data = split_data(is_topk=True, Sbert=Sbert)
     train_data, test_data = pre_process(train_data), pre_process(test_data)
 
     # 构造DataSet和DataLoader
@@ -381,4 +383,4 @@ for fold in range(1):
     # 训练
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     # device = torch.device('cpu')
-    train(myModel,train_Dataloader, test_Dataloader, device, fold, epoch=5)
+    train(myModel, train_Dataloader, test_Dataloader, device, fold, epoch=5)
