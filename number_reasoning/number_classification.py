@@ -70,7 +70,9 @@ def get_premodel(name):
     model.cuda()
     print("model load end!")
     return model, tokenizer
-model, tokenizer = get_premodel('google/bigbird-roberta-large')
+l='allenai/longformer-large-4096-finetuned-triviaqa'
+b='google/bigbird-roberta-large'
+model, tokenizer = get_premodel(l)
 model = nn.DataParallel(model)
 data =  pd.read_csv('./qa_0.csv')
 
@@ -89,7 +91,7 @@ for _ in zip(qs,sentences):
         _[0],  # Sentence pair to encode.
         _[1],
         add_special_tokens=True,  # Add '[CLS]' and '[SEP]'
-        max_length=512,  # Pad & truncate all sentences.
+        max_length=2048,  # Pad & truncate all sentences.
         pad_to_max_length=True,
         return_attention_mask=True,  # Construct attn. masks.
         return_tensors='pt',  # Return pytorch tensors.
@@ -144,7 +146,7 @@ here. For fine-tuning BERT on a specific task, the authors recommend a batch
 size of 16 or 32.
 
 '''
-batch_size = 16
+batch_size = 4
 
 # Create the DataLoaders for our training and validation sets.
 # We'll take training samples in random order.
@@ -168,7 +170,7 @@ build model
 '''
 
 optimizer = AdamW(model.parameters(),
-                  lr = 1e-5, # args.learning_rate - default is 5e-5, our notebook had 2e-5
+                  lr = 2e-5, # args.learning_rate - default is 5e-5, our notebook had 2e-5
                   eps = 1e-8, # args.adam_epsilon  - default is 1e-8.
                   weight_decay = 0.2
                 )
@@ -180,7 +182,7 @@ total_steps = len(train_dataloader) * epochs
 
 # Create the learning rate scheduler.
 scheduler = get_linear_schedule_with_warmup(optimizer,
-                                            num_warmup_steps = 400, # Default value in run_glue.py
+                                            num_warmup_steps = 0, # Default value in run_glue.py
                                             num_training_steps = total_steps)
 
 # We'll store a number of quantities such as training and validation loss,
@@ -220,103 +222,103 @@ for epoch_i in range(0, epochs):
             #   [0]: input ids
             #   [1]: attention masks
             #   [2]: labels
-            b_input_ids = batch[0].to(device)
-            b_input_mask = batch[1].to(device)
-            b_labels = batch[2].to(device)
-            # set grad to zero.
-            model.zero_grad()
-            # perform a forward pass. logits is somewhat the model outputs prior to activation.
+        b_input_ids = batch[0].to(device)
+        b_input_mask = batch[1].to(device)
+        b_labels = batch[2].to(device)
+        # set grad to zero.
+        model.zero_grad()
+        # perform a forward pass. logits is somewhat the model outputs prior to activation.
+        outputs = model(b_input_ids,
+                        token_type_ids=None,
+                        attention_mask=b_input_mask,
+                        labels=b_labels)
+        total_train_loss += outputs.loss.sum()
+        outputs.loss.sum().backward()
+
+        # Clip the norm of the gradients to 1.0.
+        # This is to help prevent the "exploding gradients" problem.
+        torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
+        # Update parameters and take a step using the computed gradient.
+        # The optimizer dictates the "update rule"--how the parameters are
+        # modified based on their gradients, the learning rate, etc.
+        optimizer.step()
+        # Update the learning rate.
+        scheduler.step()
+    # Calculate the average loss over all of the batches.
+    avg_train_loss = total_train_loss / len(train_dataloader)
+    # Measure how long this epoch took.
+    training_time = format_time(time.time() - t0)
+
+    print("")
+    print("  avg training loss: {0:.2f}".format(avg_train_loss))
+    print("  Training epcoh took: {:}".format(training_time))
+
+    # ========================================
+    #               Validation
+    # ========================================
+    # After the completion of each training epoch, measure our performance on
+    # our validation set.
+    print("")
+    print("Running Validation...")
+    t0 = time.time()
+
+    # Put the model in evaluation mode--the dropout layers behave differently
+    # during evaluation.
+    model.eval()
+    # Tracking variables
+    total_eval_accuracy = 0
+    total_eval_loss = 0
+    nb_eval_steps = 0
+    # Evaluate data for one epoch
+    for batch in validation_dataloader:
+        # `batch` contains three pytorch tensors:
+        #   [0]: input ids
+        #   [1]: attention masks
+        #   [2]: labels
+        b_input_ids = batch[0].to(device)
+        b_input_mask = batch[1].to(device)
+        b_labels = batch[2].to(device)
+        # Tell pytorch not to bother with constructing the compute graph during
+        # the forward pass, since this is only needed for backprop (training).
+        with torch.no_grad():
             outputs = model(b_input_ids,
                             token_type_ids=None,
                             attention_mask=b_input_mask,
                             labels=b_labels)
-            total_train_loss += outputs.loss.sum()
-            outputs.loss.sum().backward()
+        # Accumulate the validation loss.
 
-            # Clip the norm of the gradients to 1.0.
-            # This is to help prevent the "exploding gradients" problem.
-            torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
-            # Update parameters and take a step using the computed gradient.
-            # The optimizer dictates the "update rule"--how the parameters are
-            # modified based on their gradients, the learning rate, etc.
-            optimizer.step()
-            # Update the learning rate.
-            scheduler.step()
-            # Calculate the average loss over all of the batches.
-            avg_train_loss = total_train_loss / len(train_dataloader)
-            # Measure how long this epoch took.
-            training_time = format_time(time.time() - t0)
+        total_eval_loss += outputs.loss.sum()
+        # Move logits and labels to CPU
+        logits = outputs.logits.detach().cpu().numpy()
+        label_ids = b_labels.to('cpu').numpy()
 
-            print("")
-            print("  total training loss: {0:.2f}".format(avg_train_loss))
-            print("  Training epcoh took: {:}".format(training_time))
+        # Calculate the accuracy for this batch of test sentences, and
+        # accumulate it over all batches.
+        total_eval_accuracy += flat_accuracy(logits, label_ids)
+    avg_val_loss = total_eval_loss / len(validation_dataloader)
+    # Report the final accuracy for this validation run.
+    avg_val_accuracy = total_eval_accuracy / len(validation_dataloader)
+    print("  Accuracy: {0:.2f}".format(avg_val_accuracy))
+    # Measure how long the validation run took.
+    validation_time = format_time(time.time() - t0)
+    print("  Validation Loss: {0:.2f}".format(avg_val_loss))
+    print("  Validation took: {:}".format(validation_time))
 
-            # ========================================
-            #               Validation
-            # ========================================
-            # After the completion of each training epoch, measure our performance on
-            # our validation set.
-            print("")
-            print("Running Validation...")
-            t0 = time.time()
+    # Record all statistics from this epoch.
+    training_stats.append(
+        {
+            'epoch': epoch_i + 1,
+            'Training Loss': avg_train_loss,
+            'Valid. Loss': avg_val_loss,
+            'Valid. Accur.': avg_val_accuracy,
+            'Training Time': training_time,
+            'Validation Time': validation_time
+        }
+    )
 
-            # Put the model in evaluation mode--the dropout layers behave differently
-            # during evaluation.
-            model.eval()
-            # Tracking variables
-            total_eval_accuracy = 0
-            total_eval_loss = 0
-            nb_eval_steps = 0
-            # Evaluate data for one epoch
-            for batch in validation_dataloader:
-                # `batch` contains three pytorch tensors:
-                #   [0]: input ids
-                #   [1]: attention masks
-                #   [2]: labels
-                b_input_ids = batch[0].to(device)
-                b_input_mask = batch[1].to(device)
-                b_labels = batch[2].to(device)
-                # Tell pytorch not to bother with constructing the compute graph during
-                # the forward pass, since this is only needed for backprop (training).
-                with torch.no_grad():
-                    outputs = model(b_input_ids,
-                                    token_type_ids=None,
-                                    attention_mask=b_input_mask,
-                                    labels=b_labels)
-                # Accumulate the validation loss.
-
-                total_eval_loss += outputs.loss.sum()
-                # Move logits and labels to CPU
-                logits = outputs.logits.detach().cpu().numpy()
-                label_ids = b_labels.to('cpu').numpy()
-
-                # Calculate the accuracy for this batch of test sentences, and
-                # accumulate it over all batches.
-                total_eval_accuracy += flat_accuracy(logits, label_ids)
-            avg_val_loss = total_eval_loss / len(validation_dataloader)
-            # Report the final accuracy for this validation run.
-            avg_val_accuracy = total_eval_accuracy / len(validation_dataloader)
-            print("  Accuracy: {0:.2f}".format(avg_val_accuracy))
-            # Measure how long the validation run took.
-            validation_time = format_time(time.time() - t0)
-            print("  Validation Loss: {0:.2f}".format(avg_val_loss))
-            print("  Validation took: {:}".format(validation_time))
-
-            # Record all statistics from this epoch.
-            training_stats.append(
-                {
-                    'epoch': epoch_i + 1,
-                    'Training Loss': avg_train_loss,
-                    'Valid. Loss': avg_val_loss,
-                    'Valid. Accur.': avg_val_accuracy,
-                    'Training Time': training_time,
-                    'Validation Time': validation_time
-                }
-            )
-
-    print("")
-    print("Training complete!")
-    print("Total training took {:} (h:mm:ss)".format(format_time(time.time() - total_t0)))
+print("")
+print("Training complete!")
+print("Total training took {:} (h:mm:ss)".format(format_time(time.time() - total_t0)))
 
 train_summary(training_stats)
 
