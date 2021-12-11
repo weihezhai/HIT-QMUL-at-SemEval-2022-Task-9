@@ -4,18 +4,19 @@
 # @Author  : hit-itnlp-fengmq
 # @FileName: sub3.py.py
 # @Software: PyCharm
-
+# 第3，6 10 14 四类问题在seed=21下80.3
 import json
 import os
 import random
 import numpy as np
 import torch
+import torch.nn as nn
 from sentence_transformers import util, SentenceTransformer
 from torch.utils.data import Dataset, DataLoader
 from tqdm import tqdm
-from transformers import T5Tokenizer, T5ForConditionalGeneration, Adafactor, get_linear_schedule_with_warmup
-
-os.environ["CUDA_VISIBLE_DEVICES"] = '0'
+from transformers import T5Tokenizer, T5ForConditionalGeneration
+from transformers.optimization import Adafactor, AdafactorSchedule
+os.environ["CUDA_VISIBLE_DEVICES"] = '1'
 
 
 def setup_seed(seed):
@@ -200,9 +201,9 @@ def pre_process(data):
                 else:
                     t_tg = useful_tag(tg)
                     if t_tg != "_":
-                        temp = "# " + (" | ".join(t_tg)) + " #"
+                        temp = "# " + (" # ".join(t_tg)) + " #"
                     else:
-                        temp = (" | ".join(t_tg))
+                        temp = (" # ".join(t_tg))
                     new_hiddens.append(temp)
 
             for tg in patients:
@@ -210,6 +211,7 @@ def pre_process(data):
                     new_patients.append("_")
                 else:
                     tg = tg.lower()
+                    # if tg in ["i-patient","b-patient","b-instrument","i-instrument","b-attribute","i-attribute","b-goal","i-goal"]:
                     if tg in ["i-patient", "b-patient"]:
                         temp = "# " + tg + " #"
                     else:
@@ -293,6 +295,10 @@ class myDataset(Dataset):  # 需要继承data.Dataset
 
 def train(model, train_Dataloader, test_Dataloader, device, fold=0, epochs=5):
     model.to(device)
+    if torch.cuda.device_count() > 1:
+        print("Let's use", torch.cuda.device_count(), "GPUs!")
+        model = nn.DataParallel(model)
+
     optimizer = Adafactor(model.parameters(),
                           lr=2e-4,
                           eps=(1e-30, 1e-3),
@@ -303,8 +309,7 @@ def train(model, train_Dataloader, test_Dataloader, device, fold=0, epochs=5):
                           relative_step=False,
                           scale_parameter=False,
                           warmup_init=False)
-    scheduler = get_linear_schedule_with_warmup(
-        optimizer, num_warmup_steps=200, num_training_steps=len(train_Dataloader) * epochs)
+    lr_scheduler = AdafactorSchedule(optimizer)
     for epoch in range(epochs):
         model.train()
         loop = tqdm(train_Dataloader, leave=True)
@@ -314,10 +319,10 @@ def train(model, train_Dataloader, test_Dataloader, device, fold=0, epochs=5):
             data = tuple(t.to(device) for t in data)
             input_ids, attention_mask, labels = data
             output = model(input_ids=input_ids, attention_mask=attention_mask, labels=labels)
-            loss = output.loss
+            loss = output.loss.mean()
             loss.backward()
             optimizer.step()
-            scheduler.step()
+            lr_scheduler.step()
 
             train_loss.append(loss.item())
             loop.set_description(f'fold:{fold}  Epoch:{epoch}')
@@ -331,10 +336,13 @@ def train(model, train_Dataloader, test_Dataloader, device, fold=0, epochs=5):
             for data in tqdm(test_Dataloader):
                 data = tuple(t.to(device) for t in data)
                 input_ids, attention_mask, labels = data
-                outputs = model.generate(input_ids)
+                if torch.cuda.device_count() > 1:
+                    outputs = model.module.generate(input_ids)
+                else:
+                    outputs = model.generate(input_ids)
                 output_all = model(input_ids=input_ids, attention_mask=attention_mask, labels=labels)
 
-                test_loss.append(output_all.loss.cpu())
+                test_loss.append(output_all.loss.sum().cpu())
 
                 labels = [[i.item() for i in label if i != -100] for label in labels]
                 decode_labels = tokenizer.decode(labels[0], skip_special_tokens=True)
@@ -366,13 +374,13 @@ for fold in range(1):
     model, tokenizer = get_premodel("/home/mqfeng/pretrainModel/t5-base")
 
     # Sbert = SentenceTransformer(r'/home/mqfeng/preModels/all-MiniLM-L6-v2')
-    train_data, test_data = split_data()
+    train_data, test_data = split_data("six_all_data.json")
     train_data, test_data = pre_process(train_data), pre_process(test_data)
 
 
     train_Dataset = myDataset(train_data, tokenizer)
     test_Dataset = myDataset(test_data, tokenizer)
-    train_Dataloader = DataLoader(train_Dataset, batch_size=4, shuffle=True)
+    train_Dataloader = DataLoader(train_Dataset, batch_size=2, shuffle=True)
     test_Dataloader = DataLoader(test_Dataset, batch_size=1)
 
 
