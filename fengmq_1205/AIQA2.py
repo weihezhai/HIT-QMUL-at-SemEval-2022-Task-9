@@ -252,3 +252,5 @@ for fold in range(1):
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     # device = torch.device('cpu')
     train(myModel, tokenizer, train_Dataloader, test_Dataloader, device, fold, epoch=5)
+
+    model.save_pretrained()
