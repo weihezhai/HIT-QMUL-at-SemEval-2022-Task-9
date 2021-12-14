@@ -81,7 +81,7 @@ def extract_text_and_tags(Train=True, path=r"crl_srl.csv"):
     with open(path, 'r', encoding='utf-8') as f:
         all_data = f.readlines()
 
-    all_text_tag = []  # store all text tag columns
+    all_text_tag = {}  # store all text tag columns
     i = 1
     while i < docs_lines:
         doc_id = all_data[i - 1].split("=")[1].strip("\n")
@@ -158,10 +158,12 @@ def extract_text_and_tags(Train=True, path=r"crl_srl.csv"):
             else:
                 i += 1
         i += 1
+
+
+
         doc_dict = {}
-        doc_dict['doc_id'] = doc_id
         doc_dict['text_tags'] = text_tags
-        all_text_tag.append(doc_dict)
+        all_text_tag[doc_id.strip()]=doc_dict
     if Train:
         out_path = "train_all_text_tag.json"
     else:
@@ -169,8 +171,7 @@ def extract_text_and_tags(Train=True, path=r"crl_srl.csv"):
     fw = open(out_path, "w", encoding="utf-8")
     json.dump(all_text_tag, fw, ensure_ascii=False, indent=4)
     fw.close()
-
-
+extract_text_and_tags(False,r'E:\RecipeQA\data\ITNLP_Semeval2022_Task6\submit\test\crl_srl.csv')
 # 训练集提取只有doc_id，question, answer
 def extract_train_q_a(path=r'E:\RecipeQA\data\数据集\r2vq_train_10_28_2021\train\crl_srl.csv'):
     with open(path, 'r', encoding='utf-8') as f:
@@ -307,7 +308,3 @@ def mergeTextTag(columns: tuple, jsonFile_path):
 # w = open("text4.json", "w", encoding="utf-8")
 # json.dump(padded, w, ensure_ascii=False, indent=4)
 # w.close()
-import  os
-s_path=r"/home/mqfeng/code/RecipeQA/EM/save"
-sub_path=os.path.join(s_path,"model"+str(0))
-os.mkdir(sub_path)

@@ -16,7 +16,7 @@ import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader
 from tqdm import tqdm
 from transformers import T5Tokenizer, T5ForConditionalGeneration, Adafactor, get_linear_schedule_with_warmup
-
+from sentence_transformers import SentenceTransformer, util
 #os.environ["CUDA_VISIBLE_DEVICES"] = '1'
 
 
@@ -329,11 +329,11 @@ def train(model, train_Dataloader, test_Dataloader, device, fold=0, epochs=5):
             train_loss.append(loss.item())
             loop.set_description(f'fold:{fold}  Epoch:{epoch}')
             loop.set_postfix(loss=loss.item())
-        if epoch>=4:
-            s_path = r"/data/home/acw664/Cond_Gen/save"
-            sub_path = os.path.join(s_path, "model" + str(epoch))
-            os.mkdir(sub_path)
-            model.module.save_pretrained(sub_path)
+        # if epoch>=4:
+        #     s_path = r"/data/home/acw664/Cond_Gen/save"
+        #     sub_path = os.path.join(s_path, "model" + str(epoch))
+        #     os.mkdir(sub_path)
+        #     model.module.save_pretrained(sub_path)
 
         model.eval()
         test_acc = []
@@ -378,7 +378,7 @@ def train(model, train_Dataloader, test_Dataloader, device, fold=0, epochs=5):
 
 
 for fold in range(1):
-    model, tokenizer = get_premodel("t5-large")
+    model, tokenizer = get_premodel("/home/mqfeng/pretrainModel/t5-base")
 
     # Sbert = SentenceTransformer(r'/home/mqfeng/preModels/all-MiniLM-L6-v2')
     train_data, test_data = split_data("six_all_data.json")
