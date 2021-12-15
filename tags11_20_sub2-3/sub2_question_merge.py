@@ -333,12 +333,6 @@ def train(model, train_dataloader, testdataloader, device, fold=0, epoch=5):
 
             loop.set_description(f'fold:{fold}  Epoch:{epoch}')
             loop.set_postfix(loss=loss.item(), acc=acc)
-        # if epoch >=3:
-        #     model_to_save = model.module if hasattr(model, 'module') else model
-        #     model_path = r"fold" + str(fold) + "_epoch" + str(epoch)
-        #     if not os.path.exists(model_path):
-        #         os.makedirs(model_path)
-        #     torch.save(model_to_save, os.path.join(model_path,'model.pt'))
 
         model.eval()
         test_loss = []

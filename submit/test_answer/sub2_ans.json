@@ -1,0 +1,630 @@
+{
+    "r-378": {
+        "2-3": "sink",
+        "2-7": "cutting board",
+        "2-6": "by using a knife",
+        "2-1": "pan",
+        "2-0": "plate",
+        "2-8": "by using a spoon",
+        "2-4": "pot",
+        "2-5": "pot",
+        "2-2": "pan"
+    },
+    "r-1601": {
+        "2-2": "refrigerator",
+        "2-1": "oven",
+        "2-0": "oven"
+    },
+    "r-157": {
+        "2-0": "skillet"
+    },
+    "f-8Q86RWDJ": {
+        "2-1": "by using a spoon",
+        "2-3": "by using a spoon",
+        "2-0": "quart sauce pot",
+        "2-5": "proof bowl",
+        "2-2": "by using a spoon",
+        "2-4": "by using a ladle",
+        "2-6": "quart sauce pot"
+    },
+    "f-RYVXFZFV": {
+        "2-4": "by using a towel",
+        "2-0": "small bowl",
+        "2-1": "large saute pan",
+        "2-3": "by using a strainer",
+        "2-2": "large pot"
+    },
+    "f-F5SF7H44": {
+        "2-1": "by using a knife",
+        "2-0": "stick pan"
+    },
+    "r-5062": {
+        "2-0": "large bowl",
+        "2-1": "by using a beaters"
+    },
+    "r-3737": {
+        "2-3": "large bowl",
+        "2-5": "large bowl",
+        "2-2": "by using a spoon",
+        "2-0": "by using a spatula",
+        "2-1": "bowl",
+        "2-4": "large bowl"
+    },
+    "f-KTQ82N6L": {
+        "2-0": "by using a spoon",
+        "2-3": "saucepan",
+        "2-4": "by using a whisk",
+        "2-1": "saucepan",
+        "2-2": "saucepan"
+    },
+    "r-4762": {
+        "2-0": "glass jar",
+        "2-1": "ungreased cookie sheet"
+    },
+    "r-117": {
+        "2-4": "mortar",
+        "2-3": "by using a pestle",
+        "2-1": "by using a hands",
+        "2-2": "by using a pestle",
+        "2-5": "mortar",
+        "2-0": "mortar"
+    },
+    "r-900": {
+        "2-0": "by using a whisk"
+    },
+    "f-88XKC27N": {
+        "2-1": "saucepot",
+        "2-0": "saucepot"
+    },
+    "r-1275": {
+        "2-1": "by using a spatula",
+        "2-6": "bowl",
+        "2-5": "by using a mixer",
+        "2-0": "by using a spatula",
+        "2-3": "by using a fingers",
+        "2-4": "by using a mixer",
+        "2-2": "by using a knife"
+    },
+    "f-3X45Z8TR": {
+        "2-3": "by using a mixer",
+        "2-1": "oven",
+        "2-2": "by using a mixer",
+        "2-0": "cookie sheets",
+        "2-4": "by using a teaspoon"
+    },
+    "r-5105": {
+        "2-4": "food processor",
+        "2-0": "floured board",
+        "2-3": "by using a hands",
+        "2-8": "large bowl",
+        "2-9": "large bowl",
+        "2-11": "bowl",
+        "2-7": "by using a mixer whisk",
+        "2-2": "by using a hands",
+        "2-1": "floured board",
+        "2-5": "by using a mixer whisk",
+        "2-10": "bowl",
+        "2-6": "by using a mixer whisk",
+        "2-12": "bowl",
+        "2-14": "floured board",
+        "2-13": "bowl"
+    },
+    "r-4062": {
+        "2-6": "by using a flatten the balls in the oiled pan?[SEP] first rub # tool : fingertips # habitat : bowl # the shortening to a cream. stir # tool : whisk # habitat : bowl # in the flour, bran, nuts, and currants. oil hands",
+        "2-7": "oiled pan",
+        "2-5": "by using a whisk",
+        "2-4": "by using a whisk",
+        "2-2": "bowl",
+        "2-1": "bowl",
+        "2-3": "by using a fingertips",
+        "2-8": "oven",
+        "2-0": "bowl"
+    },
+    "r-910": {
+        "2-1": "by using a knife",
+        "2-0": "big deep frying pan",
+        "2-2": "by using a knife"
+    },
+    "f-JLH74DCR": {
+        "2-0": "by using a knife"
+    },
+    "r-3274": {
+        "2-3": "shallow baking pan",
+        "2-5": "foil lined",
+        "2-0": "large bowl",
+        "2-4": "by using a knife",
+        "2-6": "foil lined",
+        "2-1": "large bowl",
+        "2-2": "by using a spoon"
+    },
+    "r-4856": {
+        "2-1": "refrigerator",
+        "2-0": "oven"
+    },
+    "r-4233": {
+        "2-7": "cutting board",
+        "2-0": "by using a spoon",
+        "2-4": "by using a knife",
+        "2-3": "sink",
+        "2-6": "cutting board",
+        "2-8": "shallow buttered dish",
+        "2-1": "by using a spoon",
+        "2-2": "bowl",
+        "2-5": "cutting board"
+    },
+    "r-3258": {
+        "2-0": "by using a whisk",
+        "2-2": "oven",
+        "2-3": "mini - muffin tin",
+        "2-1": "bowl"
+    },
+    "f-PT5ZVJYJ": {
+        "2-2": "by using a hands",
+        "2-0": "by using a hands",
+        "2-5": "by using a hands",
+        "2-3": "shallow dish",
+        "2-6": "by using a hands",
+        "2-4": "cookie sheet",
+        "2-1": "by using a hands"
+    },
+    "r-4143": {
+        "2-2": "by using a fork",
+        "2-0": "by using a fork",
+        "2-3": "mortar",
+        "2-1": "bowl"
+    },
+    "f-FS6V8XD5": {
+        "2-0": "oven",
+        "2-1": "by using a fork",
+        "2-3": "by using a fingers",
+        "2-6": "large bowl",
+        "2-7": "by using a fork",
+        "2-5": "large bowl",
+        "2-4": "large bowl",
+        "2-2": "floured board"
+    },
+    "r-3715": {
+        "2-2": "by using a large bowl",
+        "2-3": "plastic wrap",
+        "2-6": "by using a spoon",
+        "2-4": "large bowl",
+        "2-5": "large bowl",
+        "2-0": "large bowl",
+        "2-1": "bowl",
+        "2-7": "by using a spoon"
+    },
+    "f-SJGXB864": {
+        "2-2": "by using a knife",
+        "2-4": "serving bowl",
+        "2-1": "by using a peeler",
+        "2-0": "serving bowl",
+        "2-3": "bowl"
+    },
+    "r-648": {
+        "2-1": "pot",
+        "2-0": "pot"
+    },
+    "r-1661": {
+        "2-0": "by using a grater"
+    },
+    "f-24CZS5LF": {
+        "2-0": "pot",
+        "2-1": "by using a knife"
+    },
+    "r-4077": {
+        "2-8": "bowl",
+        "2-1": "bowl",
+        "2-3": "by using a sieve",
+        "2-2": "bowl",
+        "2-7": "by using a cookie cutter",
+        "2-0": "by using a whisk",
+        "2-5": "board",
+        "2-4": "board",
+        "2-6": "board"
+    },
+    "r-1031": {
+        "2-0": "knife",
+        "2-1": "stove",
+        "2-6": "large bowl",
+        "2-2": "by using a blender",
+        "2-3": "pan",
+        "2-5": "large bowl",
+        "2-4": "large bowl"
+    },
+    "f-Z82FPVW4": {
+        "2-2": "sauce pot",
+        "2-0": "small frying pan",
+        "2-5": "stove",
+        "2-3": "sauce pot",
+        "2-4": "stove",
+        "2-1": "sauce pot",
+        "2-6": "small frying pan"
+    },
+    "f-3PMSLV76": {
+        "2-0": "by using a teaspoon",
+        "2-1": "by using a teaspoon",
+        "2-3": "cup",
+        "2-4": "oven",
+        "2-2": "muffin cup"
+    },
+    "r-857": {
+        "2-0": "by using a knife",
+        "2-3": "decorative serving dish",
+        "2-2": "decorative serving dish",
+        "2-1": "cutting board"
+    },
+    "r-1304": {
+        "2-1": "by using a baking sheet",
+        "2-0": "by using a flipper",
+        "2-5": "by using a brush",
+        "2-8": "by using a knife",
+        "2-4": "baking sheet",
+        "2-3": "baking sheet",
+        "2-6": "small skillet",
+        "2-7": "by using a strainer",
+        "2-2": "oven"
+    },
+    "f-26NF6ZNY": {
+        "2-0": "large pitcher"
+    },
+    "r-4635": {
+        "2-1": "by using a knife",
+        "2-2": "refrigerator",
+        "2-0": "by using a knife"
+    },
+    "f-KWBKC77L": {
+        "2-1": "[SEP]",
+        "2-4": "hot griddle",
+        "2-5": "hot griddle",
+        "2-6": "by using a flipper",
+        "2-3": "frying pan",
+        "2-2": "hot griddle",
+        "2-0": "quarter # tool : knife # the potatoes.[SEP]"
+    },
+    "f-67M2BXM3": {
+        "2-0": "by using a knife"
+    },
+    "r-2295": {
+        "2-2": "by using a beaters",
+        "2-1": "by using a brush",
+        "2-0": "oven",
+        "2-3": "by using a oven"
+    },
+    "r-1159": {
+        "2-0": "bowl",
+        "2-1": "bowl",
+        "2-4": "muslin cloth",
+        "2-3": "by using a muslin cloth",
+        "2-2": "bowl"
+    },
+    "r-4533": {
+        "2-1": "oven",
+        "2-0": "by using a knife"
+    },
+    "r-716": {
+        "2-0": "by using a whisk"
+    },
+    "f-YGBD7J2L": {
+        "2-3": "by using a hand",
+        "2-1": "large bowl",
+        "2-0": "refrigerator",
+        "2-2": "large bowl"
+    },
+    "f-Q7FS58VW": {
+        "2-6": "by using a knife",
+        "2-7": "sink",
+        "2-8": "sink",
+        "2-4": "mixing bowl",
+        "2-3": "by using a knife",
+        "2-1": "bowl",
+        "2-5": "pot",
+        "2-9": "by using a strainer",
+        "2-2": "bowl",
+        "2-0": "bowl"
+    },
+    "r-176": {
+        "2-0": "skillet",
+        "2-1": "by using a spoon",
+        "2-2": "by using a spoon"
+    },
+    "r-4061": {
+        "2-0": "by using a mixer",
+        "2-1": "by using a mixer",
+        "2-3": "bowl",
+        "2-4": "bowl",
+        "2-6": "buttered sheet",
+        "2-2": "bowl",
+        "2-5": "by using a spoon"
+    },
+    "f-HX4T28NM": {
+        "2-1": "dutch oven",
+        "2-0": "dutch oven",
+        "2-2": "dutch oven"
+    },
+    "r-2888": {
+        "2-2": "pan",
+        "2-6": "pan",
+        "2-1": "bowl",
+        "2-7": "by using a spoon",
+        "2-0": "sink",
+        "2-3": "bowl",
+        "2-5": "pan",
+        "2-4": "bowl"
+    },
+    "r-1333": {
+        "2-0": "pot"
+    },
+    "r-872": {
+        "2-2": "cutting board",
+        "2-6": "by using a spoon",
+        "2-8": "coral",
+        "2-5": "saucepan",
+        "2-0": "saucepan",
+        "2-7": "saucepan",
+        "2-3": "by using a knife",
+        "2-4": "sink",
+        "2-1": "by using a hands"
+    },
+    "r-3769": {
+        "2-8": "by using a fork",
+        "2-3": "bowl",
+        "2-0": "by using a fork",
+        "2-6": "by using a fork",
+        "2-2": "bowl",
+        "2-5": "second bowl",
+        "2-9": "by using a fork",
+        "2-1": "bowl",
+        "2-7": "second bowl",
+        "2-4": "second bowl"
+    },
+    "r-4526": {
+        "2-0": "by using a beaters"
+    },
+    "r-4474": {
+        "2-0": "by using a beaters",
+        "2-2": "tin sheet",
+        "2-1": "by using a spoon"
+    },
+    "f-CKJFC4NR": {
+        "2-2": "large bowl",
+        "2-1": "small bowl",
+        "2-3": "large bowl",
+        "2-0": "small bowl",
+        "2-4": "by using a whisk"
+    },
+    "f-SJPFNVTY": {
+        "2-1": "bowl",
+        "2-5": "muffin mould",
+        "2-2": "by using a spoon",
+        "2-3": "bowl",
+        "2-0": "bowl",
+        "2-4": "muffin mould"
+    },
+    "r-4969": {
+        "2-0": "by using a fork"
+    },
+    "r-1007": {
+        "2-3": "paper liner",
+        "2-0": "by using a sieve",
+        "2-2": "by using a piping - bag",
+        "2-1": "oven"
+    },
+    "r-901": {
+        "2-0": "bowl",
+        "2-1": "by using a ladle"
+    },
+    "r-103": {
+        "2-1": "by using a hands",
+        "2-2": "by using a hands",
+        "2-0": "by using a strainer"
+    },
+    "r-5079": {
+        "2-1": "by using a knife",
+        "2-0": "bowl"
+    },
+    "r-1094": {
+        "2-3": "by using a spoon",
+        "2-2": "large bowl",
+        "2-1": "small bowl",
+        "2-0": "large bowl"
+    },
+    "r-253": {
+        "2-2": "by using a knife",
+        "2-4": "pot",
+        "2-3": "by using a whisk",
+        "2-1": "by using a knife",
+        "2-0": "by using a knife"
+    },
+    "r-4791": {
+        "2-0": "pint jar",
+        "2-1": "pot"
+    },
+    "r-2630": {
+        "2-5": "by using a spoon",
+        "2-4": "by using a ",
+        "2-3": "cutting board",
+        "2-1": "by using a grater",
+        "2-2": "wood container",
+        "2-6": "bowl",
+        "2-0": "wood container"
+    },
+    "r-1043": {
+        "2-3": "by using a whisk",
+        "2-5": "stove",
+        "2-8": "by using a whisk",
+        "2-1": "bowl",
+        "2-2": "oven",
+        "2-6": "by using a spoon",
+        "2-7": "bowl",
+        "2-0": "bowl",
+        "2-4": "by using a whisk"
+    },
+    "r-4715": {
+        "2-2": "by using a beaters",
+        "2-1": "by using a sifter",
+        "2-9": "small bowl",
+        "2-6": "by using a measuring tablespoon",
+        "2-4": "bowl",
+        "2-5": "bowl",
+        "2-3": "by using a beaters",
+        "2-0": "by using a beaters",
+        "2-8": "bowl",
+        "2-10": "bowl",
+        "2-7": "by using a beaters"
+    },
+    "r-1389": {
+        "2-0": "by using a knife",
+        "2-1": "pan"
+    },
+    "r-422": {
+        "2-5": "large saucepan",
+        "2-3": "large saucepan",
+        "2-6": "by using a plate",
+        "2-0": "plate",
+        "2-1": "plate",
+        "2-4": "large saucepan",
+        "2-2": "by using a spoon"
+    },
+    "r-1166": {
+        "2-4": "by using a spatula",
+        "2-5": "by using a spatula",
+        "2-7": "oblong dish",
+        "2-2": "bowl",
+        "2-1": "by using a knife",
+        "2-6": "oblong dish",
+        "2-3": "bowl",
+        "2-0": "by using a knife"
+    },
+    "f-CYTQDZKG": {
+        "2-3": "sterilized glass dish",
+        "2-4": "sterilized glass dish",
+        "2-0": "sterilized glass dish",
+        "2-7": "fridge",
+        "2-6": "strainer",
+        "2-5": "by using a coffee filter",
+        "2-11": "fridge",
+        "2-9": "[SEP]",
+        "2-8": "yogurt maker",
+        "2-10": "[SEP]",
+        "2-1": "by using a spoon",
+        "2-2": "sterilized glass dish"
+    },
+    "r-135": {
+        "2-0": "pot"
+    },
+    "f-D7RYT56T": {
+        "2-2": "large mixing bowl",
+        "2-3": "large mixing bowl",
+        "2-0": "by using a hands",
+        "2-4": "large mixing bowl",
+        "2-1": "by using a hands"
+    },
+    "r-4326": {
+        "2-3": "bowl",
+        "2-0": "teflon fry pan",
+        "2-1": "teflon fry pan",
+        "2-2": "teflon fry pan"
+    },
+    "f-4BPH5RC2": {
+        "2-0": "by using a fork"
+    },
+    "r-4139": {
+        "2-11": "sink",
+        "2-10": "serving bowl",
+        "2-0": "cutting board",
+        "2-1": "by using a knife",
+        "2-9": "serving bowl",
+        "2-2": "bowl",
+        "2-3": "bowl",
+        "2-7": "pan",
+        "2-8": "serving bowl",
+        "2-4": "bowl",
+        "2-5": "by using a grater",
+        "2-13": "pan",
+        "2-12": "pan",
+        "2-6": "bowl"
+    },
+    "r-474": {
+        "2-0": "by using a knife",
+        "2-1": "by using a spoon"
+    },
+    "f-XNVJGJVP": {
+        "2-2": "stove",
+        "2-1": "stove",
+        "2-3": "large bowl",
+        "2-0": "by using a tablespoon",
+        "2-4": "large bowl"
+    },
+    "r-815": {
+        "2-6": "pot",
+        "2-9": "cutting board",
+        "2-4": "bowl",
+        "2-1": "pan",
+        "2-8": "pan",
+        "2-3": "pot",
+        "2-2": "pan",
+        "2-7": "pot",
+        "2-10": "by using a knife",
+        "2-5": "by using a spoon",
+        "2-0": "pan"
+    },
+    "r-2892": {
+        "2-7": "cutting board",
+        "2-5": "sink",
+        "2-6": "sink",
+        "2-1": "by using a hands",
+        "2-0": "by using a spoon",
+        "2-3": "stockpot",
+        "2-2": "stockpot",
+        "2-8": "by using a knife",
+        "2-4": "stockpot"
+    },
+    "r-4384": {
+        "2-2": "refrigerator",
+        "2-1": "refrigerator",
+        "2-0": "salad plates"
+    },
+    "r-3562": {
+        "2-6": "mixing bowl",
+        "2-1": "large skillet",
+        "2-7": "by using a whisk",
+        "2-3": "large skillet",
+        "2-0": "by using a spatula",
+        "2-2": "large skillet",
+        "2-4": "skillet",
+        "2-5": "by using a spoon"
+    },
+    "r-3402": {
+        "2-6": "large bowl",
+        "2-0": "by using a whisk",
+        "2-7": "large bowl",
+        "2-4": "by using a tablespoon",
+        "2-1": "by using a whisk",
+        "2-2": "oven",
+        "2-5": "large bowl",
+        "2-3": "ungreased baking sheets"
+    },
+    "r-311": {
+        "2-1": "by using a hands",
+        "2-7": "sink",
+        "2-0": "pan",
+        "2-14": "by using a knife",
+        "2-5": "sink",
+        "2-3": "pan",
+        "2-2": "by using a saucepan",
+        "2-8": "sink",
+        "2-11": "cutting board",
+        "2-13": "by using a knife",
+        "2-4": "bowl",
+        "2-12": "cutting board",
+        "2-9": "saucepan",
+        "2-10": "saucepan",
+        "2-6": "sink"
+    },
+    "r-1165": {
+        "2-3": "bowl",
+        "2-0": "platter",
+        "2-2": "refrigerator",
+        "2-1": "platter"
+    }
+}

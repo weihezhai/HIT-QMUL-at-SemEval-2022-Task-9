@@ -3,45 +3,48 @@
 # @Time    : 2021/11/25 15:12
 # @Author  : hit-itnlp-fengmq
 # @FileName: sub2_bad.py
-
-#
-# /home/mqfeng/code/RecipeQA/sub2/save
-# fold:0  Epoch:0: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████| 887/887 [02:57<00:00,  4.99it/s, acc=1, loss=0.343]
-# 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 887/887 [02:57<00:00,  4.99it/s]
-# 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 394/394 [00:11<00:00, 35.73it/s]
-# 0, Train_acc2:0.41048773611502676 Train_loss:1.7815209645882937-----Val_acc:0.7944162436548223  Val_loss:0.6405140441289257
-# fold:0  Epoch:1: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████| 887/887 [02:55<00:00,  5.04it/s, acc=0.667, loss=1.33]
-# 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 887/887 [02:55<00:00,  5.04it/s]
-# 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 394/394 [00:11<00:00, 35.63it/s]
-# 1, Train_acc2:0.8846912884127431 Train_loss:0.346194550560382-----Val_acc:0.9111675126903553  Val_loss:0.32251310747750295
-# fold:0  Epoch:2: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████| 887/887 [02:56<00:00,  5.04it/s, acc=1, loss=0.0469]
-# 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 887/887 [02:56<00:00,  5.04it/s]
-# 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 394/394 [00:11<00:00, 35.63it/s]
-# 2, Train_acc2:0.939949252889766 Train_loss:0.17861827561398705-----Val_acc:0.9086294416243654  Val_loss:0.27832311477753224
-# fold:0  Epoch:3: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████| 887/887 [02:56<00:00,  5.03it/s, acc=1, loss=0.0264]
-# 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 887/887 [02:56<00:00,  5.03it/s]
-# 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 394/394 [00:11<00:00, 35.59it/s]
-# 3, Train_acc2:0.9616577389343107 Train_loss:0.11936678337573736-----Val_acc:0.9187817258883249  Val_loss:0.28063111039183486
-# fold:0  Epoch:4: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████| 887/887 [02:56<00:00,  5.03it/s, acc=1, loss=0.00364]
-# 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 887/887 [02:56<00:00,  5.03it/s]
-# 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 394/394 [00:11<00:00, 35.61it/s]
-# 4, Train_acc2:0.976599943614322 Train_loss:0.07459550528847975-----Val_acc:0.9289340101522843  Val_loss:0.2798730995030932
-# fold:0  Epoch:5: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████| 887/887 [02:56<00:00,  5.03it/s, acc=1, loss=0.00421]
-# 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 887/887 [02:56<00:00,  5.03it/s]
-# 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 394/394 [00:11<00:00, 35.60it/s]
-# 5, Train_acc2:0.9875951508316888 Train_loss:0.040642063175417326-----Val_acc:0.9289340101522843  Val_loss:0.3118318216757007
-# fold:0  Epoch:6: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████| 887/887 [02:56<00:00,  5.03it/s, acc=1, loss=0.0376]
-# 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 887/887 [02:56<00:00,  5.03it/s]
-# 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 394/394 [00:11<00:00, 35.58it/s]
-# 6, Train_acc2:0.9926698618550888 Train_loss:0.025356797782705283-----Val_acc:0.934010152284264  Val_loss:0.3159181643803344
-
-
 # @Software: PyCharm
+# !/usr/bin/python3
+# -*- coding: utf-8 -*-
+# @Time    : 2021/11/25 12:40
+# @Author  : hit-itnlp-fengmq
+# @FileName: sub2_question_concat.py
+# @Software: PyCharm
+
+# 3080:  /home/mqfeng/code/RecipeQA/sub2/save3
+# fold:0  Epoch:0: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████| 1577/1577 [03:54<00:00,  6.72it/s, acc=1, loss=0.359]
+# 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1577/1577 [03:54<00:00,  6.72it/s]
+# 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 788/788 [00:21<00:00, 35.97it/s]
+# 0, Train_acc2:0.6263875673961307 Train_loss:1.213225755988772-----Val_acc:0.8870558375634517  Val_loss:0.406330784984869
+# fold:0  Epoch:1: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████| 1577/1577 [03:55<00:00,  6.70it/s, acc=1, loss=0.0116]
+# 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1577/1577 [03:55<00:00,  6.70it/s]
+# 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 788/788 [00:22<00:00, 35.76it/s]
+# 1, Train_acc2:0.9216619092927371 Train_loss:0.23248829909856622-----Val_acc:0.9060913705583756  Val_loss:0.29380128937856137
+# fold:0  Epoch:2: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████| 1577/1577 [03:56<00:00,  6.68it/s, acc=1, loss=0.0476]
+# 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1577/1577 [03:56<00:00,  6.68it/s]
+# 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 788/788 [00:22<00:00, 35.80it/s]
+# 2, Train_acc2:0.9527434189660641 Train_loss:0.1320594719053171-----Val_acc:0.916243654822335  Val_loss:0.25762971156385495
+# fold:0  Epoch:3: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████| 1577/1577 [03:56<00:00,  6.68it/s, acc=1, loss=0.00479]
+# 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1577/1577 [03:56<00:00,  6.68it/s]
+# 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 788/788 [00:21<00:00, 35.87it/s]
+# 3, Train_acc2:0.9774817633999365 Train_loss:0.06738230823518528-----Val_acc:0.9416243654822335  Val_loss:0.26127846671827076
+# fold:0  Epoch:4: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████| 1577/1577 [03:55<00:00,  6.69it/s, acc=1, loss=0.00258]
+# 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1577/1577 [03:55<00:00,  6.69it/s]
+# 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 788/788 [00:22<00:00, 35.74it/s]
+# 4, Train_acc2:0.9911195686647637 Train_loss:0.03284929672765623-----Val_acc:0.9416243654822335  Val_loss:0.27239781372560257
+
+
+# /home/mqfeng/code/RecipeQA/sub2/save
+# 3, Train_acc2:0.9841376982787715 Train_loss:0.044147875838290634-----Val_acc:0.8908629441624365  Val_loss:0.875647212507118
+# 4, Train_acc2:0.9932500843739454 Train_loss:0.022616726191227763-----Val_acc:0.8946700507614214  Val_loss:0.9118410119392812
+# /home/mqfeng/code/RecipeQA/sub2
+
+
 import json
 import pickle
 import random
 from collections import namedtuple
-
+import os
 import numpy as np
 import torch
 import torch.nn as nn
@@ -52,10 +55,7 @@ from transformers import AdamW
 from transformers import AutoTokenizer, AutoModelForMaskedLM
 from transformers import get_linear_schedule_with_warmup
 import re
-import os
-# os.environ["CUDA_VISIBLE_DEVICES"] = '0'
-
-
+os.environ["CUDA_VISIBLE_DEVICES"] = '1'
 def setup_seed(seed):
     torch.manual_seed(seed)
     torch.cuda.manual_seed_all(seed)
@@ -78,7 +78,7 @@ def get_premodel(path=r"D:\Anaconda\learn\_Bert\pre_train_model\albert-base-v2")
     return model, tokenizer
 
 
-def scores(question: str, text: list, model, top_k: int = 3):
+def scores(question: str, text: list, model, top_k: int = 4):
     text_embeddings = model.encode(text, convert_to_tensor=True)
     query_embedding = model.encode(question, convert_to_tensor=True)
 
@@ -133,7 +133,7 @@ def split_data(path=r'2_all_data.json', is_topk=False, Sbert=None, fold=0):
                 sub_item_dict["sim_texts"] = text_tags
                 datas.append(sub_item_dict)
     num_data = len(datas)
-    num_test = num_data // 10
+    num_test = num_data // 5
     random.shuffle(datas)
 
     test = datas[fold * num_test:(fold + 1) * num_test]
@@ -143,7 +143,7 @@ def split_data(path=r'2_all_data.json', is_topk=False, Sbert=None, fold=0):
         train = datas[:num_test * fold]
         train.extend(datas[num_test * (fold + 1):])
     print("split data end !")
-    print("nums of all data:{}".format(len(datas)))
+
     print("nums of train data:{}".format(len(train)))
     print("nums of val data:{}".format(len(test)))
     return train, test
@@ -160,8 +160,9 @@ def useful_tag_8(tags: str):
     if "|" in tags:
         tags = tags.split("|")
         ans = []
+        newans=[]
         for tag in tags:
-            if tag:
+            if 'habitat' in tag or 'tool' in tag:
                 name, tag = tag.split("=")
                 taglist = tag.split(":")
                 regextaglist = [regex.sub(' ', _) for _ in taglist]
@@ -177,7 +178,7 @@ def useful_tag_8(tags: str):
 
     else:
         ans = []
-        if tags != '_':
+        if 'habitat' in tags or 'tool' in tags:
             name, tag = tags.split("=")
             taglist = tag.split(":")
             regextaglist = [regex.sub(' ', _) for _ in taglist]
@@ -337,16 +338,13 @@ class MyModel(nn.Module):
         return outputs
 
 
-def train(model, train_dataloader, testdataloader, device, fold=0, epochs=5):
+def train(model, train_dataloader, testdataloader, device, fold=0, epoch=5):
     model.to(device)
-    if torch.cuda.device_count() > 1:
-        print("Let's use", torch.cuda.device_count(), "GPUs!")
-        model = nn.DataParallel(model)
     optim = AdamW(model.parameters(), lr=1e-5, weight_decay=0.2)
     scheduler = get_linear_schedule_with_warmup(
-        optim, num_warmup_steps=400, num_training_steps=len(train_dataloader) * epochs)
+        optim, num_warmup_steps=400, num_training_steps=len(train_dataloader) * epoch)
 
-    for epoch in range(epochs):
+    for epoch in range(epoch):
         model.train()
         train_acc2 = []
         train_loss = []
@@ -355,10 +353,12 @@ def train(model, train_dataloader, testdataloader, device, fold=0, epochs=5):
             optim.zero_grad()
             data = tuple(t.to(device) for t in data)
             input_ids, token_type_ids, attention_mask, start, end = data
-
+            if start.item()==0 and end.item()==0:
+                print("yes")
+                continue
             outputs = model(input_ids, token_type_ids=token_type_ids, attention_mask=attention_mask,
                             start_positions=start, end_positions=end)
-            loss, start_logits, end_logits = outputs.loss.mean(), outputs.start_logits, outputs.end_logits
+            loss, start_logits, end_logits = outputs.loss, outputs.start_logits, outputs.end_logits
 
             loss.backward()
             optim.step()
@@ -376,12 +376,10 @@ def train(model, train_dataloader, testdataloader, device, fold=0, epochs=5):
 
             loop.set_description(f'fold:{fold}  Epoch:{epoch}')
             loop.set_postfix(loss=loss.item(), acc=acc)
-
         if epoch >=3:
             model_to_save = model.module if hasattr(model, 'module') else model
             model_path = r"/home/mqfeng/code/RecipeQA/sub2/save/" + "model_" + str(epoch) + ".pth"
             torch.save(model_to_save, model_path)
-
         model.eval()
         test_loss = []
         test_acc2 = []
@@ -392,7 +390,7 @@ def train(model, train_dataloader, testdataloader, device, fold=0, epochs=5):
                 outputs = model(input_ids, token_type_ids=token_type_ids, attention_mask=attention_mask,
                                 start_positions=start, end_positions=end)
 
-                loss = outputs.loss.mean()
+                loss = outputs.loss
                 start_pred = torch.argmax(outputs.start_logits, dim=1)
                 end_pred = torch.argmax(outputs.end_logits, dim=1)
 
@@ -415,14 +413,14 @@ for fold in range(1):
     Sbert = SentenceTransformer(r'/home/mqfeng/pretrainModel/all-MiniLM-L6-v2')
     train_data, test_data = split_data(is_topk=True, Sbert=Sbert)
     train_data, test_data = pre_process(train_data), pre_process(test_data)
-
+    del Sbert
     # 构造DataSet和DataLoader
     train_Dataset = myDataset(train_data, tokenizer)
     test_Dataset = myDataset(test_data, tokenizer)
     # 修改batchsize
-    train_Dataloader = DataLoader(train_Dataset, batch_size=4, shuffle=True)
+    train_Dataloader = DataLoader(train_Dataset, batch_size=1, shuffle=True)
     test_Dataloader = DataLoader(test_Dataset, batch_size=1)
     # 训练
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     # device = torch.device('cpu')
-    train(myModel, train_Dataloader, test_Dataloader, device, fold, epochs=7)
+    train(myModel, train_Dataloader, test_Dataloader, device, fold, epoch=5)
