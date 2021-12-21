@@ -1,0 +1,2162 @@
+[
+    {
+        "q_id": "0-1",
+        "question": "how many spoons are used?",
+        "doc_id": " r-378"
+    },
+    {
+        "q_id": "0-4",
+        "question": "how many knives are used?",
+        "doc_id": " r-378"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many actions does it take to process the oil?",
+        "doc_id": " r-378"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many plates are used?",
+        "doc_id": " r-378"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many sinks are used?",
+        "doc_id": " r-378"
+    },
+    {
+        "q_id": "0-5",
+        "question": "how many actions does it take to process the water?",
+        "doc_id": " r-378"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many actions does it take to process the frozen peach?",
+        "doc_id": " r-4852"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many blenders are used?",
+        "doc_id": " r-4852"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many actions does it take to process the coconut extract?",
+        "doc_id": " r-4852"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many knives are used?",
+        "doc_id": " r-4852"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many actions does it take to process the strawberry?",
+        "doc_id": " r-1601"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many refrigerators are used?",
+        "doc_id": " r-1601"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many ovens are used?",
+        "doc_id": " r-1601"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many actions does it take to process the topping?",
+        "doc_id": " r-1601"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many actions does it take to process the oil?",
+        "doc_id": " r-157"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many actions does it take to process the salt?",
+        "doc_id": " r-157"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many spoons are used?",
+        "doc_id": " f-8Q86RWDJ"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many actions does it take to process the toasted baguette slice?",
+        "doc_id": " f-8Q86RWDJ"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many actions does it take to process the cognac?",
+        "doc_id": " f-8Q86RWDJ"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many pots are used?",
+        "doc_id": " f-8Q86RWDJ"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many actions does it take to process the garlic?",
+        "doc_id": " f-RYVXFZFV"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many actions does it take to process the pine nut?",
+        "doc_id": " f-RYVXFZFV"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many large saute pans are used?",
+        "doc_id": " f-RYVXFZFV"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many actions does it take to process the oil?",
+        "doc_id": " f-2PMMKJ2X"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many pans are used?",
+        "doc_id": " f-2PMMKJ2X"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many actions does it take to process the cumin seed?",
+        "doc_id": " f-2PMMKJ2X"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many times is the bowl used?",
+        "doc_id": " f-2PMMKJ2X"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many ovens are used?",
+        "doc_id": " f-F5SF7H44"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many actions does it take to process the oregano?",
+        "doc_id": " f-F5SF7H44"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many actions does it take to process the capsium?",
+        "doc_id": " f-F5SF7H44"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many times is the grill used?",
+        "doc_id": " f-F5SF7H44"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many actions does it take to process the hot oil?",
+        "doc_id": " r-5062"
+    },
+    {
+        "q_id": "0-4",
+        "question": "how many deep fat fryers are used?",
+        "doc_id": " r-5062"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many large bowls are used?",
+        "doc_id": " r-5062"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many beaters are used?",
+        "doc_id": " r-5062"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many actions does it take to process the mustard?",
+        "doc_id": " r-5062"
+    },
+    {
+        "q_id": "0-4",
+        "question": "how many times is the spatula used?",
+        "doc_id": " r-3737"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many actions does it take to process the red pepper?",
+        "doc_id": " r-3737"
+    },
+    {
+        "q_id": "0-5",
+        "question": "how many times is the bowl used?",
+        "doc_id": " r-3737"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many large bowls are used?",
+        "doc_id": " r-3737"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many actions does it take to process the tomato?",
+        "doc_id": " r-3737"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many spoons are used?",
+        "doc_id": " r-3737"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many whisks are used?",
+        "doc_id": " f-KTQ82N6L"
+    },
+    {
+        "q_id": "0-5",
+        "question": "how many actions does it take to process the tabasco?",
+        "doc_id": " f-KTQ82N6L"
+    },
+    {
+        "q_id": "0-4",
+        "question": "how many actions does it take to process the cheese?",
+        "doc_id": " f-KTQ82N6L"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many saucepans are used?",
+        "doc_id": " f-KTQ82N6L"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many serving dishes are used?",
+        "doc_id": " f-KTQ82N6L"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many spoons are used?",
+        "doc_id": " f-KTQ82N6L"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many times is the ungreased cookie sheet used?",
+        "doc_id": " r-4762"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many refrigerators are used?",
+        "doc_id": " r-4762"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many actions does it take to process the wheat germ?",
+        "doc_id": " r-4762"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many actions does it take to process the oatmeal?",
+        "doc_id": " r-4762"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many actions does it take to process the garlic?",
+        "doc_id": " r-117"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many pans are used?",
+        "doc_id": " r-117"
+    },
+    {
+        "q_id": "0-4",
+        "question": "how many times is the mortar used?",
+        "doc_id": " r-117"
+    },
+    {
+        "q_id": "0-5",
+        "question": "how many times is the fork used?",
+        "doc_id": " r-117"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many pestles are used?",
+        "doc_id": " r-117"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many actions does it take to process the ginger?",
+        "doc_id": " r-117"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many saucepans are used?",
+        "doc_id": " r-900"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many spoons are used?",
+        "doc_id": " r-900"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many whisks are used?",
+        "doc_id": " r-900"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many actions does it take to process the pepper?",
+        "doc_id": " r-900"
+    },
+    {
+        "q_id": "0-4",
+        "question": "how many actions does it take to process the stock?",
+        "doc_id": " r-900"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many actions does it take to process the noodle?",
+        "doc_id": " f-88XKC27N"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many actions does it take to process the broth?",
+        "doc_id": " f-88XKC27N"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many saucepots are used?",
+        "doc_id": " f-88XKC27N"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many times is the sieve used?",
+        "doc_id": " f-88XKC27N"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many actions does it take to process the cake?",
+        "doc_id": " r-1275"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many actions does it take to process the sugar?",
+        "doc_id": " r-1275"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many times is the pan used?",
+        "doc_id": " r-1275"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many bowls are used?",
+        "doc_id": " r-1275"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many refrigerators are used?",
+        "doc_id": " f-8KG2VBC7"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many actions does it take to process the water?",
+        "doc_id": " f-8KG2VBC7"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many actions does it take to process the canned fish?",
+        "doc_id": " f-8KG2VBC7"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many times is the mixer used?",
+        "doc_id": " f-3X45Z8TR"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many large bowls are used?",
+        "doc_id": " f-3X45Z8TR"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many times is the buttered cookie sheet used?",
+        "doc_id": " f-3X45Z8TR"
+    },
+    {
+        "q_id": "0-4",
+        "question": "how many actions does it take to process the apricot preserve?",
+        "doc_id": " f-3X45Z8TR"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many actions does it take to process the craisin?",
+        "doc_id": " f-3X45Z8TR"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many floured boards are used?",
+        "doc_id": " r-5105"
+    },
+    {
+        "q_id": "0-4",
+        "question": "how many mixer/whisks are used?",
+        "doc_id": " r-5105"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many actions does it take to process the nonstick spray?",
+        "doc_id": " r-5105"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many actions does it take to process the yeast?",
+        "doc_id": " r-5105"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many large bowls are used?",
+        "doc_id": " r-5105"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many actions does it take to process the molass?",
+        "doc_id": " r-4062"
+    },
+    {
+        "q_id": "0-4",
+        "question": "how many ovens are used?",
+        "doc_id": " r-4062"
+    },
+    {
+        "q_id": "0-5",
+        "question": "how many whisks are used?",
+        "doc_id": " r-4062"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many fingertips are used?",
+        "doc_id": " r-4062"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many actions does it take to process the nut?",
+        "doc_id": " r-4062"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many oiled pans are used?",
+        "doc_id": " r-4062"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many slotted spoons are used?",
+        "doc_id": " r-910"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many actions does it take to process the cabbage?",
+        "doc_id": " r-910"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many actions does it take to process the vinegar?",
+        "doc_id": " r-910"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many times is the big deep frying pan used?",
+        "doc_id": " r-910"
+    },
+    {
+        "q_id": "0-4",
+        "question": "how many times is the knife used?",
+        "doc_id": " r-910"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many actions does it take to process the cucumber?",
+        "doc_id": " f-JLH74DCR"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many actions does it take to process the rice vinegar?",
+        "doc_id": " f-JLH74DCR"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many sealable containers are used?",
+        "doc_id": " f-JLH74DCR"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many times is the container used?",
+        "doc_id": " f-JLH74DCR"
+    },
+    {
+        "q_id": "0-4",
+        "question": "how many times is the knife used?",
+        "doc_id": " f-JLH74DCR"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many large bowls are used?",
+        "doc_id": " r-3274"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many actions does it take to process the syrup?",
+        "doc_id": " r-3274"
+    },
+    {
+        "q_id": "0-5",
+        "question": "how many potato ricers are used?",
+        "doc_id": " r-3274"
+    },
+    {
+        "q_id": "0-4",
+        "question": "how many potato mashers are used?",
+        "doc_id": " r-3274"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many ovens are used?",
+        "doc_id": " r-3274"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many actions does it take to process the warm flesh?",
+        "doc_id": " r-3274"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many forks are used?",
+        "doc_id": " r-4856"
+    },
+    {
+        "q_id": "0-4",
+        "question": "how many ovens are used?",
+        "doc_id": " r-4856"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many actions does it take to process the oil?",
+        "doc_id": " r-4856"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many refrigerators are used?",
+        "doc_id": " r-4856"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many actions does it take to process the sugar?",
+        "doc_id": " r-4856"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many actions does it take to process the mushroom?",
+        "doc_id": " r-4233"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many sinks are used?",
+        "doc_id": " r-4233"
+    },
+    {
+        "q_id": "0-5",
+        "question": "how many actions does it take to process the ingredient?",
+        "doc_id": " r-4233"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many spoons are used?",
+        "doc_id": " r-4233"
+    },
+    {
+        "q_id": "0-4",
+        "question": "how many knives are used?",
+        "doc_id": " r-4233"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many shallow buttered dishes are used?",
+        "doc_id": " r-4233"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many actions does it take to process the milk?",
+        "doc_id": " r-1798"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many saucepans are used?",
+        "doc_id": " r-1798"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many times is the pot used?",
+        "doc_id": " r-1798"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many actions does it take to process the water?",
+        "doc_id": " r-1798"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many ovens are used?",
+        "doc_id": " r-3258"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many mini - muffin tins are used?",
+        "doc_id": " r-3258"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many whisks are used?",
+        "doc_id": " r-3258"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many actions does it take to process the ingredient?",
+        "doc_id": " r-3258"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many shallow dishes are used?",
+        "doc_id": " f-PT5ZVJYJ"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many actions does it take to process the mozzarella slice?",
+        "doc_id": " f-PT5ZVJYJ"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many actions does it take to process the tomato sauce?",
+        "doc_id": " f-PT5ZVJYJ"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many tongs are used?",
+        "doc_id": " f-PT5ZVJYJ"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many times is the fork used?",
+        "doc_id": " r-4143"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many actions does it take to process the sweet potato chip?",
+        "doc_id": " r-4143"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many times is the mortar used?",
+        "doc_id": " r-4143"
+    },
+    {
+        "q_id": "0-4",
+        "question": "how many actions does it take to process the california avocado?",
+        "doc_id": " r-4143"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many airtight containers are used?",
+        "doc_id": " r-4143"
+    },
+    {
+        "q_id": "0-5",
+        "question": "how many actions does it take to process the dough?",
+        "doc_id": " f-FS6V8XD5"
+    },
+    {
+        "q_id": "0-4",
+        "question": "how many actions does it take to process the salt?",
+        "doc_id": " f-FS6V8XD5"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many ungreased cookie sheets are used?",
+        "doc_id": " f-FS6V8XD5"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many rolling pins are used?",
+        "doc_id": " f-FS6V8XD5"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many ovens are used?",
+        "doc_id": " f-FS6V8XD5"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many knives are used?",
+        "doc_id": " f-FS6V8XD5"
+    },
+    {
+        "q_id": "0-5",
+        "question": "how many actions does it take to process the tomato?",
+        "doc_id": " r-3715"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many spoons are used?",
+        "doc_id": " r-3715"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many plastic wraps are used?",
+        "doc_id": " r-3715"
+    },
+    {
+        "q_id": "0-4",
+        "question": "how many bowls are used?",
+        "doc_id": " r-3715"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many actions does it take to process the zucchini?",
+        "doc_id": " r-3715"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many large bowls are used?",
+        "doc_id": " r-3715"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many actions does it take to process the salt?",
+        "doc_id": " r-679"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many actions does it take to process the chive?",
+        "doc_id": " r-679"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many actions does it take to process the green?",
+        "doc_id": " r-1631"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many serving plates are used?",
+        "doc_id": " r-1631"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many actions does it take to process the sugar?",
+        "doc_id": " r-1631"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many large bowls are used?",
+        "doc_id": " r-1631"
+    },
+    {
+        "q_id": "0-4",
+        "question": "how many times is the knife used?",
+        "doc_id": " f-SJGXB864"
+    },
+    {
+        "q_id": "0-5",
+        "question": "how many times is the aluminum foil used?",
+        "doc_id": " f-SJGXB864"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many actions does it take to process the beet?",
+        "doc_id": " f-SJGXB864"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many peelers are used?",
+        "doc_id": " f-SJGXB864"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many ovens are used?",
+        "doc_id": " f-SJGXB864"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many actions does it take to process the thyme?",
+        "doc_id": " f-SJGXB864"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many actions does it take to process the star anise?",
+        "doc_id": " r-648"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many times is the pot used?",
+        "doc_id": " r-648"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many actions does it take to process the bean sprout?",
+        "doc_id": " r-648"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many times is the grater used?",
+        "doc_id": " r-1661"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many actions does it take to process the dill?",
+        "doc_id": " r-1661"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many actions does it take to process the egg?",
+        "doc_id": " r-1661"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many actions does it take to process the potato?",
+        "doc_id": " f-24CZS5LF"
+    },
+    {
+        "q_id": "0-5",
+        "question": "how many small bowls are used?",
+        "doc_id": " f-24CZS5LF"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many forks are used?",
+        "doc_id": " f-24CZS5LF"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many actions does it take to process the salt?",
+        "doc_id": " f-24CZS5LF"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many knives are used?",
+        "doc_id": " f-24CZS5LF"
+    },
+    {
+        "q_id": "0-4",
+        "question": "how many pots are used?",
+        "doc_id": " f-24CZS5LF"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many whisks are used?",
+        "doc_id": " r-4077"
+    },
+    {
+        "q_id": "0-5",
+        "question": "how many boards are used?",
+        "doc_id": " r-4077"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many actions does it take to process the nutmeg?",
+        "doc_id": " r-4077"
+    },
+    {
+        "q_id": "0-4",
+        "question": "how many sieves are used?",
+        "doc_id": " r-4077"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many actions does it take to process the sugar?",
+        "doc_id": " r-4077"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many tins are used?",
+        "doc_id": " r-4077"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many actions does it take to process the vinegar?",
+        "doc_id": " r-1031"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many large bowls are used?",
+        "doc_id": " r-1031"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many times is the pan used?",
+        "doc_id": " r-1031"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many times is the blender used?",
+        "doc_id": " r-1031"
+    },
+    {
+        "q_id": "0-4",
+        "question": "how many actions does it take to process the flour?",
+        "doc_id": " r-1031"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many actions does it take to process the jalapeno?",
+        "doc_id": " f-Z82FPVW4"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many actions does it take to process the chopped garlic?",
+        "doc_id": " f-Z82FPVW4"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many sauce pots are used?",
+        "doc_id": " f-Z82FPVW4"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many times is the small frying pan used?",
+        "doc_id": " f-Z82FPVW4"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many actions does it take to process the coconut mixture?",
+        "doc_id": " f-3PMSLV76"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many times is the small bowl used?",
+        "doc_id": " f-3PMSLV76"
+    },
+    {
+        "q_id": "0-4",
+        "question": "how many actions does it take to process the vanilla extract?",
+        "doc_id": " f-3PMSLV76"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many dough - lined cups are used?",
+        "doc_id": " f-3PMSLV76"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many times is the fork used?",
+        "doc_id": " f-3PMSLV76"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many cutting boards are used?",
+        "doc_id": " r-857"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many actions does it take to process the salt?",
+        "doc_id": " r-857"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many decorative serving dishes are used?",
+        "doc_id": " r-857"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many knives are used?",
+        "doc_id": " r-857"
+    },
+    {
+        "q_id": "0-4",
+        "question": "how many actions does it take to process the pepper?",
+        "doc_id": " r-857"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many times is the brush used?",
+        "doc_id": " r-1304"
+    },
+    {
+        "q_id": "0-4",
+        "question": "how many actions does it take to process the cheese slice?",
+        "doc_id": " r-1304"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many times is the oven used?",
+        "doc_id": " r-1304"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many baking sheets are used?",
+        "doc_id": " r-1304"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many actions does it take to process the butter?",
+        "doc_id": " r-1304"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many times is the blender used?",
+        "doc_id": " f-26NF6ZNY"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many actions does it take to process the lime juice?",
+        "doc_id": " f-26NF6ZNY"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many actions does it take to process the ice?",
+        "doc_id": " f-26NF6ZNY"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many actions does it take to process the ingredient?",
+        "doc_id": " r-4635"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many times is the knife used?",
+        "doc_id": " r-4635"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many refrigerators are used?",
+        "doc_id": " r-4635"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many actions does it take to process the cucumber?",
+        "doc_id": " r-4635"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many actions does it take to process the butter?",
+        "doc_id": " f-KWBKC77L"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many times is the flipper used?",
+        "doc_id": " f-KWBKC77L"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many times is the serving bowl used?",
+        "doc_id": " f-KWBKC77L"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many actions does it take to process the chopped garlic?",
+        "doc_id": " f-KWBKC77L"
+    },
+    {
+        "q_id": "0-4",
+        "question": "how many frying pans are used?",
+        "doc_id": " f-KWBKC77L"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many times is the butter knife used?",
+        "doc_id": " r-1485"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many actions does it take to process the butter?",
+        "doc_id": " r-1485"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many actions does it take to process the rye bread?",
+        "doc_id": " r-1485"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many actions does it take to process the egg?",
+        "doc_id": " f-67M2BXM3"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many times is the finger used?",
+        "doc_id": " f-67M2BXM3"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many actions does it take to process the butter?",
+        "doc_id": " f-67M2BXM3"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many fridges are used?",
+        "doc_id": " f-67M2BXM3"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many actions does it take to process the butter?",
+        "doc_id": " r-2295"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many times is the oven used?",
+        "doc_id": " r-2295"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many actions does it take to process the buttermilk?",
+        "doc_id": " r-2295"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many times is the beater used?",
+        "doc_id": " r-2295"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many actions does it take to process the cardamon?",
+        "doc_id": " r-1159"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many times is the muslin cloth used?",
+        "doc_id": " r-1159"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many actions does it take to process the nutmeg?",
+        "doc_id": " r-1159"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many actions does it take to process the bagel?",
+        "doc_id": " r-4533"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many times is the knife used?",
+        "doc_id": " r-4533"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many actions does it take to process the basil?",
+        "doc_id": " r-4533"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many whisks are used?",
+        "doc_id": " r-716"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many bowls are used?",
+        "doc_id": " r-716"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many actions does it take to process the pepper?",
+        "doc_id": " r-716"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many actions does it take to process the potato?",
+        "doc_id": " r-716"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many large bowls are used?",
+        "doc_id": " f-YGBD7J2L"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many toothpicks are used?",
+        "doc_id": " f-YGBD7J2L"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many actions does it take to process the kidney bean?",
+        "doc_id": " f-YGBD7J2L"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many cookie cutters are used?",
+        "doc_id": " f-YGBD7J2L"
+    },
+    {
+        "q_id": "0-4",
+        "question": "how many pans are used?",
+        "doc_id": " f-YGBD7J2L"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many platters are used?",
+        "doc_id": " f-Q7FS58VW"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many times is the knife used?",
+        "doc_id": " f-Q7FS58VW"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many actions does it take to process the mint?",
+        "doc_id": " f-Q7FS58VW"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many actions does it take to process the fish sauce?",
+        "doc_id": " f-Q7FS58VW"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many actions does it take to process the oil?",
+        "doc_id": " r-176"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many times is the skillet used?",
+        "doc_id": " r-176"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many actions does it take to process the flour?",
+        "doc_id": " r-176"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many actions does it take to process the egg?",
+        "doc_id": " r-4061"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many actions does it take to process the sugar?",
+        "doc_id": " r-4061"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many bowls are used?",
+        "doc_id": " r-4061"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many mixers are used?",
+        "doc_id": " r-4061"
+    },
+    {
+        "q_id": "0-4",
+        "question": "how many times is the spoon used?",
+        "doc_id": " r-4061"
+    },
+    {
+        "q_id": "0-5",
+        "question": "how many times is the oven used?",
+        "doc_id": " r-4061"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many actions does it take to process the milk?",
+        "doc_id": " f-HX4T28NM"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many actions does it take to process the cauliflower?",
+        "doc_id": " f-HX4T28NM"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many dutch ovens are used?",
+        "doc_id": " f-HX4T28NM"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many actions does it take to process the orange?",
+        "doc_id": " r-2888"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many bowls are used?",
+        "doc_id": " r-2888"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many times is the large saucepan used?",
+        "doc_id": " r-1333"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many actions does it take to process the canned corn?",
+        "doc_id": " r-1333"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many actions does it take to process the water?",
+        "doc_id": " r-1333"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many actions does it take to process the butter?",
+        "doc_id": " r-872"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many times is the sink used?",
+        "doc_id": " r-872"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many times is the knife used?",
+        "doc_id": " r-872"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many actions does it take to process the scallop?",
+        "doc_id": " r-872"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many pastry bags are used?",
+        "doc_id": " r-3769"
+    },
+    {
+        "q_id": "0-4",
+        "question": "how many actions does it take to process the sugar?",
+        "doc_id": " r-3769"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many second bowls are used?",
+        "doc_id": " r-3769"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many actions does it take to process the vanilla?",
+        "doc_id": " r-3769"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many oiled and floured pans are used?",
+        "doc_id": " r-3769"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many times is the beater used?",
+        "doc_id": " r-4526"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many actions does it take to process the baking powder?",
+        "doc_id": " r-4526"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many actions does it take to process the egg?",
+        "doc_id": " r-4526"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many floured baking boards are used?",
+        "doc_id": " r-4526"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many times is the tin sheet used?",
+        "doc_id": " r-4474"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many actions does it take to process the baking powder?",
+        "doc_id": " r-4474"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many times is the beater used?",
+        "doc_id": " r-4474"
+    },
+    {
+        "q_id": "0-4",
+        "question": "how many ovens are used?",
+        "doc_id": " r-4474"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many actions does it take to process the raise?",
+        "doc_id": " r-4474"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many actions does it take to process the cashew?",
+        "doc_id": " f-CKJFC4NR"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many times is the small bowl used?",
+        "doc_id": " f-CKJFC4NR"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many actions does it take to process the ingredient?",
+        "doc_id": " f-CKJFC4NR"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many large bowls are used?",
+        "doc_id": " f-CKJFC4NR"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many actions does it take to process the dry ingredient?",
+        "doc_id": " f-SJPFNVTY"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many moulds are used?",
+        "doc_id": " f-SJPFNVTY"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many tooth picks are used?",
+        "doc_id": " f-SJPFNVTY"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many actions does it take to process the warm water?",
+        "doc_id": " f-SJPFNVTY"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many actions does it take to process the tomato?",
+        "doc_id": " r-4969"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many actions does it take to process the chily?",
+        "doc_id": " r-4969"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many times is the fork used?",
+        "doc_id": " r-4969"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many actions does it take to process the lemon?",
+        "doc_id": " r-1007"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many actions does it take to process the mixture?",
+        "doc_id": " r-1007"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many ovens are used?",
+        "doc_id": " r-1007"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many times is the piping - bag used?",
+        "doc_id": " r-1007"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many actions does it take to process the garlic?",
+        "doc_id": " r-901"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many times is the ladle used?",
+        "doc_id": " r-901"
+    },
+    {
+        "q_id": "0-4",
+        "question": "how many times is the large pot used?",
+        "doc_id": " r-901"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many actions does it take to process the cheese?",
+        "doc_id": " r-901"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many bowls are used?",
+        "doc_id": " r-901"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many actions does it take to process the split pea?",
+        "doc_id": " r-103"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many large bowls are used?",
+        "doc_id": " r-103"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many strainers are used?",
+        "doc_id": " r-103"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many actions does it take to process the onion?",
+        "doc_id": " r-103"
+    },
+    {
+        "q_id": "0-4",
+        "question": "how many food processors are used?",
+        "doc_id": " r-103"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many knives are used?",
+        "doc_id": " r-5079"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many actions does it take to process the tabasco sauce?",
+        "doc_id": " r-5079"
+    },
+    {
+        "q_id": "0-4",
+        "question": "how many spoons are used?",
+        "doc_id": " r-5079"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many bowls are used?",
+        "doc_id": " r-5079"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many actions does it take to process the tortilla chip?",
+        "doc_id": " r-5079"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many actions does it take to process the celery?",
+        "doc_id": " r-1094"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many times is the small bowl used?",
+        "doc_id": " r-1094"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many actions does it take to process the salt?",
+        "doc_id": " r-1094"
+    },
+    {
+        "q_id": "0-4",
+        "question": "how many times is the spoon used?",
+        "doc_id": " r-1094"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many large bowls are used?",
+        "doc_id": " r-1094"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many knives are used?",
+        "doc_id": " r-253"
+    },
+    {
+        "q_id": "0-4",
+        "question": "how many pots are used?",
+        "doc_id": " r-253"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many actions does it take to process the white sugar?",
+        "doc_id": " r-253"
+    },
+    {
+        "q_id": "0-5",
+        "question": "how many whisks are used?",
+        "doc_id": " r-253"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many actions does it take to process the cucumber?",
+        "doc_id": " r-253"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many bowls are used?",
+        "doc_id": " r-253"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many actions does it take to process the lemon?",
+        "doc_id": " r-4791"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many actions does it take to process the mustard?",
+        "doc_id": " r-4791"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many refrigerators are used?",
+        "doc_id": " r-4791"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many bowls are used?",
+        "doc_id": " r-2630"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many actions does it take to process the cabbage?",
+        "doc_id": " r-2630"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many times is the wood container used?",
+        "doc_id": " r-2630"
+    },
+    {
+        "q_id": "0-4",
+        "question": "how many times is the grater used?",
+        "doc_id": " r-2630"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many actions does it take to process the carrot?",
+        "doc_id": " r-2630"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many actions does it take to process the egg?",
+        "doc_id": " r-1043"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many actions does it take to process the green onion?",
+        "doc_id": " r-1043"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many whisks are used?",
+        "doc_id": " r-1043"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many stoves are used?",
+        "doc_id": " r-1043"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many measuring tablespoons are used?",
+        "doc_id": " r-4715"
+    },
+    {
+        "q_id": "0-4",
+        "question": "how many small bowls are used?",
+        "doc_id": " r-4715"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many ovens are used?",
+        "doc_id": " r-4715"
+    },
+    {
+        "q_id": "0-5",
+        "question": "how many small spatulas are used?",
+        "doc_id": " r-4715"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many actions does it take to process the baking powder?",
+        "doc_id": " r-4715"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many actions does it take to process the white?",
+        "doc_id": " r-4715"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many actions does it take to process the salt?",
+        "doc_id": " r-1389"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many pans are used?",
+        "doc_id": " r-1389"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many times is the knife used?",
+        "doc_id": " r-1389"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many actions does it take to process the fish?",
+        "doc_id": " r-1389"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many plates are used?",
+        "doc_id": " r-422"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many spoons are used?",
+        "doc_id": " r-422"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many actions does it take to process the chile?",
+        "doc_id": " r-422"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many actions does it take to process the fish sauce?",
+        "doc_id": " r-422"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many actions does it take to process the parsley?",
+        "doc_id": " r-1166"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many bowls are used?",
+        "doc_id": " r-1166"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many times is the knife used?",
+        "doc_id": " r-1166"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many actions does it take to process the herring?",
+        "doc_id": " r-1166"
+    },
+    {
+        "q_id": "0-4",
+        "question": "how many times is the oblong dish used?",
+        "doc_id": " r-1166"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many actions does it take to process the stonyfield fat free organic milk?",
+        "doc_id": " f-CYTQDZKG"
+    },
+    {
+        "q_id": "0-4",
+        "question": "how many yogurt makers are used?",
+        "doc_id": " f-CYTQDZKG"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many sterilized glass dishes are used?",
+        "doc_id": " f-CYTQDZKG"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many actions does it take to process the yogurt?",
+        "doc_id": " f-CYTQDZKG"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many strainers are used?",
+        "doc_id": " f-CYTQDZKG"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many actions does it take to process the sweet potato?",
+        "doc_id": " r-135"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many actions does it take to process the caper?",
+        "doc_id": " r-135"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many times is the pot used?",
+        "doc_id": " r-135"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many actions does it take to process the canola oil?",
+        "doc_id": " f-D7RYT56T"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many actions does it take to process the sugar?",
+        "doc_id": " f-D7RYT56T"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many large mixing bowls are used?",
+        "doc_id": " f-D7RYT56T"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many ovens are used?",
+        "doc_id": " f-D7RYT56T"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many actions does it take to process the freshly ground black pepper?",
+        "doc_id": " r-191"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many times is the bowl used?",
+        "doc_id": " r-191"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many actions does it take to process the cucumber?",
+        "doc_id": " r-191"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many actions does it take to process the pepper?",
+        "doc_id": " f-4Z5SV5FY"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many thes are used?",
+        "doc_id": " f-4Z5SV5FY"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many warm plates are used?",
+        "doc_id": " f-4Z5SV5FY"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many actions does it take to process the lemon juice?",
+        "doc_id": " f-4Z5SV5FY"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many actions does it take to process the mushroom?",
+        "doc_id": " r-98"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many actions does it take to process the garlic?",
+        "doc_id": " r-98"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many actions does it take to process the wine?",
+        "doc_id": " r-4326"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many actions does it take to process the ingredient?",
+        "doc_id": " r-4326"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many times is the bowl used?",
+        "doc_id": " r-4326"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many teflon fry pans are used?",
+        "doc_id": " r-4326"
+    },
+    {
+        "q_id": "0-4",
+        "question": "how many times is the spoon used?",
+        "doc_id": " r-4326"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many actions does it take to process the salt?",
+        "doc_id": " f-4BPH5RC2"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many actions does it take to process the flour?",
+        "doc_id": " f-4BPH5RC2"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many forks are used?",
+        "doc_id": " f-4BPH5RC2"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many fridges are used?",
+        "doc_id": " f-4BPH5RC2"
+    },
+    {
+        "q_id": "0-4",
+        "question": "how many pans are used?",
+        "doc_id": " r-4139"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many actions does it take to process the salt?",
+        "doc_id": " r-4139"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many actions does it take to process the pulp?",
+        "doc_id": " r-4139"
+    },
+    {
+        "q_id": "0-5",
+        "question": "how many serving bowls are used?",
+        "doc_id": " r-4139"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many knives are used?",
+        "doc_id": " r-4139"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many graters are used?",
+        "doc_id": " r-4139"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many pans are used?",
+        "doc_id": " r-474"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many knives are used?",
+        "doc_id": " r-474"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many spoons are used?",
+        "doc_id": " r-474"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many actions does it take to process the oil?",
+        "doc_id": " r-474"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many large cast iron frying pans are used?",
+        "doc_id": " f-XNVJGJVP"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many actions does it take to process the oil?",
+        "doc_id": " f-XNVJGJVP"
+    },
+    {
+        "q_id": "0-4",
+        "question": "how many stoves are used?",
+        "doc_id": " f-XNVJGJVP"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many shredding blades are used?",
+        "doc_id": " f-XNVJGJVP"
+    },
+    {
+        "q_id": "0-5",
+        "question": "how many tablespoons are used?",
+        "doc_id": " f-XNVJGJVP"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many actions does it take to process the shredded potato?",
+        "doc_id": " f-XNVJGJVP"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many times is the bowl used?",
+        "doc_id": " r-815"
+    },
+    {
+        "q_id": "0-4",
+        "question": "how many times is the knife used?",
+        "doc_id": " r-815"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many actions does it take to process the cinnamon?",
+        "doc_id": " r-815"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many cutting boards are used?",
+        "doc_id": " r-815"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many actions does it take to process the turmeric?",
+        "doc_id": " r-815"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many actions does it take to process the almond?",
+        "doc_id": " r-217"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many actions does it take to process the coconut?",
+        "doc_id": " r-217"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many stockpots are used?",
+        "doc_id": " r-2892"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many actions does it take to process the onion?",
+        "doc_id": " r-2892"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many actions does it take to process the garlic?",
+        "doc_id": " r-2892"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many knives are used?",
+        "doc_id": " r-2892"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many refrigerators are used?",
+        "doc_id": " r-4384"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many actions does it take to process the water?",
+        "doc_id": " r-4384"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many actions does it take to process the buttermilk mayonnaise?",
+        "doc_id": " r-4384"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many actions does it take to process the rice?",
+        "doc_id": " r-3562"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many actions does it take to process the flour?",
+        "doc_id": " r-3562"
+    },
+    {
+        "q_id": "0-4",
+        "question": "how many large skillets are used?",
+        "doc_id": " r-3562"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many times is the spatula used?",
+        "doc_id": " r-3562"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many times is the skillet used?",
+        "doc_id": " r-3562"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many actions does it take to process the egg?",
+        "doc_id": " r-3402"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many whisks are used?",
+        "doc_id": " r-3402"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many wire racks are used?",
+        "doc_id": " r-3402"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many actions does it take to process the water?",
+        "doc_id": " r-3402"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many knives are used?",
+        "doc_id": " r-1687"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many actions does it take to process the sugar?",
+        "doc_id": " r-1687"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many saucepans are used?",
+        "doc_id": " r-1687"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many actions does it take to process the cinnamon?",
+        "doc_id": " r-1687"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many pans are used?",
+        "doc_id": " r-311"
+    },
+    {
+        "q_id": "0-4",
+        "question": "how many actions does it take to process the cucumber?",
+        "doc_id": " r-311"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many knives are used?",
+        "doc_id": " r-311"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many large platters are used?",
+        "doc_id": " r-311"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many actions does it take to process the green bean?",
+        "doc_id": " r-311"
+    },
+    {
+        "q_id": "0-3",
+        "question": "how many times is the bowl used?",
+        "doc_id": " r-1165"
+    },
+    {
+        "q_id": "0-0",
+        "question": "how many actions does it take to process the bread?",
+        "doc_id": " r-1165"
+    },
+    {
+        "q_id": "0-4",
+        "question": "how many times is the knife used?",
+        "doc_id": " r-1165"
+    },
+    {
+        "q_id": "0-2",
+        "question": "how many refrigerators are used?",
+        "doc_id": " r-1165"
+    },
+    {
+        "q_id": "0-1",
+        "question": "how many actions does it take to process the paprika?",
+        "doc_id": " r-1165"
+    }
+]

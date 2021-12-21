@@ -1,0 +1,1762 @@
+[
+    {
+        "q_id": "18-0",
+        "question": "putting the mixture in a wood container and grating carrots, which comes first?",
+        "doc_id": " r-378"
+    },
+    {
+        "q_id": "18-3",
+        "question": "what's in the liquid?",
+        "doc_id": " r-378"
+    },
+    {
+        "q_id": "18-1",
+        "question": "how do you cut the bird eyes chilies?",
+        "doc_id": " r-378"
+    },
+    {
+        "q_id": "18-2",
+        "question": "how many actions does it take to process the carrot?",
+        "doc_id": " r-378"
+    },
+    {
+        "q_id": "18-1",
+        "question": "how did you get the mixture?",
+        "doc_id": " r-4852"
+    },
+    {
+        "q_id": "18-0",
+        "question": "adding almond and vanilla flavorings and adding sugar, which comes first?",
+        "doc_id": " r-4852"
+    },
+    {
+        "q_id": "18-0",
+        "question": "where was the oil before it was added to rice mixture?",
+        "doc_id": " r-1601"
+    },
+    {
+        "q_id": "18-2",
+        "question": "how many pots are used?",
+        "doc_id": " r-1601"
+    },
+    {
+        "q_id": "18-3",
+        "question": "how do you turn the fritters?",
+        "doc_id": " r-1601"
+    },
+    {
+        "q_id": "18-1",
+        "question": "sifting more flour on and folding them, which comes first?",
+        "doc_id": " r-1601"
+    },
+    {
+        "q_id": "18-2",
+        "question": "how do you place slices of the potatoes and onion in the food processor?",
+        "doc_id": " r-157"
+    },
+    {
+        "q_id": "18-0",
+        "question": "how many pans are used?",
+        "doc_id": " r-157"
+    },
+    {
+        "q_id": "18-3",
+        "question": "removing bones and preparing the soy beans, which comes first?",
+        "doc_id": " r-157"
+    },
+    {
+        "q_id": "18-1",
+        "question": "to what extent do you fry the battered blossom and oil at 350 degree?",
+        "doc_id": " r-157"
+    },
+    {
+        "q_id": "18-0",
+        "question": "what's in the beet-bean mixture?",
+        "doc_id": " f-8Q86RWDJ"
+    },
+    {
+        "q_id": "18-1",
+        "question": "how did you get the sour cream mixture?",
+        "doc_id": " f-8Q86RWDJ"
+    },
+    {
+        "q_id": "18-0",
+        "question": "how do you saute the first 3 ingredients in a teflon fry pan for a few minutes?",
+        "doc_id": " f-RYVXFZFV"
+    },
+    {
+        "q_id": "18-3",
+        "question": "what should be seasoned?",
+        "doc_id": " f-RYVXFZFV"
+    },
+    {
+        "q_id": "18-2",
+        "question": "what should be turned on the floured baking board?",
+        "doc_id": " f-RYVXFZFV"
+    },
+    {
+        "q_id": "18-1",
+        "question": "where should you add the salt and sugar?",
+        "doc_id": " f-RYVXFZFV"
+    },
+    {
+        "q_id": "18-3",
+        "question": "how many sinks are used?",
+        "doc_id": " f-2PMMKJ2X"
+    },
+    {
+        "q_id": "18-4",
+        "question": "where was the sliced onion before it was tossed?",
+        "doc_id": " f-2PMMKJ2X"
+    },
+    {
+        "q_id": "18-0",
+        "question": "what should be put in the mortar?",
+        "doc_id": " f-2PMMKJ2X"
+    },
+    {
+        "q_id": "18-1",
+        "question": "where was the mixture before it was refrigerated for best flavor?",
+        "doc_id": " f-2PMMKJ2X"
+    },
+    {
+        "q_id": "18-2",
+        "question": "where do you transfer the salad?",
+        "doc_id": " f-2PMMKJ2X"
+    },
+    {
+        "q_id": "18-3",
+        "question": "how many actions does it take to process the chile?",
+        "doc_id": " f-F5SF7H44"
+    },
+    {
+        "q_id": "18-1",
+        "question": "how many actions does it take to process the noodle?",
+        "doc_id": " f-F5SF7H44"
+    },
+    {
+        "q_id": "18-2",
+        "question": "what's in the soup?",
+        "doc_id": " f-F5SF7H44"
+    },
+    {
+        "q_id": "18-4",
+        "question": "what should be poured in the serving dish?",
+        "doc_id": " f-F5SF7H44"
+    },
+    {
+        "q_id": "18-0",
+        "question": "how many actions does it take to process the water?",
+        "doc_id": " f-F5SF7H44"
+    },
+    {
+        "q_id": "18-1",
+        "question": "spreading 2 tablespoons artichoke mixture over cut surface of each bagel half and baking the bagel until filling is hot and cheese is melted, which comes first?",
+        "doc_id": " r-5062"
+    },
+    {
+        "q_id": "18-0",
+        "question": "how many actions does it take to process the sugar?",
+        "doc_id": " r-5062"
+    },
+    {
+        "q_id": "18-2",
+        "question": "how many tins are used?",
+        "doc_id": " r-3737"
+    },
+    {
+        "q_id": "18-0",
+        "question": "how do you puree kidney beans and beets?",
+        "doc_id": " r-3737"
+    },
+    {
+        "q_id": "18-3",
+        "question": "stirring the dough just until moistened and placing the dough on floured surface, which comes first?",
+        "doc_id": " r-3737"
+    },
+    {
+        "q_id": "18-1",
+        "question": "where should you add the chicken stock?",
+        "doc_id": " r-3737"
+    },
+    {
+        "q_id": "18-1",
+        "question": "where should you heat the oil?",
+        "doc_id": " f-KTQ82N6L"
+    },
+    {
+        "q_id": "18-3",
+        "question": "tossing the potato salad and adjusting seasoning, which comes first?",
+        "doc_id": " f-KTQ82N6L"
+    },
+    {
+        "q_id": "18-2",
+        "question": "how many times is the mortar used?",
+        "doc_id": " f-KTQ82N6L"
+    },
+    {
+        "q_id": "18-0",
+        "question": "how do you toast saffron threads lightly?",
+        "doc_id": " f-KTQ82N6L"
+    },
+    {
+        "q_id": "18-3",
+        "question": "how did you get the mixture?",
+        "doc_id": " r-4762"
+    },
+    {
+        "q_id": "18-2",
+        "question": "how do you cut the eggs?",
+        "doc_id": " r-4762"
+    },
+    {
+        "q_id": "18-0",
+        "question": "what should be simmered in the teflon fry pan?",
+        "doc_id": " r-4762"
+    },
+    {
+        "q_id": "18-4",
+        "question": "what should be covered in the baking pan?",
+        "doc_id": " r-4762"
+    },
+    {
+        "q_id": "18-1",
+        "question": "what's in the artichoke mixture?",
+        "doc_id": " r-4762"
+    },
+    {
+        "q_id": "18-0",
+        "question": "how do you spoon the batter on the stove?",
+        "doc_id": " r-117"
+    },
+    {
+        "q_id": "18-1",
+        "question": "what should be added to the stockpot?",
+        "doc_id": " r-117"
+    },
+    {
+        "q_id": "18-0",
+        "question": "for how long do you put the batter into a large bowl to rise?",
+        "doc_id": " r-900"
+    },
+    {
+        "q_id": "18-1",
+        "question": "reserving 3 tbsp bacon drippings and pouring the hot mashed potato over hot dressing, which comes first?",
+        "doc_id": " r-900"
+    },
+    {
+        "q_id": "18-2",
+        "question": "how do you fill the mixture?",
+        "doc_id": " r-900"
+    },
+    {
+        "q_id": "18-0",
+        "question": "how many actions does it take to process the sugar?",
+        "doc_id": " f-88XKC27N"
+    },
+    {
+        "q_id": "18-1",
+        "question": "slicing potatoes into bite size pieces and boiling the potatoes until fork tender, which comes first?",
+        "doc_id": " f-88XKC27N"
+    },
+    {
+        "q_id": "18-2",
+        "question": "where should you fill the water?",
+        "doc_id": " f-88XKC27N"
+    },
+    {
+        "q_id": "18-3",
+        "question": "what's in the marinade?",
+        "doc_id": " f-88XKC27N"
+    },
+    {
+        "q_id": "18-2",
+        "question": "what should be pulverized in the mortar?",
+        "doc_id": " r-1275"
+    },
+    {
+        "q_id": "18-3",
+        "question": "cooking the mixture until the mixture is slightly thickened and removing the saucepan, which comes first?",
+        "doc_id": " r-1275"
+    },
+    {
+        "q_id": "18-1",
+        "question": "serving the california avocado, ingredient and saffron thread and burning saffron threads, which comes first?",
+        "doc_id": " r-1275"
+    },
+    {
+        "q_id": "18-0",
+        "question": "how many actions does it take to process the tomato?",
+        "doc_id": " r-1275"
+    },
+    {
+        "q_id": "18-0",
+        "question": "how many actions does it take to process the california avocado?",
+        "doc_id": " f-8KG2VBC7"
+    },
+    {
+        "q_id": "18-1",
+        "question": "what should be sprinkled in the serving bowl?",
+        "doc_id": " f-8KG2VBC7"
+    },
+    {
+        "q_id": "18-1",
+        "question": "where do you place the bagel?",
+        "doc_id": " f-3X45Z8TR"
+    },
+    {
+        "q_id": "18-0",
+        "question": "to what extent do you toss the salad ingredient and dressing?",
+        "doc_id": " f-3X45Z8TR"
+    },
+    {
+        "q_id": "18-2",
+        "question": "draining excess oil in absorbent paper and scooping some of the pasty mixture, which comes first?",
+        "doc_id": " r-5105"
+    },
+    {
+        "q_id": "18-0",
+        "question": "how do you preheat oven?",
+        "doc_id": " r-5105"
+    },
+    {
+        "q_id": "18-1",
+        "question": "where should you bake the mushrooms?",
+        "doc_id": " r-5105"
+    },
+    {
+        "q_id": "18-1",
+        "question": "how do you spoon the rice?",
+        "doc_id": " r-4062"
+    },
+    {
+        "q_id": "18-0",
+        "question": "how do you pound the mixture?",
+        "doc_id": " r-4062"
+    },
+    {
+        "q_id": "18-0",
+        "question": "what's in the mixture?",
+        "doc_id": " r-910"
+    },
+    {
+        "q_id": "18-4",
+        "question": "where should you simmer the potatoes and salted water?",
+        "doc_id": " r-910"
+    },
+    {
+        "q_id": "18-3",
+        "question": "how many large bowls are used?",
+        "doc_id": " r-910"
+    },
+    {
+        "q_id": "18-2",
+        "question": "how did you get the lentil with vinegar and honey?",
+        "doc_id": " r-910"
+    },
+    {
+        "q_id": "18-1",
+        "question": "adding the vanilla and raisins and using double the amount of flour, which comes first?",
+        "doc_id": " r-910"
+    },
+    {
+        "q_id": "18-2",
+        "question": "how many times is the beater used?",
+        "doc_id": " f-JLH74DCR"
+    },
+    {
+        "q_id": "18-0",
+        "question": "how do you cut the butter?",
+        "doc_id": " f-JLH74DCR"
+    },
+    {
+        "q_id": "18-1",
+        "question": "how many bowls are used?",
+        "doc_id": " f-JLH74DCR"
+    },
+    {
+        "q_id": "18-1",
+        "question": "for how long do you bake the wedge at 400degf until golden brown?",
+        "doc_id": " f-4HWM88HF"
+    },
+    {
+        "q_id": "18-3",
+        "question": "how do you stir the oranges, orange, lemon juice, sherry, red pepper and beans?",
+        "doc_id": " f-4HWM88HF"
+    },
+    {
+        "q_id": "18-2",
+        "question": "where was the bacon before it was fried?",
+        "doc_id": " f-4HWM88HF"
+    },
+    {
+        "q_id": "18-0",
+        "question": "what should be plunged in the bowl?",
+        "doc_id": " f-4HWM88HF"
+    },
+    {
+        "q_id": "18-3",
+        "question": "smoothing the mayonnaise over the top and mixing all the ingredients, which comes first?",
+        "doc_id": " r-3274"
+    },
+    {
+        "q_id": "18-1",
+        "question": "how did you get the patty?",
+        "doc_id": " r-3274"
+    },
+    {
+        "q_id": "18-0",
+        "question": "how do you beat the egg whites in the bowl?",
+        "doc_id": " r-3274"
+    },
+    {
+        "q_id": "18-2",
+        "question": "how did you get the seasoning?",
+        "doc_id": " r-3274"
+    },
+    {
+        "q_id": "18-2",
+        "question": "how many mini - muffin tins are used?",
+        "doc_id": " r-4856"
+    },
+    {
+        "q_id": "18-1",
+        "question": "from where do you drop the dough on lightly buttered cookie sheets?",
+        "doc_id": " r-4856"
+    },
+    {
+        "q_id": "18-3",
+        "question": "how do you heat the butter and the vegetable oil?",
+        "doc_id": " r-4856"
+    },
+    {
+        "q_id": "18-0",
+        "question": "how many times is the blender used?",
+        "doc_id": " r-4856"
+    },
+    {
+        "q_id": "18-0",
+        "question": "putting the mussels into a mixing bowl , set aside and adding more fish sauce or lime juice, which comes first?",
+        "doc_id": " r-4233"
+    },
+    {
+        "q_id": "18-1",
+        "question": "how do you cook breaded thighs for 2 to 3 minutes on each side until the chicken is golden brown on each side?",
+        "doc_id": " r-4233"
+    },
+    {
+        "q_id": "18-3",
+        "question": "how did you get the rice salad?",
+        "doc_id": " r-1798"
+    },
+    {
+        "q_id": "18-4",
+        "question": "how did you get the soup?",
+        "doc_id": " r-1798"
+    },
+    {
+        "q_id": "18-1",
+        "question": "where do you place 12 paper liners?",
+        "doc_id": " r-1798"
+    },
+    {
+        "q_id": "18-0",
+        "question": "how did you get the dessert?",
+        "doc_id": " r-1798"
+    },
+    {
+        "q_id": "18-2",
+        "question": "what should be cut with the knife?",
+        "doc_id": " r-1798"
+    },
+    {
+        "q_id": "18-3",
+        "question": "how do you knead the dough?",
+        "doc_id": " r-3258"
+    },
+    {
+        "q_id": "18-0",
+        "question": "where should you beat the egg whites?",
+        "doc_id": " r-3258"
+    },
+    {
+        "q_id": "18-2",
+        "question": "how many actions does it take to process the pepper?",
+        "doc_id": " r-3258"
+    },
+    {
+        "q_id": "18-1",
+        "question": "for how long do you bake the batter at 375 f until top is nice and brown?",
+        "doc_id": " r-3258"
+    },
+    {
+        "q_id": "18-4",
+        "question": "where was the cold water before it was drained the vegetables?",
+        "doc_id": " r-3258"
+    },
+    {
+        "q_id": "18-4",
+        "question": "what should be cooled in the wire rack?",
+        "doc_id": " f-PT5ZVJYJ"
+    },
+    {
+        "q_id": "18-0",
+        "question": "placing butter in a large bowl and beating the butter until blended, which comes first?",
+        "doc_id": " f-PT5ZVJYJ"
+    },
+    {
+        "q_id": "18-2",
+        "question": "what should be pureed with the immersion blender?",
+        "doc_id": " f-PT5ZVJYJ"
+    },
+    {
+        "q_id": "18-3",
+        "question": "what's in the mixture?",
+        "doc_id": " f-PT5ZVJYJ"
+    },
+    {
+        "q_id": "18-1",
+        "question": "where do you scoop out warm flesh?",
+        "doc_id": " f-PT5ZVJYJ"
+    },
+    {
+        "q_id": "18-1",
+        "question": "where should you melt the butter?",
+        "doc_id": " r-4143"
+    },
+    {
+        "q_id": "18-2",
+        "question": "what should be cooled in the pan?",
+        "doc_id": " r-4143"
+    },
+    {
+        "q_id": "18-0",
+        "question": "where was the beet-bean mixture before it was added?",
+        "doc_id": " r-4143"
+    },
+    {
+        "q_id": "18-0",
+        "question": "how do you stir the cheese, bacon and tabasco?",
+        "doc_id": " f-FS6V8XD5"
+    },
+    {
+        "q_id": "18-2",
+        "question": "where was the potato before it was plunged into cold water?",
+        "doc_id": " f-FS6V8XD5"
+    },
+    {
+        "q_id": "18-1",
+        "question": "where do you place chicken , gizzard , onions , carrots and water?",
+        "doc_id": " f-FS6V8XD5"
+    },
+    {
+        "q_id": "18-4",
+        "question": "how do you cut the dough and mixture into shape?",
+        "doc_id": " r-3715"
+    },
+    {
+        "q_id": "18-3",
+        "question": "why do you combine broth , vinegar , olive oil , sugar , mustard and garlic in a small sauce pan?",
+        "doc_id": " r-3715"
+    },
+    {
+        "q_id": "18-0",
+        "question": "where do you serve the onion, shallot, peanut, ginger, mint, coriander leave and pork?",
+        "doc_id": " r-3715"
+    },
+    {
+        "q_id": "18-1",
+        "question": "how did you get the mixture?",
+        "doc_id": " r-3715"
+    },
+    {
+        "q_id": "18-2",
+        "question": "kneading the mixture with egg and sour cream until smooth and comesing together the dough, which comes first?",
+        "doc_id": " r-3715"
+    },
+    {
+        "q_id": "18-2",
+        "question": "how do you mix the base with the lemon and vinegar?",
+        "doc_id": " r-679"
+    },
+    {
+        "q_id": "18-1",
+        "question": "where do you pour this dry yogurt(chakka )?",
+        "doc_id": " r-679"
+    },
+    {
+        "q_id": "18-0",
+        "question": "where was the oil before it was served?",
+        "doc_id": " r-679"
+    },
+    {
+        "q_id": "18-0",
+        "question": "how do you fry the fish balls?",
+        "doc_id": " r-1631"
+    },
+    {
+        "q_id": "18-1",
+        "question": "why do you toss the salad lightly?",
+        "doc_id": " r-1631"
+    },
+    {
+        "q_id": "18-1",
+        "question": "what should be boiled?",
+        "doc_id": " f-SJGXB864"
+    },
+    {
+        "q_id": "18-4",
+        "question": "how do you cut the dough and mixture into shape?",
+        "doc_id": " f-SJGXB864"
+    },
+    {
+        "q_id": "18-3",
+        "question": "how do you grate 1 tbsp carrot?",
+        "doc_id": " f-SJGXB864"
+    },
+    {
+        "q_id": "18-2",
+        "question": "how do you divide the lamb slice and lamb on the cutting board?",
+        "doc_id": " f-SJGXB864"
+    },
+    {
+        "q_id": "18-0",
+        "question": "mixing the flax seeds and greasing the muffin moulds, which comes first?",
+        "doc_id": " f-SJGXB864"
+    },
+    {
+        "q_id": "18-2",
+        "question": "where should you cut the butter?",
+        "doc_id": " r-648"
+    },
+    {
+        "q_id": "18-1",
+        "question": "for how long do you boil the soup?",
+        "doc_id": " r-648"
+    },
+    {
+        "q_id": "18-0",
+        "question": "what should be boiled in the pan?",
+        "doc_id": " r-648"
+    },
+    {
+        "q_id": "18-1",
+        "question": "where was the mushroom cap before it was filled mushroom caps?",
+        "doc_id": " r-1661"
+    },
+    {
+        "q_id": "18-0",
+        "question": "what should be cut?",
+        "doc_id": " r-1661"
+    },
+    {
+        "q_id": "18-3",
+        "question": "where should you bake the dessert?",
+        "doc_id": " f-24CZS5LF"
+    },
+    {
+        "q_id": "18-0",
+        "question": "where do you spoon the patties?",
+        "doc_id": " f-24CZS5LF"
+    },
+    {
+        "q_id": "18-1",
+        "question": "how many actions does it take to process the nutmeg?",
+        "doc_id": " f-24CZS5LF"
+    },
+    {
+        "q_id": "18-2",
+        "question": "where was the cookie before it was baked?",
+        "doc_id": " f-24CZS5LF"
+    },
+    {
+        "q_id": "18-0",
+        "question": "how do you beat the eggs and sugar for 5 minutes?",
+        "doc_id": " r-4077"
+    },
+    {
+        "q_id": "18-2",
+        "question": "beating the sugar in and adding the salt, which comes first?",
+        "doc_id": " r-4077"
+    },
+    {
+        "q_id": "18-1",
+        "question": "where was the pasty mixture before it was drained in absorbent paper?",
+        "doc_id": " r-4077"
+    },
+    {
+        "q_id": "18-1",
+        "question": "what should be simmered?",
+        "doc_id": " r-1031"
+    },
+    {
+        "q_id": "18-0",
+        "question": "what's in the mixture?",
+        "doc_id": " r-1031"
+    },
+    {
+        "q_id": "18-0",
+        "question": "what's in the lentil mixture?",
+        "doc_id": " f-Z82FPVW4"
+    },
+    {
+        "q_id": "18-1",
+        "question": "where do you spread with filling?",
+        "doc_id": " f-Z82FPVW4"
+    },
+    {
+        "q_id": "18-1",
+        "question": "sprinkling with the remaining 1 tablespoon of thyme it and peeling the beets, which comes first?",
+        "doc_id": " f-3PMSLV76"
+    },
+    {
+        "q_id": "18-0",
+        "question": "what should be tossed in the large bowl?",
+        "doc_id": " f-3PMSLV76"
+    },
+    {
+        "q_id": "18-1",
+        "question": "where should you cut the eggs?",
+        "doc_id": " r-857"
+    },
+    {
+        "q_id": "18-0",
+        "question": "what should be served in the coral?",
+        "doc_id": " r-857"
+    },
+    {
+        "q_id": "18-2",
+        "question": "how do you cut the dough and mixture into shape?",
+        "doc_id": " r-857"
+    },
+    {
+        "q_id": "18-2",
+        "question": "how many times is the serving bowl used?",
+        "doc_id": " r-1304"
+    },
+    {
+        "q_id": "18-1",
+        "question": "changing the capsium and adding the toasted tofu , coriander , tomato sauce nutmeg powder , salt and pepper, which comes first?",
+        "doc_id": " r-1304"
+    },
+    {
+        "q_id": "18-0",
+        "question": "removing cookies and adding flour mixture, which comes first?",
+        "doc_id": " r-1304"
+    },
+    {
+        "q_id": "18-1",
+        "question": "what should be beaten in the bowl with the fork?",
+        "doc_id": " f-26NF6ZNY"
+    },
+    {
+        "q_id": "18-0",
+        "question": "where was the low sodium beef broth before it was added?",
+        "doc_id": " f-26NF6ZNY"
+    },
+    {
+        "q_id": "18-2",
+        "question": "melting butter in a medium - sized dutch oven over medium - high heat and using an immersion blender, which comes first?",
+        "doc_id": " r-4635"
+    },
+    {
+        "q_id": "18-1",
+        "question": "adding garlic and greens , and beans and bringing broth in large pot over med - high heat, which comes first?",
+        "doc_id": " r-4635"
+    },
+    {
+        "q_id": "18-0",
+        "question": "where should you bake the batter?",
+        "doc_id": " r-4635"
+    },
+    {
+        "q_id": "18-2",
+        "question": "why do you set the ham-bacon-onion mixture aside?",
+        "doc_id": " f-KWBKC77L"
+    },
+    {
+        "q_id": "18-3",
+        "question": "how do you stir the soup?",
+        "doc_id": " f-KWBKC77L"
+    },
+    {
+        "q_id": "18-0",
+        "question": "how many knives are used?",
+        "doc_id": " f-KWBKC77L"
+    },
+    {
+        "q_id": "18-1",
+        "question": "where do you dip the seasoned fillet on both sides?",
+        "doc_id": " f-KWBKC77L"
+    },
+    {
+        "q_id": "18-1",
+        "question": "where should you add the salt and sugar?",
+        "doc_id": " r-1485"
+    },
+    {
+        "q_id": "18-0",
+        "question": "adding the wet ingredients and inserting the tooth pick, which comes first?",
+        "doc_id": " r-1485"
+    },
+    {
+        "q_id": "18-3",
+        "question": "where was the mixture before it was refrigerated in glass jars or plastic containers?",
+        "doc_id": " f-67M2BXM3"
+    },
+    {
+        "q_id": "18-1",
+        "question": "how do you whisk the flour in?",
+        "doc_id": " f-67M2BXM3"
+    },
+    {
+        "q_id": "18-0",
+        "question": "what should be tasted?",
+        "doc_id": " f-67M2BXM3"
+    },
+    {
+        "q_id": "18-2",
+        "question": "where do you place the rye bread?",
+        "doc_id": " f-67M2BXM3"
+    },
+    {
+        "q_id": "18-0",
+        "question": "adding the milk and serving the fish ball, which comes first?",
+        "doc_id": " r-2295"
+    },
+    {
+        "q_id": "18-2",
+        "question": "where do you combine chicken , celery , apple , pineapple , raisins and 11/2 teaspoons of the sesame seeds?",
+        "doc_id": " r-2295"
+    },
+    {
+        "q_id": "18-1",
+        "question": "by how much do you slice tomatoes and mozzarella cheese?",
+        "doc_id": " r-2295"
+    },
+    {
+        "q_id": "18-3",
+        "question": "what should be removed with the tong?",
+        "doc_id": " r-2295"
+    },
+    {
+        "q_id": "18-4",
+        "question": "where do you arrange the egg?",
+        "doc_id": " r-2295"
+    },
+    {
+        "q_id": "18-0",
+        "question": "how did you get the limeade?",
+        "doc_id": " r-1159"
+    },
+    {
+        "q_id": "18-1",
+        "question": "what should be removed with the tong?",
+        "doc_id": " r-1159"
+    },
+    {
+        "q_id": "18-2",
+        "question": "where was the green before it was placed on serving plate?",
+        "doc_id": " r-1159"
+    },
+    {
+        "q_id": "18-2",
+        "question": "how do you fold the ingredients, reserved saffron and california avocados?",
+        "doc_id": " r-4533"
+    },
+    {
+        "q_id": "18-0",
+        "question": "cooking the soup and reducing the liquid, which comes first?",
+        "doc_id": " r-4533"
+    },
+    {
+        "q_id": "18-4",
+        "question": "what should be turned on the floured board?",
+        "doc_id": " r-4533"
+    },
+    {
+        "q_id": "18-1",
+        "question": "where do you ladle the soup?",
+        "doc_id": " r-4533"
+    },
+    {
+        "q_id": "18-3",
+        "question": "how many actions does it take to process the sugar?",
+        "doc_id": " r-4533"
+    },
+    {
+        "q_id": "18-3",
+        "question": "where was the white flesh before it was cooked very gently?",
+        "doc_id": " r-716"
+    },
+    {
+        "q_id": "18-4",
+        "question": "how do you slice the capsicum?",
+        "doc_id": " r-716"
+    },
+    {
+        "q_id": "18-0",
+        "question": "combining dry ingredients and sprinkling with sugar, which comes first?",
+        "doc_id": " r-716"
+    },
+    {
+        "q_id": "18-2",
+        "question": "what should be served?",
+        "doc_id": " r-716"
+    },
+    {
+        "q_id": "18-1",
+        "question": "how many actions does it take to process the mustard?",
+        "doc_id": " r-716"
+    },
+    {
+        "q_id": "18-1",
+        "question": "what should be cut with the cookie cutter?",
+        "doc_id": " f-YGBD7J2L"
+    },
+    {
+        "q_id": "18-2",
+        "question": "removing each cookie tart and pressing dough in bottom and up the side of each muffin cup, which comes first?",
+        "doc_id": " f-YGBD7J2L"
+    },
+    {
+        "q_id": "18-0",
+        "question": "where should you arrange the spears?",
+        "doc_id": " f-YGBD7J2L"
+    },
+    {
+        "q_id": "18-1",
+        "question": "how do you serve the soup?",
+        "doc_id": " f-Q7FS58VW"
+    },
+    {
+        "q_id": "18-0",
+        "question": "where should you simmer the gizzard, onions, carrots, water and chicken?",
+        "doc_id": " f-Q7FS58VW"
+    },
+    {
+        "q_id": "18-1",
+        "question": "what should be drizzled on the decorative serving dish?",
+        "doc_id": " r-176"
+    },
+    {
+        "q_id": "18-2",
+        "question": "how many times is the pan used?",
+        "doc_id": " r-176"
+    },
+    {
+        "q_id": "18-3",
+        "question": "forming the dough into balls with the hands and rubbing the shortening, which comes first?",
+        "doc_id": " r-176"
+    },
+    {
+        "q_id": "18-0",
+        "question": "where do you combine the garlic with the olive oil and lemon juice?",
+        "doc_id": " r-176"
+    },
+    {
+        "q_id": "18-1",
+        "question": "cooling the cookie and baking the ball in a 375degf oven, which comes first?",
+        "doc_id": " r-4061"
+    },
+    {
+        "q_id": "18-3",
+        "question": "what should be strained in the sink?",
+        "doc_id": " r-4061"
+    },
+    {
+        "q_id": "18-2",
+        "question": "how many large bowls are used?",
+        "doc_id": " r-4061"
+    },
+    {
+        "q_id": "18-0",
+        "question": "how many times is the oven used?",
+        "doc_id": " r-4061"
+    },
+    {
+        "q_id": "18-2",
+        "question": "baking the mushroom and butter in a shallow buttered dish until hot and bubbly and removing stems, which comes first?",
+        "doc_id": " f-HX4T28NM"
+    },
+    {
+        "q_id": "18-0",
+        "question": "what should be stirred with the spoon?",
+        "doc_id": " f-HX4T28NM"
+    },
+    {
+        "q_id": "18-4",
+        "question": "how many actions does it take to process the wine?",
+        "doc_id": " f-HX4T28NM"
+    },
+    {
+        "q_id": "18-1",
+        "question": "what's in the stuffed mushroom?",
+        "doc_id": " f-HX4T28NM"
+    },
+    {
+        "q_id": "18-3",
+        "question": "how do you cut the bird eyes chilies?",
+        "doc_id": " f-HX4T28NM"
+    },
+    {
+        "q_id": "18-0",
+        "question": "where was the cookie tart before it was cooled in pans on a cooling rack?",
+        "doc_id": " r-2888"
+    },
+    {
+        "q_id": "18-1",
+        "question": "how many actions does it take to process the butter?",
+        "doc_id": " r-2888"
+    },
+    {
+        "q_id": "18-2",
+        "question": "what should be served?",
+        "doc_id": " r-2888"
+    },
+    {
+        "q_id": "18-1",
+        "question": "what's in the mixture?",
+        "doc_id": " r-1333"
+    },
+    {
+        "q_id": "18-4",
+        "question": "where should you cut the dough and mixture with the cookie cutter?",
+        "doc_id": " r-1333"
+    },
+    {
+        "q_id": "18-0",
+        "question": "what's in the mixture?",
+        "doc_id": " r-1333"
+    },
+    {
+        "q_id": "18-2",
+        "question": "boiling the liquid until the potatoes are cooked and boiling the sweet potatoes in just enough water to cover them, which comes first?",
+        "doc_id": " r-1333"
+    },
+    {
+        "q_id": "18-3",
+        "question": "inverting the pan on a cake rack and baking the batter in a moderate oven ( 350degf ), which comes first?",
+        "doc_id": " r-1333"
+    },
+    {
+        "q_id": "18-4",
+        "question": "how do you pipe the mixture into 12 paper liners placed in a bun tin?",
+        "doc_id": " r-872"
+    },
+    {
+        "q_id": "18-1",
+        "question": "where should you boil the parsley and cilantro?",
+        "doc_id": " r-872"
+    },
+    {
+        "q_id": "18-3",
+        "question": "how do you add flour mixture to butter mixture?",
+        "doc_id": " r-872"
+    },
+    {
+        "q_id": "18-2",
+        "question": "for how long do you bake the greased glass pie pan at 340 degrees?",
+        "doc_id": " r-872"
+    },
+    {
+        "q_id": "18-0",
+        "question": "how did you get the kounoupidi kokkinisto?",
+        "doc_id": " r-872"
+    },
+    {
+        "q_id": "18-4",
+        "question": "how do you pressure cook remaining carrots till very soft?",
+        "doc_id": " r-3769"
+    },
+    {
+        "q_id": "18-1",
+        "question": "what should be stirred?",
+        "doc_id": " r-3769"
+    },
+    {
+        "q_id": "18-3",
+        "question": "where should you spoon the preserves with the teaspoon?",
+        "doc_id": " r-3769"
+    },
+    {
+        "q_id": "18-2",
+        "question": "how do you halve the avocado and avocado pulp in the bowl?",
+        "doc_id": " r-3769"
+    },
+    {
+        "q_id": "18-0",
+        "question": "how many saucepans are used?",
+        "doc_id": " r-3769"
+    },
+    {
+        "q_id": "18-2",
+        "question": "how many actions does it take to process the butter?",
+        "doc_id": " r-4526"
+    },
+    {
+        "q_id": "18-3",
+        "question": "serving the rice mixture, cheese, lettuce leave, tomato, lime juice, oil and garlic and adding cheese, which comes first?",
+        "doc_id": " r-4526"
+    },
+    {
+        "q_id": "18-1",
+        "question": "where was the yeast mixture before it was added?",
+        "doc_id": " r-4526"
+    },
+    {
+        "q_id": "18-0",
+        "question": "peeling the garlic and pouring out the butter, which comes first?",
+        "doc_id": " r-4526"
+    },
+    {
+        "q_id": "18-4",
+        "question": "sifting some flour and beating the sugar in, which comes first?",
+        "doc_id": " r-4526"
+    },
+    {
+        "q_id": "18-2",
+        "question": "for how long do you cook the rice?",
+        "doc_id": " r-4474"
+    },
+    {
+        "q_id": "18-0",
+        "question": "what should be added to the large bowl?",
+        "doc_id": " r-4474"
+    },
+    {
+        "q_id": "18-3",
+        "question": "appearing boil and taking all kadhi ingredients in a bowl, which comes first?",
+        "doc_id": " r-4474"
+    },
+    {
+        "q_id": "18-1",
+        "question": "where do you place the scallop?",
+        "doc_id": " r-4474"
+    },
+    {
+        "q_id": "18-2",
+        "question": "where was the shredded chicken before it was washed well with salt and lemon?",
+        "doc_id": " f-CKJFC4NR"
+    },
+    {
+        "q_id": "18-0",
+        "question": "how did you get the dressing?",
+        "doc_id": " f-CKJFC4NR"
+    },
+    {
+        "q_id": "18-1",
+        "question": "what should be fried?",
+        "doc_id": " f-CKJFC4NR"
+    },
+    {
+        "q_id": "18-1",
+        "question": "how did you get the cornmeal like mixture?",
+        "doc_id": " f-SJPFNVTY"
+    },
+    {
+        "q_id": "18-2",
+        "question": "where was the mixture before it was refrigerated for best flavor?",
+        "doc_id": " f-SJPFNVTY"
+    },
+    {
+        "q_id": "18-0",
+        "question": "for how long do you bake the tortilla at 400 degrees f until crisp?",
+        "doc_id": " f-SJPFNVTY"
+    },
+    {
+        "q_id": "18-1",
+        "question": "what's in the mixture with egg and sour cream?",
+        "doc_id": " r-4969"
+    },
+    {
+        "q_id": "18-2",
+        "question": "how many tablespoons are used?",
+        "doc_id": " r-4969"
+    },
+    {
+        "q_id": "18-3",
+        "question": "how do you mix the cereal and mixture?",
+        "doc_id": " r-4969"
+    },
+    {
+        "q_id": "18-0",
+        "question": "adding the bean vermicelli ( bean thread ) and pepper and frying the garlic , onion , fish sauce and chili powder in cooking oil, which comes first?",
+        "doc_id": " r-4969"
+    },
+    {
+        "q_id": "18-1",
+        "question": "where should you bake the mixture?",
+        "doc_id": " r-1007"
+    },
+    {
+        "q_id": "18-0",
+        "question": "how many bowls are used?",
+        "doc_id": " r-1007"
+    },
+    {
+        "q_id": "18-0",
+        "question": "for how long do you cool yogurt?",
+        "doc_id": " r-901"
+    },
+    {
+        "q_id": "18-3",
+        "question": "how did you get the dough with chocolate chip?",
+        "doc_id": " r-901"
+    },
+    {
+        "q_id": "18-1",
+        "question": "how many yogurt makers are used?",
+        "doc_id": " r-901"
+    },
+    {
+        "q_id": "18-2",
+        "question": "shakinging off any excess and topping with a mozzarella slice tomato sauce, which comes first?",
+        "doc_id": " r-901"
+    },
+    {
+        "q_id": "18-0",
+        "question": "how do you puree the chicken stock cauliflower?",
+        "doc_id": " r-103"
+    },
+    {
+        "q_id": "18-1",
+        "question": "how many whisks are used?",
+        "doc_id": " r-103"
+    },
+    {
+        "q_id": "18-3",
+        "question": "what should be refrigerated in the refrigerator?",
+        "doc_id": " r-103"
+    },
+    {
+        "q_id": "18-2",
+        "question": "mixing all the ingredients and grating the feta and ricotta cheese, which comes first?",
+        "doc_id": " r-103"
+    },
+    {
+        "q_id": "18-0",
+        "question": "what should be cut with the cookie cutter?",
+        "doc_id": " r-5079"
+    },
+    {
+        "q_id": "18-1",
+        "question": "how do you heat oil to 375degf.?",
+        "doc_id": " r-5079"
+    },
+    {
+        "q_id": "18-2",
+        "question": "how do you stir the onion mixture?",
+        "doc_id": " r-5079"
+    },
+    {
+        "q_id": "18-4",
+        "question": "where was the cumin before it was added to the lamb mixture?",
+        "doc_id": " r-5079"
+    },
+    {
+        "q_id": "18-3",
+        "question": "where should you stir the boiling stock and white wine with the spoon?",
+        "doc_id": " r-5079"
+    },
+    {
+        "q_id": "18-0",
+        "question": "how do you stir the oranges, orange, lemon juice, sherry, red pepper and beans?",
+        "doc_id": " r-1094"
+    },
+    {
+        "q_id": "18-2",
+        "question": "what do you substitute the maida with?",
+        "doc_id": " r-1094"
+    },
+    {
+        "q_id": "18-3",
+        "question": "how do you fill the mixture?",
+        "doc_id": " r-1094"
+    },
+    {
+        "q_id": "18-1",
+        "question": "where was the cardamom before it was added to the lamb mixture?",
+        "doc_id": " r-1094"
+    },
+    {
+        "q_id": "18-1",
+        "question": "how many actions does it take to process the vanilla?",
+        "doc_id": " r-253"
+    },
+    {
+        "q_id": "18-0",
+        "question": "stirring the remaining ingredients in and cooling the cookie, which comes first?",
+        "doc_id": " r-253"
+    },
+    {
+        "q_id": "18-0",
+        "question": "where was the mixture before it was transferred to a wire cooling rack?",
+        "doc_id": " r-4791"
+    },
+    {
+        "q_id": "18-1",
+        "question": "dipping potato slices in besan bater and heating oil in a karahi, which comes first?",
+        "doc_id": " r-4791"
+    },
+    {
+        "q_id": "18-0",
+        "question": "to what extent do you fold the dry ingredients in the same manner in?",
+        "doc_id": " r-2630"
+    },
+    {
+        "q_id": "18-4",
+        "question": "for how long do you simmer the bean, water and stock?",
+        "doc_id": " r-2630"
+    },
+    {
+        "q_id": "18-2",
+        "question": "where should you coat the flour mixture and both sides?",
+        "doc_id": " r-2630"
+    },
+    {
+        "q_id": "18-1",
+        "question": "for how long do you bake the bagel until filling is hot and cheese is melted?",
+        "doc_id": " r-2630"
+    },
+    {
+        "q_id": "18-3",
+        "question": "what's in the mixture?",
+        "doc_id": " r-2630"
+    },
+    {
+        "q_id": "18-1",
+        "question": "where do you spoon a teaspoon of coconut mixture?",
+        "doc_id": " r-1043"
+    },
+    {
+        "q_id": "18-2",
+        "question": "how do you spoon the mixture?",
+        "doc_id": " r-1043"
+    },
+    {
+        "q_id": "18-0",
+        "question": "where should you mix the rice, eggplant, onion, eggs, cheese, flour, salt, pepper and pepper sauce?",
+        "doc_id": " r-1043"
+    },
+    {
+        "q_id": "18-3",
+        "question": "where should you add the yogurt?",
+        "doc_id": " r-1043"
+    },
+    {
+        "q_id": "18-0",
+        "question": "how do you beat the golden onion recipe, soup mix, flour, baking powder, eggs, mustard and beer in the large bowl?",
+        "doc_id": " r-4715"
+    },
+    {
+        "q_id": "18-1",
+        "question": "for how long do you cook the butter and coral?",
+        "doc_id": " r-4715"
+    },
+    {
+        "q_id": "18-2",
+        "question": "how did you get the cookie?",
+        "doc_id": " r-4715"
+    },
+    {
+        "q_id": "18-0",
+        "question": "where do you pour the curry mayo?",
+        "doc_id": " r-1389"
+    },
+    {
+        "q_id": "18-1",
+        "question": "what's in the chicken mixture?",
+        "doc_id": " r-1389"
+    },
+    {
+        "q_id": "18-0",
+        "question": "for how long do you stand the batter?",
+        "doc_id": " r-422"
+    },
+    {
+        "q_id": "18-2",
+        "question": "what's in the dough?",
+        "doc_id": " r-422"
+    },
+    {
+        "q_id": "18-1",
+        "question": "where should you beat the sugar, molasses, salt and cream?",
+        "doc_id": " r-422"
+    },
+    {
+        "q_id": "18-1",
+        "question": "how did you get the onion mixture?",
+        "doc_id": " r-1166"
+    },
+    {
+        "q_id": "18-0",
+        "question": "how many actions does it take to process the salt?",
+        "doc_id": " r-1166"
+    },
+    {
+        "q_id": "18-2",
+        "question": "where was the pork before it was decorated?",
+        "doc_id": " r-1166"
+    },
+    {
+        "q_id": "18-1",
+        "question": "how do you cook the salted water?",
+        "doc_id": " f-CYTQDZKG"
+    },
+    {
+        "q_id": "18-3",
+        "question": "where do you drop the dough and butter by spoonfuls one inch apart?",
+        "doc_id": " f-CYTQDZKG"
+    },
+    {
+        "q_id": "18-0",
+        "question": "where was the chopped garlic before it was tossed?",
+        "doc_id": " f-CYTQDZKG"
+    },
+    {
+        "q_id": "18-2",
+        "question": "sprinkling few drops of water and letting boil for 5 - 6 minutes, which comes first?",
+        "doc_id": " f-CYTQDZKG"
+    },
+    {
+        "q_id": "18-1",
+        "question": "what should be processed?",
+        "doc_id": " r-135"
+    },
+    {
+        "q_id": "18-2",
+        "question": "where should you blend the yeast mix with the mixer/whisk?",
+        "doc_id": " r-135"
+    },
+    {
+        "q_id": "18-0",
+        "question": "where was the mixture before it was transferred to a wire cooling rack?",
+        "doc_id": " r-135"
+    },
+    {
+        "q_id": "18-3",
+        "question": "what should be added to the pan?",
+        "doc_id": " f-D7RYT56T"
+    },
+    {
+        "q_id": "18-0",
+        "question": "where do you stir the seasoning?",
+        "doc_id": " f-D7RYT56T"
+    },
+    {
+        "q_id": "18-4",
+        "question": "where do you melt butter over medium - high heat?",
+        "doc_id": " f-D7RYT56T"
+    },
+    {
+        "q_id": "18-2",
+        "question": "pounding the mixture and flaking the flesh, which comes first?",
+        "doc_id": " f-D7RYT56T"
+    },
+    {
+        "q_id": "18-1",
+        "question": "where do you toss the garlic , lemon zest , parsley , parmesan , and pine nuts?",
+        "doc_id": " f-D7RYT56T"
+    },
+    {
+        "q_id": "18-0",
+        "question": "where was the wedge before it was baked at 400degf?",
+        "doc_id": " r-191"
+    },
+    {
+        "q_id": "18-1",
+        "question": "why do you add salt and pepper?",
+        "doc_id": " r-191"
+    },
+    {
+        "q_id": "18-2",
+        "question": "where was the pork before it was decorated?",
+        "doc_id": " f-4Z5SV5FY"
+    },
+    {
+        "q_id": "18-0",
+        "question": "how many actions does it take to process the flour?",
+        "doc_id": " f-4Z5SV5FY"
+    },
+    {
+        "q_id": "18-3",
+        "question": "to what extent do you toast the pita breads in a toaster?",
+        "doc_id": " f-4Z5SV5FY"
+    },
+    {
+        "q_id": "18-1",
+        "question": "for how long do you wash the beans?",
+        "doc_id": " f-4Z5SV5FY"
+    },
+    {
+        "q_id": "18-1",
+        "question": "how many oiled pans are used?",
+        "doc_id": " r-98"
+    },
+    {
+        "q_id": "18-0",
+        "question": "what should be fried?",
+        "doc_id": " r-98"
+    },
+    {
+        "q_id": "18-2",
+        "question": "where was the potato before it was plunged into cold water?",
+        "doc_id": " r-4326"
+    },
+    {
+        "q_id": "18-0",
+        "question": "what's in the roux?",
+        "doc_id": " r-4326"
+    },
+    {
+        "q_id": "18-1",
+        "question": "simmering the soup and setting the slurry aside, which comes first?",
+        "doc_id": " r-4326"
+    },
+    {
+        "q_id": "18-2",
+        "question": "removing the potato and mashing potatoes with a potato masher, which comes first?",
+        "doc_id": " f-4BPH5RC2"
+    },
+    {
+        "q_id": "18-3",
+        "question": "what do you add the sour cream mixture alternately with?",
+        "doc_id": " f-4BPH5RC2"
+    },
+    {
+        "q_id": "18-1",
+        "question": "halving the potatoes and cutting the egg into quarters, which comes first?",
+        "doc_id": " f-4BPH5RC2"
+    },
+    {
+        "q_id": "18-0",
+        "question": "how do you beat the egg white?",
+        "doc_id": " f-4BPH5RC2"
+    },
+    {
+        "q_id": "18-4",
+        "question": "where should you add the tomatoes?",
+        "doc_id": " f-4BPH5RC2"
+    },
+    {
+        "q_id": "18-2",
+        "question": "how do you mix the ingredients in the bowl?",
+        "doc_id": " r-4139"
+    },
+    {
+        "q_id": "18-1",
+        "question": "what should be topped in the large pitcher?",
+        "doc_id": " r-4139"
+    },
+    {
+        "q_id": "18-0",
+        "question": "where should you remove the potato?",
+        "doc_id": " r-4139"
+    },
+    {
+        "q_id": "18-1",
+        "question": "where was the pasty mixture before it was drained in absorbent paper?",
+        "doc_id": " r-474"
+    },
+    {
+        "q_id": "18-0",
+        "question": "where was the cooked vegetable before it was plunged into cold water?",
+        "doc_id": " r-474"
+    },
+    {
+        "q_id": "18-4",
+        "question": "what should be formed with the tablespoon?",
+        "doc_id": " f-XNVJGJVP"
+    },
+    {
+        "q_id": "18-0",
+        "question": "what's in the huzarensla?",
+        "doc_id": " f-XNVJGJVP"
+    },
+    {
+        "q_id": "18-2",
+        "question": "how do you heat 3 tablespoons oil in large skillet?",
+        "doc_id": " f-XNVJGJVP"
+    },
+    {
+        "q_id": "18-1",
+        "question": "where should you add the bacon drippings, flour, mustard, egg and water?",
+        "doc_id": " f-XNVJGJVP"
+    },
+    {
+        "q_id": "18-3",
+        "question": "where do you pour warm dressing?",
+        "doc_id": " f-XNVJGJVP"
+    },
+    {
+        "q_id": "18-1",
+        "question": "what should be flattened in the oiled pan with the hand?",
+        "doc_id": " r-815"
+    },
+    {
+        "q_id": "18-0",
+        "question": "how many food processors are used?",
+        "doc_id": " r-815"
+    },
+    {
+        "q_id": "18-0",
+        "question": "where should you remove the stems with the knife?",
+        "doc_id": " r-217"
+    },
+    {
+        "q_id": "18-3",
+        "question": "what should be mixed in the large bowl?",
+        "doc_id": " r-217"
+    },
+    {
+        "q_id": "18-1",
+        "question": "cooling the potato and preheating oven, which comes first?",
+        "doc_id": " r-217"
+    },
+    {
+        "q_id": "18-2",
+        "question": "where was the asparagus before it was arranged on each?",
+        "doc_id": " r-217"
+    },
+    {
+        "q_id": "18-4",
+        "question": "how did you get the flour mixture?",
+        "doc_id": " r-2892"
+    },
+    {
+        "q_id": "18-3",
+        "question": "how do you peel the onions?",
+        "doc_id": " r-2892"
+    },
+    {
+        "q_id": "18-0",
+        "question": "where was the bird eyes chily before it was tossed in?",
+        "doc_id": " r-2892"
+    },
+    {
+        "q_id": "18-1",
+        "question": "how many actions does it take to process the pulp?",
+        "doc_id": " r-2892"
+    },
+    {
+        "q_id": "18-2",
+        "question": "where was the mixture before it was placed on buttered or floured tins?",
+        "doc_id": " r-2892"
+    },
+    {
+        "q_id": "18-3",
+        "question": "what should be added to the mortar?",
+        "doc_id": " r-4384"
+    },
+    {
+        "q_id": "18-4",
+        "question": "sauting the artichoke, basil, oregano, garlic, jalapeno and onion and serving the soup, which comes first?",
+        "doc_id": " r-4384"
+    },
+    {
+        "q_id": "18-2",
+        "question": "how did you get the ingredient?",
+        "doc_id": " r-4384"
+    },
+    {
+        "q_id": "18-1",
+        "question": "what should be served?",
+        "doc_id": " r-4384"
+    },
+    {
+        "q_id": "18-0",
+        "question": "cooking breaded thighs on medium high until the chicken is golden brown on each side and smearing tomato sauce over the chicken, which comes first?",
+        "doc_id": " r-4384"
+    },
+    {
+        "q_id": "18-0",
+        "question": "where should you bake the cookies?",
+        "doc_id": " r-3562"
+    },
+    {
+        "q_id": "18-2",
+        "question": "how do you grill it in the oven for 10 minutes till the capsium changes colour and the sauce is appears cooked?",
+        "doc_id": " r-3562"
+    },
+    {
+        "q_id": "18-3",
+        "question": "what should be served?",
+        "doc_id": " r-3562"
+    },
+    {
+        "q_id": "18-4",
+        "question": "where should you spoon the coconut mixture?",
+        "doc_id": " r-3562"
+    },
+    {
+        "q_id": "18-1",
+        "question": "how did you get the tart crust?",
+        "doc_id": " r-3562"
+    },
+    {
+        "q_id": "18-0",
+        "question": "kneading the dough on a lightly floured board and covering the dough, which comes first?",
+        "doc_id": " r-3402"
+    },
+    {
+        "q_id": "18-1",
+        "question": "where should you bake the dessert?",
+        "doc_id": " r-3402"
+    },
+    {
+        "q_id": "18-3",
+        "question": "how do you beat the butter with a mixer until fluffy?",
+        "doc_id": " r-3402"
+    },
+    {
+        "q_id": "18-2",
+        "question": "how do you place the chicken?",
+        "doc_id": " r-3402"
+    },
+    {
+        "q_id": "18-3",
+        "question": "how many thes are used?",
+        "doc_id": " r-1687"
+    },
+    {
+        "q_id": "18-2",
+        "question": "combining chicken , celery , apple , pineapple , raisins and 11/2 teaspoons of the sesame seeds in a large bowl and serving the chicken mixture, which comes first?",
+        "doc_id": " r-1687"
+    },
+    {
+        "q_id": "18-1",
+        "question": "where was the rye bread before it was removed from oven?",
+        "doc_id": " r-1687"
+    },
+    {
+        "q_id": "18-0",
+        "question": "how do you toss the mixture, mint leave and coriander?",
+        "doc_id": " r-1687"
+    },
+    {
+        "q_id": "18-0",
+        "question": "how many times is the bowl used?",
+        "doc_id": " r-311"
+    },
+    {
+        "q_id": "18-1",
+        "question": "how many sieves are used?",
+        "doc_id": " r-311"
+    },
+    {
+        "q_id": "18-0",
+        "question": "what's in the soup?",
+        "doc_id": " r-1165"
+    },
+    {
+        "q_id": "18-2",
+        "question": "where do you drop frozen peaches a little at a time?",
+        "doc_id": " r-1165"
+    },
+    {
+        "q_id": "18-1",
+        "question": "how many deep fat fryers are used?",
+        "doc_id": " r-1165"
+    }
+]

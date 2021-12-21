@@ -7,7 +7,7 @@ Question IDs are question types, then there are in total 19 kind of classes in t
    no exact match with context) Update: can be done with coreference tags and DROP_ tags. 
    answer with magnitude more than 4 can be misleading.
 
-1: what should be ……? (exact match)
+1: what should be ……? ()
 
 2: how do you mix / where should you ? answers are tools and habitats (some tools and habitats are hidden but are labelled as cooking roles in the dataset) 
    when answering 'where' question, only habitat tag would be used, (exact match)

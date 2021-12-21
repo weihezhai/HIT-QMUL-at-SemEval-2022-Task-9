@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2021/11/11 10:39
 # @Author  : hit-itnlp-fengmq
-# @FileName: evaluate.py
+# @FileName: test_answer.py
 # @Software: PyCharm
 '''
 针对完全匹配和N/A问题的准确率计算
