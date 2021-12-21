@@ -72,6 +72,8 @@ def get_premodel(name):
     return model, tokenizer
 l='allenai/longformer-large-4096-finetuned-triviaqa'
 b='google/bigbird-roberta-large'
+p='google/bigbird-pegasus-large-arxiv'
+
 model, tokenizer = get_premodel(l)
 model = nn.DataParallel(model)
 data =  pd.read_csv('./qa_0.csv')
@@ -81,6 +83,7 @@ tokenize all of the sentences and map the tokens to thier word IDs.
 
 '''
 input_ids = []
+
 attention_masks = []
 sentences = data.context.values
 qs = data.question.values
@@ -91,8 +94,9 @@ for _ in zip(qs,sentences):
         _[0],  # Sentence pair to encode.
         _[1],
         add_special_tokens=True,  # Add '[CLS]' and '[SEP]'
-        max_length=2048,  # Pad & truncate all sentences.
+        max_length=1048+512,  # Pad & truncate all sentences.
         pad_to_max_length=True,
+        truncation=True,
         return_attention_mask=True,  # Construct attn. masks.
         return_tensors='pt',  # Return pytorch tensors.
     )
@@ -103,66 +107,53 @@ for _ in zip(qs,sentences):
     # And its attention mask (simply differentiates padding from non-padding).
     attention_masks.append(encoded_dict['attention_mask'])
 
+step_number = len(input_ids)
+
 # Convert the lists into tensors.
 input_ids = torch.cat(input_ids, dim=0)
 attention_masks = torch.cat(attention_masks, dim=0)
 labels = data.answer.astype(int).values - 1
 labels = torch.tensor(labels)
 
-dataset = TensorDataset(input_ids, attention_masks, labels)
+def shuffle_dataset(input_ids, attention_masks, labels, batch_size):
+    dataset = TensorDataset(input_ids, attention_masks, labels)
 
-'''
-Create a 90-10 train-validation split.
-'''
+    # Calculate the number of samples to include in each set.
+    train_size = int(0.9 * len(dataset))
+    val_size = len(dataset) - train_size
 
-# Calculate the number of samples to include in each set.
-train_size = int(0.9 * len(dataset))
-val_size = len(dataset) - train_size
+    # Divide the dataset by randomly selecting samples.
+    train_dataset, val_dataset = random_split(dataset, [train_size, val_size])
 
-# Divide the dataset by randomly selecting samples.
-train_dataset, val_dataset = random_split(dataset, [train_size, val_size])
-
-print('{:>5,} training samples'.format(train_size))
-print('{:>5,} validation samples'.format(val_size))
+    print('{:>5,} training samples'.format(train_size))
+    print('{:>5,} validation samples'.format(val_size))
 
 
-# Combine the training inputs into a TensorDataset.
-dataset = TensorDataset(input_ids, attention_masks, labels)
 
-# Create a 90-10 train-validation split.
+    '''
+    
+    The DataLoader needs to know our batch size for training, so we specify it 
+    here. For fine-tuning BERT on a specific task, the authors recommend a batch 
+    size of 16 or 32.
+    
+    '''
+    batch_size = batch_size
 
-# Calculate the number of samples to include in each set.
-train_size = int(0.9 * len(dataset))
-val_size = len(dataset) - train_size
+    # Create the DataLoaders for our training and validation sets.
+    # We'll take training samples in random order.
+    train_dataloader = DataLoader(
+                train_dataset,  # The training samples.
+                sampler = RandomSampler(train_dataset), # Select batches randomly
+                batch_size = batch_size # Trains with this batch size.
+            )
 
-# Divide the dataset by randomly selecting samples.
-train_dataset, val_dataset = random_split(dataset, [train_size, val_size])
-
-
-'''
-
-The DataLoader needs to know our batch size for training, so we specify it 
-here. For fine-tuning BERT on a specific task, the authors recommend a batch 
-size of 16 or 32.
-
-'''
-batch_size = 4
-
-# Create the DataLoaders for our training and validation sets.
-# We'll take training samples in random order.
-train_dataloader = DataLoader(
-            train_dataset,  # The training samples.
-            sampler = RandomSampler(train_dataset), # Select batches randomly
-            batch_size = batch_size # Trains with this batch size.
-        )
-
-# For validation the order doesn't matter, so we'll just read them sequentially.
-validation_dataloader = DataLoader(
-            val_dataset, # The validation samples.
-            sampler = SequentialSampler(val_dataset), # Pull out batches sequentially.
-            batch_size = batch_size # Evaluate with this batch size.
-        )
-
+    # For validation the order doesn't matter, so we'll just read them sequentially.
+    validation_dataloader = DataLoader(
+                val_dataset, # The validation samples.
+                sampler = SequentialSampler(val_dataset), # Pull out batches sequentially.
+                batch_size = batch_size # Evaluate with this batch size.
+            )
+    return train_dataloader, validation_dataloader
 '''
 
 build model
@@ -178,7 +169,8 @@ optimizer = AdamW(model.parameters(),
 epochs = 4
 # Total number of training steps is [number of batches] x [number of epochs].
 # (Note that this is not the same as the number of training samples).
-total_steps = len(train_dataloader) * epochs
+
+total_steps = step_number * 0.9 * epochs
 
 # Create the learning rate scheduler.
 scheduler = get_linear_schedule_with_warmup(optimizer,
@@ -198,6 +190,10 @@ for epoch_i in range(0, epochs):
     # ========================================
 
     # Perform one full pass over the training set.
+
+
+    train_dataloader, validation_dataloader = shuffle_dataset(input_ids, attention_masks, labels, batch_size=2)
+
 
     print("")
     print('======== Epoch {:} / {:} ========'.format(epoch_i + 1, epochs))
@@ -229,7 +225,7 @@ for epoch_i in range(0, epochs):
         model.zero_grad()
         # perform a forward pass. logits is somewhat the model outputs prior to activation.
         outputs = model(b_input_ids,
-                        token_type_ids=None,
+                        #token_type_ids=None,
                         attention_mask=b_input_mask,
                         labels=b_labels)
         total_train_loss += outputs.loss.sum()
@@ -282,7 +278,7 @@ for epoch_i in range(0, epochs):
         # the forward pass, since this is only needed for backprop (training).
         with torch.no_grad():
             outputs = model(b_input_ids,
-                            token_type_ids=None,
+                            #token_type_ids=None,
                             attention_mask=b_input_mask,
                             labels=b_labels)
         # Accumulate the validation loss.
@@ -295,13 +291,15 @@ for epoch_i in range(0, epochs):
         # Calculate the accuracy for this batch of test sentences, and
         # accumulate it over all batches.
         total_eval_accuracy += flat_accuracy(logits, label_ids)
+        #print('lgoits is:  ', logits, '\n')
+
     avg_val_loss = total_eval_loss / len(validation_dataloader)
     # Report the final accuracy for this validation run.
     avg_val_accuracy = total_eval_accuracy / len(validation_dataloader)
-    print("  Accuracy: {0:.2f}".format(avg_val_accuracy))
+    print("  Accuracy: {0:.3f}".format(avg_val_accuracy))
     # Measure how long the validation run took.
     validation_time = format_time(time.time() - t0)
-    print("  Validation Loss: {0:.2f}".format(avg_val_loss))
+    print("  Validation Loss: {0:.3f}".format(avg_val_loss))
     print("  Validation took: {:}".format(validation_time))
 
     # Record all statistics from this epoch.
@@ -322,3 +320,4 @@ print("Total training took {:} (h:mm:ss)".format(format_time(time.time() - total
 
 train_summary(training_stats)
 
+torch.save(model.state_dict(), "model_parameter.pkl")
