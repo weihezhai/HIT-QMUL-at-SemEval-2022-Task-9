@@ -35,10 +35,14 @@
 
 
 # /home/mqfeng/code/RecipeQA/sub2/save
+# 对于为0,0的不参与训练
 # 3, Train_acc2:0.9841376982787715 Train_loss:0.044147875838290634-----Val_acc:0.8908629441624365  Val_loss:0.875647212507118
 # 4, Train_acc2:0.9932500843739454 Train_loss:0.022616726191227763-----Val_acc:0.8946700507614214  Val_loss:0.9118410119392812
 # /home/mqfeng/code/RecipeQA/sub2
 
+
+# /home/mqfeng/code/RecipeQA/EM/save2
+# 6, Train_acc:0.9759890859481583 Train_loss:0.05315295108950155-----Val_acc:0.8250303766707169  Val_loss:0.7626378811626655
 
 import json
 import pickle

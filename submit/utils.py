@@ -171,7 +171,7 @@ def extract_text_and_tags(Train=True, path=r"crl_srl.csv"):
     fw = open(out_path, "w", encoding="utf-8")
     json.dump(all_text_tag, fw, ensure_ascii=False, indent=4)
     fw.close()
-extract_text_and_tags(False,r'E:\RecipeQA\data\ITNLP_Semeval2022_Task6\submit\test\crl_srl.csv')
+# extract_text_and_tags(False,r'E:\RecipeQA\data\ITNLP_Semeval2022_Task6\submit\test\crl_srl.csv')
 # 训练集提取只有doc_id，question, answer
 def extract_train_q_a(path=r'E:\RecipeQA\data\数据集\r2vq_train_10_28_2021\train\crl_srl.csv'):
     with open(path, 'r', encoding='utf-8') as f:
@@ -303,8 +303,8 @@ def mergeTextTag(columns: tuple, jsonFile_path):
         paddeddata.append(paddeddoc)
     return paddeddata
 
-# path =r"test/test_all_text_tag.json"
-# padded = mergeTextTag(columns=('arg9','arg10'), jsonFile_path=path)
-# w = open("text4.json", "w", encoding="utf-8")
-# json.dump(padded, w, ensure_ascii=False, indent=4)
-# w.close()
+path =r"test/test_all_text_tag.json"
+padded = mergeTextTag(columns=('arg9','arg10'), jsonFile_path=path)
+w = open("text4.json", "w", encoding="utf-8")
+json.dump(padded, w, ensure_ascii=False, indent=4)
+w.close()

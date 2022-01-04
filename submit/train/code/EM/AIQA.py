@@ -22,7 +22,7 @@ from sentence_transformers import SentenceTransformer, util
 from transformers import AlbertTokenizer, AlbertForQuestionAnswering
 
 # 随机数种子
-#os.environ["CUDA_VISIBLE_DEVICES"] = '0'
+os.environ["CUDA_VISIBLE_DEVICES"] = '1'
 
 def setup_seed(seed):
     torch.manual_seed(seed)
@@ -142,6 +142,9 @@ def train(model,tokenizer, train_dataloader, testdataloader, device, fold=0, epo
             optim.zero_grad()
             data = tuple(t.to(device) for t in data)
             input_ids, token_type_ids, attention_mask, start, end = data
+            if start.item() == 0 and end.item() == 0:
+                print("yes")
+                continue
             outputs = model(input_ids, token_type_ids=token_type_ids, attention_mask=attention_mask,
                             start_positions=start, end_positions=end)
             loss, start_logits, end_logits = outputs.loss, outputs.start_logits, outputs.end_logits
@@ -161,10 +164,10 @@ def train(model,tokenizer, train_dataloader, testdataloader, device, fold=0, epo
             loop.set_description(f'fold:{fold}  Epoch:{epoch}')
             loop.set_postfix(loss=loss.item(), acc=acc)
         if epoch>=3:
-            s_path = r"/home/mqfeng/code/RecipeQA/EM/save"
+            s_path = r"/home/mqfeng/code/RecipeQA/EM/save2"
             sub_path = os.path.join(s_path, "model" + str(epoch))
             os.mkdir(sub_path)
-            model.module.save_pretrained(sub_path)
+            model.save_pretrained(sub_path)
 
         model.eval()
         test_loss = []
@@ -198,7 +201,7 @@ for fold in range(1):
     train_Dataset = myDataset(train_data, tokenizer)
     test_Dataset = myDataset(test_data, tokenizer)
     # 修改batchsize
-    train_Dataloader = DataLoader(train_Dataset, batch_size=4, shuffle=True)
+    train_Dataloader = DataLoader(train_Dataset, batch_size=1, shuffle=True)
     test_Dataloader = DataLoader(test_Dataset, batch_size=1)
     # 训练
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')

@@ -78,7 +78,7 @@ def extract1205():
     fw = open("all_data.json", "w", encoding="utf-8")
     json.dump(all_data2, fw, ensure_ascii=False, indent=4)
     fw.close()
-
+extract1205()
 
 
 def similarity_question_text_SBert():
