@@ -1,0 +1,6 @@
+train3.json和train_qa.json从E:\RecipeQA\MineTest\ITNLP_Semeval2022_Task6\train目录下复制而来
+
+train_qa.json包含全部的问答对
+train_qa2.json去除了NA类问答对
+
+utils当中对NA问题进行了去除

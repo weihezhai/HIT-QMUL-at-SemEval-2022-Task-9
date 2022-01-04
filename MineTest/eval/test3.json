@@ -1,0 +1,987 @@
+{
+    "r-378": [
+        "cook # habitat : pot #  # B-V # the # B-Patient # eggplant # I-Patient # , # I-Patient # complete # I-Patient # with # I-Patient # skin # I-Patient # , in # B-Instrument # salt # I-Instrument # water # I-Instrument # for # B-Time # 30 # I-Time # minutes # I-Time # . ",
+        "heat # B-V # the # B-Patient # oil # I-Patient # in # B-Location # a # I-Location # pan # I-Location # . ",
+        "cut # tool : knife, habitat : cutting board #  # B-V # the # B-Patient # tomatoes # I-Patient # however # B-Attribute # you # I-Attribute # wish # I-Attribute # . ",
+        "add # B-V # the # B-Patient # red # I-Patient # pepper # I-Patient # , # I-Patient # cumin # I-Patient # , # I-Patient # garlic # I-Patient # , # I-Patient # salt # I-Patient # and # I-Patient # lemon # I-Patient # juice # I-Patient # and cook # drop : red pepper cumin garlic salt lemon juice, result : mixture # them in the pan for about five minutes . ",
+        "when the # B-Patient # egg # I-Patient # plant # I-Patient # is almost cooked # habitat : pot #  # B-V # , drain # drop : eggplant, habitat : sink # any excess water off and add # drop : eggplant # to the tomatoes . ",
+        "stir # drop : mixture tomatoes, tool : spoon, habitat : pan #  # B-V # gently # B-Attribute # over # B-Instrument # a # I-Instrument # medium # I-Instrument # heat # I-Instrument # for # B-Time # 15 # I-Time # to # I-Time # 20 # I-Time # minutes # I-Time # . ",
+        "leave # B-V # the # B-Theme # mixture # I-Theme # to # B-Purpose # cool # habitat : pan #  # I-Purpose # before # B-Time # serving # drop : mixture, habitat : plate #  # I-Time # . "
+    ],
+    "r-4852": [
+        "in # B-Location # a # I-Location # blender # I-Location # combine # result : mixture #  # B-V # the # B-Patient # yogurt # I-Patient # , # I-Patient # peeled # I-Patient # and # I-Patient # chunked # tool : knife #  # I-Patient # banana # I-Patient # , # I-Patient # and # I-Patient # the # I-Patient # coconut # I-Patient # extract # I-Patient # . ",
+        "blend # drop : mixture #  # B-V # until # B-Result # smooth # I-Result # . ",
+        "with blender # B-Patient # running # B-V # , drop frozen peaches through opening in lid a little at a time . ",
+        "process # drop : mixture #  # B-V # until # B-Result # smooth # I-Result # . "
+    ],
+    "r-1601": [
+        "mix # B-V # together # B-Attribute # put in greased glass pie pan . ",
+        "bake # drop : greased glass pie pan, result : dessert, habitat : oven #  # B-V # at # B-Value # 340 # I-Value # degrees # I-Value # 35 # B-Time # minutes # I-Time # . ",
+        "let # B-V # set # drop : dessert #  # B-Theme # for # I-Theme # 10 # I-Theme # minutes # I-Theme # then add # drop : dessert # topping . ",
+        "mix # B-V # topping # B-Patient # ingredients # I-Patient # and put # drop : topping ingredients dessert # on top . ",
+        "and bake # drop : dessert, habitat : oven #  # B-V # at # B-Value # 340 # I-Value # degrees # I-Value # for # B-Time # 10 # I-Time # minutes # I-Time # . ",
+        "cool # drop : dessert #  # B-V # and refrigerate # drop : dessert, habitat : refrigerator # . ",
+        "may be served # drop : dessert #  # B-V # topped # drop : dessert #  # B-Attribute # with # I-Attribute # strawberries # I-Attribute # or # I-Attribute # raspberries # I-Attribute # "
+    ],
+    "r-157": [
+        "heat # B-V # 2 # B-Patient # tablespoons # I-Patient # oil # I-Patient # in # B-Location # a # I-Location # skillet # I-Location # and saute # drop : oil, result : onion base, habitat : skillet # garlic until light brown and onion until transparent . ",
+        "stir # drop : onion base, result : mixture #  # B-V # in # B-Destination # pork # B-Patient # and # I-Patient # shrimps # I-Patient # and cook # drop : mixture # until shrimps are done ( when they are pink ) . ",
+        "add # drop : mixture, result : soup #  # B-V # patis # B-Patient # or # I-Patient # salt # I-Patient # , # I-Patient # stock # I-Patient # and # I-Patient # bamboo # I-Patient # shoots # I-Patient # . ",
+        "simmer # drop : soup #  # B-V # for # B-Time # 15 # I-Time # minutes # I-Time # add # drop : soup # vinegar . ",
+        "continue # B-V # simmering # drop : soup #  # B-Theme # until # I-Theme # the # I-Theme # liquid # I-Theme # has # I-Theme # been # I-Theme # reduced # I-Theme # by # I-Theme # half # I-Theme # . ",
+        "add # drop : soup #  # B-V # remaining # B-Patient # 3 # I-Patient # tablespoons # I-Patient # of # I-Patient # oil # I-Patient # and cook # drop : soup # for another 10 minutes . ",
+        "add # drop : soup #  # B-V # salt # B-Patient # and # I-Patient # pepper # I-Patient # to # B-Purpose # taste # I-Purpose # . "
+    ],
+    "f-8Q86RWDJ": [
+        "1 . ",
+        "melt # B-V # the # B-Patient # butter # I-Patient # with # B-Co-Patient # the # I-Co-Patient # oil # I-Co-Patient # in # B-Location # a # I-Location # 4 # I-Location # quart # I-Location # sauce # I-Location # pot # I-Location # on # B-Instrument # low # I-Instrument # . ",
+        "add # B-V # the # B-Patient # sliced # I-Patient # onions # I-Patient # , cover the pot , and cook # drop : butter # slowly for 15 min . ",
+        "until the # B-Patient # onions # I-Patient # turn # B-V # translucent # B-Result # and soften . ",
+        "2 . ",
+        "uncover # B-V # the # B-Theme # pot # I-Theme # , raise the heat to med . , ",
+        "and add # result : onion mixture, habitat : quart sauce pot #  # B-V # the # B-Patient # salt # I-Patient # and # I-Patient # sugar # I-Patient # . ",
+        "cook # drop : onion mixture #  # B-V # for # B-Time # 30 # I-Time # - # I-Time # 40 # I-Time # min # I-Time # . ",
+        "stirring # drop : onion mixture, tool : spoon #  # B-V # frequently # B-Time # , until # B-Result # the # I-Result # onions # I-Result # have # I-Result # turned # I-Result # an # I-Result # even # I-Result # , # I-Result # deep # I-Result # , # I-Result # golden # I-Result # brown # I-Result # . ",
+        "3 . ",
+        "off the heat , stir # tool : spoon, habitat : quart sauce pot #  # B-V # in # B-Destination # the # B-Patient # boiling # I-Patient # stock # I-Patient # and # I-Patient # the # I-Patient # white # I-Patient # wine # I-Patient # . ",
+        "return # B-V # the # B-Patient # pot # I-Patient # to # B-Destination # the # I-Destination # heat # I-Destination # , and simmer partially covered for 30 to 40 min . ",
+        "more . ",
+        "4 . ",
+        "preheat # B-V # the # B-Patient # oven # I-Patient # to # B-Goal # 400 # I-Goal # degrees # I-Goal # . ",
+        "5 . ",
+        "turn # B-V # off # I-V # the # B-Patient # soup # I-Patient # to # B-Purpose # stir # tool : spoon #  # I-Purpose # in # I-Purpose # the # I-Purpose # cognac # I-Purpose # . ",
+        "adjust # B-V # the # B-Patient # seasoning # I-Patient # . ",
+        "6 . ",
+        "ladle # tool : ladle #  # B-V # the # B-Theme # soup # I-Theme # into # B-Destination # oven # I-Destination # - # I-Destination # proof # I-Destination # bowls # I-Destination # . ",
+        "stir # drop : soup, tool : spoon #  # B-V # in # B-Destination # a # B-Patient # little # I-Patient # of # I-Patient # the # I-Patient # grated # I-Patient # gruyere # I-Patient # , float # drop : soup # the toasted baguette slices on top , and layer # drop : soup # on more cheese . ",
+        "7 . ",
+        "set # B-V # the # B-Theme # bowls # I-Theme # on # B-Location # a # I-Location # large # I-Location # cookie # I-Location # sheet # I-Location # and put them into the preheated oven for about 20 min . ",
+        "until the # B-Source # soup # I-Source # is bubbling # B-V # and the top is lightly browned . "
+    ],
+    "f-RYVXFZFV": [
+        "bring # B-V # a # B-Patient # large # I-Patient # pot # I-Patient # of # I-Patient # water # I-Patient # to # D-V # a # D-V # boil # habitat : stove #  # D-V # . ",
+        "add # B-V # the # B-Patient # green # I-Patient # beans # I-Patient # and blanch them for 2 to 3 minutes , until tender but still crisp . ",
+        "drain # B-V # the # B-Source # beans # I-Source # in # B-Destination # a # I-Destination # colander # I-Destination # and immediately put them into a bowl of ice water to stop the cooking and preserve their bright green color . ",
+        "for the gremolata , toss # B-V # the # B-Patient # garlic # I-Patient # , # I-Patient # lemon # I-Patient # zest # I-Patient # , # I-Patient # parsley # I-Patient # , # I-Patient # parmesan # I-Patient # , # I-Patient # and # I-Patient # pine # I-Patient # nuts # I-Patient # in # B-Location # a # I-Location # small # I-Location # bowl # I-Location # and set # drop : gremolata, habitat : small bowl # aside . ",
+        "when ready to serve # B-V # , heat # habitat : stove # the olive oil in a large saute pan over medium - high heat . ",
+        "drain # tool : strainer #  # B-V # the # B-Source # beans # I-Source # and pat # drop : beans, tool : towel # them dry . ",
+        "add # B-V # the # B-Patient # beans # I-Patient # to # B-Co-Patient # the # I-Co-Patient # pan # I-Co-Patient # and saute , turning frequently , for 2 minutes , until coated with olive oil and heated through . ",
+        "remove # B-V # from # B-Source # the # I-Source # heat # I-Source # , add the gremolata and toss well . ",
+        "sprinkle # drop : beans #  # B-V # with # B-Theme # lemon # I-Theme # juice # I-Theme # and serve # drop : beans # . "
+    ],
+    "f-2PMMKJ2X": [
+        "make # B-V # the # B-Product # kadhi # I-Product # .. ",
+        "in # B-Location # a # I-Location # bowl # I-Location # take # B-V # all # B-Theme # kadhi # I-Theme # ingredients # I-Theme # and churn # drop : kadhi ingredients # well . ",
+        "put # B-V # a # B-Theme # pan # I-Theme # to # B-Purpose # heat # I-Purpose # , add # result : mixture # oil , cumin seeds and hing , now also add # drop : mixture # the curd mixture . ",
+        "stir # drop : mixture #  # B-V # continuously # B-Attribute # , until # B-Result # boil # drop : mixture #  # I-Result # appears # I-Result # . ",
+        "let # B-V # it # B-Beneficiary # boil # drop : mixture, result : kadhi #  # B-Theme # for # I-Theme # 5 # I-Theme # - # I-Theme # 6 # I-Theme # minutes # I-Theme # . ",
+        "put # B-V # another # B-Theme # pan # I-Theme # to # B-Purpose # heat # I-Purpose # add one teaspoon oil , add # drop : oil # the sliced onions also sprinkle # drop : oil # salt , sugar and red chilly powder . ",
+        "let # B-V # onions # B-Beneficiary # soften # B-Theme # on # I-Theme # low # I-Theme # heat # I-Theme # sprinkle # drop : onions #  # I-Theme # few # I-Theme # drops # I-Theme # of # I-Theme # water # I-Theme # also # I-Theme # . ",
+        "now # B-Time # add # B-V # the # B-Patient # onions # I-Patient # to # B-Co-Patient # the # I-Co-Patient # kadhi # I-Co-Patient # . ",
+        "garnish # drop : kadhi #  # B-V # with # B-Theme # coriander # I-Theme # leaves # I-Theme # . "
+    ],
+    "f-F5SF7H44": [
+        "to make # B-V # white # B-Product # sauce # I-Product # here is the link , you can make it this way , with maida / all purpose flour / refined flour to get a creamy white sauce , but in my hunt to make food healthy and delicious i have started substituting the maida with whole wheat flour . ",
+        "of course it is no longer white but reddish but i # B-Agent # like # B-V # it # B-Stimulus # this # B-Attribute # way # I-Attribute # for # B-Cause # i # I-Cause # know # I-Cause # it # I-Cause # is # I-Cause # healthier # I-Cause # and # I-Cause # the # I-Cause # best # I-Cause # part # I-Cause # is # I-Cause # the # I-Cause # family # I-Cause # does # I-Cause # not # I-Cause # notice # I-Cause # any # I-Cause # difference # I-Cause # . ",
+        "2 . ",
+        "meanwhile # B-Time # toast # B-V # the # B-Patient # tofu # I-Patient # on # B-Location # a # I-Location # non # I-Location # - # I-Location # stick # I-Location # pan # I-Location # . ",
+        "3 . ",
+        "add # habitat : stick pan #  # B-V # the # B-Patient # toasted # I-Patient # tofu # I-Patient # , # I-Patient # coriander # I-Patient # , # I-Patient # tomato # I-Patient # sauce # I-Patient # nutmeg # I-Patient # powder # I-Patient # , # I-Patient # salt # I-Patient # and # I-Patient # pepper # I-Patient # to # B-Co-Patient # the # I-Co-Patient # white # I-Co-Patient # sauce # I-Co-Patient # ",
+        "4 . ",
+        "cut # tool : knife #  # B-V # 6 # B-Patient # capsicum # I-Patient # lengthwise # B-Attribute # and cleared all the veins and the seeds . ( ",
+        "next # B-Time # time # I-Time # i # B-Agent # will smear # B-V # a # B-Theme # drop # I-Theme # of # I-Theme # oil # I-Theme # and # I-Theme # pinch # I-Theme # of # I-Theme # salt # I-Theme # and # I-Theme # a # I-Theme # pinch # I-Theme # of # I-Theme # oregano # I-Theme # inside # B-Destination # the # I-Destination # capsicum # I-Destination # to # B-Purpose # give # I-Purpose # it # I-Purpose # a # I-Purpose # flavour # I-Purpose # ) . ",
+        "5 . ",
+        "then # B-Time # add # B-V # the # B-Patient # sauce # I-Patient # mixture # I-Patient # in # B-Location # the # I-Location # capsicum # I-Location # . ",
+        "you # B-Agent # could sprinkle # B-V # oregano # B-Theme # and # I-Theme # dried # I-Theme # basil # I-Theme # as i have and dot the capsicum with 2 drops of olive oil . ",
+        "grill # drop : capsicum #  # B-V # it # B-Patient # in # B-Instrument # the # I-Instrument # oven # I-Instrument # with # B-Attribute # both # I-Attribute # the # I-Attribute # grills # I-Attribute # on # I-Attribute # for # B-Time # 10 # I-Time # minutes # I-Time # or till # B-Result # the # I-Result # capsium # I-Result # changes # I-Result # colour # I-Result # and # I-Result # the # I-Result # sauce # I-Result # is # I-Result # appears # I-Result # cooked # I-Result # . "
+    ],
+    "r-5062": [
+        "in # B-Instrument # deep # I-Instrument # fat # I-Instrument # fryer # I-Instrument # , heat # B-V # oil # B-Patient # to # B-Goal # 375degf. # I-Goal # ",
+        "meanwhile # B-Time # , in # B-Location # large # I-Location # bowl # I-Location # , beat # result : mixture, tool : beaters #  # B-V # golden # B-Theme # onion # I-Theme # recipe # I-Theme # soup # I-Theme # mix # I-Theme # , # I-Theme # flour # I-Theme # , # I-Theme # baking # I-Theme # powder # I-Theme # , # I-Theme # eggs # I-Theme # , # I-Theme # mustard # I-Theme # and # I-Theme # beer # I-Theme # until # B-Result # smooth # I-Result # and # I-Result # well # I-Result # blended # drop : mixture #  # I-Result # . ",
+        "let # B-V # batter # B-Beneficiary # stand # B-Theme # 10 # I-Theme # minutes # I-Theme # . ",
+        "dip # result : coated veggies #  # B-V # suggested # B-Patient # veggies # I-Patient # ' # I-Patient # n # I-Patient # ' # I-Patient # things # I-Patient # into # B-Destination # batter # I-Destination # , then carefully drop # drop : coated veggies # into hot oil . ",
+        "fry # drop : coated veggies #  # B-V # , turning # drop : coated veggies # once , until # B-Result # golden # I-Result # brown # I-Result # ; drain # drop : coated veggies # on paper towels . ",
+        "serve # drop : coated veggies #  # B-V # warm # B-Attribute # . "
+    ],
+    "r-3737": [
+        "combine # result : rice mixture, tool : spatula #  # B-V # rice # B-Patient # , # I-Patient # corn # I-Patient # , # I-Patient # chile # I-Patient # , # I-Patient # , # I-Patient # green # I-Patient # pepper # I-Patient # , # I-Patient # red # I-Patient # pepper # I-Patient # , # I-Patient # onions # I-Patient # and # I-Patient # crushed # I-Patient # red # I-Patient # pepper # I-Patient # in # B-Location # large # I-Location # bowl # I-Location # . ",
+        "mix # tool : spoon, habitat : bowl #  # B-V # lime # B-Patient # juice # I-Patient # , # I-Patient # oil # I-Patient # and # I-Patient # garlic # I-Patient # ; add # drop : lime juice oil garlic, habitat : large bowl # to rice mixture . ",
+        "just before serving # drop : rice mixture cheese lettuce leaves tomato lime juice oil garlic, habitat : large bowl #  # B-V # add # drop : rice mixture lime juice oil garlic, habitat : large bowl # cheese and toss # drop : cheese rice mixture lime juice oil garlic, habitat : large bowl # lightly . ",
+        "serve # drop : cheese rice mixture lime juice oil garlic, habitat : large bowl #  # B-V # on # B-Location # lettuce # I-Location # leaves # I-Location # ; garnish # drop : rice mixture cheese, habitat : large bowl # with tomato wedges . "
+    ],
+    "f-KTQ82N6L": [
+        "melt # B-V # the # B-Patient # bacon # I-Patient # grease # I-Patient # in # B-Location # a # I-Location # saucepan # I-Location # , and whisk # tool : whisk, habitat : saucepan # in the flour over low heat . ",
+        "cook # habitat : saucepan #  # B-V # for # B-Time # 2 # I-Time # - # I-Time # 3 # I-Time # minutes # I-Time # over # B-Instrument # low # I-Instrument # heat # I-Instrument # , and pour # result : mixture # in the beer , cream , and dijon mustard . ",
+        "increase # B-V # heat # B-Attribute # to # B-Goal # medium # I-Goal # - # I-Goal # low # I-Goal # , stir # tool : spoon # frequently , and cook # drop : mixture, habitat : saucepan # until the mixture is slightly thickened # habitat : saucepan # . ",
+        "remove # drop : saucepan #  # B-V # from # B-Source # heat # I-Source # , and stir # result : mixture, tool : spoon, habitat : saucepan # in the cheese , 3/4 of the bacon , and tabasco . ",
+        "pour # drop : mixture #  # B-V # into # B-Destination # a # I-Destination # hollowed # I-Destination # - # I-Destination # out # I-Destination # bread # I-Destination # round # I-Destination # , # I-Destination # or # I-Destination # a # I-Destination # serving # I-Destination # dish # I-Destination # . ",
+        "serve # drop : mixture #  # B-V # with # B-Attribute # crusty # I-Attribute # bread # I-Attribute # chunks # I-Attribute # , and garnish with the remaining bacon , some extra cheese , and the chives . "
+    ],
+    "r-4762": [
+        "spread # B-V # the # B-Theme # oatmeal # I-Theme # on # B-Destination # a # I-Destination # cookie # I-Destination # sheet # I-Destination # and heat # drop : oatmeal # in a 350degf oven for 10 minutes . ",
+        "combine # drop : oatmeal, result : mixture #  # B-V # all # B-Patient # but # I-Patient # the # I-Patient # wheat # I-Patient # germ # I-Patient # and # I-Patient # raisins # I-Patient # . ",
+        "bake # drop : mixture, habitat : oven #  # B-V # on # B-Location # an # I-Location # ungreased # I-Location # cookie # I-Location # sheet # I-Location # or # I-Location # pan # I-Location # for # B-Time # 20 # I-Time # minutes # I-Time # , stirring # drop : mixture # once to brown # drop : mixture # evenly . ",
+        "allow # B-V # mixture # B-Beneficiary # to # B-Theme # toast # I-Theme # in # I-Theme # the # I-Theme # oven # I-Theme # . ",
+        "add # drop : mixture #  # B-V # wheat # B-Patient # germ # I-Patient # and # I-Patient # raisins # I-Patient # . ",
+        "refrigerate # drop : mixture, habitat : refrigerator #  # B-V # in # B-Location # glass # I-Location # jars # I-Location # or # I-Location # plastic # I-Location # containers # I-Location # . "
+    ],
+    "r-117": [
+        "fillet # B-V # the # B-Patient # fish # I-Patient # and flake # tool : fork # the flesh then put # drop : fish # in a mortar . ",
+        "put # habitat : mortar #  # B-V # in # B-Destination # garlic # B-Theme # and # I-Theme # ginger # I-Theme # and pound # result : mixture, tool : pestle # the mixture to a paste . ",
+        "add # drop : mixture, habitat : mortar #  # B-V # in # B-Destination # the # B-Patient # turmeric # I-Patient # , # I-Patient # salt # I-Patient # and # I-Patient # chili # I-Patient # flakes # I-Patient # . ",
+        "pound # drop : mixture, tool : pestle, habitat : mortar #  # B-V # for # B-Time # 10 # I-Time # - # I-Time # 12 # I-Time # minutes # I-Time # . ",
+        "moisten # B-V # your # B-Patient # hands # I-Patient # with # B-Instrument # water # I-Instrument # and scoop # tool : hands # some of the pasty mixture and flatten # drop : mixture # it on your palm until it resembles a cookie . ",
+        "heat # B-V # oil # B-Patient # in # B-Location # a # I-Location # pan # I-Location # and deep - fry the fish fritters for 4 - 5 minutes or until golden brown . ",
+        "drain # shadow : mixture #  # B-V # excess # B-Theme # oil # I-Theme # in # B-Instrument # absorbent # I-Instrument # paper # I-Instrument # before # B-Time # serving # drop : mixture #  # I-Time # . "
+    ],
+    "r-900": [
+        "mix # result : slurry #  # B-V # cornstarch # B-Patient # and # I-Patient # 1/4 # I-Patient # c # I-Patient # water # I-Patient # , set # drop : slurry # aside . ",
+        "bring # B-V # stock # B-Patient # and # I-Patient # remaining # I-Patient # water # I-Patient # to # D-V # a # D-V # boil # result : soup #  # D-V # in # B-Location # a # I-Location # saucepan # I-Location # . ",
+        "reduce # B-V # heat # B-Attribute # and add zest , salt , pepper and lemon juice . ",
+        "whisk # drop : soup, tool : whisk #  # B-V # in # B-Destination # cornstarch # B-Theme # mixture # I-Theme # and stir # drop : soup # 2 - 3 minutes , simmering # drop : soup # . ",
+        "add # drop : soup #  # B-V # egg # B-Patient # in # B-Attribute # a # I-Attribute # slow # I-Attribute # stream # I-Attribute # , stirring # drop : soup # with a spoon . ",
+        "add # drop : soup #  # B-V # spinach # B-Patient # return to boil # drop : soup # , remove # drop : soup # from heat . ",
+        "serve # drop : soup #  # B-V # with # B-Attribute # grated # I-Attribute # parmesan # I-Attribute # cheese # I-Attribute # as # I-Attribute # a # I-Attribute # garnish # I-Attribute # . "
+    ],
+    "f-88XKC27N": [
+        "rinse # B-V # the # B-Patient # lentils # I-Patient # with # B-Instrument # water # I-Instrument # and sift # tool : sieve # through lentils . ",
+        "heat # B-V # a # B-Patient # saucepot # I-Patient # with # I-Patient # a # I-Patient # drizzle # I-Patient # of # I-Patient # olive # I-Patient # oil # I-Patient # . ",
+        "add # result : mixture, habitat : saucepot #  # B-V # the # B-Patient # onions # I-Patient # , # I-Patient # celery # I-Patient # and # I-Patient # garlic # I-Patient # . ",
+        "saute # B-V # until # B-Result # the # I-Result # onions # I-Result # are # I-Result # transparent # I-Result # . ",
+        "add # result : mixture with tomatoes, habitat : saucepot #  # B-V # the # B-Patient # tomatoes # I-Patient # and continue to saute # habitat : saucepot # for a few minutes . ",
+        "add # result : lentil mixture, habitat : saucepot #  # B-V # the # B-Patient # lentils # I-Patient # and # I-Patient # half # I-Patient # of # I-Patient # the # I-Patient # chicken # I-Patient # broth # I-Patient # . ",
+        "simmer # habitat : saucepot #  # B-V # gently # B-Attribute # on # B-Instrument # low # I-Instrument # until # B-Result # the # I-Result # broth # I-Result # is # I-Result # absorbed # habitat : saucepot #  # I-Result # . ",
+        "add # result : seasoned lentil, habitat : saucepot #  # B-V # the # B-Patient # rest # I-Patient # of # I-Patient # the # I-Patient # broth # I-Patient # and # I-Patient # the # I-Patient # seasonings # I-Patient # and gently simmer # habitat : saucepot # on low . ",
+        "before serving # drop : seasoned lentil #  # B-V # add # result : lentil with vinegar and honey, habitat : saucepot # the vinegar and honey mixture and stir # tool : spoon # . ",
+        "serve # drop : lentil with vinegar and honey #  # B-V # with # B-Attribute # rice # I-Attribute # , # I-Attribute # noodles # I-Attribute # or # I-Attribute # as # I-Attribute # is # I-Attribute # . "
+    ],
+    "r-1275": [
+        "beat # tool : mixer, habitat : bowl #  # B-V # the # B-Theme # eggs # I-Theme # and # I-Theme # sugar # I-Theme # together # B-Attribute # for # B-Time # 5 # I-Time # minutes # I-Time # . ",
+        "add # result : batter #  # B-V # the # B-Patient # flour # I-Patient # , # I-Patient # melted # I-Patient # butter # I-Patient # and # I-Patient # the # I-Patient # coffee # I-Patient # extract # I-Patient # , beating # drop : batter, tool : mixer # well with each addition . ",
+        "pour # drop : batter #  # B-V # into # B-Destination # a # I-Destination # small # I-Destination # buttered # I-Destination # square # I-Destination # pan # I-Destination # . ",
+        "bake # drop : batter, result : cake #  # B-V # in # B-Instrument # a # I-Instrument # moderate # I-Instrument # oven # I-Instrument # ( # I-Instrument # 350degf # I-Instrument # ) # I-Instrument # 1/2 # B-Time # hour # I-Time # . ",
+        "when done , invert # drop : cake # the pan on a cake rack and let cool # drop : cake # . ",
+        "when # B-Time # the # I-Time # cake # I-Time # is # I-Time # cold # I-Time # cut # drop : cake, tool : knife #  # B-V # it # B-Patient # into # B-Result # two # I-Result # layers # I-Result # . ",
+        "spread # drop : cake, tool : spatula #  # B-V # one # B-Destination # with # B-Theme # the # I-Theme # filling # I-Theme # and put the layers together ; spread # tool : spatula # the rest of the filling over the top . ",
+        "press # tool : fingers #  # B-V # chopped # B-Patient # almonds # I-Patient # lightly # B-Attribute # around # B-Destination # the # I-Destination # edge # I-Destination # of # I-Destination # the # I-Destination # cake # I-Destination # . "
+    ],
+    "f-8KG2VBC7": [
+        "follow # B-V # instructions # B-Theme # on # I-Theme # edamame # I-Theme # package # I-Theme # to # B-Purpose # prepare # I-Purpose # the # I-Purpose # soy # I-Purpose # beans # I-Purpose # . ",
+        "my # B-Experiencer # family # I-Experiencer # enjoys # B-V # eating # B-Stimulus # this # I-Stimulus # healthy # I-Stimulus # snack # I-Stimulus # , hence i usually make about 2 - 3 packets at one go , then store # drop : packets # in an air - tight container and refrigerate # habitat : refrigerator # after extracting all the beans . ",
+        "rinse # shadow : water #  # B-V # rice # B-Patient # , add water and salt . ",
+        "cook # drop : rice #  # B-V # for # B-Time # about # I-Time # 15 # I-Time # - # I-Time # 20 # I-Time # minutes # I-Time # , then throw in edamame . ",
+        "remove # B-V # bones # B-Patient # from # B-Source # canned # I-Source # fish # I-Source # , and peel into bite - size pieces . ",
+        "when rice # B-Patient # is almost cooked # B-V # , add in dace fish and black beans . ",
+        "mix # drop : black beans canned fish rice, result : rice fish mixture #  # B-V # well # B-Attribute # . ",
+        "cover # drop : rice fish mixture #  # B-V # and cook # drop : rice fish mixture # for another 5 minutes or so . ",
+        "pair # B-V # your # B-Theme # brown # I-Theme # rice # I-Theme # with # I-Theme # fried # I-Theme # dace # I-Theme # and # I-Theme # edamame # I-Theme # ( # I-Theme # meiweidoushilingyucaomifan # I-Theme # ) # I-Theme # with # B-Co-Theme # your # I-Co-Theme # favourite # I-Co-Theme # soup # I-Co-Theme # ! "
+    ],
+    "f-3X45Z8TR": [
+        "place # B-V # butter # B-Theme # in # B-Location # a # I-Location # large # I-Location # bowl # I-Location # ; beat # drop : butter # with a mixer at medium speed until fluffy . ",
+        "add # drop : butter #  # B-V # sugars # B-Patient # , beating # drop : butter, tool : mixer # until blended # drop : butter, result : butter sugar mixture # . ",
+        "add # drop : butter sugar mixture, result : wet ingredients #  # B-V # apricot # B-Patient # preserves # I-Patient # , # I-Patient # vanilla # I-Patient # , # I-Patient # and # I-Patient # egg # I-Patient # , beating # drop : wet ingredients, tool : mixer # just until blended # drop : wet ingredients # . ",
+        "combine # result : flour mixture #  # B-V # flour # B-Patient # , # I-Patient # oats # I-Patient # , # I-Patient # pudding # I-Patient # mix # I-Patient # , # I-Patient # baking # I-Patient # soda # I-Patient # , # I-Patient # salt # I-Patient # , # I-Patient # and # I-Patient # craisins # I-Patient # . ",
+        "gradually # B-Attribute # add # result : dough #  # B-V # flour # B-Patient # mixture # I-Patient # to # B-Co-Patient # butter # I-Co-Patient # mixture # I-Co-Patient # , stirring # drop : dough # just until combined # drop : dough # . ",
+        "drop # drop : dough, result : cookies, tool : teaspoon #  # B-V # by # B-Source # teaspoons # I-Source # on # B-Destination # lightly # I-Destination # buttered # I-Destination # cookie # I-Destination # sheets # I-Destination # . ",
+        "bake # drop : cookies, habitat : oven #  # B-V # 350 degrees for # B-Time # 12 # I-Time # - # I-Time # 14 # I-Time # minutes # I-Time # or until # B-Result # lightly # I-Result # browned # drop : cookies #  # I-Result # . ",
+        "cool # drop : cookies #  # B-V # ; 2 # B-Time # minutes # I-Time # or until # B-Result # firm # I-Result # . ",
+        "remove # B-V # cookies # B-Patient # and place # drop : cookies # on wire rack to cool # drop : cookies # . "
+    ],
+    "r-5105": [
+        "in # B-Location # a # I-Location # large # I-Location # bowl # I-Location # or # I-Location # food # I-Location # processor # I-Location # , dissolve # result : yeast mix #  # B-V # yeast # B-Patient # in # B-Instrument # water # I-Instrument # . ",
+        "add # drop : yeast mix, habitat : large bowl #  # B-V # honey # B-Patient # , # I-Patient # margarine # I-Patient # , # I-Patient # salt # I-Patient # , # I-Patient # dry # I-Patient # milk # I-Patient # , # I-Patient # pumpkin # I-Patient # , # I-Patient # spices # I-Patient # . ",
+        "beat # drop : yeast mix, tool : mixer whisk #  # B-V # well # B-Attribute # to # B-Purpose # blend # drop : yeast mix, tool : mixer whisk, habitat : large bowl #  # I-Purpose # , then gradually beat # drop : yeast mix, tool : mixer whisk, habitat : food processor # in about 4 cups of the combined flours to make a stiff dough . ",
+        "turn # B-V # dough # B-Theme # out # B-Destination # onto # I-Destination # a # I-Destination # floured # I-Destination # board # I-Destination # and knead # drop : dough, tool : hands, habitat : floured board # until smooth about 15 to 20 minutes , adding # drop : dough, habitat : floured board # flour as needed to prevent sticking # drop : dough, habitat : floured board # . ",
+        "turn # B-V # dough # B-Theme # over # B-Destination # in # B-Location # a # I-Location # bowl # I-Location # coated # habitat : bowl #  # I-Location # with # I-Location # nonstick # I-Location # spray # I-Location # , cover # drop : dough, habitat : bowl # and let rise # drop : dough, habitat : bowl # in a warm place until doubled # drop : dough, habitat : bowl # ( 11/2 - 2 hours ) punch # tool : hands, habitat : bowl # down dough , knead # drop : dough, tool : hands # briefly on a lightly floured board to release # drop : dough # air . ",
+        "divide # B-V # dough # B-Patient # into # B-Result # 24 # I-Result # equal # I-Result # pieces # I-Result # . ",
+        "shape # B-V # each # B-Patient # into # B-Result # a # I-Result # smooth # I-Result # ball # I-Result # and place balls in 2 greased 9-inch round baking pans coated with nonstick spray . ",
+        "cover # drop : rolls dough, habitat : baking pans #  # B-V # and let rise # drop : rolls, habitat : baking pans # until almost double . ",
+        "bake # B-V # in # B-Instrument # a # I-Instrument # preheated # I-Instrument # 375degf # I-Instrument # oven # I-Instrument # for # B-Time # 25 # I-Time # minutes # I-Time # or until # B-Result # browned # I-Result # . ",
+        "cool # B-V # on # B-Location # racks # I-Location # . "
+    ],
+    "r-4062": [
+        "first # B-Time # rub # tool : fingertips, habitat : bowl #  # B-V # the # B-Patient # shortening # I-Patient # to # B-Goal # a # I-Goal # cream # I-Goal # . ",
+        "add # habitat : bowl #  # B-V # the # B-Patient # sugar # I-Patient # , # I-Patient # molasses # I-Patient # , # I-Patient # and # I-Patient # salt # I-Patient # , and beat # drop : sugar molasses salt cream, tool : whisk, habitat : bowl # till it is light and creamy , then add # drop : sugar molasses salt, habitat : bowl # the egg , and beat # drop : egg sugar molasses salt cream, result : mixture, habitat : bowl # well . ",
+        "stir # drop : mixture, result : dough, tool : whisk, habitat : bowl #  # B-V # in # B-Destination # the # B-Patient # flour # I-Patient # , # I-Patient # bran # I-Patient # , # I-Patient # nuts # I-Patient # , # I-Patient # and # I-Patient # currants # I-Patient # . ",
+        "oil # shadow : oil #  # B-V # hands # B-Destination # , and form # result : balls, habitat : bowl # the dough into balls with the hands . ",
+        "lay # B-V # the # B-Theme # balls # I-Theme # on # B-Location # an # I-Location # oiled # I-Location # pan # I-Location # , flatten # drop : balls, tool : hands, habitat : oiled pan # them to a thickness of one - fourth inch , then bake # drop : balls, result : cookies, habitat : oven # them . "
+    ],
+    "r-910": [
+        "cut # tool : knife #  # B-V # the # B-Patient # bacon # I-Patient # into # B-Result # tiny # I-Result # bits # I-Result # , fry # drop : bacon # it in a big deep frying pan , and fish # tool : slotted spoon # out all the bits after they are crisp . ",
+        "cut # result : chopped veggies, tool : knife #  # B-V # up # I-V # the # B-Patient # onion # I-Patient # and # I-Patient # garlic # I-Patient # and fry # drop : chopped veggies, habitat : big deep frying pan # them in the bacon fat . ",
+        "when # B-Time # they # I-Time # are # I-Time # brown # I-Time # , pour # drop : chopped veggies, result : mixture #  # B-V # in # B-Destination # the # B-Theme # vinegar # I-Theme # . ",
+        "bring # B-V # it # B-Patient # just # B-Extent # up # I-Extent # to # D-V # a # D-V # simmer # drop : mixture #  # D-V # , add # drop : mixture # all the cabbage and bacon , toss # drop : mixture # it as you would a salad , and serve # drop : mixture # it . ",
+        "the # B-Patient # cabbage # I-Patient # does n't cook # B-V # , but it wilts a little under the hot vinegar . "
+    ],
+    "f-JLH74DCR": [
+        "rough chop # tool : knife # cucumbers . ",
+        "in # B-Location # a # I-Location # medium # I-Location # , # I-Location # securely # I-Location # sealable # I-Location # container # I-Location # , combine # result : marinade #  # B-V # soy # B-Patient # sauce # I-Patient # , # I-Patient # rice # I-Patient # vinegar # I-Patient # , # I-Patient # and # I-Patient # sesame # I-Patient # oil # I-Patient # . ",
+        "add # B-V # cucumbers # B-Patient # to # B-Co-Patient # the # I-Co-Patient # marinade # I-Co-Patient # , close container and shake . ",
+        "refrigerate # habitat : refrigerator #  # B-V # for # B-Time # 1 # I-Time # to # I-Time # 2 # I-Time # hours # I-Time # . ",
+        "shake # B-V # cucumbers # B-Theme # periodically # B-Time # , or leave overnight to marinate . ",
+        "note # B-V # , the # B-Stimulus # longer # I-Stimulus # the # I-Stimulus # cucumbers # I-Stimulus # are # I-Stimulus # left # I-Stimulus # in # I-Stimulus # the # I-Stimulus # marinade # I-Stimulus # the # I-Stimulus # saltier # I-Stimulus # they # I-Stimulus # become # I-Stimulus # . ",
+        "i # B-Agent # 've left # drop : cucumbers, result : pickled cucumbers #  # B-V # them # B-Theme # in # B-Location # the # I-Location # marinade # I-Location # for # B-Time # up # I-Time # to # I-Time # 3 # I-Time # days # I-Time # and the cucumbers were good . ",
+        "serve # drop : pickled cucumbers #  # B-V # and enjoy ! "
+    ],
+    "f-4HWM88HF": [
+        "mix # B-V # spices # B-Patient # with # B-Co-Patient # besan # I-Co-Patient # then add 1/3 - 3/4 cup water and mix well to make a bater . ",
+        "heat # B-V # oil # B-Patient # in # B-Location # a # I-Location # karahi # I-Location # , dip potato slices in besan bater and fry till golden and tender . ",
+        "delicious poatao pakoras are ready . ",
+        "serve # B-V # with # B-Attribute # podina # I-Attribute # imli # I-Attribute # chutney # I-Attribute # . "
+    ],
+    "r-3274": [
+        "preheat # B-V # oven # B-Patient # to # B-Goal # 400 # I-Goal # degf. # I-Goal # ",
+        "prick # B-V # each # B-Patient # potato # I-Patient # twice # B-Time # with # B-Instrument # a # I-Instrument # fork # I-Instrument # and bake # drop : potato # in a foil - lined shallow baking pan in lower third of oven until very tender , about 1 hour . ",
+        "remove # drop : potato, habitat : foil lined #  # B-V # and cool # drop : potato, habitat : foil lined # slightly . ",
+        "halve # tool : knife, habitat : shallow baking pan #  # B-V # potatoes # B-Patient # lengthwise # B-Attribute # and scoop # drop : potato, tool : spoon # out warm flesh into a large bowl . ",
+        "mash # drop : warm flesh #  # B-V # potatoes # B-Patient # with # B-Instrument # a # I-Instrument # potato # I-Instrument # masher # I-Instrument # or , for a smoother puree , force # habitat : large bowl # through a potato ricer . ",
+        "stir # drop : puree potato, habitat : large bowl #  # B-V # in # B-Destination # butter # B-Patient # , # I-Patient # cream # I-Patient # , # I-Patient # syrup # I-Patient # , # I-Patient # salt # I-Patient # , # I-Patient # and # I-Patient # pepper # I-Patient # . "
+    ],
+    "r-4856": [
+        "mix # result : batter #  # B-V # oil # B-Patient # , # I-Patient # peanut # I-Patient # butter # I-Patient # , # I-Patient # sugar # I-Patient # and # I-Patient # egg # I-Patient # together # B-Attribute # . ",
+        "stir # drop : batter, result : dough #  # B-V # in # B-Destination # the # B-Patient # remaining # I-Patient # ingredients # I-Patient # . ",
+        "chill # habitat : refrigerator #  # B-V # the # B-Patient # dough # I-Patient # for # B-Time # 3 # I-Time # hours # I-Time # or # I-Time # overnight # I-Time # . ",
+        "roll # drop : dough #  # B-V # into # B-Result # walnut # I-Result # sized # I-Result # balls # I-Result # . ",
+        "place # drop : balls #  # B-V # on # B-Location # lightly # I-Location # greased # shadow : cooking spray, habitat : baking sheet #  # I-Location # baking # I-Location # sheet # I-Location # . ",
+        "flatten # drop : balls #  # B-V # with # B-Instrument # a # I-Instrument # fork # I-Instrument # . ",
+        "bake # drop : balls, result : cookies, habitat : oven #  # B-V # in # B-Instrument # a # I-Instrument # 375degf # I-Instrument # oven # I-Instrument # for # B-Time # 10 # I-Time # to # I-Time # 12 # I-Time # minutes # I-Time # . ",
+        "cool # drop : cookies #  # B-V # thoroughly # B-Attribute # before # B-Time # serving # drop : cookies #  # I-Time # . "
+    ],
+    "r-4233": [
+        "blend # result : mixture, tool : spoon, habitat : bowl #  # B-V # all # B-Patient # ingredients # I-Patient # except # I-Patient # mushrooms # I-Patient # . ",
+        "clean # shadow : water, habitat : sink #  # B-V # mushrooms # B-Patient # and remove # tool : knife, habitat : cutting board # stems . ",
+        "fill # tool : spoon, habitat : cutting board #  # B-V # mushroom # B-Destination # caps # I-Destination # with # B-Theme # mixture # I-Theme # . ",
+        "sprinkle # drop : mushrooms, habitat : cutting board #  # B-V # top # B-Destination # with # B-Theme # bread # I-Theme # crumbs # I-Theme # . ",
+        "bake # drop : mushrooms, shadow : butter, result : stuffed mushrooms, habitat : oven #  # B-V # at # B-Value # 350degf # I-Value # for # B-Time # 10 # I-Time # minutes # I-Time # in # B-Location # a # I-Location # shallow # I-Location # buttered # I-Location # dish # I-Location # until # B-Result # hot # result : stuffed mushrooms, habitat : oven #  # I-Result # and # I-Result # bubbly # I-Result # . ",
+        "enjoy # B-V # . "
+    ],
+    "r-1798": [
+        "place # result : mixture #  # B-V # the # B-Theme # water # I-Theme # , # I-Theme # rice # I-Theme # , # I-Theme # cinnamon # I-Theme # stick # I-Theme # , # I-Theme # lemon # I-Theme # zest # I-Theme # , # I-Theme # salt # I-Theme # and # I-Theme # sugar # I-Theme # in # B-Location # a # I-Location # saucepan # I-Location # or # I-Location # pot # I-Location # and bring to a boil # drop : mixture # . ",
+        "when boiling # drop : mixture #  # B-V # , lower heat , cover # drop : saucepan # and let simmer # drop : mixture # until the water is nearly all absorbed ( keep checking every minute , so as not to burn ) . ",
+        "add # drop : mixture, result : arroz con leche #  # B-V # the # B-Patient # milk # I-Patient # when # B-Time # most # I-Time # of # I-Time # the # I-Time # water # I-Time # has # I-Time # absorbed # I-Time # and continue cooking # drop : arroz con leche # until the rice is extra tender and \" bloated \" . ",
+        "stir # B-V # and the texture should be creamy . ",
+        "add # drop : arroz con leche #  # B-V # a # B-Patient # splash # I-Patient # more # I-Patient # milk # I-Patient # if necessary ( whole fat ) . ",
+        "remove # B-V # the # B-Patient # cinnamon # I-Patient # stick # I-Patient # . ",
+        "serve # B-V # the # B-Theme # arroz # I-Theme # con # I-Theme # leche # I-Theme # warm # I-Theme # ( # I-Theme # or # I-Theme # chilled # I-Theme # ) # I-Theme # , and garnish # drop : arroz con leche # with cinnamon powder on top and cinnamon sticks on the side . "
+    ],
+    "r-3258": [
+        "mix # shadow : coconut seeds goat milk salt eggs blue cheese, result : mixture, tool : whisk, habitat : bowl #  # B-V # all # B-Patient # ingredients # I-Patient # together # B-Attribute # and pour # drop : mixture, shadow : cooking oil # into greased mini - muffin tins . ",
+        "bake # drop : mixture, result : queijadinha, habitat : oven #  # B-V # in # B-Value # 350 # I-Value # degf # I-Value # until # B-Result # golden # I-Result # brown # I-Result # on # I-Result # top # I-Result # ( about # B-Time # 15 # I-Time # minutes # I-Time # ) . ",
+        "let # B-V # it # B-Beneficiary # cool # B-Theme # a # I-Theme # little # I-Theme # and # I-Theme # remove # drop : queijadinha, habitat : mini muffin tins #  # I-Theme # . ",
+        "place # drop : queijadinha #  # B-V # in # B-Location # pretty # I-Location # paper # I-Location # cups # I-Location # . ",
+        "make # B-V # a # B-Theme # silly # I-Theme # face # I-Theme # and laugh until you # B-Agent # cry ! "
+    ],
+    "f-PT5ZVJYJ": [
+        "preheat # B-V # oven # B-Patient # at # B-Value # 350deg # I-Value # ",
+        "pound # B-V # the # B-Patient # chicken # I-Patient # breast # I-Patient # or # I-Patient # tights # I-Patient # until # B-Result # they # I-Result # are # I-Result # even # I-Result # and # I-Result # 1/4 # I-Result # inch # I-Result # thick # I-Result # . ",
+        "on # B-Location # a # I-Location # shallow # I-Location # dish # I-Location # combine # result : flour mixture #  # B-V # the # B-Patient # flour # I-Patient # , # I-Patient # salt # I-Patient # and # I-Patient # pepper # I-Patient # . ",
+        "on # B-Location # a # I-Location # second # I-Location # dish # I-Location # , beat # B-V # the # B-Theme # eggs # I-Theme # with # B-Instrument # 1 # I-Instrument # tablespoon # I-Instrument # of # I-Instrument # water # I-Instrument # . ",
+        "on # B-Location # a # I-Location # third # I-Location # dish # I-Location # , combine # B-V # the # B-Patient # bread # I-Patient # crumbs # I-Patient # , # I-Patient # panko # I-Patient # , # I-Patient # marjoram # I-Patient # and # I-Patient # parmesan # I-Patient # cheese # I-Patient # . ",
+        "coat # tool : hands, habitat : shallow dish #  # B-V # the # B-Destination # chicken # I-Destination # on # B-Location # both # I-Location # sides # I-Location # with # B-Theme # the # I-Theme # flour # I-Theme # mixture # I-Theme # , shaking # drop : chicken, tool : hands # off any excess , then dip # tool : hands # both sides into the egg mixture and dredge # drop : chicken, tool : hands, habitat : cookie sheet # both sides in the bread crumbs mixture . ",
+        "heat # B-V # the # B-Patient # oil # I-Patient # in # B-Location # a # I-Location # large # I-Location # saute # I-Location # pan # I-Location # , # I-Location # 1/2 # I-Location # inch # I-Location # up # I-Location # to # I-Location # skillet # I-Location # side # I-Location # , and cook breaded thighs on medium high for 2 to 3 minutes on each side , until the chicken is golden brown on each side . ",
+        "do not overcrowd # B-V # the # B-Location # skillet # I-Location # . ",
+        "remove # drop : chicken, tool : tongs #  # B-V # and place # drop : chicken, tool : tongs # in a cookie sheet . ",
+        "smear # B-V # tomato # B-Theme # sauce # I-Theme # over # B-Destination # the # I-Destination # chicken # I-Destination # and top with a mozzarella slice . ",
+        "place # B-V # in # B-Location # the # I-Location # oven # I-Location # and cook until the mozzarella has melted . "
+    ],
+    "r-4143": [
+        "lightly # B-Attribute # toast # B-V # saffron # B-Patient # threads # I-Patient # in # B-Instrument # a # I-Instrument # dry # I-Instrument # frying # I-Instrument # pan # I-Instrument # ( take care not to burn ) ",
+        "pulverize # drop : saffron threads #  # B-V # in # B-Location # a # I-Location # mortar # I-Location # and # I-Location # pestle # I-Location # . ",
+        "reserve # drop : saffron threads, habitat : mortar #  # B-V # . ",
+        "coarsely # B-Attribute # mash # tool : fork, habitat : bowl #  # B-V # ( do not puree ) california # B-Patient # avocados # I-Patient # . ",
+        "fold # drop : california avocados, tool : fork #  # B-V # in # B-Destination # remaining # B-Patient # ingredients # I-Patient # and # I-Patient # reserved # I-Patient # saffron # I-Patient # . ",
+        "serve # drop : california avocados ingredients saffron threads, result : guacamole #  # B-V # with # B-Attribute # purple # I-Attribute # potato # I-Attribute # and # I-Attribute # sweet # I-Attribute # potato # I-Attribute # chips # I-Attribute # . ",
+        "guacamole # B-Product # is best made # B-V # as # B-Time # close # I-Time # to # I-Time # service # I-Time # as # I-Time # possible # I-Time # . ",
+        "store # B-V # in # B-Location # an # I-Location # airtight # I-Location # container # I-Location # with # B-Attribute # plastic # I-Attribute # wrap # I-Attribute # against # I-Attribute # the # I-Attribute # surface # I-Attribute # of # I-Attribute # the # I-Attribute # guacamole # I-Attribute # . "
+    ],
+    "f-FS6V8XD5": [
+        "preheat # B-V # your # B-Patient # oven # I-Patient # to # B-Goal # 400deg # I-Goal # . ",
+        "in # B-Location # a # I-Location # large # I-Location # bowl # I-Location # , whisk # B-V # together # B-Attribute # flour # B-Theme # , # I-Theme # soda # I-Theme # , # I-Theme # powder # I-Theme # and # I-Theme # salt # I-Theme # . ",
+        "cut # result : cornmeal like mixture, habitat : large bowl #  # B-V # in # B-Destination # the # B-Patient # butter # I-Patient # with # B-Instrument # your # I-Instrument # fingers # I-Instrument # until # B-Result # grainy # I-Result # , # I-Result # like # I-Result # cornmeal # I-Result # . ",
+        "add # habitat : large bowl #  # B-V # sugar # B-Patient # and whisk # result : mixture with sugar, habitat : large bowl # in . ",
+        "add # habitat : large bowl #  # B-V # pear # B-Patient # and toss # habitat : large bowl # in . ",
+        "make # B-V # a # B-Product # well # I-Product # in # B-Location # the # I-Location # center # I-Location # and fill # result : mixture with egg and sour cream, habitat : large bowl # with 1 egg and sour cream . ",
+        "mix # habitat : large bowl #  # B-V # in # B-Destination # with # B-Instrument # a # I-Instrument # fork # I-Instrument # until # B-Result # the # I-Result # dough # I-Result # comes # I-Result # together # I-Result # . ",
+        "turn # drop : mixture with egg and sour cream #  # B-V # out # B-Destination # onto # I-Destination # a # I-Destination # floured # I-Destination # board # I-Destination # and knead # drop : mixture with egg and sour cream, habitat : floured board # slightly until smooth . ",
+        "roll # habitat : floured board #  # B-V # into # B-Result # a # I-Result # log # I-Result # and cut # drop : mixture with egg and sour cream, tool : knife # into 8 triangles and place on an ungreased cookie sheet . ",
+        "place # B-V # the # B-Theme # coriander # I-Theme # between # B-Location # two # I-Location # pieces # I-Location # of # I-Location # wax # I-Location # paper # I-Location # and gently break # habitat : wax paper # with a rolling pin until crushed . ",
+        "try # B-V # not # B-Theme # to # I-Theme # lose # I-Theme # yourself # I-Theme # in # I-Theme # the # I-Theme # gorgeous # I-Theme # fragrance # I-Theme # ! ",
+        "gently # B-Attribute # wash # B-V # the # B-Patient # tops # I-Patient # of # I-Patient # the # I-Patient # scones # I-Patient # with # B-Instrument # the # I-Instrument # remaining # I-Instrument # beaten # I-Instrument # egg # I-Instrument # and sprinkle # result : scone with coriander # with coriander . ",
+        "bake # drop : scone with coriander, habitat : oven #  # B-V # for # B-Time # 16 # I-Time # minutes # I-Time # or until # B-Result # browned # drop : scone with coriander #  # I-Result # on # I-Result # top # I-Result # . "
+    ],
+    "r-3715": [
+        "spoon # tool : spoon #  # B-V # rice # B-Theme # into # B-Destination # large # I-Destination # bowl # I-Destination # . ",
+        "blend # result : seasonings, tool : spoon, habitat : bowl #  # B-V # oil # B-Patient # , # I-Patient # lemon # I-Patient # juice # I-Patient # , # I-Patient # garlic # I-Patient # , # I-Patient # salt # I-Patient # , # I-Patient # rosemary # I-Patient # , # I-Patient # oregano # I-Patient # and # I-Patient # pepper # I-Patient # ; stir # drop : seasonings, habitat : large bowl # into rice . ",
+        "cover # drop : rice, tool : large bowl, habitat : plastic wrap #  # B-V # ; let cool # drop : rice, habitat : large bowl # . ",
+        "add # drop : rice, result : rice salad #  # B-V # zucchini # B-Patient # , # I-Patient # tomato # I-Patient # and # I-Patient # cheese # I-Patient # . ",
+        "serve # drop : rice salad #  # B-V # at # B-Attribute # room # I-Attribute # temperature # I-Attribute # or # I-Attribute # chill # drop : rice salad, habitat : fridge #  # I-Attribute # . "
+    ],
+    "r-679": [
+        "cut # B-V # rolls # B-Patient # into # B-Result # cubes # I-Result # and cook with the stock until the rolls have been completely absorbed by soup . ",
+        "add # drop : soup #  # B-V # salt # B-Patient # and # I-Patient # pepper # I-Patient # to # B-Purpose # taste # drop : soup #  # I-Purpose # . ",
+        "whisk # B-V # egg # B-Theme # yolk # I-Theme # with # B-Instrument # cream # I-Instrument # , gradually pour on the hot soup whisking all the time . ",
+        "sprinkle # drop : soup #  # B-V # with # B-Theme # chives # I-Theme # and serve # drop : soup # at once . ",
+        "a # B-Patient # small # I-Patient # lump # I-Patient # of # I-Patient # butter # I-Patient # added # drop : soup #  # B-V # just # B-Time # before # I-Time # serving # drop : soup #  # I-Time # greatly improves the flavor . "
+    ],
+    "r-1631": [
+        "to make # B-V # dressing # B-Product # , combine broth , vinegar , olive oil , sugar , mustard and garlic in a small sauce pan and bring to a boil # drop : dressing # . ",
+        "remove # drop : dressing #  # B-V # from # B-Source # heat # I-Source # and keep # drop : dressing # warm . ",
+        "to make # B-V # tortilla # B-Product # bowls # I-Product # , place each tortilla into a 7 inch metal or glass oven proof bowl . ",
+        "bake # drop : tortilla, result : tortilla bowls #  # B-V # at # B-Value # 400 # I-Value # degrees # I-Value # f # I-Value # for # B-Time # 10 # I-Time # minutes # I-Time # or until # B-Result # crisp # I-Result # . ",
+        "to assemble # B-V # , combine # result : salad # shrimp , bell peppers and half of the greens in a large bowl . ",
+        "pour # B-V # warm # B-Theme # dressing # I-Theme # over # B-Destination # salad # I-Destination # and toss # drop : salad # . ",
+        "place # B-V # 1 # B-Theme # cup # I-Theme # salad # I-Theme # mixture # I-Theme # into # B-Location # tortilla # I-Location # bowls # I-Location # and sprinkle # drop : salad # with chives . ",
+        "place # B-V # remaining # B-Theme # greens # I-Theme # on # B-Location # serving # I-Location # plate # I-Location # . "
+    ],
+    "f-SJGXB864": [
+        "preheat # B-V # oven # B-Patient # to # B-Goal # 350f. # I-Goal # ",
+        "divide # result : groups #  # B-V # the # B-Patient # beets # I-Patient # and # I-Patient # the # I-Patient # onion # I-Patient # into # B-Result # small # I-Result # groups # I-Result # , separating the vegetables by size . ",
+        "wrap # B-V # the # B-Theme # groups # I-Theme # tightly # B-Attribute # in # B-Co-Theme # aluminum # I-Co-Theme # foil # I-Co-Theme # and roast the beets and onion groups in the oven for 1 1/2 to 2 hours , or until they are tender . ",
+        "unwrap # B-V # the # B-Patient # beets # I-Patient # and # I-Patient # the # I-Patient # onions # I-Patient # carefully # B-Attribute # and let them cook # drop : beets onion # until they can be handled . ",
+        "peel # B-V # the # B-Patient # beets # I-Patient # and cut # tool : knife # them into 1/3-inch - thick sticks . ",
+        "peel # tool : peeler #  # B-V # the # B-Patient # onions # I-Patient # and cut # drop : beets onion, tool : knife # them lengthwise into 1/3-inch - wide strips . ",
+        "in # B-Location # a # I-Location # bowl # I-Location # toss # result : mixture #  # B-V # the # B-Theme # beets # I-Theme # with # I-Theme # the # I-Theme # vinegar # I-Theme # and # I-Theme # salt # I-Theme # and # I-Theme # pepper # I-Theme # to # B-Purpose # taste # I-Purpose # , add # habitat : bowl # the onions and 2 tablespoons of the fresh thyme . ",
+        "toss # B-V # the # B-Theme # mixture # I-Theme # gently # B-Attribute # . ",
+        "transfer # B-V # the # B-Theme # salad # I-Theme # to # B-Destination # a # I-Destination # serving # I-Destination # bowl # I-Destination # , sprinkle # drop : fresh thyme, habitat : serving bowl # it with the remaining 1 tablespoon of thyme and serve # habitat : serving bowl # the salad warm or chilled . "
+    ],
+    "r-648": [
+        "boil # habitat : pot #  # B-V # stock # B-Patient # , add # drop : stock # the ginger , cinnamon , coriander seeds and star anise . ",
+        "after # B-Time # 15 # I-Time # minutes # I-Time # , add # drop : stock #  # B-V # the # B-Patient # sugar # I-Patient # , # I-Patient # salt # I-Patient # , # I-Patient # pepper # I-Patient # and # I-Patient # fish # I-Patient # sauce # I-Patient # . ",
+        "cook # habitat : pot #  # B-V # the # B-Patient # noodles # I-Patient # in # B-Instrument # water # I-Instrument # , make # drop : noodles # them al dente . ",
+        "add # drop : stock #  # B-V # bean # B-Patient # sprouts # I-Patient # , # I-Patient # shallots # I-Patient # and # I-Patient # coriander # I-Patient # . "
+    ],
+    "r-1661": [
+        "grate # tool : grater #  # B-V # the # B-Patient # feta # I-Patient # and # I-Patient # ricotta # I-Patient # cheese # I-Patient # . ",
+        "add # drop : feta ricotta cheese, result : mixture #  # B-V # them # B-Patient # into # B-Destination # a # I-Destination # bowl # I-Destination # together # B-Attribute # with # B-Co-Patient # 2 # I-Co-Patient # of # I-Co-Patient # the # I-Co-Patient # eggs # I-Co-Patient # . ",
+        "add # drop : mixture, result : ingredients #  # B-V # dill # B-Patient # and # I-Patient # pepper # I-Patient # . ",
+        "mix # B-V # all # B-Patient # the # I-Patient # ingredients # I-Patient # well # B-Attribute # . "
+    ],
+    "f-24CZS5LF": [
+        "wash # B-V # and peal potatoes # B-Patient # . ",
+        "boil # shadow : water, habitat : pot #  # B-V # the # B-Patient # potatoes # I-Patient # until # B-Result # fork # I-Result # tender # I-Result # . ",
+        "slice # tool : knife #  # B-V # potatoes # B-Patient # into # B-Result # bite # I-Result # size # I-Result # pieces # I-Result # and place # drop : pieces # in a large bowl . ",
+        "add # drop : pieces #  # B-V # the # B-Patient # chopped # I-Patient # celery # I-Patient # and # I-Patient # sweet # I-Patient # peppers # I-Patient # . ",
+        "add # drop : pieces #  # B-V # the # B-Patient # lime # I-Patient # juice # I-Patient # , # I-Patient # salt # I-Patient # and # I-Patient # pepper # I-Patient # and toss # drop : pieces # . ",
+        "in # B-Location # a # I-Location # small # I-Location # bowl # I-Location # mix # result : dressing #  # B-V # together # I-V # the # B-Patient # mayonnaise # I-Patient # and # I-Patient # the # I-Patient # marinade # I-Patient # from # I-Patient # the # I-Patient # sweet # I-Patient # peppers # I-Patient # . ",
+        "pour # drop : dressing pieces #  # B-V # this # B-Theme # over # B-Destination # the # I-Destination # potatoes # I-Destination # and toss # drop : pieces # . "
+    ],
+    "r-4077": [
+        "first # B-Time # cream # tool : whisk, habitat : bowl #  # B-V # the # B-Patient # butter # I-Patient # . ",
+        "add # drop : butter, result : mixture, habitat : bowl #  # B-V # the # B-Patient # sugar # I-Patient # gradually # B-Attribute # , and the # B-Co-Patient # beaten # I-Co-Patient # egg # I-Co-Patient # whites # I-Co-Patient # . ",
+        "sift # tool : sieve, habitat : bowl #  # B-V # flour # B-Patient # , # I-Patient # baking # I-Patient # powder # I-Patient # and # I-Patient # nutmeg # I-Patient # together # B-Attribute # , and add # drop : flour baking powder nutmeg, habitat : bowl # alternately with the milk to the first mixture . ",
+        "roll # drop : mixture, result : dough, habitat : board #  # B-V # to # B-Result # one # I-Result # - # I-Result # third # I-Result # inch # I-Result # in # I-Result # thickness # I-Result # . ",
+        "sprinkle # drop : dough mixture, habitat : board #  # B-V # with # B-Theme # granulated # I-Theme # sugar # I-Theme # . ",
+        "cut # drop : dough mixture, habitat : board #  # B-V # into # B-Result # shape # I-Result # with # B-Instrument # a # I-Instrument # cookie # I-Instrument # cutter # I-Instrument # . ",
+        "place # drop : dough mixture, shadow : butter #  # B-V # on # B-Location # buttered # shadow : butter, habitat : tins #  # I-Location # or # I-Location # floured # shadow : flour, habitat : tins #  # I-Location # tins # I-Location # , and bake # drop : mixture dough, result : cookies # in a hot oven until nicely browned . ",
+        "if desired # B-V # , a # B-Theme # raisin # I-Theme # or # I-Theme # walnut # I-Theme # meat # I-Theme # may # I-Theme # be # I-Theme # placed # I-Theme # in # I-Theme # each # I-Theme # cookie # I-Theme # before # I-Theme # baking # drop : dough #  # I-Theme # . "
+    ],
+    "r-1031": [
+        "in # B-Location # a # I-Location # large # I-Location # bowl # I-Location # combine # result : lettuce #  # B-V # lettuce # B-Patient # , # I-Patient # onion # I-Patient # , # I-Patient # salt # I-Patient # and # I-Patient # pepper # I-Patient # . ",
+        "dice # habitat : knife #  # B-V # bacon # B-Patient # and fry # drop : bacon, habitat : stove # . ",
+        "reserve # habitat : pan #  # B-V # 3 # B-Theme # tbsp # I-Theme # bacon # I-Theme # drippings # I-Theme # . ",
+        "blend # tool : blender #  # B-V # vinegar # B-Patient # , # I-Patient # sugar # I-Patient # . ",
+        "water , flour , mustard and egg together ; add # drop : flour mustard egg water, habitat : pan #  # B-V # to # B-Co-Patient # bacon # I-Co-Patient # drippings # I-Co-Patient # and cook # result : hot dressing, habitat : stove # until thickened . ",
+        "add # result : potato salad, habitat : large bowl #  # B-V # hot # B-Patient # mashed # I-Patient # potatoes # I-Patient # to # B-Co-Patient # lettuce # I-Co-Patient # and pour # drop : hot mashed potatoes, habitat : large bowl # over hot dressing . ",
+        "add # drop : potato salad, habitat : large bowl #  # B-V # hard # B-Patient # cooked # I-Patient # eggs # I-Patient # and toss # drop : potato salad, habitat : large bowl # . ",
+        "diced # B-Patient # ham # I-Patient # or # I-Patient # chicken # I-Patient # may be added # drop : potato salad, habitat : large bowl #  # B-V # . "
+    ],
+    "f-Z82FPVW4": [
+        "heat # B-V # a # B-Patient # sauce # I-Patient # pot # I-Patient # with # I-Patient # a # I-Patient # drizzle # I-Patient # of # I-Patient # olive # I-Patient # oil # I-Patient # and add # habitat : sauce pot # the garlic , jalapeno , onion and saute # habitat : stove # until the garlic is slightly golden . ",
+        "add # habitat : sauce pot #  # B-V # the # B-Patient # artichokes # I-Patient # , # I-Patient # basil # I-Patient # and # I-Patient # oregano # I-Patient # ; continue to saute # drop : artichokes basil oregano garlic jalapeno onion, habitat : sauce pot # . ",
+        "add # result : soup, habitat : sauce pot #  # B-V # the # B-Patient # crushed # I-Patient # tomatoes # I-Patient # , # I-Patient # chicken # I-Patient # broth # I-Patient # and # I-Patient # the # I-Patient # drained # I-Patient # cannellini # I-Patient # beans # I-Patient # . ",
+        "simmer # drop : soup, habitat : stove #  # B-V # on # B-Instrument # low # I-Instrument # for # B-Time # about # I-Time # 25 # I-Time # - # I-Time # 30 # I-Time # minutes # I-Time # . ",
+        "heat # habitat : stove #  # B-V # a # B-Patient # small # I-Patient # frying # I-Patient # pan # I-Patient # with # I-Patient # a # I-Patient # drizzle # I-Patient # of # I-Patient # olive # I-Patient # oil # I-Patient # . ",
+        "add # habitat : small frying pan #  # B-V # 2 # B-Patient # - # I-Patient # 3 # I-Patient # cloves # I-Patient # of # I-Patient # chopped # I-Patient # garlic # I-Patient # and # I-Patient # 1 # I-Patient # cup # I-Patient # of # I-Patient # fresh # I-Patient # breadcrumbs # I-Patient # . ",
+        "toss # drop : chopped garlic fresh breadcrumbs, habitat : stove #  # B-V # until # B-Result # the # I-Result # crumbs # I-Result # are # I-Result # a # I-Result # beautiful # I-Result # golden # I-Result # color # I-Result # and remove from heat . ",
+        "serve # B-V # the # B-Theme # soup # I-Theme # with # B-Attribute # a # I-Attribute # little # I-Attribute # of # I-Attribute # the # I-Attribute # breadcrumbs # I-Attribute # on # I-Attribute # top # I-Attribute # and # I-Attribute # some # I-Attribute # grated # tool : cheese grater #  # I-Attribute # romano # I-Attribute # cheese # I-Attribute # . "
+    ],
+    "f-3PMSLV76": [
+        "pre # B-V # heat # I-V # oven # B-Patient # to # B-Goal # 350 # I-Goal # degrees # I-Goal # f. # I-Goal # in a large bowl combine # result : dry ingredients # flour , powdered sugar , and cornstarch . ",
+        "using # B-V # a # B-Patient # spoon # I-Patient # , mix # drop : dry ingredients # in apple sauce and vanilla extract until a soft dough forms . ",
+        "shape # result : tart crust #  # B-V # dough # B-Patient # into # B-Result # 1-inch # I-Result # balls # I-Result # and place # drop : tart crust # in prepared muffin pans . ",
+        "press # B-V # dough # B-Patient # in # B-Destination # bottom # I-Destination # and # I-Destination # up # I-Destination # the # I-Destination # side # I-Destination # of # I-Destination # each # I-Destination # muffin # I-Destination # cup # I-Destination # . ",
+        "bake # habitat : oven #  # B-V # the # B-Patient # dough # I-Patient # - # I-Patient # lined # I-Patient # cup # I-Patient # for # B-Time # about # I-Time # 8 # I-Time # - # I-Time # 10 # I-Time # minutes # I-Time # . ",
+        "remove # B-V # the # B-Patient # muffin # I-Patient # pan # I-Patient # from # B-Source # the # I-Source # oven # I-Source # and let rest # habitat : prepared muffin pans # for a few minutes . ",
+        "spoon # tool : teaspoon #  # B-V # 1 # B-Theme # teaspoon # I-Theme # of # I-Theme # preserves # I-Theme # into # B-Location # each # I-Location # muffin # I-Location # cup # I-Location # . ",
+        "in # B-Location # a # I-Location # small # I-Location # bowl # I-Location # mix # result : mixture #  # B-V # together # B-Attribute # sugar # B-Patient # , # I-Patient # egg # I-Patient # and # I-Patient # coconut # I-Patient # with # B-Instrument # a # I-Instrument # fork # I-Instrument # until # B-Result # well # I-Result # blended # drop : mixture, tool : fork #  # I-Result # . ",
+        "spoon # result : tarts, tool : teaspoon #  # B-V # a # B-Theme # teaspoon # I-Theme # of # I-Theme # coconut # I-Theme # mixture # I-Theme # over # B-Location # preserves # I-Location # in # I-Location # each # I-Location # cup # I-Location # . ",
+        "bake # drop : tarts, habitat : oven #  # B-V # 23 # B-Time # -33 # I-Time # minutes # I-Time # or until # B-Result # cookie # I-Result # crusts # I-Result # are # I-Result # lightly # I-Result # golden # I-Result # brown # I-Result # . ",
+        "cool # drop : tarts #  # B-V # in # B-Location # pans # I-Location # on # I-Location # a # I-Location # cooling # I-Location # rack # I-Location # for # B-Time # 30 # I-Time # minutes # I-Time # . ",
+        "gently # B-Attribute # remove # B-V # each # B-Patient # cookie # I-Patient # tart # I-Patient # , sprinkle # drop : tarts # with confectioner 's sugar and serve # drop : tarts # ! "
+    ],
+    "r-857": [
+        "slice # tool : knife, habitat : cutting board #  # B-V # tomatoes # B-Patient # and # I-Patient # mozzarella # I-Patient # cheese # I-Patient # same # B-Extent # thickness # I-Extent # . ",
+        "arrange # B-V # the # B-Theme # tomatoes # I-Theme # , # I-Theme # mozzarella # I-Theme # , # I-Theme # and # I-Theme # basil # I-Theme # alternating # I-Theme # in # I-Theme # a # I-Theme # circle # I-Theme # around # I-Theme # a # I-Theme # decorative # I-Theme # serving # I-Theme # dish # I-Theme # . ",
+        "drizzle # drop : basil tomatoes mozzarella cheese, habitat : decorative serving dish #  # B-V # with # B-Instrument # olive # I-Instrument # oil # I-Instrument # . ",
+        "serve # drop : basil tomatoes mozzarella cheese, habitat : decorative serving dish #  # B-V # with # B-Attribute # salt # I-Attribute # and # I-Attribute # pepper # I-Attribute # to # I-Attribute # individual # I-Attribute # taste # I-Attribute # . "
+    ],
+    "r-1304": [
+        "slice # B-V # sausage # B-Patient # into # B-Result # 1/4 # I-Result # inch # I-Result # pieces # I-Result # . ",
+        "drain # tool : strainer #  # B-V # the # B-Source # saurkraut # I-Source # . ",
+        "cut # tool : knife #  # B-V # cheese # B-Patient # slices # I-Patient # into # B-Result # 1/2 # I-Result # \" # I-Result # x # I-Result # 2 # I-Result # - # I-Result # 1/2 # I-Result # \" # I-Result # strips # I-Result # . ",
+        "melt # habitat : stove #  # B-V # butter # B-Patient # in # B-Location # small # I-Location # skillet # I-Location # . ",
+        "brush # tool : brush #  # B-V # rye # B-Theme # bread # I-Theme # with # I-Theme # butter # I-Theme # on # B-Location # both # I-Location # sides # I-Location # . ",
+        "place # drop : rye bread #  # B-V # on # B-Location # baking # I-Location # sheet # I-Location # . ",
+        "toast # drop : rye bread, habitat : baking sheet #  # B-V # at # B-Value # 400 # I-Value # degrees # I-Value # f # I-Value # for # B-Time # 5 # I-Time # minutes # I-Time # . ",
+        "turn # drop : rye bread, tool : flipper #  # B-V # . ",
+        "remove # drop : rye bread, tool : baking sheet #  # B-V # from # B-Source # oven # I-Source # and build # drop : rye bread # rubens ending with criss - crossed cheese slices on top . ",
+        "bake # drop : rubens, habitat : baking sheet #  # B-V # for # B-Time # 5 # I-Time # - # I-Time # 10 # I-Time # minutes # I-Time # "
+    ],
+    "f-26NF6ZNY": [
+        "add # result : berries and sugar #  # B-V # berries # B-Patient # and # I-Patient # sugar # I-Patient # to # B-Co-Patient # a # I-Co-Patient # bowl # I-Co-Patient # and let macerate # drop : berries and sugar # for about 30 minutes . ",
+        "add # B-V # berries # B-Patient # to # B-Co-Patient # a # I-Co-Patient # food # I-Co-Patient # processor # I-Co-Patient # ( # I-Co-Patient # or # I-Co-Patient # blender # I-Co-Patient # ) # I-Co-Patient # and pulse # drop : berries and sugar, result : puree # until smooth . ",
+        "in # B-Location # a # I-Location # large # I-Location # pitcher # I-Location # add # B-V # ice # B-Patient # ( about # B-Extent # 1/3 # I-Extent # of # I-Extent # the # I-Extent # way # I-Extent # ) , then top # drop : ice, result : limeade, habitat : large pitcher # with 2 parts seltzer to one part lemon lime soda . ",
+        "stir # drop : limeade #  # B-V # in # B-Destination # a # B-Patient # few # I-Patient # scoops # I-Patient # of # I-Patient # strawberry # I-Patient # puree # I-Patient # and add # drop : limeade # juice from 1 lime . ",
+        "stir # drop : limeade #  # B-V # well # B-Attribute # then taste # drop : limeade # . ",
+        "add # B-V # more # B-Patient # strawberry # I-Patient # and # I-Patient # lime # I-Patient # juice # I-Patient # if needed . ",
+        "i # B-Agent # add # B-V # thinly # B-Patient # slice # I-Patient # lime # I-Patient # to # B-Co-Patient # the # I-Co-Patient # pitcher # I-Co-Patient # and garnish the glasses with lime wedges and a sugared rim . "
+    ],
+    "r-4635": [
+        "slice # tool : knife #  # B-V # cucumber # B-Patient # lengthwise # B-Attribute # and remove seeds . ",
+        "dice # tool : knife #  # B-V # the # B-Patient # cucumber # I-Patient # and add # drop : cucumber, result : cucumber salad # remaining ingredients . ",
+        "mix # drop : cucumber salad #  # B-V # thoroughly # B-Attribute # and chill # drop : cucumber salad, habitat : refrigerator # at least 1/2 hour before serving # drop : cucumber salad # . ",
+        "this was for 5 servings , but since i # B-Agent # like # B-V # cucumber # B-Stimulus # so # B-Attribute # well # I-Attribute # i increased # drop : cucumber # it for 10 nice folks . ",
+        "love # B-V # them # B-Stimulus # leftovers # I-Stimulus # ! . "
+    ],
+    "f-KWBKC77L": [
+        "boil # B-V # potatoes # B-Patient # until # B-Result # fork # I-Result # tender # I-Result # . ",
+        "let # B-V # the # B-Beneficiary # potatoes # I-Beneficiary # cool # B-Theme # and then quarter # tool : knife # the potatoes . ",
+        "heat # B-V # a # B-Patient # frying # I-Patient # pan # I-Patient # with # I-Patient # the # I-Patient # butter # I-Patient # and # I-Patient # a # I-Patient # drizzle # I-Patient # of # I-Patient # olive # I-Patient # oil # I-Patient # . ",
+        "place # B-V # the # B-Theme # sliced # I-Theme # onion # I-Theme # and # I-Theme # the # I-Theme # chopped # I-Theme # garlic # I-Theme # in # B-Location # the # I-Location # heated # I-Location # pan # I-Location # . ",
+        "saute # drop : chopped garlic sliced onion, habitat : frying pan #  # B-V # until # B-Result # slightly # I-Result # golden # I-Result # ; remove # drop : sliced onion chopped garlic # into a serving bowl . ",
+        "place # B-V # the # B-Theme # potatoes # I-Theme # on # B-Location # a # I-Location # hot # I-Location # griddle # I-Location # . ",
+        "sprinkle # drop : potatoes, habitat : hot griddle #  # B-V # with # B-Theme # seasonings # I-Theme # to # B-Purpose # taste # I-Purpose # and drizzle # drop : potatoes, habitat : hot griddle # with olive oil . ",
+        "when the potatoes have a golden crust on one side , turn # drop : potatoes, tool : flipper, habitat : hot griddle # over repeat process on the other side . ",
+        "place # drop : serving bowl potatoes #  # B-V # in # B-Location # the # I-Location # serving # I-Location # bowl # I-Location # with # B-Co-Theme # the # I-Co-Theme # onions # I-Co-Theme # and # I-Co-Theme # garlic # I-Co-Theme # . ",
+        "toss # drop : potatoes sliced onion chopped garlic, habitat : serving bowl #  # B-V # and serve # drop : potatoes, habitat : serving bowl # . "
+    ],
+    "r-1485": [
+        "season # result : seasoned fillets #  # B-V # the # B-Patient # fish # I-Patient # fillets # I-Patient # with # B-Material # salt # I-Material # and # I-Material # pepper # I-Material # , and dip # drop : seasoned fillets # in the whipped up egg on both sides . ",
+        "then # B-Time # the # B-Destination # fillets # I-Destination # are covered # B-V # with # B-Theme # a # I-Theme # thick # I-Theme # layer # I-Theme # of # I-Theme # breadcrumb # I-Theme # . ",
+        "fry # B-V # the # B-Patient # fish # I-Patient # in # B-Instrument # the # I-Instrument # oil # I-Instrument # and # I-Instrument # butter # I-Instrument # , until # B-Result # golden # I-Result # brown # I-Result # and # I-Result # crispy # I-Result # . ",
+        "place # result : fiskefilet med remoulade #  # B-V # the # B-Theme # fish # I-Theme # on # B-Location # the # I-Location # buttered # shadow : butter, tool : butter knife #  # I-Location # rye # I-Location # bread # I-Location # and decorate # drop : fiskefilet med remoulade # with lemon wedges and sauce remoulade . "
+    ],
+    "f-67M2BXM3": [
+        "take # B-V # the # B-Patient # butter # I-Patient # out # B-Source # of # I-Source # the # I-Source # fridge # I-Source # let it become soft . ",
+        "cut # tool : knife #  # B-V # the # B-Patient # butter # I-Patient # in # B-Result # small # I-Result # pieces # I-Result # and mix it with sugar . ",
+        "add # B-V # vanilla # B-Patient # extract # I-Patient # and add # result : egg sugar butter mixture # in eggs , one after another . ",
+        "mix # result : baking soda mix #  # B-V # baking # B-Patient # soda # I-Patient # and # I-Patient # hot # I-Patient # water # I-Patient # in # B-Location # a # I-Location # cup # I-Location # and pour into the egg - sugar - butter mixture . ",
+        "mix # drop : baking soda mix egg sugar butter mixture, result : egg suger butter soda mixture #  # B-V # very # B-Attribute # well # I-Attribute # , add baking powder and flour , stir well , then add # result : cookies # coconut shred and chocolate chips ( or oatmeal ) . ",
+        "preheat # B-V # the # B-Patient # stove # I-Patient # at # B-Value # 350f. # I-Value # form the cookies with a tablespoon and fingers . ( ",
+        "remember # B-V # that # B-Theme # they # I-Theme # will # I-Theme # grow # drop : cookies #  # I-Theme # 2 # I-Theme # - # I-Theme # 3 # I-Theme # sizes # I-Theme # larger # I-Theme # , so leave enough space between your cookies ) . ",
+        "bake # drop : cookies #  # B-V # for # B-Time # 20 # I-Time # - # I-Time # 25 # I-Time # minutes # I-Time # until # B-Result # golden # I-Result # brown # I-Result # . ",
+        "* * * tip from helen * * * if you # B-Agent # do n't want # B-V # your # B-Theme # cookies # I-Theme # to # I-Theme # be # I-Theme # very # I-Theme # - # I-Theme # very # I-Theme # sweet # I-Theme # add 1 cup of sugar . ",
+        "if you # B-Agent # want # B-V # your # B-Theme # cookies # I-Theme # to # I-Theme # be # I-Theme # more # I-Theme # soft # I-Theme # add less flour and bake them for 20 minutes until light golden brown . * * * ",
+        "tip from helen * * * ",
+        "enjoy # B-V # ! "
+    ],
+    "r-2295": [
+        "combine # B-V # dry # B-Patient # ingredients # I-Patient # . ",
+        "cut # drop : dry ingredients #  # B-V # in # B-Destination # butter # B-Patient # to # B-Result # coarse # I-Result # crumbs # I-Result # . ",
+        "stir # drop : coarse crumbs, result : dough #  # B-V # in # B-Destination # raisins # B-Patient # and # I-Patient # buttermilk # I-Patient # . ",
+        "stir # drop : dough #  # B-V # just # B-Result # until # I-Result # moistened # I-Result # . ",
+        "place # drop : dough #  # B-V # on # B-Location # floured # I-Location # surface # I-Location # , knead # drop : dough # a few times ( 6 - 8) . ",
+        "pat # drop : dough #  # B-V # into # B-Goal # an # I-Goal # 8 # I-Goal # in # I-Goal # circle # I-Goal # , cut # drop : dough, tool : knife # into 12 wedges . ",
+        "place # drop : wedges #  # B-V # on # B-Location # greased # I-Location # cookie # I-Location # sheet # I-Location # . ",
+        "beat # tool : beaters #  # B-V # egg # B-Theme # white # I-Theme # until # B-Result # foamy # I-Result # , brush # drop : egg white, tool : brush # scones . ",
+        "sprinkle # drop : wedges #  # B-V # with # B-Theme # sugar # I-Theme # . ",
+        "bake # drop : wedges, habitat : oven #  # B-V # at # B-Value # 400degf # I-Value # for # B-Time # 15 # I-Time # minutes # I-Time # or until # B-Result # golden # I-Result # brown # I-Result # . "
+    ],
+    "r-1159": [
+        "put # B-V # desired # B-Theme # quantity # I-Theme # of # I-Theme # plain # I-Theme # greek # I-Theme # style # I-Theme # yogurt # I-Theme # in # B-Location # muslin # I-Location # cloth # I-Location # and allow to hang # drop : plain greek style yogurt, habitat : muslin cloth # for 5 - 6 hours . ",
+        "press # drop : plain greek style yogurt, tool : muslin cloth #  # B-V # to # B-Purpose # make # I-Purpose # sure # I-Purpose # excess # I-Purpose # water # I-Purpose # is # I-Purpose # drained # result : dry yogurt chakka #  # I-Purpose # off # I-Purpose # . ",
+        "pour # B-V # this # B-Theme # dry # I-Theme # yogurt(chakka # I-Theme # ) # I-Theme # in # B-Destination # a # I-Destination # bowl # I-Destination # . ",
+        "add # drop : dry yogurt chakka, habitat : bowl #  # B-V # the # B-Patient # same # I-Patient # almost # I-Patient # the # I-Patient # same # I-Patient # quantity # I-Patient # of # I-Patient # sugar # I-Patient # . ",
+        "mix # drop : dry yogurt chakka sugar, habitat : bowl #  # B-V # it # B-Patient # to # B-Purpose # form # I-Purpose # a # I-Purpose # homogeneous # I-Purpose # smooth # I-Purpose # mixture # I-Purpose # . ",
+        "add # drop : mixture, habitat : bowl #  # B-V # cardamon # B-Patient # , # I-Patient # nutmeg # I-Patient # and # I-Patient # saffron # I-Patient # . ",
+        "garnish # B-V # with # B-Theme # dry # I-Theme # fruits(chopped # I-Theme # ) # I-Theme # . "
+    ],
+    "r-4533": [
+        "heat oven to 350degf. ",
+        "combine # result : artichoke mixture #  # B-V # all # B-Patient # ingredients # I-Patient # , # I-Patient # except # I-Patient # bagels # I-Patient # , # I-Patient # basil # I-Patient # and # I-Patient # oregano # I-Patient # in # B-Location # medium # I-Location # bowl # I-Location # . ",
+        "spread # B-V # 2 # B-Theme # tablespoons # I-Theme # artichoke # I-Theme # mixture # I-Theme # over # B-Destination # cut # I-Destination # surface # I-Destination # of # I-Destination # each # I-Destination # bagel # I-Destination # half # I-Destination # . ",
+        "place # drop : bagels #  # B-V # on # B-Location # ungreased # I-Location # baking # I-Location # sheet # I-Location # . ",
+        "bake # drop : bagels, habitat : oven #  # B-V # for # B-Time # 9 # I-Time # - # I-Time # 12 # I-Time # minutes # I-Time # , or until # B-Result # filling # I-Result # is # I-Result # hot # I-Result # and # I-Result # cheese # I-Result # is # I-Result # melted # I-Result # . ",
+        "cut # tool : knife #  # B-V # each # B-Patient # bagel # I-Patient # half # I-Patient # in # B-Result # half # I-Result # . ",
+        "serve # drop : bagels #  # B-V # warm # B-Attribute # garnished # drop : bagels #  # I-Attribute # with # I-Attribute # basil # I-Attribute # and # I-Attribute # oregano # I-Attribute # if desired . "
+    ],
+    "r-716": [
+        "combine # B-V # the # B-Patient # apples # I-Patient # and # I-Patient # the # I-Patient # potatoes # I-Patient # in # B-Location # a # I-Location # bowl # I-Location # . ",
+        "whisk # result : dressing, tool : whisk #  # B-V # together # B-Attribute # the # B-Patient # vinegar # I-Patient # oil # I-Patient # and # I-Patient # the # I-Patient # salt # I-Patient # and # I-Patient # pepper # I-Patient # until # B-Result # well # I-Result # blended # drop : dressing #  # I-Result # . ",
+        "pour # drop : dressing, result : potato salad #  # B-V # over # B-Destination # the # I-Destination # apples # I-Destination # and # I-Destination # potatoes # I-Destination # and toss # drop : potato salad # gently but thoroughly . ",
+        "adjust # drop : potato salad #  # B-V # seasoning # B-Patient # and garnish # drop : potato salad # with beets and sliced egg . "
+    ],
+    "f-YGBD7J2L": [
+        "preheat # B-V # oven # B-Patient # to # B-Goal # 350 # I-Goal # . ",
+        "spray # B-V # an # B-Destination # 8 # I-Destination # * # I-Destination # 8 # I-Destination # inch # I-Destination # pan # I-Destination # with # B-Theme # cooking # I-Theme # spray # I-Theme # . ",
+        "set # drop : inch pan #  # B-V # aside # B-Location # . ",
+        "in # B-Instrument # a # I-Instrument # food # I-Instrument # processor # I-Instrument # , puree # result : beet bean mixture #  # B-V # kidney # B-Patient # beans # I-Patient # and # I-Patient # beets # I-Patient # . ",
+        "transfer # drop : beet bean mixture #  # B-V # to # B-Destination # a # I-Destination # large # I-Destination # bowl # I-Destination # . ",
+        "add # shadow : beet bean mixture, habitat : large bowl #  # B-V # remaining # B-Patient # ingredients # I-Patient # and mix # drop : beet bean mixture ingredients, habitat : large bowl # by hand until smooth and fully combined # drop : beet bean mixture ingredients, tool : hand, habitat : large bowl # . ",
+        "fold # B-V # batter # B-Patient # into # B-Destination # the # I-Destination # greased # I-Destination # pan # I-Destination # . ",
+        "bake # drop : batter #  # B-V # for # B-Time # 35 # I-Time # - # I-Time # 40 # I-Time # minutes # I-Time # , turning # habitat : inch pan # the pan halfway through . ",
+        "when the brownies are done , test them with a toothpick . ",
+        "you # B-Agent # want # B-V # some # B-Theme # batter # I-Theme # to # I-Theme # cling # I-Theme # to # I-Theme # the # I-Theme # toothpick # I-Theme # . ",
+        "do not over # B-V # bake # I-V # . ",
+        "let # B-V # cool # drop : batter #  # B-Theme # completely # I-Theme # . ",
+        "refrigerate # drop : batter, habitat : refrigerator #  # B-V # for # B-Time # one # I-Time # hour # I-Time # . ",
+        "cut # drop : batter #  # B-V # into # B-Result # squares # I-Result # or use cookie cutters to make # tool : cookie cutters # heart shapes . "
+    ],
+    "f-Q7FS58VW": [
+        "wash # B-V # mussels # B-Patient # and de - beard # drop : mussels # , bring a pot of water to a boil # habitat : stove # and cook # habitat : pot # the mussels , once shells open , take # habitat : pot # out mussels , discard shells and put the mussels into a mixing bowl , set # drop : mussels, habitat : mixing bowl # aside . ",
+        "keep # B-V # the # B-Theme # water # I-Theme # in # B-Location # the # I-Location # pot # I-Location # and continue to bring to boil # drop : water # . ",
+        "wash # B-V # squids # B-Patient # and cut # tool : knife # into bite size , blanch # drop : squids # in the same pot of water used to cook mussels , drain # drop : squids, tool : strainer # and mix with mussels . ",
+        "wash # habitat : sink #  # B-V # mint # B-Patient # leaves # I-Patient # , # I-Patient # corianders # I-Patient # and use the leaves whole . ",
+        "wash # B-V # tomatoes # B-Patient # and slice # drop : tomatoes, tool : knife # into thin wedges . ",
+        "onion and shallots skin off and sliced # drop : onion shallots # ",
+        "wash # habitat : sink #  # B-V # bird # B-Patient # eyes # I-Patient # chilies # I-Patient # ( if you want milder flavor , replace with big chilies ) cut # drop : bird eyes chilies, tool : knife # into small pieces . ",
+        "toss # drop : bird eyes chilies, result : mixture, habitat : bowl #  # B-V # in # B-Destination # sliced # B-Theme # onion # I-Theme # , # I-Theme # shallots # I-Theme # , # I-Theme # chilies # I-Theme # and # I-Theme # tomatoes # I-Theme # . ",
+        "add # drop : mixture, habitat : bowl #  # B-V # in # B-Destination # seasoning # B-Patient # , mix # drop : mixture # well , taste # drop : mixture # test . ",
+        "add # drop : mixture, habitat : bowl #  # B-V # more # B-Patient # fish # I-Patient # sauce # I-Patient # or # I-Patient # lime # I-Patient # juice # I-Patient # if desire stronger flavour . ",
+        "top # drop : mixture, habitat : bowl #  # B-V # with # B-Theme # mint # I-Theme # and # I-Theme # coriander # I-Theme # leaves # I-Theme # and gently toss # drop : mixture mint leaves corianders, habitat : bowl # together . ",
+        "serve # drop : mixture #  # B-V # on # B-Location # a # I-Location # platter # I-Location # lined # habitat : platter #  # I-Location # with # I-Location # lettuce # I-Location # and garnish # drop : bird eyes chilies # with extra mint leaves . "
+    ],
+    "r-176": [
+        "mix # B-V # together # B-Attribute # the # B-Patient # veggies # I-Patient # . ",
+        "mix # B-V # together # B-Attribute # the # B-Patient # remaining # I-Patient # ingredients # I-Patient # to # B-Purpose # form # I-Purpose # a # I-Purpose # smooth # I-Purpose # , # I-Purpose # pourable # I-Purpose # batter # I-Purpose # . ",
+        "mix # result : mixture #  # B-V # the # B-Patient # veggies # I-Patient # in # B-Location # the # I-Location # batter # I-Location # the mixture should be of a consistency that you can spoon # drop : mixture, tool : spoon # the patties on to the skillet , if not , adjuster # drop : mixture # with either water or flour . ",
+        "on a heated sprayed with oil skillet drop # result : patties, tool : spoon # spoonfuls of batter ( approx . ",
+        "3 tbsp per patty ) . ",
+        "your heat should be medium . ",
+        "brown # drop : patties #  # B-V # well # B-Attribute # on # B-Location # one # I-Location # side # I-Location # flip # drop : patties # and brown # drop : patties # on the other . ",
+        "serve # drop : patties #  # B-V # hot # B-Attribute # or # I-Attribute # cold # I-Attribute # . "
+    ],
+    "r-4061": [
+        "first # B-Time # cream # tool : mixer, habitat : bowl #  # B-V # the # B-Patient # butter # I-Patient # , add # drop : butter, habitat : bowl # sugar gradually , and eggs well beaten . ",
+        "add # habitat : bowl #  # B-V # soda # B-Patient # dissolved # I-Patient # in # I-Patient # hot # I-Patient # water # I-Patient # , # I-Patient # and # I-Patient # one # I-Patient # - # I-Patient # half # I-Patient # the # I-Patient # flour # I-Patient # mixed # habitat : bowl #  # I-Patient # and # I-Patient # sifted # tool : sieve, habitat : bowl #  # I-Patient # with # I-Patient # salt # I-Patient # and # I-Patient # cinnamon # I-Patient # ",
+        "then # B-Time # add # drop : butter sugar soda hot water flour salt cinnamon, result : dough, tool : mixer, habitat : bowl #  # B-V # nut # B-Patient # meat # I-Patient # , # I-Patient # fruit # I-Patient # , # I-Patient # and # I-Patient # remaining # I-Patient # flour # I-Patient # . ",
+        "drop # drop : dough, shadow : butter, tool : spoon #  # B-V # by # B-Source # spoonfuls # I-Source # one # B-Attribute # inch # I-Attribute # apart # I-Attribute # on # B-Destination # a # I-Destination # buttered # I-Destination # sheet # I-Destination # , and bake # result : cookies # in a moderate oven . "
+    ],
+    "f-HX4T28NM": [
+        "melt # B-V # butter # B-Patient # in # B-Location # a # I-Location # medium # I-Location # - # I-Location # sized # I-Location # dutch # I-Location # oven # I-Location # over # B-Instrument # medium # I-Instrument # - # I-Instrument # high # I-Instrument # heat # I-Instrument # . ",
+        "add # habitat : dutch oven #  # B-V # onions # B-Patient # and # I-Patient # ginger # I-Patient # and saute # result : butter mixture with onion, habitat : dutch oven # until the onion is translucent . ",
+        "pour # habitat : dutch oven #  # B-V # in # B-Destination # the # B-Theme # spices # I-Theme # and saute # drop : butter mixture with onion, habitat : dutch oven # until fragrant . ",
+        "next # B-Time # , place # B-V # the # B-Theme # cauliflower # I-Theme # in # B-Location # the # I-Location # pot # I-Location # and add # habitat : dutch oven # the chicken stock . ",
+        "bring # B-V # to # I-V # a # I-V # boil # drop : chicken stock cauliflower #  # I-V # , then reduce # habitat : dutch oven # the heat and leave to simmer # drop : cauliflower chicken stock, result : chicken stock cauliflower, habitat : dutch oven # for 15 minuets or until the cauliflower is tender . ",
+        "remove # drop : dutch oven #  # B-V # from # B-Source # heat # I-Source # and puree # drop : chicken stock cauliflower # using an immersion blender . ",
+        "return # drop : dutch oven #  # B-V # to # B-Destination # heat # I-Destination # and add # habitat : dutch oven # milk and simmer # drop : chicken stock cauliflower, result : cauliflower soup, habitat : dutch oven # until heated through . ",
+        "taste # drop : cauliflower soup #  # B-V # and season # drop : cauliflower soup # accordingly with salt and pepper . ",
+        "serve # drop : cauliflower soup #  # B-V # with # B-Attribute # crushed # I-Attribute # roasted # I-Attribute # chickpeas # I-Attribute # . "
+    ],
+    "r-2888": [
+        "wash # shadow : water, habitat : sink #  # B-V # the # B-Patient # beans # I-Patient # and soak # drop : beans, shadow : water, habitat : bowl # , them , covered # drop : beans water, habitat : bowl # , for # B-Time # 4 # I-Time # hours # I-Time # . ",
+        "drain # drop : beans water #  # B-V # and add # habitat : bowl # water or stock . ",
+        "add # habitat : bowl #  # B-V # salt # B-Patient # . ",
+        "bring # B-V # to # I-V # a # I-V # boil # drop : beans water stock, habitat : pan #  # I-V # and then simmer # drop : beans water stock # , covered # drop : beans # , for 11/2 hours . ",
+        "sautee # habitat : pan #  # B-V # the # B-Patient # vegetables # I-Patient # and # I-Patient # garlic # I-Patient # . ",
+        "add # drop : vegetables garlic, habitat : pan #  # B-V # cumin # B-Patient # and # I-Patient # corriander # I-Patient # . ",
+        "cook # drop : cumin corriander, habitat : pan #  # B-V # until # B-Result # vegetables # I-Result # are # I-Result # soft # I-Result # , adding # drop : vegetables, habitat : pan # water if needed . ",
+        "add # habitat : pan #  # B-V # veggies # B-Patient # to # B-Co-Patient # cooking # I-Co-Patient # beans # I-Co-Patient # . ",
+        "about # B-Time # 10 # I-Time # minutes # I-Time # before # I-Time # beans # I-Time # are # I-Time # ready # I-Time # add # drop : beans, habitat : pan #  # B-V # the # B-Patient # oranges # I-Patient # , # I-Patient # orange # I-Patient # and # I-Patient # lemon # I-Patient # juice # I-Patient # , # I-Patient # sherry # I-Patient # , # I-Patient # black # I-Patient # and # I-Patient # red # I-Patient # pepper # I-Patient # . ",
+        "stir # drop : oranges orange lemon juice sherry red pepper beans, shadow : black, tool : spoon, habitat : pan #  # B-V # , cover # drop : beans, habitat : pan # , cook # drop : oranges orange lemon juice sherry black red pepper beans, result : bean soup, habitat : pan # 10 more minutes . "
+    ],
+    "r-1333": [
+        "if using # B-V # fresh # B-Patient # corn # I-Patient # , cook # habitat : pot # it in boiling water for 5 to 10 minutes until tender . ",
+        "drain # drop : fresh corn #  # B-V # , keeping water . ",
+        "if you # B-Agent # use # B-V # canned # B-Patient # corn # I-Patient # , drain and keep liquid . ",
+        "melt # B-V # the # B-Patient # margarine # I-Patient # in # B-Location # a # I-Location # large # I-Location # saucepan # I-Location # and cook # drop : margarine # the onion until it is soft . ",
+        "sprinkle # drop : onion, result : roux #  # B-V # in # B-Destination # the # I-Destination # flour # I-Destination # , mixing # drop : roux # well . ",
+        "cook # drop : roux #  # B-V # a # B-Time # couple # I-Time # of # I-Time # minutes # I-Time # , stirring # drop : roux # constantly . ",
+        "remove # B-V # pan # B-Patient # from # B-Source # heat # I-Source # and slowly pour # drop : roux, result : bechamel # in the milk , stirring # drop : bechamel # to give a smooth consistency . ",
+        "add # drop : bechamel, result : soup #  # B-V # the # B-Patient # corn # I-Patient # kernels # I-Patient # , # I-Patient # along # I-Patient # with # I-Patient # salt # I-Patient # and # I-Patient # pepper # I-Patient # to # B-Purpose # taste # I-Purpose # , and # B-Co-Patient # about # I-Co-Patient # 1/2 # I-Co-Patient # cup # I-Co-Patient # reserved # I-Co-Patient # liquid # I-Co-Patient # . ",
+        "bring # B-V # the # B-Patient # soup # I-Patient # to # D-V # a # D-V # gentle # B-Attribute # boil # D-V # , stirring # drop : soup # as the mixture thickens # drop : soup # . ",
+        "simmer # drop : soup #  # B-V # for # B-Time # a # I-Time # few # I-Time # minutes # I-Time # . ",
+        "serve # drop : soup #  # B-V # hot # B-Attribute # . "
+    ],
+    "r-872": [
+        "wash # shadow : water, habitat : sink #  # B-V # and dry # habitat : paper towel # the # B-Patient # scallops # I-Patient # and separate # drop : scallops, tool : knife, habitat : cutting board # the coral from the white flesh . ",
+        "peel # tool : hands #  # B-V # and smash # tool : knife, habitat : cutting board # the # B-Patient # garlic # I-Patient # . ",
+        "melt # B-V # half # B-Patient # the # I-Patient # butter # I-Patient # in # B-Location # a # I-Location # saucepan # I-Location # and cook # drop : butter, habitat : saucepan # the white flesh very gently for 10 minutes , until tender . ",
+        "season # shadow : salt pepper #  # B-V # to # B-Purpose # taste # I-Purpose # . ",
+        "place # drop : scallops #  # B-V # on # B-Location # paper # I-Location # towel # I-Location # and keep hot between two plates over a pan of hot water . ",
+        "pour # B-V # out # I-V # the # B-Theme # butter # I-Theme # from # B-Source # the # I-Source # pan # I-Source # , wipe # habitat : saucepan # it out with paper and add # habitat : saucepan # the remaining butter and the coral , cook # drop : butter coral, habitat : saucepan # for 1 minute only on each side . ",
+        "add # habitat : saucepan #  # B-V # the # B-Patient # white # I-Patient # flesh # I-Patient # and # I-Patient # the # I-Patient # herbs # I-Patient # and # I-Patient # garlic # I-Patient # , leave # drop : garlic scallops, habitat : saucepan # over the heat just long enough to mix # drop : herbs garlic scallops, result : mixture, tool : spoon, habitat : saucepan # thoroughly and divide # drop : mixture # between the heated shells , ( plates ) . ",
+        "serve # drop : mixture, habitat : coral #  # B-V # immediately # B-Time # with # B-Attribute # a # I-Attribute # dry # I-Attribute # rose # I-Attribute # wine # I-Attribute # . "
+    ],
+    "r-3769": [
+        "first put together like superior nut cake , and put # drop : superior nut cake, shadow : oil flour # on an oiled and floured pan with a pastry bag or a spoon . ",
+        "separate # tool : fork, habitat : second bowl #  # B-V # the # B-Patient # whites # I-Patient # from # B-Co-Patient # the # I-Co-Patient # yolks # I-Co-Patient # of # I-Co-Patient # the # I-Co-Patient # eggs # I-Co-Patient # , beat # tool : fork, habitat : bowl # the yolks stiff . ",
+        "beat # tool : fork, habitat : bowl #  # B-V # in # B-Destination # the # B-Theme # sugar # I-Theme # , a # B-Attribute # little # I-Attribute # at # I-Attribute # a # I-Attribute # time # I-Attribute # , and beat # drop : sugar yolks, habitat : bowl # till very stiff . ",
+        "beat # drop : sugar yolks, result : beaten yolk mixture, tool : fork, habitat : bowl #  # B-V # in # B-Destination # the # B-Theme # vanilla # I-Theme # . ",
+        "add # habitat : second bowl #  # B-V # the # B-Patient # salt # I-Patient # to # B-Co-Patient # the # I-Co-Patient # whites # I-Co-Patient # , and beat # drop : salt whites, habitat : second bowl # till stiff and dry . ",
+        "pour # result : mixture, habitat : second bowl #  # B-V # the # B-Theme # beaten # I-Theme # yolk # I-Theme # mixture # I-Theme # onto # B-Destination # the # I-Destination # whites # I-Destination # ; sift # drop : mixture, habitat : second bowl # over it some flour , and sprinkle # drop : mixture flour, habitat : second bowl # over it some nuts , and fold # drop : nuts mixture flour, tool : fork, habitat : second bowl # them in . ",
+        "sift # drop : mixture flour nuts, habitat : second bowl #  # B-V # on # B-Destination # more # B-Patient # flour # I-Patient # and sprinkle # drop : mixture flour, tool : second bowl # on more nuts , continuing # drop : mixture, tool : fork, habitat : second bowl # thus till all the flour and nuts are folded # drop : nuts flour mixture, result : dough, tool : fork # in . "
+    ],
+    "r-4526": [
+        "cream # result : mixture, tool : beaters # crisco and sugar ",
+        "add # drop : mixture, result : dough #  # B-V # salt # B-Patient # , # I-Patient # egg # I-Patient # , # I-Patient # and # I-Patient # flour # I-Patient # sifted # I-Patient # with # I-Patient # baking # I-Patient # powder # I-Patient # and # I-Patient # soda # I-Patient # . ",
+        "mix # drop : dough #  # B-V # and turn # drop : dough # out on floured baking board . ",
+        "dough should be soft . ",
+        "roll # drop : dough #  # B-V # very # B-Extent # thin # I-Extent # and cut # drop : dough, result : cookies # out with cookie cutter . ",
+        "spread # B-V # one # B-Destination # - # I-Destination # half # I-Destination # of # I-Destination # cookies # I-Destination # with # B-Theme # filling # I-Theme # , then place remaining cookies on top and press # drop : cookies # edges together . ",
+        "place # drop : cookies #  # B-V # on # B-Location # criscoed # I-Location # tins # I-Location # and bake # drop : cookies # in moderately hot oven fifteen minutes . "
+    ],
+    "r-4474": [
+        "cream # result : mixture, tool : beaters #  # B-V # the # B-Patient # butter # I-Patient # or # I-Patient # margarine # I-Patient # . ",
+        "gradually # B-Attribute # add # drop : mixture, result : mixture #  # B-V # sugar # B-Patient # and # I-Patient # beaten # I-Patient # egg # I-Patient # . ",
+        "dissolve # result : sour cream mixture #  # B-V # baking # B-Patient # soda # I-Patient # in # B-Location # sour # I-Location # cream # I-Location # . ",
+        "add # drop : sour cream mixture, result : dough #  # B-V # to # B-Co-Patient # first # I-Co-Patient # mixture # I-Co-Patient # alternately # B-Attribute # with # B-Co-Patient # pastry # I-Co-Patient # flour # I-Co-Patient # sifted # result : dry ingredients #  # I-Co-Patient # with # I-Co-Patient # salt # I-Co-Patient # and # I-Co-Patient # baking # I-Co-Patient # powder # I-Co-Patient # . ",
+        "add # drop : dough #  # B-V # the # B-Patient # vanilla # I-Patient # and # I-Patient # raisins # I-Patient # . ",
+        "add # drop : dough #  # B-V # cup # B-Patient # nut # I-Patient # meats # I-Patient # . ",
+        "drop # drop : dough, result : cookies, tool : spoon #  # B-V # by # B-Source # spoonfuls # I-Source # on # B-Destination # greased # shadow : cooking spray, habitat : tin sheet #  # I-Destination # tin # I-Destination # sheet # I-Destination # , and bake # drop : cookies # in a moderate oven . ",
+        "double # B-Patient # the # I-Patient # amount # I-Patient # of # I-Patient # flour # I-Patient # may be used # B-V # , nuts and raising omitted , and mixture chilled and rolled out and cut in any desired shape , before # B-Time # baking # I-Time # . "
+    ],
+    "f-CKJFC4NR": [
+        "in # B-Location # a # I-Location # small # I-Location # bowl # I-Location # whisk # tool : whisk #  # B-V # together # I-V # jam # B-Patient # and # I-Patient # water # I-Patient # . ",
+        "add # result : dressing mixture, habitat : small bowl #  # B-V # the # B-Patient # rest # I-Patient # of # I-Patient # the # I-Patient # dressing # I-Patient # ingredients # I-Patient # and whisk # tool : whisk # until combined # result : dressing # . ",
+        "place # B-V # all # B-Theme # salad # I-Theme # ingredients # I-Theme # ( # I-Theme # except # I-Theme # the # I-Theme # cashews # I-Theme # ) # I-Theme # in # B-Location # a # I-Location # large # I-Location # bowl # I-Location # and pour # habitat : large bowl # in the dressing . ",
+        "toss # drop : salad ingredients dressing, result : salad, habitat : large bowl #  # B-V # until # B-Result # the # I-Result # ingredients # I-Result # are # I-Result # evenly # I-Result # distributed # I-Result # and # I-Result # coated # I-Result # with # I-Result # dressing # I-Result # . ",
+        "serve # B-V # salad # B-Theme # sprinkled # I-Theme # with # I-Theme # cashews # I-Theme # . "
+    ],
+    "f-SJPFNVTY": [
+        "preheat # tool : oven #  # B-V # 180oc. # B-Value # grease # shadow : fat # the muffin moulds i needed 12 moulds and 2 small ones . ",
+        "mix # habitat : bowl #  # B-V # the # B-Patient # flax # I-Patient # seeds # I-Patient # with # B-Co-Patient # the # I-Co-Patient # warm # I-Co-Patient # water # I-Co-Patient # and set # drop : flax seeds # aside . ",
+        "mix # habitat : bowl #  # B-V # all # B-Patient # the # I-Patient # dry # I-Patient # ingredients # I-Patient # with # B-Instrument # a # I-Instrument # wire # I-Instrument # whisk # I-Instrument # . ",
+        "add # shadow : dry ingredients, habitat : bowl #  # B-V # the # B-Patient # wet # I-Patient # ingredients # I-Patient # one # B-Attribute # by # I-Attribute # one # I-Attribute # . ",
+        "combine # drop : dry ingredients wet ingredients, result : batter, tool : spoon, habitat : bowl #  # B-V # well # B-Attribute # . ",
+        "spoon # drop : batter #  # B-V # with # B-Instrument # an # I-Instrument # ice # I-Instrument # cream # I-Instrument # scoop # I-Instrument # in # B-Location # the # I-Location # moulds # I-Location # till # B-Extent # 3/4 # I-Extent # full # I-Extent # . ",
+        "garnish # drop : batter, habitat : muffin moulds #  # B-V # with # B-Theme # chocolate # I-Theme # chips # I-Theme # . ",
+        "bake # drop : batter, habitat : muffin moulds #  # B-V # for # B-Time # 20 # I-Time # minutes # I-Time # or till # B-Result # the # I-Result # tooth # I-Result # pick # I-Result # inserted # I-Result # come # I-Result # out # I-Result # clean # I-Result # . ",
+        "my best guide for checking # B-V # the # B-Theme # cake # I-Theme # is when it pulls # drop : batter # away from the mould . "
+    ],
+    "r-4969": [
+        "in # B-Location # a # I-Location # food # I-Location # processor # I-Location # , combine # result : guacamole #  # B-V # onion # B-Patient # , # I-Patient # chilies # I-Patient # , # I-Patient # cilantro # I-Patient # and # I-Patient # salt # I-Patient # ; reserve # drop : guacamole # . ",
+        "coarsely # B-Attribute # mash # tool : fork #  # B-V # ( do not puree ) california # B-Patient # avocados # I-Patient # . ",
+        "fold # drop : california avocados, result : guacamole #  # B-V # in # B-Destination # reserved # B-Patient # onion # I-Patient # mixture # I-Patient # , # I-Patient # then # I-Patient # tomato # I-Patient # . ",
+        "serve # drop : guacamole #  # B-V # with # B-Attribute # tortilla # I-Attribute # chips # I-Attribute # . "
+    ],
+    "r-1007": [
+        "put # B-V # all # B-Theme # the # I-Theme # cake # I-Theme # ingredients # I-Theme # in # B-Location # a # I-Location # mixer # I-Location # or # I-Location # food # I-Location # processor # I-Location # and process # result : mixture, tool : mixer # until soft . ",
+        "put # B-V # the # B-Theme # mixture # I-Theme # into # B-Location # a # I-Location # piping # I-Location # - # I-Location # bag # I-Location # with # I-Location # a # I-Location # 1 # I-Location # inch # I-Location # fluted # I-Location # nozzle # I-Location # and pipe # drop : mixture, tool : piping bag # into 12 paper liners placed # tool : paper liners, habitat : bun tin # in a bun tin , using a circular movement . ",
+        "bake # drop : mixture, result : mixture, habitat : bun tin #  # B-V # in # B-Instrument # a # I-Instrument # pre # I-Instrument # - # I-Instrument # heated # tool : oven #  # I-Instrument # oven # I-Instrument # 350 # B-Value # degf # I-Value # until # B-Result # pale # I-Result # in # I-Result # color # I-Result # . ",
+        "transfer # drop : mixture #  # B-V # to # B-Destination # a # I-Destination # wire # I-Destination # cooling # I-Destination # rack # I-Destination # . ",
+        "when # B-Time # cool # drop : mixture #  # I-Time # , sift # shadow : mixture, tool : sieve #  # B-V # the # B-Patient # icing # I-Patient # sugar # I-Patient # over # B-Destination # the # I-Destination # tops # I-Destination # , and put a little lemon in the centre of each tart . "
+    ],
+    "r-901": [
+        "bring # B-V # large # B-Patient # pot # I-Patient # of # I-Patient # water # I-Patient # to # D-V # a # D-V # boil # D-V # . ",
+        "boil # drop : water #  # B-V # greens # B-Patient # for # B-Time # about # I-Time # 5 # I-Time # minutes # I-Time # , just # B-Result # till # I-Result # tender # I-Result # , and then plunge # drop : greens # into water to stop cooking . ",
+        "squeeze # drop : greens #  # B-V # out # B-Destination # as # B-Patient # much # I-Patient # water # I-Patient # as # I-Patient # possible # I-Patient # and set # drop : greens # aside ( you can do this step before you make the rest of the soup . ) . ",
+        "bring # B-V # broth # B-Theme # to # D-V # simmer # D-V # in # B-Location # large # I-Location # pot # I-Location # over # B-Instrument # med # I-Instrument # - # I-Instrument # high # I-Instrument # heat # I-Instrument # . ",
+        "add # drop : broth #  # B-V # garlic # B-Patient # and # I-Patient # greens # I-Patient # , # I-Patient # and # I-Patient # beans # I-Patient # ( if using canned , rinse and drain to rid the excess sodium ! ) ",
+        "simmer # drop : broth #  # B-V # gently # B-Attribute # for # B-Time # about # I-Time # ten # I-Time # minutes # I-Time # , partially # B-Attribute # covered # drop : broth, tool : lid #  # I-Attribute # . ",
+        "sprinkle # drop : broth #  # B-V # with # B-Theme # salt # I-Theme # and # I-Theme # pepper # I-Theme # . ",
+        "ladle # tool : ladle #  # B-V # soup # B-Theme # into # B-Destination # bowls # I-Destination # . ",
+        "pass # B-V # cheese # B-Theme # and # I-Theme # pepper # I-Theme # flakes # I-Theme # at # B-Destination # table # I-Destination # . "
+    ],
+    "r-103": [
+        "put # B-V # the # B-Theme # split # I-Theme # peas # I-Theme # in # B-Location # a # I-Location # large # I-Location # bowl # I-Location # filled # habitat : large bowl #  # I-Location # with # I-Location # cold # I-Location # water # I-Location # and let the peas soak # habitat : large bowl # overnight . ",
+        "drain # tool : strainer #  # B-V # the # B-Source # peas # I-Source # and reduce to a paste using a food processor . ",
+        "add # B-V # the # B-Patient # onions # I-Patient # , # I-Patient # chile # I-Patient # and # I-Patient # ground # I-Patient # turmeric # I-Patient # to # B-Co-Patient # the # I-Co-Patient # paste # I-Co-Patient # and form # drop : paste, tool : hands # into small balls , roughly the size of a golf ball . ",
+        "next # B-Time # , slightly # B-Extent # flatten # tool : hands #  # B-V # the # B-Patient # balls # I-Patient # ( 1/2-inch # B-Extent # thick # I-Extent # ) . ",
+        "deep # B-V # - # I-V # fry # I-V # the # B-Patient # fritters # I-Patient # to # B-Goal # a # I-Goal # golden # I-Goal # brown # I-Goal # . ",
+        "drain # B-V # the # B-Source # fritters # I-Source # on # B-Instrument # absorbent # I-Instrument # paper # I-Instrument # and serve hot . "
+    ],
+    "r-5079": [
+        "in # B-Location # one # I-Location # bowl # I-Location # add # B-V # diced # B-Patient # tomatoes # I-Patient # and # I-Patient # onion # I-Patient # ; # I-Patient # chopped # I-Patient # cilantro # I-Patient # , # I-Patient # lime # I-Patient # juice # I-Patient # , # I-Patient # and # I-Patient # california # I-Patient # chile # I-Patient # pepper # I-Patient # . ",
+        "mix # result : tomato mixture #  # B-V # well # B-Attribute # . ",
+        "in # B-Location # another # I-Location # bowl # I-Location # halve # tool : knife #  # B-V # and pit # tool : knife, habitat : bowl # avocado # B-Patient # and them scoop # tool : spoon, habitat : bowl # out avocado pulp into bowl . ",
+        "using a fork mask until creamy with some chunks . ",
+        "add # result : guacamole #  # B-V # tomato # B-Patient # mixture # I-Patient # to avocado mix # drop : guacamole # well and tabasco sauce , salt and pepper to taste . ",
+        "serve # drop : guacamole #  # B-V # with # B-Attribute # tortilla # I-Attribute # chips # I-Attribute # and enjoy ! . "
+    ],
+    "r-1094": [
+        "combine # result : chicken mixture #  # B-V # chicken # B-Patient # , # I-Patient # celery # I-Patient # , # I-Patient # apple # I-Patient # , # I-Patient # pineapple # I-Patient # , # I-Patient # raisins # I-Patient # and # I-Patient # 11/2 # I-Patient # teaspoons # I-Patient # of # I-Patient # the # I-Patient # sesame # I-Patient # seeds # I-Patient # in # B-Location # a # I-Location # large # I-Location # bowl # I-Location # . ",
+        "mix # tool : spoon, habitat : small bowl #  # B-V # mayonnaise # B-Patient # , # I-Patient # curry # I-Patient # powder # I-Patient # and # I-Patient # salt # I-Patient # . ",
+        "pour # habitat : large bowl #  # B-V # mayonnaise # B-Theme # over # B-Destination # chicken # I-Destination # mixture # I-Destination # and toss # drop : chicken mixture mayonnaise, habitat : large bowl # to coat . ",
+        "sprinkle # drop : chicken mixture #  # B-V # with # B-Theme # remaining # I-Theme # sesame # I-Theme # seeds # I-Theme # . ",
+        "serve # drop : chicken mixture #  # B-V # by # B-Attribute # itself # I-Attribute # or # I-Attribute # over # I-Attribute # a # I-Attribute # bed # I-Attribute # of # I-Attribute # greens # I-Attribute # . "
+    ],
+    "r-253": [
+        "steam # habitat : pot #  # B-V # chicken # B-Patient # and when cooked # drop : chicken # remove flesh from carcass , discarding skin . ",
+        "while # B-Time # still # I-Time # warm # I-Time # toss # B-V # chicken # B-Theme # meat # I-Theme # in # B-Location # bowl # I-Location # with # B-Co-Theme # vinaigrette # I-Co-Theme # mixed # tool : whisk, habitat : bowl #  # I-Co-Theme # with # I-Co-Theme # csr # I-Co-Theme # white # I-Co-Theme # sugar # I-Co-Theme # . ",
+        "wash # B-V # cucumber # B-Patient # and score skin with prongs of fork ; slice # drop : cucumber, tool : knife # across into rounds . ",
+        "slice # tool : knife #  # B-V # capsicum # B-Patient # into # B-Result # thin # I-Result # strips # I-Result # . ",
+        "cut # tool : knife #  # B-V # apple # B-Patient # into # B-Result # quarters # I-Result # , remove # tool : knife # core and slice quarters across into pieces ",
+        "add # result : chicken salad #  # B-V # cucumber # B-Patient # , # I-Patient # capsicum # I-Patient # , # I-Patient # apple # I-Patient # , # I-Patient # celery # I-Patient # and # I-Patient # spring # I-Patient # onion # I-Patient # to # B-Co-Patient # chicken # I-Co-Patient # in # B-Location # bowl # I-Location # . ",
+        "beat # result : curry mayo, tool : whisk #  # B-V # curry # B-Theme # paste # I-Theme # into # B-Destination # mayonnaise # I-Destination # and pour # drop : curry mayo # over chicken salad . ",
+        "mix # drop : chicken salad #  # B-V # carefully # B-Attribute # , coating # drop : chicken salad # all surfaces . ",
+        "cover # drop : chicken salad #  # B-V # and chill # drop : chicken salad # overnight . "
+    ],
+    "r-4791": [
+        "combine # B-V # cornstarch # B-Patient # , # I-Patient # mustard # I-Patient # , # I-Patient # and # I-Patient # salt # I-Patient # in # B-Location # the # I-Location # top # I-Location # of # I-Location # a # I-Location # double # I-Location # boiler # I-Location # . ",
+        "combine # result : egg mixture #  # B-V # water # B-Patient # and # I-Patient # beaten # I-Patient # eggs # I-Patient # . ",
+        "slowly # B-Attribute # add # drop : egg mixture, result : base #  # B-V # to # B-Co-Patient # the # I-Co-Patient # cornstarch # I-Co-Patient # mixture # I-Co-Patient # , stirring # drop : base # constantly , until smooth . ",
+        "cook # drop : base, habitat : pot #  # B-V # over # B-Instrument # simmering # I-Instrument # water # I-Instrument # for # B-Time # 5 # I-Time # minutes # I-Time # , stirring # drop : base # constantly . ",
+        "mix # drop : base #  # B-V # with # B-Co-Patient # the # I-Co-Patient # lemon # I-Co-Patient # and # I-Co-Patient # vinegar # I-Co-Patient # very # B-Attribute # slowly # I-Attribute # ",
+        "continue # B-V # cooking # drop : base #  # B-Theme # and # I-Theme # stirring # drop : base #  # I-Theme # over # I-Theme # simmering # I-Theme # water # I-Theme # for # I-Theme # 10 # I-Theme # more # I-Theme # minutes # I-Theme # . ",
+        "remove # drop : base #  # B-V # from # B-Source # heat # I-Source # . ",
+        "add # drop : base #  # B-V # the # B-Patient # sweetener # I-Patient # ; mix # drop : base # well . ",
+        "pour # drop : base #  # B-V # into # B-Destination # a # I-Destination # pint # I-Destination # jar # I-Destination # , cover # drop : base, habitat : pint jar # , and store # drop : pint jar # in a refrigerator . ",
+        "stir # drop : base #  # B-V # well # B-Attribute # before # B-Time # each # I-Time # use # I-Time # . "
+    ],
+    "r-2630": [
+        "shred # tool : knife, habitat : cutting board #  # B-V # cabbage # B-Patient # finely # B-Attribute # , grate # tool : grater, habitat : cutting board # carrots . ",
+        "mix # result : mixture, tool : spoon, habitat : bowl #  # B-V # all # B-Patient # the # I-Patient # ingredients # I-Patient # together # B-Attribute # and squeeze # drop : mixture # a little on the table . ",
+        "put # drop : mixture #  # B-V # in # B-Location # a # I-Location # wood # I-Location # container # I-Location # and leave # drop : mixture, habitat : wood container # at room temperature . ",
+        "after # B-Time # 2 # I-Time # - # I-Time # 3 # I-Time # days # I-Time # the # B-Agent # cabbage # I-Agent # begins # B-V # to # B-Theme # \" # I-Theme # bubble # habitat : wood container #  # I-Theme # \" # I-Theme # - at this point it must be refrigerated # habitat : wood container # . ",
+        "it # B-Patient # will be ready to eat # drop : mixture #  # B-V # in two days after that . "
+    ],
+    "r-1043": [
+        "dissolve # habitat : bowl #  # B-V # yeast # B-Patient # in # B-Instrument # warm # I-Instrument # water # I-Instrument # with # B-Co-Patient # 1 # I-Co-Patient # tablespoon # I-Co-Patient # flour # I-Co-Patient # ; stir # drop : warm water yeast flour, result : yeast mixture, tool : spoon # and set # drop : yeast mixture, habitat : bowl # aside to rise # drop : yeast mixture, habitat : bowl # . ",
+        "fry # habitat : stove #  # B-V # bacon # B-Patient # in # B-Destination # for # B-Time # 2 # I-Time # minutes # I-Time # - let cool # drop : bacon # . ",
+        "add # result : ham bacon onion mixture #  # B-V # ham # B-Patient # and # I-Patient # the # I-Patient # green # I-Patient # onions # I-Patient # ; set # drop : ham bacon onion mixture # aside to cool . ",
+        "beat # tool : whisk, habitat : bowl #  # B-V # eggs # B-Theme # and add # habitat : bowl # enough flour to make # result : batter, habitat : bowl # a soft batter . ",
+        "add # drop : batter, habitat : bowl #  # B-V # the # B-Patient # raised # I-Patient # yeast # I-Patient # and mix # drop : batter ham bacon onion mixture, tool : whisk, habitat : bowl # . ",
+        "add # habitat : bowl #  # B-V # ham # B-Patient # , # I-Patient # bacon # I-Patient # and # I-Patient # onions # I-Patient # and mix # drop : batter, tool : whisk # . ",
+        "add # drop : batter, habitat : bowl #  # B-V # cheese # B-Patient # , # I-Patient # salt # I-Patient # and # I-Patient # pepper # I-Patient # to taste . ",
+        "put # drop : batter #  # B-V # into # B-Location # a # I-Location # large # I-Location # bowl # I-Location # to # B-Purpose # rise # I-Purpose # for # B-Time # about # I-Time # 2 # I-Time # or # I-Time # 3 # I-Time # hours # I-Time # . ",
+        "bake # drop : batter, habitat : oven #  # B-V # at # B-Value # 375 # I-Value # f # I-Value # for # B-Time # about # I-Time # 1 # I-Time # hour # I-Time # or until # B-Result # top # I-Result # is # I-Result # nice # I-Result # and # I-Result # brown # I-Result # . "
+    ],
+    "r-4715": [
+        "preheat # B-V # oven # B-Patient # to # B-Goal # 350degf. # I-Goal # ",
+        "sift # tool : sifter #  # B-V # together # B-Attribute # flour # B-Patient # , # I-Patient # baking # I-Patient # powder # I-Patient # , # I-Patient # and # I-Patient # salt # I-Patient # . ",
+        "beat # tool : whisk #  # B-V # egg # B-Theme # yolks # I-Theme # in # B-Location # a # I-Location # small # I-Location # bowl # I-Location # , rapidly # B-Attribute # , until # B-Result # very # I-Result # thick # I-Result # and # I-Result # lemon # I-Result # colored # I-Result # , adding # drop : egg yolks, habitat : small bowl # almond and vanilla flavorings during the beating . ",
+        "with # B-Instrument # clean # I-Instrument # beaters # I-Instrument # , beat # habitat : bowl #  # B-V # the # B-Theme # egg # I-Theme # whites # I-Theme # until # B-Result # stiff # I-Result # and # I-Result # shiny # I-Result # ; begin to add # drop : egg whites, tool : measuring tablespoon, habitat : bowl # sugar , not more than 1 tablespoon at a time , and beat # drop : egg whites, tool : beaters, habitat : bowl # constantly . ",
+        "continue # B-V # to # B-Theme # beat # tool : beaters, habitat : bowl #  # I-Theme # rapidly # I-Theme # until whites are very stiff and glossy . ",
+        "gently # B-Attribute # fold # drop : egg whites, habitat : bowl #  # B-V # in # B-Destination # the # B-Patient # beaten # I-Patient # egg # I-Patient # yolks # I-Patient # . ",
+        "in # B-Attribute # the # I-Attribute # same # I-Attribute # manner # I-Attribute # fold # drop : egg whites, habitat : bowl #  # B-V # in # B-Destination # the # B-Patient # dry # I-Patient # ingredients # I-Patient # until # B-Result # well # I-Result # mixed # drop : dry ingredients egg whites egg yolks, result : mixture #  # I-Result # . ",
+        "using # B-V # a # B-Patient # small # I-Patient # spatula # I-Patient # and # I-Patient # a # I-Patient # measuring # I-Patient # tablespoon # I-Patient # , measure # drop : mixture # and droop # drop : mixture # onto ungreased baking sheets , spacing 2 inches apart . ",
+        "bake # drop : mixture #  # B-V # for # B-Time # 10 # I-Time # minutes # I-Time # until # B-Result # light # I-Result # and # I-Result # golden # I-Result # brown # I-Result # . ",
+        "remove # drop : mixture #  # B-V # at # B-Attribute # once # I-Attribute # from # B-Source # sheet # I-Source # to # B-Purpose # cool # I-Purpose # . "
+    ],
+    "r-1389": [
+        "mince # result : mixture, tool : knife #  # B-V # the # B-Patient # fish # I-Patient # with # B-Co-Patient # the # I-Co-Patient # onions # I-Co-Patient # , at # B-Time # least # I-Time # twice # I-Time # . ",
+        "stir # drop : mixture, result : mixture #  # B-V # in # B-Destination # the # B-Theme # flour # I-Theme # , # I-Theme # eggs # I-Theme # , # I-Theme # salt # I-Theme # and # I-Theme # pepper # I-Theme # , adding # drop : mixture, result : batter # the milk gradually and stir # drop : batter # well . ",
+        "leave # B-V # to # B-Purpose # stand # drop : batter #  # I-Purpose # for 30 minutes . ",
+        "form # drop : batter #  # B-V # the # B-Product # fish # I-Product # balls # I-Product # with # B-Instrument # a # I-Instrument # tablespoon # I-Instrument # and fry # drop : fish balls, shadow : oil, habitat : pan # on both sides . ",
+        "served # drop : fish balls #  # B-V # with # B-Attribute # brown # I-Attribute # sauce # I-Attribute # or # I-Attribute # tomato # I-Attribute # sauce # I-Attribute # , # I-Attribute # boiled # I-Attribute # potatoes # I-Attribute # and # I-Attribute # vegetables # I-Attribute # of # I-Attribute # your # I-Attribute # choice # I-Attribute # . "
+    ],
+    "r-422": [
+        "in # B-Location # large # I-Location # saucepan # I-Location # place # B-V # minced # B-Theme # pork # I-Theme # with # I-Theme # water # I-Theme # ; cook # drop : pork water, habitat : large saucepan # slowly over med heat until pork is cooked through but still tender . ",
+        "remove # drop : pork #  # B-V # from # B-Source # heat # I-Source # and add # drop : pork, habitat : large saucepan # lemon juice , fish sauce , dried and fresh chile . ",
+        "stir # drop : lemon juice fish sauce dried and fresh chile, tool : spoon, habitat : large saucepan #  # B-V # . ",
+        "when cooled # drop : fish sauce dried and fresh chile pork, shadow : lemon juice # , add # drop : pork # onion , shallots , peanuts , ginger , mint and coriander leaves . ",
+        "toss # drop : onion shallots peanuts ginger mint coriander leaves pork lemon juice fish sauce dried and fresh chile, habitat : large saucepan #  # B-V # lightly # B-Attribute # . ",
+        "serve # drop : onion shallots peanuts ginger mint coriander leaves pork, habitat : plate #  # B-V # on # B-Location # a # I-Location # bed # I-Location # of # I-Location # lettuce # I-Location # leaves # I-Location # and garnish # drop : pork, tool : plate # with mounds of peanuts , ginger and chile . ",
+        "decorate # drop : pork, habitat : plate #  # B-V # with # B-Theme # mint # I-Theme # and # I-Theme # coriander # I-Theme # sprigs # I-Theme # if desired . "
+    ],
+    "r-1166": [
+        "decorate # B-V # an # B-Destination # oblong # I-Destination # dish # I-Destination # with # B-Theme # lettuce # I-Theme # leaves # I-Theme # . ",
+        "peel # tool : knife #  # B-V # , core # tool : knife # and dice # tool : knife # the # B-Patient # apples # I-Patient # . ",
+        "mix # drop : apples, habitat : bowl #  # B-V # immediately # B-Time # with # B-Co-Patient # the # I-Co-Patient # herring # I-Co-Patient # , add # habitat : bowl # all other ingredients except the mayonnaise and garnish , and toss # drop : ingredients apples herring, result : mixture, habitat : bowl # them together in the dressing . ",
+        "spread # tool : spatula #  # B-V # the # B-Theme # mixture # I-Theme # evenly # B-Attribute # over # B-Destination # the # I-Destination # lettuce # I-Destination # leaves # I-Destination # , and cover # drop : mixture, tool : spatula, habitat : oblong dish # generously with mayonnaise . ",
+        "decorate # drop : mixture oblong dish #  # B-V # with # B-Theme # the # I-Theme # garnish # I-Theme # . ",
+        "for # B-Purpose # the # I-Purpose # garnish # I-Purpose # , chop # tool : knife #  # B-V # the # B-Patient # egg # I-Patient # whites # I-Patient # . ",
+        "rub # B-V # the # B-Patient # yolks # I-Patient # through # B-Destination # a # I-Destination # sieve # I-Destination # . ",
+        "scatter # drop : yolks egg whites mixture, habitat : oblong dish #  # B-V # both # B-Theme # on # B-Destination # the # I-Destination # mayonnaise # I-Destination # with # B-Attribute # the # I-Attribute # slices # I-Attribute # of # I-Attribute # gherkin # I-Attribute # and # I-Attribute # parsley # I-Attribute # . "
+    ],
+    "f-CYTQDZKG": [
+        "-buy # B-V # stonyfield # B-Theme # organic # I-Theme # pain # I-Theme # yogurt # I-Theme # . ",
+        "you # B-Agent # will only need # B-V # 2 # B-Theme # tablespoons # I-Theme # so freeze # drop : stonyfield organic pain yogurt # the rest or just eat # drop : stonyfield organic pain yogurt # it . ",
+        "the stonyfield has the most good bacteria i could find . ",
+        "-buy # B-V # stonyfield # B-Theme # fat # I-Theme # free # I-Theme # organic # I-Theme # milk # I-Theme # , half # B-Extent # gallon # I-Extent # . ",
+        "you # B-Agent # can buy # B-V # full # B-Theme # fat # I-Theme # . ",
+        "i # B-Agent # buy # B-V # the # B-Theme # fat # I-Theme # free because # B-Cause # it # I-Cause # has # I-Cause # less # I-Cause # calories # I-Cause # . ",
+        "-heat # B-V # the # B-Patient # milk # I-Patient # in # B-Location # a # I-Location # sterilized # I-Location # saucepan # I-Location # over # B-Instrument # medium # I-Instrument # heat # I-Instrument # until # B-Result # it # I-Result # reaches # I-Result # 180 # I-Result # degrees # I-Result # . ",
+        "this # B-Agent # will kill # habitat : sterilized saucepan #  # B-V # bad # B-Patient # bacteria # I-Patient # . ",
+        "this # B-Agent # takes # B-V # about # B-Theme # 10 # I-Theme # minutes # I-Theme # . ",
+        "cool # habitat : sterilized saucepan #  # B-V # the # B-Patient # milk # I-Patient # down # D-V # to # B-Goal # 110 # I-Goal # degrees # I-Goal # . ",
+        "-in # B-Location # a # I-Location # sterile # I-Location # glass # I-Location # bowl # I-Location # or # I-Location # measuring # I-Location # cup # I-Location # , add # B-V # the # B-Patient # two # I-Patient # tablespoons # I-Patient # of # I-Patient # organic # I-Patient # yogurt # I-Patient # and # I-Patient # some # I-Patient # of # I-Patient # the # I-Patient # milk # I-Patient # . ",
+        "mix # drop : stonyfield organic pain yogurt stonyfield fat free organic milk, habitat : measuring cup #  # B-V # until # B-Result # combined # drop : stonyfield organic pain yogurt stonyfield fat free organic milk, result : yogurt milk mixture #  # I-Result # and then add back to the milk that is in the saucepan . ",
+        "mix # drop : yogurt milk mixture stonyfield fat free organic milk, result : mixture, habitat : saucepan #  # B-V # well # B-Attribute # . ",
+        "-add # B-V # water # B-Patient # to # B-Co-Patient # your # I-Co-Patient # yogurt # I-Co-Patient # maker # I-Co-Patient # . ",
+        "there should be a water line inside . ",
+        "fill # habitat : yogurt maker #  # B-V # water # B-Theme # to # B-Extent # that # I-Extent # line # I-Extent # . ",
+        "-strain # B-V # your # B-Patient # milk # I-Patient # mixture # I-Patient # right # B-Destination # into # I-Destination # the # I-Destination # yogurt # I-Destination # maker # I-Destination # and let it go for 10 to 14 hours . ",
+        "that is usually how long i # B-Agent # let # B-V # mine # B-Beneficiary # go # B-Theme # for . ",
+        "i # B-Agent # strain # B-V # my # B-Patient # cooled # I-Patient # milk # I-Patient # just in case there is some milk that cooked . ",
+        "-after your yogurt is done immediately put in the fridge and cool # habitat : fridge # for a couple hours . ",
+        "once your # B-Patient # yogurt # I-Patient # is cooled # B-V # , eat or strain . ",
+        "i # B-Agent # always # B-Time # strain # B-V # my # B-Patient # yogurt # I-Patient # because # B-Cause # i # I-Cause # like # I-Cause # it # I-Cause # thick # I-Cause # . ",
+        "i # B-Agent # put # B-V # a # B-Theme # coffee # I-Theme # filter # I-Theme # in # B-Location # a # I-Location # strainer # I-Location # , add # habitat : strainer # some yogurt and strain # tool : coffee filter, habitat : strainer # for an hour or so . ",
+        "this # B-Theme # will have to be done # B-V # in # B-Attribute # steps # I-Attribute # . ",
+        "once strained # drop : mixture, tool : coffee filter, habitat : strainer #  # B-V # add # drop : mixture # to a sterilized glass dish and add # habitat : sterilized glass dish # any flavoring . ",
+        "i # B-Agent # would not add # habitat : sterilized glass dish #  # B-V # berries # B-Patient # or # I-Patient # anything # I-Patient # like # I-Patient # that # I-Patient # until # B-Result # you # I-Result # are # I-Result # ready # I-Result # to # I-Result # eat # I-Result # . ",
+        "-don't forget # B-V # to # B-Theme # take # tool : spoon, habitat : sterilized glass dish #  # I-Theme # out # I-Theme # a # I-Theme # couple # I-Theme # tablespoons # I-Theme # of # I-Theme # your # I-Theme # homemade # I-Theme # yogurt # I-Theme # before # I-Theme # you # I-Theme # flavor # I-Theme # it # I-Theme # . ",
+        "you # B-Agent # need # B-V # to # B-Theme # save # drop : mixture #  # I-Theme # that # I-Theme # as # I-Theme # a # I-Theme # yogurt # I-Theme # starter # I-Theme # for # I-Theme # the # I-Theme # next # I-Theme # batch # I-Theme # you # I-Theme # make # I-Theme # . ",
+        "every # B-Time # time # I-Time # i # B-Agent # do make # B-V # yogurt # B-Product # i boil water in my saucepan to sterilize it and then add the boiling water to the container i make # habitat : container # the yogurt in , so that is sterilized too . ",
+        "make # B-V # sure # I-V # your # B-Result # thermometer # I-Result # is # I-Result # sterilized # I-Result # in # I-Result # the # I-Result # boiling # I-Result # water # I-Result # . ",
+        "dry # drop : container sterilized saucepan #  # B-V # with # B-Instrument # a # I-Instrument # clean # I-Instrument # paper # I-Instrument # towel # I-Instrument # before # B-Time # you # I-Time # add # I-Time # your # I-Time # milk # I-Time # to # I-Time # the # I-Time # saucepan # I-Time # and # I-Time # to # I-Time # the # I-Time # yogurt # I-Time # maker # I-Time # . "
+    ],
+    "r-135": [
+        "boil # result : boiled potatoes, habitat : pot #  # B-V # the # B-Patient # sweet # I-Patient # potatoes # I-Patient # for # B-Time # 5 # I-Time # minutes # I-Time # in # B-Location # just # I-Location # enough # I-Location # water # I-Location # to # I-Location # cover # I-Location # them # I-Location # . ",
+        "stir # drop : boiled potatoes, result : liquid #  # B-V # in # B-Destination # the # B-Patient # ginger # I-Patient # , # I-Patient # cinnamon # I-Patient # , # I-Patient # chile # I-Patient # , # I-Patient # lemon # I-Patient # , # I-Patient # honey # I-Patient # and # I-Patient # salt # I-Patient # and boil # drop : liquid, result : sauce # for another 10 minutes , or until the potatoes are cooked . ",
+        "the sauce should be like syrup , but if it # B-Theme # has n't reached # B-V # that # B-Goal # consistency # I-Goal # , lift out the potatoes and boil the sauce until it is thicker . ",
+        "mix # drop : syrup, result : dressing #  # B-V # in # B-Destination # the # B-Patient # coriander # I-Patient # , # I-Patient # and # I-Patient # capers # I-Patient # . ",
+        "reintroduce # result : potato salad #  # B-V # the # B-Theme # potatoes # I-Theme # to # B-Destination # the # I-Destination # dressing # I-Destination # if necessary . ",
+        "allow # B-V # it # B-Beneficiary # to # B-Theme # cool # drop : potato salad #  # I-Theme # before # I-Theme # serving # drop : potato salad #  # I-Theme # . "
+    ],
+    "f-D7RYT56T": [
+        "preheat # B-V # oven # B-Patient # to # B-Goal # 350 # I-Goal # degrees # I-Goal # f # I-Goal # and line a cookie sheet with parchment paper . ",
+        "in # B-Location # a # I-Location # large # I-Location # mixing # I-Location # bowl # I-Location # , mix # B-V # together # B-Result # the # B-Patient # cake # I-Patient # flour # I-Patient # and # I-Patient # sugar # I-Patient # . ",
+        "then # B-Time # add # habitat : large mixing bowl #  # B-V # the # B-Patient # peanut # I-Patient # butter # I-Patient # and # I-Patient # canola # I-Patient # oil # I-Patient # . ",
+        "form # habitat : large mixing bowl #  # B-V # a # B-Product # pasty # I-Product # dough # I-Product # , then separate # habitat : large mixing bowl # the dough with your hands to form small crumbs . ",
+        "add # B-V # the # B-Patient # water # I-Patient # and form # habitat : large mixing bowl # into a messy dough . ",
+        "add # result : dough with chocolate chips, habitat : large mixing bowl #  # B-V # the # B-Patient # bittersweet # I-Patient # chocolate # I-Patient # chips # I-Patient # and knead # drop : pasty dough # gently with hands . ",
+        "separate # tool : hands #  # B-V # dough # B-Patient # into # B-Result # 12 # I-Result # to # I-Result # 14 # I-Result # bite # I-Result # - # I-Result # sized # I-Result # balls # I-Result # . ",
+        "flatten # tool : hands #  # B-V # each # B-Patient # piece # I-Patient # and bake # habitat : oven # at 350 degrees f for 22 to 25 minutes . ",
+        "let # B-V # it # B-Beneficiary # cool # drop : pasty dough #  # B-Theme # down # I-Theme # for # I-Theme # 30 # I-Theme # minutes # I-Theme # before # I-Theme # serving # drop : pasty dough #  # I-Theme # . ",
+        "enjoy # B-V # ! "
+    ],
+    "r-191": [
+        "place # result : salad #  # B-V # the # B-Theme # bell # I-Theme # peppers # I-Theme # , # I-Theme # cucumbers # I-Theme # , # I-Theme # tomatoes # I-Theme # , # I-Theme # scallions # I-Theme # , # I-Theme # mint # I-Theme # , # I-Theme # parsley # I-Theme # and # I-Theme # cilantro # I-Theme # in # B-Location # a # I-Location # large # I-Location # bowl # I-Location # . ",
+        "in # B-Location # a # I-Location # separate # I-Location # bowl # I-Location # combine # result : dressing #  # B-V # the # B-Patient # garlic # I-Patient # with # B-Co-Patient # the # I-Co-Patient # olive # I-Co-Patient # oil # I-Co-Patient # and # I-Co-Patient # lemon # I-Co-Patient # juice # I-Co-Patient # . ",
+        "season # drop : salad #  # B-V # to # B-Purpose # taste # I-Purpose # with # B-Material # salt # I-Material # and # I-Material # freshly # I-Material # ground # I-Material # black # I-Material # pepper # I-Material # . ",
+        "pour # B-V # the # B-Theme # dressing # I-Theme # over # B-Destination # the # I-Destination # salad # I-Destination # and toss # drop : salad # lightly to mix . ",
+        "toast # B-V # the # B-Patient # pita # I-Patient # breads # I-Patient # in # B-Instrument # a # I-Instrument # toaster # I-Instrument # until # B-Result # crisp # I-Result # and serve # drop : pita breads # along side ( or crumbled on top ) of salad . "
+    ],
+    "f-4Z5SV5FY": [
+        "season # B-V # veal # B-Patient # scaloppine # I-Patient # with # B-Material # salt # I-Material # and # I-Material # pepper # I-Material # , then dust with flour . ",
+        "in # B-Location # a # I-Location # skillet # I-Location # add # B-V # the # B-Patient # butter # I-Patient # and # I-Patient # the # I-Patient # vegetable # I-Patient # oil # I-Patient # , and heat over medium - high . ",
+        "saute # B-V # the # B-Patient # scaloppine # I-Patient # 2 # B-Time # - # I-Time # 3 # I-Time # minutes # I-Time # on # I-Time # one # I-Time # side # I-Time # . ",
+        "flip # B-V # the # B-Patient # scaloppine # I-Patient # over # D-V # and saute the other side 1 - 2 minutes with the pan covered . ",
+        "transfer # B-V # the # B-Theme # scaloppine # I-Theme # to # B-Destination # a # I-Destination # warmed # I-Destination # platter # I-Destination # ; pour off the fat from the pan . ",
+        "deglaze # B-V # pan # B-Patient # with # B-Instrument # wine # I-Instrument # and add minced garlic . ",
+        "cook # B-V # until # B-Result # garlic # I-Result # is # I-Result # slightly # I-Result # brown # I-Result # and # I-Result # liquid # I-Result # is # I-Result # nearly # I-Result # evaporated # I-Result # , about # B-Time # 2 # I-Time # minutes # I-Time # . ",
+        "add # B-V # broth # B-Patient # , # I-Patient # lemon # I-Patient # juice # I-Patient # and # I-Patient # capers # I-Patient # . ",
+        "return # B-V # veal # B-Theme # scaloppine # I-Theme # to # B-Destination # pan # I-Destination # and cook on each side for 1 minute . ",
+        "transfer # B-V # to # B-Destination # a # I-Destination # warm # I-Destination # plates # I-Destination # . ",
+        "finish # B-V # sauce # B-Theme # with # B-Instrument # butter # I-Instrument # and # I-Instrument # lemons # I-Instrument # . ",
+        "once butter # B-Patient # melts # B-V # , pour sauce over veal . ",
+        "garnish # B-V # with # B-Theme # chopped # I-Theme # fresh # I-Theme # parsley # I-Theme # and serve . "
+    ],
+    "r-98": [
+        "fry # result : soup base #  # B-V # the # B-Patient # garlic # I-Patient # , # I-Patient # onion # I-Patient # , # I-Patient # fish # I-Patient # sauce # I-Patient # and # I-Patient # chili # I-Patient # powder # I-Patient # in # B-Instrument # cooking # I-Instrument # oil # I-Instrument # for # B-Time # 2 # I-Time # - # I-Time # 3 # I-Time # minutes # I-Time # . ",
+        "add # drop : soup base, result : soup #  # B-V # the # B-Patient # chicken # I-Patient # , # I-Patient # mushrooms # I-Patient # , # I-Patient # fish # I-Patient # cake # I-Patient # , # I-Patient # onions # I-Patient # and # I-Patient # 2 # I-Patient # quarts # I-Patient # of # I-Patient # water # I-Patient # and boil # drop : soup # for 15 minutes . ",
+        "add # drop : soup #  # B-V # the # B-Patient # bean # I-Patient # vermicelli # I-Patient # ( # I-Patient # bean # I-Patient # thread # I-Patient # ) # I-Patient # and # I-Patient # pepper # I-Patient # . ",
+        "boil # drop : soup #  # B-V # in # B-Instrument # low # I-Instrument # heat # I-Instrument # for # B-Time # 10 # I-Time # minutes # I-Time # . ",
+        "serve # drop : soup #  # B-V # sprinkled # drop : soup #  # B-Attribute # with # I-Attribute # green # I-Attribute # onion # I-Attribute # . "
+    ],
+    "r-4326": [
+        "reconstitute # habitat : bowl # beef broth with 1/2 cup water . ",
+        "saute # B-V # the # B-Patient # first # I-Patient # 3 # I-Patient # ingredients # I-Patient # over # B-Instrument # medium # I-Instrument # - # I-Instrument # high # I-Instrument # heat # I-Instrument # in # B-Location # a # I-Location # teflon # I-Location # fry # I-Location # pan # I-Location # for # B-Time # a # I-Time # few # I-Time # minutes # I-Time # , stirring # tool : spoon, habitat : teflon fry pan # frequently . ",
+        "add # drop : ingredients, habitat : teflon fry pan #  # B-V # the # B-Patient # 1/2 # I-Patient # cup # I-Patient # of # I-Patient # reconstituted # I-Patient # low # I-Patient # sodium # I-Patient # beef # I-Patient # broth # I-Patient # and let simmer # habitat : teflon fry pan # for a minute or so more . ",
+        "then # B-Time # add # drop : beef broth, habitat : teflon fry pan #  # B-V # the # B-Patient # green # I-Patient # beans # I-Patient # , # I-Patient # sliced # I-Patient # mushrooms # I-Patient # , # I-Patient # and # I-Patient # wine # I-Patient # . ",
+        "cover # habitat : teflon fry pan #  # B-V # and let simmer # drop : ingredients beef broth, habitat : teflon fry pan # over medium heat for a few minutes . ",
+        "remove # habitat : lid #  # B-V # cover # B-Patient # and simmer # drop : green beans sliced mushrooms wine beef broth, habitat : teflon fry pan # until the beans reach the desired tenderness . "
+    ],
+    "f-4BPH5RC2": [
+        "in # B-Location # a # I-Location # bowl # I-Location # combine # B-V # the # B-Patient # flour # I-Patient # , # I-Patient # salt # I-Patient # & # I-Patient # baking # I-Patient # powder # I-Patient # . ",
+        "scramble # tool : fork #  # B-V # the # B-Theme # egg # I-Theme # & add # drop : egg # it to the flour . ",
+        "then # B-Time # with # B-Instrument # a # I-Instrument # fork # I-Instrument # , mix # drop : flour #  # B-V # in # B-Destination # the # B-Patient # egg # I-Patient # & # I-Patient # enough # I-Patient # seltzer # I-Patient # water # I-Patient # to # B-Purpose # make # I-Purpose # a # I-Purpose # thin # I-Purpose # batter # I-Purpose # . ",
+        "allow # B-V # to # B-Theme # sit # drop : batter #  # I-Theme # in # I-Theme # the # I-Theme # fridge # I-Theme # for # I-Theme # at # I-Theme # least # I-Theme # an # I-Theme # hour # I-Theme # . ",
+        "the # B-Patient # mixture # I-Patient # will separate # B-V # , stir # drop : batter # it with a fork a few times before use # drop : batter # . ",
+        "temperature to fry # drop : batter, shadow : oil #  # B-V # 350 # B-Value # degrees # I-Value # ",
+        "dip # drop : squash blossom #  # B-V # into # B-Destination # the # I-Destination # batter # I-Destination # & allow the access to drip # result : battered blossom # off . ",
+        "fry # drop : battered blossom oil #  # B-V # at # B-Value # 350 # I-Value # degree # I-Value # until # B-Result # golden # drop : battered blossom #  # I-Result # brown # I-Result # . ",
+        "sprinkle # drop : battered blossom #  # B-V # with # B-Theme # salt # I-Theme # & serve # drop : battered blossom # immediately with an cold glass of prosecco . "
+    ],
+    "r-4139": [
+        "grate # tool : grater, habitat : bowl #  # B-V # 1 # B-Patient # tbsp # I-Patient # carrot # I-Patient # finely # B-Attribute # , keep # drop : carrot, habitat : bowl # aside . ",
+        "finely # B-Attribute # chop # tool : knife, habitat : cutting board #  # B-V # cabbage # B-Patient # , keep # drop : cabbage, habitat : cutting board # aside . ",
+        "pressure # habitat : pressure cooker #  # B-V # cook # I-V # remaining # B-Patient # carrots # I-Patient # with # B-Attribute # bottle # I-Attribute # gourd # I-Attribute # till # B-Time # very # I-Time # soft # I-Time # . ",
+        "cool # drop : carrots bottle gourd, habitat : bowl #  # B-V # and blend # drop : carrots bottle gourd, result : pulp # in mixie . ",
+        "strain # drop : pulp, shadow : liquid, habitat : sink #  # B-V # . ",
+        "heat # habitat : pan #  # B-V # butter # B-Patient # , add # habitat : pan # the pulp and bring to just about boil # drop : pulp, habitat : pan # . ",
+        "add # drop : pulp, result : soup, habitat : pan #  # B-V # the # B-Patient # grated # I-Patient # carrot # I-Patient # and # I-Patient # cabbage # I-Patient # and # I-Patient # salt # I-Patient # . ",
+        "take # drop : soup #  # B-V # in # B-Destination # serving # I-Destination # bowl # I-Destination # . ",
+        "add # drop : soup, habitat : serving bowl #  # B-V # a # B-Patient # swirl # I-Patient # of # I-Patient # whipped # I-Patient # cream # I-Patient # . ",
+        "sprinkle # habitat : serving bowl #  # B-V # freshly # B-Theme # ground # I-Theme # pepper # I-Theme # and # I-Theme # chopped # I-Theme # mint # I-Theme # before # B-Time # serving # drop : soup, habitat : serving bowl #  # I-Time # . "
+    ],
+    "r-474": [
+        "chop # tool : knife #  # B-V # onions # B-Patient # into # B-Result # fine # I-Result # strips # I-Result # then fry # drop : onions # gently until slightly softened # drop : onions # , then leave to cool # drop : onions # . ",
+        "mix # result : batter #  # B-V # flour # B-Patient # , # I-Patient # seasonings # I-Patient # , # I-Patient # milk # I-Patient # and # I-Patient # eggs # I-Patient # together # B-Attribute # to # B-Purpose # form # drop : batter #  # I-Purpose # a # I-Purpose # smooth # I-Purpose # paste # I-Purpose # , add # drop : paste # water to make a slightly runny consistency . ",
+        "add # drop : paste, result : bhaji #  # B-V # the # B-Patient # onion # I-Patient # and mix # drop : bhaji # thoroughly . ",
+        "heat # B-V # the # B-Patient # oil # I-Patient # in # B-Location # pan # I-Location # for # I-Location # deep # I-Location # frying # I-Location # , when medium heat drop # tool : spoon # spoonfuls of the mixture in and fry # drop : bhaji # until deep golden and crispy . "
+    ],
+    "f-XNVJGJVP": [
+        "place # B-V # slices # B-Theme # of # I-Theme # the # I-Theme # potatoes # I-Theme # and # I-Theme # onion # I-Theme # in # B-Location # the # I-Location # food # I-Location # processor # I-Location # , using # B-Instrument # the # I-Instrument # shredding # I-Instrument # blade # I-Instrument # . ",
+        "place # B-V # the # B-Theme # shredded # I-Theme # potato # I-Theme # and # I-Theme # onion # I-Theme # in # B-Location # a # I-Location # kitchen # I-Location # towel # I-Location # and squeeze # drop : slices onion # the excess juice . ",
+        "place # drop : slices onion #  # B-V # in # B-Location # large # I-Location # bowl # I-Location # and add # habitat : large bowl # the rest of the ingredients and mix # drop : ingredients slices onion, result : batter, habitat : large bowl # . ",
+        "place # B-V # about # B-Theme # 1/2 # I-Theme # inch # I-Theme # of # I-Theme # oil # I-Theme # in # B-Location # a # I-Location # large # I-Location # cast # I-Location # iron # I-Location # frying # I-Location # pan # I-Location # and heat # drop : oil, habitat : stove # . ",
+        "using # B-V # two # B-Patient # tablespoons # I-Patient # , spoon # tool : tablespoons, habitat : stove # the batter into the oil . ",
+        "when # B-Time # one # I-Time # side # I-Time # is # I-Time # crisp # I-Time # , carefully # B-Attribute # turn # drop : batter #  # B-V # over # I-V # and finish cooking # drop : batter, result : batter # on the other side . ",
+        "place # drop : batter #  # B-V # on # B-Location # paper # I-Location # towels # I-Location # to # B-Purpose # drain # drop : batter #  # I-Purpose # the # I-Purpose # excess # I-Purpose # oil # I-Purpose # . "
+    ],
+    "r-815": [
+        "divide # tool : knife, habitat : cutting board #  # B-V # each # B-Patient # lamb # I-Patient # slice # I-Patient # into # B-Result # two # I-Result # pieces # I-Result # and bring lamb , water , cloves , and turmeric to a boil # drop : cloves, habitat : pot # on high heat . ",
+        "mix # result : yogurt mixture, tool : spoon, habitat : bowl #  # B-V # the # B-Patient # fennel # I-Patient # and # I-Patient # ginger # I-Patient # powders # I-Patient # in # B-Location # the # I-Location # yogurt # I-Location # and add # habitat : pot # to the lamb . ",
+        "bring # B-V # to # I-V # a # I-V # boil # drop : yogurt mixture water cloves turmeric lamb slice, result : lamb mixture, habitat : pot #  # I-V # again # B-Time # . ",
+        "add # drop : lamb mixture, habitat : pot #  # B-V # salt # B-Patient # , reduce # habitat : pot # heat to low , cover # drop : lamb mixture, habitat : lid # and cook # drop : lamb mixture, shadow : salt, habitat : pot # for about 40 minutes . ",
+        "set # drop : lamb mixture, habitat : pot #  # B-V # aside # B-Location # . ",
+        "heat # habitat : pan #  # B-V # the # B-Patient # butter # I-Patient # , add # habitat : pan # cinnamon , cumin and cardamoms , fry # drop : cinnamon cumin cardamoms, habitat : pan # and add # drop : cinnamon cumin cardamoms, habitat : pot # to the lamb mixture . ",
+        "cook # habitat : pot #  # B-V # lamb # B-Patient # for # B-Time # another # I-Time # 10 # I-Time # minutes # I-Time # and serve # drop : lamb mixture # hot . "
+    ],
+    "r-217": [
+        "place # B-V # fruit # B-Theme # in # B-Location # serving # I-Location # bowl # I-Location # . ",
+        "pour # result : fruit salad #  # B-V # orange # B-Theme # juice # I-Theme # over # B-Destination # fruit # I-Destination # and mix # drop : fruit salad # gently . ",
+        "garnish # B-V # with # B-Theme # almonds # I-Theme # or # I-Theme # coconut # I-Theme # . ",
+        "cover # drop : fruit salad #  # B-V # and chill # drop : fruit salad # several hours before serving # drop : fruit salad # . "
+    ],
+    "r-2892": [
+        "cut # tool : knife, habitat : cutting board #  # B-V # chicken # B-Patient # into # B-Result # 4 # I-Result # pieces # I-Result # ",
+        "wash # shadow : water, habitat : sink #  # B-V # chicken # B-Patient # well # B-Attribute # with # B-Instrument # salt # I-Instrument # and # I-Instrument # lemon # I-Instrument # ",
+        "rinse # drop : chicken, shadow : water, habitat : sink #  # B-V # , and season # drop : chicken # with salt and pepper ",
+        "place # B-V # chicken # B-Theme # , # I-Theme # gizzard # I-Theme # , # I-Theme # onions # I-Theme # , # I-Theme # carrots # I-Theme # and # I-Theme # water # I-Theme # in # B-Location # a # I-Location # stockpot # I-Location # and simmer # drop : gizzard onions carrots water chicken, result : soup, habitat : stockpot # 2 hours ",
+        "add # habitat : stockpot #  # B-V # the # B-Patient # garlic # I-Patient # ( # I-Patient # peeled # I-Patient # whole)tomato # I-Patient # , # I-Patient # salt # I-Patient # , # I-Patient # pepper # I-Patient # and cook # drop : garlic peeled whole tomato salt pepper, habitat : stockpot # another 30 minutes or until chicken is very tender . ",
+        "remove # drop : chicken, tool : hands #  # B-V # bones # B-Patient # and # I-Patient # skin # I-Patient # , and shred # tool : bowl # chicken . ",
+        "return # B-V # shredded # B-Theme # chicken # I-Theme # to # B-Destination # pot # I-Destination # , add # drop : chicken soup, habitat : stockpot # the rice and cook # drop : seasonings chicken, habitat : stockpot # until rice is very soft , almost creamy . ",
+        "stir # drop : chicken rice, tool : spoon, habitat : stockpot #  # B-V # in # B-Destination # parsley # B-Patient # and # I-Patient # cilantro # I-Patient # . ",
+        "check # habitat : stockpot #  # B-V # seasonings # B-Theme # ",
+        "boil # drop : parsley cilantro, habitat : stockpot #  # B-V # a # B-Time # few # I-Time # minutes # I-Time # and serve # drop : soup # very hot . "
+    ],
+    "r-4384": [
+        "1 bring # B-V # large # B-Patient # pot # I-Patient # of # I-Patient # water # I-Patient # to # D-V # boil # D-V # . ",
+        "2 wash # B-V # asparagus # B-Patient # and snap off tough bottoms os stems . ",
+        "3 when water # B-Patient # is boiling # B-V # , add asparagus and let water return to a boil . ",
+        "4 cook # drop : asparagus #  # B-V # about # B-Time # 3 # I-Time # minutes # I-Time # , until # B-Result # asparagus # I-Result # is # I-Result # crisp # I-Result # but # I-Result # tender # I-Result # . ",
+        "5 remove # B-V # asparagus # B-Patient # , run # drop : asparagus # it under cold water , and refrigerate # drop : asparagus, habitat : refrigerator # to chill # drop : asparagus, habitat : refrigerator # . ",
+        "6 at # B-Time # serving # I-Time # time # I-Time # , line # B-V # six # B-Destination # salad # I-Destination # plates # B-Theme # with # I-Theme # lettuce # I-Theme # and arrange # result : salad, habitat : salad plates # four spears on each . ",
+        "7 top # B-V # salads # B-Destination # with # B-Theme # 1 # I-Theme # tbsp # I-Theme # of # I-Theme # buttermilk # I-Theme # mayonnaise # I-Theme # or # I-Theme # commercial # I-Theme # light # I-Theme # mayonnaise # I-Theme # and sprinkle # drop : salad # with 1 ts chopped pecans . "
+    ],
+    "r-3562": [
+        "combine # B-V # rice # B-Patient # , # I-Patient # eggplant # I-Patient # , # I-Patient # onion # I-Patient # , # I-Patient # eggs # I-Patient # , # I-Patient # cheese # I-Patient # , # I-Patient # flour # I-Patient # , # I-Patient # salt # I-Patient # , # I-Patient # pepper # I-Patient # and # I-Patient # pepper # I-Patient # sauce # I-Patient # in # B-Location # mixing # I-Location # bowl # I-Location # . ",
+        "mix # drop : rice eggplant onion eggs cheese flour salt pepper pepper sauce, result : mixture, tool : whisk, habitat : mixing bowl #  # B-V # well # B-Attribute # . ",
+        "heat # B-V # 3 # B-Patient # tablespoons # I-Patient # oil # I-Patient # in # B-Location # large # I-Location # skillet # I-Location # over # B-Instrument # medium # I-Instrument # heat # I-Instrument # . ",
+        "drop # tool : spoon #  # B-V # mixture # B-Patient # by # B-Source # tablespoonfuls # I-Source # into # B-Destination # skillet # I-Destination # . ",
+        "cook # drop : mixture, habitat : large skillet #  # B-V # several # B-Patient # fritters # I-Patient # at # I-Patient # a # I-Patient # time # I-Patient # until # B-Result # golden # I-Result # brown # I-Result # on # I-Result # both # I-Result # sides # I-Result # , turning # drop : fritters, tool : spatula, habitat : large skillet # once . ",
+        "keep # B-V # warm # B-Theme # while # B-Time # frying # drop : mixture, habitat : large skillet #  # I-Time # remaining # I-Time # fritters # I-Time # , adding # habitat : large skillet # oil as needed . "
+    ],
+    "r-3402": [
+        "preheat # B-V # oven # B-Patient # to # B-Goal # 350degf. # I-Goal # ",
+        "beat # result : mixture, tool : whisk #  # B-V # cake # B-Theme # mix # I-Theme # , # I-Theme # oil # I-Theme # , # I-Theme # water # I-Theme # and # I-Theme # egg # I-Theme # in # B-Location # large # I-Location # bowl # I-Location # until # B-Result # well # I-Result # blended # I-Result # . ",
+        "add # drop : mixture, habitat : large bowl #  # B-V # cereal # B-Patient # ; mix # drop : cereal mixture, result : dough, tool : whisk, habitat : large bowl # well . ",
+        "drop # tool : tablespoon #  # B-V # tablespoonfuls # B-Patient # of # I-Patient # dough # I-Patient # , 2 # B-Attribute # inches # I-Attribute # apart # I-Attribute # , onto # B-Destination # ungreased # I-Destination # baking # I-Destination # sheets # I-Destination # . ",
+        "bake # drop : dough, habitat : oven #  # B-V # 11 # B-Time # minutes # I-Time # or just # B-Result # until # I-Result # cookies # I-Result # begin # I-Result # to # I-Result # brown # I-Result # ( this may be hard to see since the cookies are dark in color , so watch carefully ) . ",
+        "cool # drop : cookies #  # B-V # on # B-Location # wire # I-Location # racks # I-Location # . "
+    ],
+    "r-1687": [
+        "wash # B-V # the # B-Patient # cauliflower # I-Patient # , remove the stems and cut # drop : cauliflower # it in pieces . ",
+        "use # B-V # a # B-Patient # saucepan # I-Patient # to # B-Goal # prepare # I-Goal # the # I-Goal # sauce # I-Goal # for # I-Goal # the # I-Goal # cauliflower # I-Goal # . ",
+        "wash # B-V # and mash # result : tomato mash # the # B-Patient # tomatoes # I-Patient # . ",
+        "peel # B-V # and chop # tool : knife # the # B-Patient # onions # I-Patient # . ",
+        "add # result : mixture #  # B-V # the # B-Patient # olive # I-Patient # oil # I-Patient # into # B-Destination # the # I-Destination # saucepan # I-Destination # together # B-Attribute # with # B-Co-Patient # the # I-Co-Patient # tomato # I-Co-Patient # mash # I-Co-Patient # , # I-Co-Patient # the # I-Co-Patient # onions # I-Co-Patient # the # I-Co-Patient # cinnamon # I-Co-Patient # , # I-Co-Patient # the # I-Co-Patient # sugar # I-Co-Patient # , # I-Co-Patient # salt # I-Co-Patient # and # I-Co-Patient # pepper # I-Co-Patient # . ",
+        "stir # B-V # the # B-Patient # mixture # I-Patient # and let the sauce boil . ",
+        "when it # B-Patient # boils # B-V # put # drop : sauce # the cauliflower and let it simmer until the sauce thickens # result : kounoupidi kokkinisto # and the cauliflower is tender . ",
+        "serve # drop : kounoupidi kokkinisto #  # B-V # cold # B-Attribute # . "
+    ],
+    "r-311": [
+        "halve # tool : knife, habitat : cutting board #  # B-V # the # B-Patient # potatoes # I-Patient # and place # shadow : salted water # in a saucepan of lightly salted water . ",
+        "bring # B-V # to # I-V # a # I-V # boil # drop : potatoes, habitat : saucepan #  # I-V # and then simmer # drop : potatoes salted water, habitat : saucepan # for 12 - 15 minutes . ",
+        "drain # drop : salted water, habitat : sink #  # B-V # and plunge # drop : potatoes, habitat : bowl # into cold water . ",
+        "bring # B-V # another # B-Patient # pan # I-Patient # of # I-Patient # lightly # I-Patient # salted # I-Patient # water # I-Patient # to # D-V # a # D-V # boil # D-V # . ",
+        "add # drop : salted water, habitat : pan #  # B-V # the # B-Patient # green # I-Patient # beans # I-Patient # , # I-Patient # cauliflower # I-Patient # , # I-Patient # and # I-Patient # cabbage # I-Patient # , and cooked # drop : salted water, result : cooked vegetables, tool : pan # for about 3 minutes . ",
+        "drain # drop : salted water cooked vegetables, habitat : sink #  # B-V # and plunge # drop : cooked vegetables, habitat : bowl # into cold water . ",
+        "drain # drop : cold water, habitat : sink #  # B-V # the # B-Source # vegetables # I-Source # . ",
+        "arrange # drop : cooked vegetables #  # B-V # in # B-Attribute # piles # I-Attribute # on # B-Location # a # I-Location # large # I-Location # platter # I-Location # with # B-Co-Theme # the # I-Co-Theme # raw # I-Co-Theme # carrot # I-Co-Theme # , # I-Co-Theme # cucumber # I-Co-Theme # , # I-Co-Theme # and # I-Co-Theme # bean # I-Co-Theme # sprouts # I-Co-Theme # . ",
+        "shell # tool : hands #  # B-V # the # B-Patient # eggs # I-Patient # , cut # drop : eggs, tool : knife, habitat : cutting board # into quarters , and arrange # drop : eggs # on the plate . ",
+        "cover # habitat : large platter #  # B-V # and set # drop : eggs raw carrot cucumber bean sprouts cooked vegetables, habitat : large platter # aside . "
+    ],
+    "r-1165": [
+        "mix # result : mixture, habitat : bowl #  # B-V # all # B-Patient # the # I-Patient # ingredients # I-Patient # together # B-Attribute # . ",
+        "refrigerate # drop : mixture, habitat : refrigerator #  # B-V # for # B-Time # a # I-Time # couple # I-Time # of # I-Time # hours # I-Time # for # B-Purpose # best # I-Purpose # flavor # I-Purpose # . ",
+        "spread # drop : mixture #  # B-V # on # B-Destination # a # I-Destination # platter # I-Destination # lined # habitat : platter #  # I-Destination # with # I-Destination # lettuce # I-Destination # leaves # I-Destination # . ",
+        "smooth # result : huzarensla, habitat : platter #  # B-V # the # B-Patient # mayonnaise # I-Patient # over # B-Destination # the # I-Destination # top # I-Destination # , decorate # habitat : platter # with sliced # tool : knife # hard boiled egg , sliced tomato , parsley and a dusting of paprika . ",
+        "serve # drop : huzarensla #  # B-V # with # B-Attribute # your # I-Attribute # favorite # I-Attribute # bread # I-Attribute # . "
+    ]
+}
