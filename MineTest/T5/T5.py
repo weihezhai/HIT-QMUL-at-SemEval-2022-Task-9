@@ -1,9 +1,10 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
-# @Time    : 2022/1/4 14:27
+# @Time    : 2022/1/5 10:34
 # @Author  : hit-itnlp-fengmq
 # @FileName: T5.py
 # @Software: PyCharm
+
 import json
 import os
 import random
@@ -13,13 +14,12 @@ import pandas as  pd
 import torch
 import torch.nn as nn
 # from sentence_transformers import util, SentenceTransformer
-from torch.utils.data import Dataset, DataLoader, random_split, RandomSampler, SequentialSampler
+from torch.utils.data import Dataset, DataLoader, RandomSampler, SequentialSampler
 from tqdm import tqdm
 from transformers import T5Tokenizer, T5ForConditionalGeneration, Adafactor, get_linear_schedule_with_warmup
 
 
 # os.environ["CUDA_VISIBLE_DEVICES"] = '1'
-
 def setup_seed(seed):
     random.seed(seed)
     np.random.seed(seed)
@@ -28,7 +28,7 @@ def setup_seed(seed):
     torch.cuda.manual_seed_all(seed)
 
 
-setup_seed(21)
+setup_seed(2022)
 
 
 # 加载模型
@@ -43,14 +43,14 @@ def get_premodel(path=r"D:\Anaconda\learn\_Bert\pre_train_model\t5-small"):
     return model, tokenizer
 
 
-class myDataset(Dataset):  # 需要继承data.Dataset
+class R2QADataset(Dataset):  # 需要继承data.Dataset
     def __init__(self, data_text, data_qa, tokenizer):
         self.data_text = data_text
         self.data_qa = data_qa
         self.tokenizer = tokenizer
 
         self.max_source_length = 1024
-        self.max_target_length = 64
+        self.max_target_length = 32
 
     def __getitem__(self, index):
         item = self.data_qa[index]
@@ -87,14 +87,15 @@ class myDataset(Dataset):  # 需要继承data.Dataset
         return len(self.data_qa)
 
 
-def get_dataloader(tokenizer,qa_path="train_qa2.json",text_path=r"train3.json",batchsize=4):
-    data_text = json.load(open(text_path, 'r', encoding='utf-8'))
-    data_qa = json.load(open(qa_path, 'r', encoding='utf-8'))
-    dataset = myDataset(data_text, data_qa, tokenizer)
+def get_dataloader(tokenizer, train_qa_path="train_qa2.json", train_text_path=r"train3.json",
+                   val_qa_path="train_qa2.json", val_text_path=r"train3.json", batchsize=4):
+    train_data_text = json.load(open(train_text_path, 'r', encoding='utf-8'))
+    train_data_qa = json.load(open(train_qa_path, 'r', encoding='utf-8'))
+    train_dataset = R2QADataset(train_data_text, train_data_qa, tokenizer)
 
-    train_size = int(0.8 * len(dataset))
-    val_size = len(dataset) - train_size
-    train_dataset, val_dataset = random_split(dataset, [train_size, val_size])
+    val_data_text = json.load(open(val_text_path, 'r', encoding='utf-8'))
+    val_data_qa = json.load(open(val_qa_path, 'r', encoding='utf-8'))
+    val_dataset = R2QADataset(val_data_text, val_data_qa, tokenizer)
 
     batch_size = batchsize
     train_dataloader = DataLoader(
@@ -111,7 +112,8 @@ def get_dataloader(tokenizer,qa_path="train_qa2.json",text_path=r"train3.json",b
     return train_dataloader, validation_dataloader
 
 
-def train(model, tokenizer, train_dataloader, validation_dataloader, epochs=5,save_path = r"/home/mqfeng/code/mytest/T5/save"):
+def train(model, tokenizer, train_dataloader, validation_dataloader, epochs=5,
+          save_path=r"/home/mqfeng/code/mytest/T5_only_train_dataset/save"):
     training_logs = []
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')  #
     model.to(device)
@@ -148,14 +150,14 @@ def train(model, tokenizer, train_dataloader, validation_dataloader, epochs=5,sa
 
             train_loss.append(loss.item())
 
-        if epoch >= 2:
-            s_path = save_path
-            sub_path = os.path.join(s_path, "model" + str(epoch))
-            os.mkdir(sub_path)
-            if torch.cuda.device_count() > 1:
-                model.module.save_pretrained(sub_path)
-            else:
-                model.save_pretrained(sub_path)
+        # if epoch >= 2:
+        #     s_path = save_path
+        #     sub_path = os.path.join(s_path, "model" + str(epoch))
+        #     os.mkdir(sub_path)
+        #     if torch.cuda.device_count() > 1:
+        #         model.module.save_pretrained(sub_path)
+        #     else:
+        #         model.save_pretrained(sub_path)
 
         model.eval()
         test_loss = []
@@ -199,8 +201,18 @@ def train_summary(data):
     df_stats = df_stats.set_index('epoch')
     df_stats.to_csv('train_summary.csv', sep='\t')
 
-batchsize=4
-model, tokenizer = get_premodel(r"/home/mqfeng/pretrainModel/t5-small")
-train_dataloader, validation_dataloader = get_dataloader(tokenizer,qa_path="train_qa.json",text_path=r"train3.json",batchsize=batchsize)
-training_logs = train(model, tokenizer, train_dataloader, validation_dataloader,save_path = r"/home/mqfeng/code/mytest/T5/save")
+
+batchsize = 4
+# model 路径
+model, tokenizer = get_premodel(r"/home/mqfeng/pretrainModel/t5-base")
+# 训练集和验证集路径
+train_dataloader, validation_dataloader = get_dataloader(tokenizer,
+                                                         train_qa_path="train_qa.json",
+                                                         train_text_path=r"train3.json",
+                                                         val_qa_path="val_qa.json",
+                                                         val_text_path=r"val3.json",
+                                                         batchsize=batchsize)
+# 模型保存路径                                                         
+training_logs = train(model, tokenizer, train_dataloader, validation_dataloader,
+                      save_path=r"/home/mqfeng/code/mytest/T5/save")
 train_summary(training_logs)

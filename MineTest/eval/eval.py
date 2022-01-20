@@ -14,7 +14,7 @@ from torch.utils.data import Dataset, DataLoader, SequentialSampler
 from tqdm import tqdm
 from transformers import T5Tokenizer, T5ForConditionalGeneration
 
-os.environ["CUDA_VISIBLE_DEVICES"] = '1'
+os.environ["CUDA_VISIBLE_DEVICES"] = '0'
 def setup_seed(seed):
     random.seed(seed)
     np.random.seed(seed)
@@ -70,7 +70,7 @@ class myDataset(Dataset):  # 需要继承data.Dataset
         return len(self.data_qa)
 
 
-def get_dataloader(tokenizer, qa_path="test_qa.json", text_path=r"test3.json", batchsize=4):
+def get_dataloader(tokenizer, qa_path="test_qa.json", text_path=r"val3.json", batchsize=4):
     data_text = json.load(open(text_path, 'r', encoding='utf-8'))
     data_qa = json.load(open(qa_path, 'r', encoding='utf-8'))
     dataset = myDataset(data_text, data_qa, tokenizer)
@@ -86,6 +86,8 @@ def get_dataloader(tokenizer, qa_path="test_qa.json", text_path=r"test3.json", b
 
 
 def eval(model, tokenizer, test_dataloader):
+    print("torch.cuda.is_available():",torch.cuda.is_available())
+    print("Let's use", torch.cuda.device_count(), "GPUs!")
     result = {}
 
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
@@ -104,12 +106,13 @@ def eval(model, tokenizer, test_dataloader):
                 result[doc_id] = {}
             result[doc_id][q_id] = decode_output
 
-    w = open("r2vq_pred.json", "w", encoding="utf-8")
+    w = open("val_r2vq_pred.json", "w", encoding="utf-8")
     json.dump(result, w, ensure_ascii=False, indent=4)
     w.close()
 
 # eval的时候只能设置为1
 batchsize = 1
-model, tokenizer = get_premodel(r"/home/mqfeng/code/mytest/T5/save/model2")
-test_dataloader = get_dataloader(tokenizer, qa_path="test_qa.json", text_path=r"test3.json", batchsize=batchsize)
+model, tokenizer = get_premodel(r"/data/home/acw664/T5/save/model3")
+test_dataloader = get_dataloader(tokenizer, qa_path="test_qa.json",
+                                 text_path=r"test3.json", batchsize=batchsize)
 eval(model, tokenizer, test_dataloader)
