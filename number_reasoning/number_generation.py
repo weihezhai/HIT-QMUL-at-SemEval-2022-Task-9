@@ -351,8 +351,8 @@ for epoch_i in range(0, epochs):
         # Move logits and labels to CPU
         # logits = outputs.logits.detach().cpu().numpy()
         # label_ids = b_labels.to('cpu').numpy()
-        labels = [[i.item() for i in label if i != -100] for label in b_labels]
-        decode_labels = tokenizer.decode(labels[0], skip_special_tokens=True)
+
+        decode_labels = tokenizer.decode(b_labels[0], skip_special_tokens=True)
         decode_output = tokenizer.decode(outputs[0], skip_special_tokens=True)
         if str(decode_labels) == str(decode_output):
             total_eval_accuracy+=1
