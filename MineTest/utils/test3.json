@@ -1,0 +1,987 @@
+{
+    "r-378": [
+        "cook ( habitat : pot ) the eggplant , complete with skin , in salt water for 30 minutes . ",
+        "heat the oil in a pan . ",
+        "cut ( tool : knife # habitat : cutting board ) the tomatoes however you wish . ",
+        "add the red pepper , cumin , garlic , salt and lemon juice and cook ( drop : red pepper , cumin , garlic , salt , lemon juice # result : mixture ) them in the pan for about five minutes . ",
+        "when the egg plant is almost cooked ( habitat : pot ) , drain ( drop : eggplant # habitat : sink ) any excess water off and add ( drop : eggplant ) to the tomatoes . ",
+        "stir ( drop : mixture , tomatoes # tool : spoon # habitat : pan ) gently over a medium heat for 15 to 20 minutes . ",
+        "leave the mixture to cool ( habitat : pan ) before serving ( drop : mixture # habitat : plate ) . "
+    ],
+    "r-4852": [
+        "in a blender combine ( result : mixture ) the yogurt , peeled and chunked ( tool : knife ) banana , and the coconut extract . ",
+        "blend ( drop : mixture ) until smooth . ",
+        "with blender running , drop frozen peaches through opening in lid a little at a time . ",
+        "process ( drop : mixture ) until smooth . "
+    ],
+    "r-1601": [
+        "mix together put in greased glass pie pan . ",
+        "bake ( drop : greased glass pie pan # result : dessert # habitat : oven ) at 340 degrees 35 minutes . ",
+        "let set ( drop : dessert ) for 10 minutes then add ( drop : dessert ) topping . ",
+        "mix topping ingredients and put ( drop : topping ingredients , dessert ) on top . ",
+        "and bake ( drop : dessert # habitat : oven ) at 340 degrees for 10 minutes . ",
+        "cool ( drop : dessert ) and refrigerate ( drop : dessert # habitat : refrigerator ) . ",
+        "may be served ( drop : dessert ) topped ( drop : dessert ) with strawberries or raspberries "
+    ],
+    "r-157": [
+        "heat 2 tablespoons oil in a skillet and saute ( drop : oil # result : onion base # habitat : skillet ) garlic until light brown and onion until transparent . ",
+        "stir ( drop : onion base # result : mixture ) in pork and shrimps and cook ( drop : mixture ) until shrimps are done ( when they are pink ) . ",
+        "add ( drop : mixture # result : soup ) patis or salt , stock and bamboo shoots . ",
+        "simmer ( drop : soup ) for 15 minutes add ( drop : soup ) vinegar . ",
+        "continue simmering ( drop : soup ) until the liquid has been reduced by half . ",
+        "add ( drop : soup ) remaining 3 tablespoons of oil and cook ( drop : soup ) for another 10 minutes . ",
+        "add ( drop : soup ) salt and pepper to taste . "
+    ],
+    "f-8Q86RWDJ": [
+        "1 . ",
+        "melt the butter with the oil in a 4 quart sauce pot on low . ",
+        "add the sliced onions , cover the pot , and cook ( drop : butter ) slowly for 15 min . ",
+        "until the onions turn translucent and soften . ",
+        "2 . ",
+        "uncover the pot , raise the heat to med . , ",
+        "and add ( result : onion mixture # habitat : quart sauce pot ) the salt and sugar . ",
+        "cook ( drop : onion mixture ) for 30 - 40 min . ",
+        "stirring ( drop : onion mixture # tool : spoon ) frequently , until the onions have turned an even , deep , golden brown . ",
+        "3 . ",
+        "off the heat , stir ( tool : spoon # habitat : quart sauce pot ) in the boiling stock and the white wine . ",
+        "return the pot to the heat , and simmer partially covered for 30 to 40 min . ",
+        "more . ",
+        "4 . ",
+        "preheat the oven to 400 degrees . ",
+        "5 . ",
+        "turn off the soup to stir ( tool : spoon ) in the cognac . ",
+        "adjust the seasoning . ",
+        "6 . ",
+        "ladle ( tool : ladle ) the soup into oven - proof bowls . ",
+        "stir ( drop : soup # tool : spoon ) in a little of the grated gruyere , float ( drop : soup ) the toasted baguette slices on top , and layer ( drop : soup ) on more cheese . ",
+        "7 . ",
+        "set the bowls on a large cookie sheet and put them into the preheated oven for about 20 min . ",
+        "until the soup is bubbling and the top is lightly browned . "
+    ],
+    "f-RYVXFZFV": [
+        "bring a large pot of water to a boil ( habitat : stove ) . ",
+        "add the green beans and blanch them for 2 to 3 minutes , until tender but still crisp . ",
+        "drain the beans in a colander and immediately put them into a bowl of ice water to stop the cooking and preserve their bright green color . ",
+        "for the gremolata , toss the garlic , lemon zest , parsley , parmesan , and pine nuts in a small bowl and set ( drop : gremolata # habitat : small bowl ) aside . ",
+        "when ready to serve , heat ( habitat : stove ) the olive oil in a large saute pan over medium - high heat . ",
+        "drain ( tool : strainer ) the beans and pat ( drop : beans # tool : towel ) them dry . ",
+        "add the beans to the pan and saute , turning frequently , for 2 minutes , until coated with olive oil and heated through . ",
+        "remove from the heat , add the gremolata and toss well . ",
+        "sprinkle ( drop : beans ) with lemon juice and serve ( drop : beans ) . "
+    ],
+    "f-2PMMKJ2X": [
+        "make the kadhi .. ",
+        "in a bowl take all kadhi ingredients and churn ( drop : kadhi ingredients ) well . ",
+        "put a pan to heat , add ( result : mixture ) oil , cumin seeds and hing , now also add ( drop : mixture ) the curd mixture . ",
+        "stir ( drop : mixture ) continuously , until boil ( drop : mixture ) appears . ",
+        "let it boil ( drop : mixture # result : kadhi ) for 5 - 6 minutes . ",
+        "put another pan to heat add one teaspoon oil , add ( drop : oil ) the sliced onions also sprinkle ( drop : oil ) salt , sugar and red chilly powder . ",
+        "let onions soften on low heat sprinkle ( drop : onions ) few drops of water also . ",
+        "now add the onions to the kadhi . ",
+        "garnish ( drop : kadhi ) with coriander leaves . "
+    ],
+    "f-F5SF7H44": [
+        "to make white sauce here is the link , you can make it this way , with maida / all purpose flour / refined flour to get a creamy white sauce , but in my hunt to make food healthy and delicious i have started substituting the maida with whole wheat flour . ",
+        "of course it is no longer white but reddish but i like it this way for i know it is healthier and the best part is the family does not notice any difference . ",
+        "2 . ",
+        "meanwhile toast the tofu on a non - stick pan . ",
+        "3 . ",
+        "add ( habitat : stick pan ) the toasted tofu , coriander , tomato sauce nutmeg powder , salt and pepper to the white sauce ",
+        "4 . ",
+        "cut ( tool : knife ) 6 capsicum lengthwise and cleared all the veins and the seeds . ( ",
+        "next time i will smear a drop of oil and pinch of salt and a pinch of oregano inside the capsicum to give it a flavour ) . ",
+        "5 . ",
+        "then add the sauce mixture in the capsicum . ",
+        "you could sprinkle oregano and dried basil as i have and dot the capsicum with 2 drops of olive oil . ",
+        "grill ( drop : capsicum ) it in the oven with both the grills on for 10 minutes or till the capsium changes colour and the sauce is appears cooked . "
+    ],
+    "r-5062": [
+        "in deep fat fryer , heat oil to 375degf. ",
+        "meanwhile , in large bowl , beat ( result : mixture # tool : beaters ) golden onion recipe soup mix , flour , baking powder , eggs , mustard and beer until smooth and well blended ( drop : mixture ) . ",
+        "let batter stand 10 minutes . ",
+        "dip ( result : coated veggies ) suggested veggies ' n ' things into batter , then carefully drop ( drop : coated veggies ) into hot oil . ",
+        "fry ( drop : coated veggies ) , turning ( drop : coated veggies ) once , until golden brown ; drain ( drop : coated veggies ) on paper towels . ",
+        "serve ( drop : coated veggies ) warm . "
+    ],
+    "r-3737": [
+        "combine ( result : rice mixture # tool : spatula ) rice , corn , chile , , green pepper , red pepper , onions and crushed red pepper in large bowl . ",
+        "mix ( tool : spoon # habitat : bowl ) lime juice , oil and garlic ; add ( drop : lime juice , oil , garlic # habitat : large bowl ) to rice mixture . ",
+        "just before serving ( drop : rice mixture , cheese , lettuce leaves , tomato , lime juice , oil , garlic # habitat : large bowl ) add ( drop : rice mixture , lime juice , oil , garlic # habitat : large bowl ) cheese and toss ( drop : cheese , rice mixture , lime juice , oil , garlic # habitat : large bowl ) lightly . ",
+        "serve ( drop : cheese , rice mixture , lime juice , oil , garlic # habitat : large bowl ) on lettuce leaves ; garnish ( drop : rice mixture , cheese # habitat : large bowl ) with tomato wedges . "
+    ],
+    "f-KTQ82N6L": [
+        "melt the bacon grease in a saucepan , and whisk ( tool : whisk # habitat : saucepan ) in the flour over low heat . ",
+        "cook ( habitat : saucepan ) for 2 - 3 minutes over low heat , and pour ( result : mixture ) in the beer , cream , and dijon mustard . ",
+        "increase heat to medium - low , stir ( tool : spoon ) frequently , and cook ( drop : mixture # habitat : saucepan ) until the mixture is slightly thickened ( habitat : saucepan ) . ",
+        "remove ( drop : saucepan ) from heat , and stir ( result : mixture # tool : spoon # habitat : saucepan ) in the cheese , 3/4 of the bacon , and tabasco . ",
+        "pour ( drop : mixture ) into a hollowed - out bread round , or a serving dish . ",
+        "serve ( drop : mixture ) with crusty bread chunks , and garnish with the remaining bacon , some extra cheese , and the chives . "
+    ],
+    "r-4762": [
+        "spread the oatmeal on a cookie sheet and heat ( drop : oatmeal ) in a 350degf oven for 10 minutes . ",
+        "combine ( drop : oatmeal # result : mixture ) all but the wheat germ and raisins . ",
+        "bake ( drop : mixture # habitat : oven ) on an ungreased cookie sheet or pan for 20 minutes , stirring ( drop : mixture ) once to brown ( drop : mixture ) evenly . ",
+        "allow mixture to toast in the oven . ",
+        "add ( drop : mixture ) wheat germ and raisins . ",
+        "refrigerate ( drop : mixture # habitat : refrigerator ) in glass jars or plastic containers . "
+    ],
+    "r-117": [
+        "fillet the fish and flake ( tool : fork ) the flesh then put ( drop : fish ) in a mortar . ",
+        "put ( habitat : mortar ) in garlic and ginger and pound ( result : mixture # tool : pestle ) the mixture to a paste . ",
+        "add ( drop : mixture # habitat : mortar ) in the turmeric , salt and chili flakes . ",
+        "pound ( drop : mixture # tool : pestle # habitat : mortar ) for 10 - 12 minutes . ",
+        "moisten your hands with water and scoop ( tool : hands ) some of the pasty mixture and flatten ( drop : mixture ) it on your palm until it resembles a cookie . ",
+        "heat oil in a pan and deep - fry the fish fritters for 4 - 5 minutes or until golden brown . ",
+        "drain ( shadow : mixture ) excess oil in absorbent paper before serving ( drop : mixture ) . "
+    ],
+    "r-900": [
+        "mix ( result : slurry ) cornstarch and 1/4 c water , set ( drop : slurry ) aside . ",
+        "bring stock and remaining water to a boil ( result : soup ) in a saucepan . ",
+        "reduce heat and add zest , salt , pepper and lemon juice . ",
+        "whisk ( drop : soup # tool : whisk ) in cornstarch mixture and stir ( drop : soup ) 2 - 3 minutes , simmering ( drop : soup ) . ",
+        "add ( drop : soup ) egg in a slow stream , stirring ( drop : soup ) with a spoon . ",
+        "add ( drop : soup ) spinach return to boil ( drop : soup ) , remove ( drop : soup ) from heat . ",
+        "serve ( drop : soup ) with grated parmesan cheese as a garnish . "
+    ],
+    "f-88XKC27N": [
+        "rinse the lentils with water and sift ( tool : sieve ) through lentils . ",
+        "heat a saucepot with a drizzle of olive oil . ",
+        "add ( result : mixture # habitat : saucepot ) the onions , celery and garlic . ",
+        "saute until the onions are transparent . ",
+        "add ( result : mixture with tomatoes # habitat : saucepot ) the tomatoes and continue to saute ( habitat : saucepot ) for a few minutes . ",
+        "add ( result : lentil mixture # habitat : saucepot ) the lentils and half of the chicken broth . ",
+        "simmer ( habitat : saucepot ) gently on low until the broth is absorbed ( habitat : saucepot ) . ",
+        "add ( result : seasoned lentil # habitat : saucepot ) the rest of the broth and the seasonings and gently simmer ( habitat : saucepot ) on low . ",
+        "before serving ( drop : seasoned lentil ) add ( result : lentil with vinegar and honey # habitat : saucepot ) the vinegar and honey mixture and stir ( tool : spoon ) . ",
+        "serve ( drop : lentil with vinegar and honey ) with rice , noodles or as is . "
+    ],
+    "r-1275": [
+        "beat ( tool : mixer # habitat : bowl ) the eggs and sugar together for 5 minutes . ",
+        "add ( result : batter ) the flour , melted butter and the coffee extract , beating ( drop : batter # tool : mixer ) well with each addition . ",
+        "pour ( drop : batter ) into a small buttered square pan . ",
+        "bake ( drop : batter # result : cake ) in a moderate oven ( 350degf ) 1/2 hour . ",
+        "when done , invert ( drop : cake ) the pan on a cake rack and let cool ( drop : cake ) . ",
+        "when the cake is cold cut ( drop : cake # tool : knife ) it into two layers . ",
+        "spread ( drop : cake # tool : spatula ) one with the filling and put the layers together ; spread ( tool : spatula ) the rest of the filling over the top . ",
+        "press ( tool : fingers ) chopped almonds lightly around the edge of the cake . "
+    ],
+    "f-8KG2VBC7": [
+        "follow instructions on edamame package to prepare the soy beans . ",
+        "my family enjoys eating this healthy snack , hence i usually make about 2 - 3 packets at one go , then store ( drop : packets ) in an air - tight container and refrigerate ( habitat : refrigerator ) after extracting all the beans . ",
+        "rinse ( shadow : water ) rice , add water and salt . ",
+        "cook ( drop : rice ) for about 15 - 20 minutes , then throw in edamame . ",
+        "remove bones from canned fish , and peel into bite - size pieces . ",
+        "when rice is almost cooked , add in dace fish and black beans . ",
+        "mix ( drop : black beans , canned fish , rice # result : rice fish mixture ) well . ",
+        "cover ( drop : rice fish mixture ) and cook ( drop : rice fish mixture ) for another 5 minutes or so . ",
+        "pair your brown rice with fried dace and edamame ( meiweidoushilingyucaomifan ) with your favourite soup ! "
+    ],
+    "f-3X45Z8TR": [
+        "place butter in a large bowl ; beat ( drop : butter ) with a mixer at medium speed until fluffy . ",
+        "add ( drop : butter ) sugars , beating ( drop : butter # tool : mixer ) until blended ( drop : butter # result : butter sugar mixture ) . ",
+        "add ( drop : butter sugar mixture # result : wet ingredients ) apricot preserves , vanilla , and egg , beating ( drop : wet ingredients # tool : mixer ) just until blended ( drop : wet ingredients ) . ",
+        "combine ( result : flour mixture ) flour , oats , pudding mix , baking soda , salt , and craisins . ",
+        "gradually add ( result : dough ) flour mixture to butter mixture , stirring ( drop : dough ) just until combined ( drop : dough ) . ",
+        "drop ( drop : dough # result : cookies # tool : teaspoon ) by teaspoons on lightly buttered cookie sheets . ",
+        "bake ( drop : cookies # habitat : oven ) 350 degrees for 12 - 14 minutes or until lightly browned ( drop : cookies ) . ",
+        "cool ( drop : cookies ) ; 2 minutes or until firm . ",
+        "remove cookies and place ( drop : cookies ) on wire rack to cool ( drop : cookies ) . "
+    ],
+    "r-5105": [
+        "in a large bowl or food processor , dissolve ( result : yeast mix ) yeast in water . ",
+        "add ( drop : yeast mix # habitat : large bowl ) honey , margarine , salt , dry milk , pumpkin , spices . ",
+        "beat ( drop : yeast mix # tool : mixer whisk ) well to blend ( drop : yeast mix # tool : mixer whisk # habitat : large bowl ) , then gradually beat ( drop : yeast mix # tool : mixer whisk # habitat : food processor ) in about 4 cups of the combined flours to make a stiff dough . ",
+        "turn dough out onto a floured board and knead ( drop : dough # tool : hands # habitat : floured board ) until smooth about 15 to 20 minutes , adding ( drop : dough # habitat : floured board ) flour as needed to prevent sticking ( drop : dough # habitat : floured board ) . ",
+        "turn dough over in a bowl coated ( habitat : bowl ) with nonstick spray , cover ( drop : dough # habitat : bowl ) and let rise ( drop : dough # habitat : bowl ) in a warm place until doubled ( drop : dough # habitat : bowl ) ( 11/2 - 2 hours ) punch ( tool : hands # habitat : bowl ) down dough , knead ( drop : dough # tool : hands ) briefly on a lightly floured board to release ( drop : dough ) air . ",
+        "divide dough into 24 equal pieces . ",
+        "shape each into a smooth ball and place balls in 2 greased 9-inch round baking pans coated with nonstick spray . ",
+        "cover ( drop : rolls , dough # habitat : baking pans ) and let rise ( drop : rolls # habitat : baking pans ) until almost double . ",
+        "bake in a preheated 375degf oven for 25 minutes or until browned . ",
+        "cool on racks . "
+    ],
+    "r-4062": [
+        "first rub ( tool : fingertips # habitat : bowl ) the shortening to a cream . ",
+        "add ( habitat : bowl ) the sugar , molasses , and salt , and beat ( drop : sugar , molasses , salt , cream # tool : whisk # habitat : bowl ) till it is light and creamy , then add ( drop : sugar , molasses , salt # habitat : bowl ) the egg , and beat ( drop : egg , sugar , molasses , salt , cream # result : mixture # habitat : bowl ) well . ",
+        "stir ( drop : mixture # result : dough # tool : whisk # habitat : bowl ) in the flour , bran , nuts , and currants . ",
+        "oil ( shadow : oil ) hands , and form ( result : balls # habitat : bowl ) the dough into balls with the hands . ",
+        "lay the balls on an oiled pan , flatten ( drop : balls # tool : hands # habitat : oiled pan ) them to a thickness of one - fourth inch , then bake ( drop : balls # result : cookies # habitat : oven ) them . "
+    ],
+    "r-910": [
+        "cut ( tool : knife ) the bacon into tiny bits , fry ( drop : bacon ) it in a big deep frying pan , and fish ( tool : slotted spoon ) out all the bits after they are crisp . ",
+        "cut ( result : chopped veggies # tool : knife ) up the onion and garlic and fry ( drop : chopped veggies # habitat : big deep frying pan ) them in the bacon fat . ",
+        "when they are brown , pour ( drop : chopped veggies # result : mixture ) in the vinegar . ",
+        "bring it just up to a simmer ( drop : mixture ) , add ( drop : mixture ) all the cabbage and bacon , toss ( drop : mixture ) it as you would a salad , and serve ( drop : mixture ) it . ",
+        "the cabbage does n't cook , but it wilts a little under the hot vinegar . "
+    ],
+    "f-JLH74DCR": [
+        "rough chop ( tool : knife ) cucumbers . ",
+        "in a medium , securely sealable container , combine ( result : marinade ) soy sauce , rice vinegar , and sesame oil . ",
+        "add cucumbers to the marinade , close container and shake . ",
+        "refrigerate ( habitat : refrigerator ) for 1 to 2 hours . ",
+        "shake cucumbers periodically , or leave overnight to marinate . ",
+        "note , the longer the cucumbers are left in the marinade the saltier they become . ",
+        "i 've left ( drop : cucumbers # result : pickled cucumbers ) them in the marinade for up to 3 days and the cucumbers were good . ",
+        "serve ( drop : pickled cucumbers ) and enjoy ! "
+    ],
+    "f-4HWM88HF": [
+        "mix spices with besan then add 1/3 - 3/4 cup water and mix well to make a bater . ",
+        "heat oil in a karahi , dip potato slices in besan bater and fry till golden and tender . ",
+        "delicious poatao pakoras are ready . ",
+        "serve with podina imli chutney . "
+    ],
+    "r-3274": [
+        "preheat oven to 400 degf. ",
+        "prick each potato twice with a fork and bake ( drop : potato ) in a foil - lined shallow baking pan in lower third of oven until very tender , about 1 hour . ",
+        "remove ( drop : potato # habitat : foil lined ) and cool ( drop : potato # habitat : foil lined ) slightly . ",
+        "halve ( tool : knife # habitat : shallow baking pan ) potatoes lengthwise and scoop ( drop : potato # tool : spoon ) out warm flesh into a large bowl . ",
+        "mash ( drop : warm flesh ) potatoes with a potato masher or , for a smoother puree , force ( habitat : large bowl ) through a potato ricer . ",
+        "stir ( drop : puree , potato # habitat : large bowl ) in butter , cream , syrup , salt , and pepper . "
+    ],
+    "r-4856": [
+        "mix ( result : batter ) oil , peanut butter , sugar and egg together . ",
+        "stir ( drop : batter # result : dough ) in the remaining ingredients . ",
+        "chill ( habitat : refrigerator ) the dough for 3 hours or overnight . ",
+        "roll ( drop : dough ) into walnut sized balls . ",
+        "place ( drop : balls ) on lightly greased ( shadow : cooking spray # habitat : baking sheet ) baking sheet . ",
+        "flatten ( drop : balls ) with a fork . ",
+        "bake ( drop : balls # result : cookies # habitat : oven ) in a 375degf oven for 10 to 12 minutes . ",
+        "cool ( drop : cookies ) thoroughly before serving ( drop : cookies ) . "
+    ],
+    "r-4233": [
+        "blend ( result : mixture # tool : spoon # habitat : bowl ) all ingredients except mushrooms . ",
+        "clean ( shadow : water # habitat : sink ) mushrooms and remove ( tool : knife # habitat : cutting board ) stems . ",
+        "fill ( tool : spoon # habitat : cutting board ) mushroom caps with mixture . ",
+        "sprinkle ( drop : mushrooms # habitat : cutting board ) top with bread crumbs . ",
+        "bake ( drop : mushrooms # shadow : butter # result : stuffed mushrooms # habitat : oven ) at 350degf for 10 minutes in a shallow buttered dish until hot ( result : stuffed mushrooms # habitat : oven ) and bubbly . ",
+        "enjoy . "
+    ],
+    "r-1798": [
+        "place ( result : mixture ) the water , rice , cinnamon stick , lemon zest , salt and sugar in a saucepan or pot and bring to a boil ( drop : mixture ) . ",
+        "when boiling ( drop : mixture ) , lower heat , cover ( drop : saucepan ) and let simmer ( drop : mixture ) until the water is nearly all absorbed ( keep checking every minute , so as not to burn ) . ",
+        "add ( drop : mixture # result : arroz con leche ) the milk when most of the water has absorbed and continue cooking ( drop : arroz con leche ) until the rice is extra tender and \" bloated \" . ",
+        "stir and the texture should be creamy . ",
+        "add ( drop : arroz con leche ) a splash more milk if necessary ( whole fat ) . ",
+        "remove the cinnamon stick . ",
+        "serve the arroz con leche warm ( or chilled ) , and garnish ( drop : arroz con leche ) with cinnamon powder on top and cinnamon sticks on the side . "
+    ],
+    "r-3258": [
+        "mix ( shadow : coconut seeds , goat milk , salt , eggs , blue cheese # result : mixture # tool : whisk # habitat : bowl ) all ingredients together and pour ( drop : mixture # shadow : cooking oil ) into greased mini - muffin tins . ",
+        "bake ( drop : mixture # result : queijadinha # habitat : oven ) in 350 degf until golden brown on top ( about 15 minutes ) . ",
+        "let it cool a little and remove ( drop : queijadinha # habitat : mini muffin tins ) . ",
+        "place ( drop : queijadinha ) in pretty paper cups . ",
+        "make a silly face and laugh until you cry ! "
+    ],
+    "f-PT5ZVJYJ": [
+        "preheat oven at 350deg ",
+        "pound the chicken breast or tights until they are even and 1/4 inch thick . ",
+        "on a shallow dish combine ( result : flour mixture ) the flour , salt and pepper . ",
+        "on a second dish , beat the eggs with 1 tablespoon of water . ",
+        "on a third dish , combine the bread crumbs , panko , marjoram and parmesan cheese . ",
+        "coat ( tool : hands # habitat : shallow dish ) the chicken on both sides with the flour mixture , shaking ( drop : chicken # tool : hands ) off any excess , then dip ( tool : hands ) both sides into the egg mixture and dredge ( drop : chicken # tool : hands # habitat : cookie sheet ) both sides in the bread crumbs mixture . ",
+        "heat the oil in a large saute pan , 1/2 inch up to skillet side , and cook breaded thighs on medium high for 2 to 3 minutes on each side , until the chicken is golden brown on each side . ",
+        "do not overcrowd the skillet . ",
+        "remove ( drop : chicken # tool : tongs ) and place ( drop : chicken # tool : tongs ) in a cookie sheet . ",
+        "smear tomato sauce over the chicken and top with a mozzarella slice . ",
+        "place in the oven and cook until the mozzarella has melted . "
+    ],
+    "r-4143": [
+        "lightly toast saffron threads in a dry frying pan ( take care not to burn ) ",
+        "pulverize ( drop : saffron threads ) in a mortar and pestle . ",
+        "reserve ( drop : saffron threads # habitat : mortar ) . ",
+        "coarsely mash ( tool : fork # habitat : bowl ) ( do not puree ) california avocados . ",
+        "fold ( drop : california avocados # tool : fork ) in remaining ingredients and reserved saffron . ",
+        "serve ( drop : california avocados , ingredients , saffron threads # result : guacamole ) with purple potato and sweet potato chips . ",
+        "guacamole is best made as close to service as possible . ",
+        "store in an airtight container with plastic wrap against the surface of the guacamole . "
+    ],
+    "f-FS6V8XD5": [
+        "preheat your oven to 400deg . ",
+        "in a large bowl , whisk together flour , soda , powder and salt . ",
+        "cut ( result : cornmeal like mixture # habitat : large bowl ) in the butter with your fingers until grainy , like cornmeal . ",
+        "add ( habitat : large bowl ) sugar and whisk ( result : mixture with sugar # habitat : large bowl ) in . ",
+        "add ( habitat : large bowl ) pear and toss ( habitat : large bowl ) in . ",
+        "make a well in the center and fill ( result : mixture with egg and sour cream # habitat : large bowl ) with 1 egg and sour cream . ",
+        "mix ( habitat : large bowl ) in with a fork until the dough comes together . ",
+        "turn ( drop : mixture with egg and sour cream ) out onto a floured board and knead ( drop : mixture with egg and sour cream # habitat : floured board ) slightly until smooth . ",
+        "roll ( habitat : floured board ) into a log and cut ( drop : mixture with egg and sour cream # tool : knife ) into 8 triangles and place on an ungreased cookie sheet . ",
+        "place the coriander between two pieces of wax paper and gently break ( habitat : wax paper ) with a rolling pin until crushed . ",
+        "try not to lose yourself in the gorgeous fragrance ! ",
+        "gently wash the tops of the scones with the remaining beaten egg and sprinkle ( result : scone with coriander ) with coriander . ",
+        "bake ( drop : scone with coriander # habitat : oven ) for 16 minutes or until browned ( drop : scone with coriander ) on top . "
+    ],
+    "r-3715": [
+        "spoon ( tool : spoon ) rice into large bowl . ",
+        "blend ( result : seasonings # tool : spoon # habitat : bowl ) oil , lemon juice , garlic , salt , rosemary , oregano and pepper ; stir ( drop : seasonings # habitat : large bowl ) into rice . ",
+        "cover ( drop : rice # tool : large bowl # habitat : plastic wrap ) ; let cool ( drop : rice # habitat : large bowl ) . ",
+        "add ( drop : rice # result : rice salad ) zucchini , tomato and cheese . ",
+        "serve ( drop : rice salad ) at room temperature or chill ( drop : rice salad # habitat : fridge ) . "
+    ],
+    "r-679": [
+        "cut rolls into cubes and cook with the stock until the rolls have been completely absorbed by soup . ",
+        "add ( drop : soup ) salt and pepper to taste ( drop : soup ) . ",
+        "whisk egg yolk with cream , gradually pour on the hot soup whisking all the time . ",
+        "sprinkle ( drop : soup ) with chives and serve ( drop : soup ) at once . ",
+        "a small lump of butter added ( drop : soup ) just before serving ( drop : soup ) greatly improves the flavor . "
+    ],
+    "r-1631": [
+        "to make dressing , combine broth , vinegar , olive oil , sugar , mustard and garlic in a small sauce pan and bring to a boil ( drop : dressing ) . ",
+        "remove ( drop : dressing ) from heat and keep ( drop : dressing ) warm . ",
+        "to make tortilla bowls , place each tortilla into a 7 inch metal or glass oven proof bowl . ",
+        "bake ( drop : tortilla # result : tortilla bowls ) at 400 degrees f for 10 minutes or until crisp . ",
+        "to assemble , combine ( result : salad ) shrimp , bell peppers and half of the greens in a large bowl . ",
+        "pour warm dressing over salad and toss ( drop : salad ) . ",
+        "place 1 cup salad mixture into tortilla bowls and sprinkle ( drop : salad ) with chives . ",
+        "place remaining greens on serving plate . "
+    ],
+    "f-SJGXB864": [
+        "preheat oven to 350f. ",
+        "divide ( result : groups ) the beets and the onion into small groups , separating the vegetables by size . ",
+        "wrap the groups tightly in aluminum foil and roast the beets and onion groups in the oven for 1 1/2 to 2 hours , or until they are tender . ",
+        "unwrap the beets and the onions carefully and let them cook ( drop : beets , onion ) until they can be handled . ",
+        "peel the beets and cut ( tool : knife ) them into 1/3-inch - thick sticks . ",
+        "peel ( tool : peeler ) the onions and cut ( drop : beets , onion # tool : knife ) them lengthwise into 1/3-inch - wide strips . ",
+        "in a bowl toss ( result : mixture ) the beets with the vinegar and salt and pepper to taste , add ( habitat : bowl ) the onions and 2 tablespoons of the fresh thyme . ",
+        "toss the mixture gently . ",
+        "transfer the salad to a serving bowl , sprinkle ( drop : fresh thyme # habitat : serving bowl ) it with the remaining 1 tablespoon of thyme and serve ( habitat : serving bowl ) the salad warm or chilled . "
+    ],
+    "r-648": [
+        "boil ( habitat : pot ) stock , add ( drop : stock ) the ginger , cinnamon , coriander seeds and star anise . ",
+        "after 15 minutes , add ( drop : stock ) the sugar , salt , pepper and fish sauce . ",
+        "cook ( habitat : pot ) the noodles in water , make ( drop : noodles ) them al dente . ",
+        "add ( drop : stock ) bean sprouts , shallots and coriander . "
+    ],
+    "r-1661": [
+        "grate ( tool : grater ) the feta and ricotta cheese . ",
+        "add ( drop : feta , ricotta cheese # result : mixture ) them into a bowl together with 2 of the eggs . ",
+        "add ( drop : mixture # result : ingredients ) dill and pepper . ",
+        "mix all the ingredients well . "
+    ],
+    "f-24CZS5LF": [
+        "wash and peal potatoes . ",
+        "boil ( shadow : water # habitat : pot ) the potatoes until fork tender . ",
+        "slice ( tool : knife ) potatoes into bite size pieces and place ( drop : pieces ) in a large bowl . ",
+        "add ( drop : pieces ) the chopped celery and sweet peppers . ",
+        "add ( drop : pieces ) the lime juice , salt and pepper and toss ( drop : pieces ) . ",
+        "in a small bowl mix ( result : dressing ) together the mayonnaise and the marinade from the sweet peppers . ",
+        "pour ( drop : dressing , pieces ) this over the potatoes and toss ( drop : pieces ) . "
+    ],
+    "r-4077": [
+        "first cream ( tool : whisk # habitat : bowl ) the butter . ",
+        "add ( drop : butter # result : mixture # habitat : bowl ) the sugar gradually , and the beaten egg whites . ",
+        "sift ( tool : sieve # habitat : bowl ) flour , baking powder and nutmeg together , and add ( drop : flour , baking powder , nutmeg # habitat : bowl ) alternately with the milk to the first mixture . ",
+        "roll ( drop : mixture # result : dough # habitat : board ) to one - third inch in thickness . ",
+        "sprinkle ( drop : dough , mixture # habitat : board ) with granulated sugar . ",
+        "cut ( drop : dough , mixture # habitat : board ) into shape with a cookie cutter . ",
+        "place ( drop : dough , mixture # shadow : butter ) on buttered ( shadow : butter # habitat : tins ) or floured ( shadow : flour # habitat : tins ) tins , and bake ( drop : mixture , dough # result : cookies ) in a hot oven until nicely browned . ",
+        "if desired , a raisin or walnut meat may be placed in each cookie before baking ( drop : dough ) . "
+    ],
+    "r-1031": [
+        "in a large bowl combine ( result : lettuce ) lettuce , onion , salt and pepper . ",
+        "dice ( habitat : knife ) bacon and fry ( drop : bacon # habitat : stove ) . ",
+        "reserve ( habitat : pan ) 3 tbsp bacon drippings . ",
+        "blend ( tool : blender ) vinegar , sugar . ",
+        "water , flour , mustard and egg together ; add ( drop : flour , mustard , egg , water # habitat : pan ) to bacon drippings and cook ( result : hot dressing # habitat : stove ) until thickened . ",
+        "add ( result : potato salad # habitat : large bowl ) hot mashed potatoes to lettuce and pour ( drop : hot mashed potatoes # habitat : large bowl ) over hot dressing . ",
+        "add ( drop : potato salad # habitat : large bowl ) hard cooked eggs and toss ( drop : potato salad # habitat : large bowl ) . ",
+        "diced ham or chicken may be added ( drop : potato salad # habitat : large bowl ) . "
+    ],
+    "f-Z82FPVW4": [
+        "heat a sauce pot with a drizzle of olive oil and add ( habitat : sauce pot ) the garlic , jalapeno , onion and saute ( habitat : stove ) until the garlic is slightly golden . ",
+        "add ( habitat : sauce pot ) the artichokes , basil and oregano ; continue to saute ( drop : artichokes , basil , oregano , garlic , jalapeno , onion # habitat : sauce pot ) . ",
+        "add ( result : soup # habitat : sauce pot ) the crushed tomatoes , chicken broth and the drained cannellini beans . ",
+        "simmer ( drop : soup # habitat : stove ) on low for about 25 - 30 minutes . ",
+        "heat ( habitat : stove ) a small frying pan with a drizzle of olive oil . ",
+        "add ( habitat : small frying pan ) 2 - 3 cloves of chopped garlic and 1 cup of fresh breadcrumbs . ",
+        "toss ( drop : chopped garlic , fresh breadcrumbs # habitat : stove ) until the crumbs are a beautiful golden color and remove from heat . ",
+        "serve the soup with a little of the breadcrumbs on top and some grated ( tool : cheese grater ) romano cheese . "
+    ],
+    "f-3PMSLV76": [
+        "pre heat oven to 350 degrees f. in a large bowl combine ( result : dry ingredients ) flour , powdered sugar , and cornstarch . ",
+        "using a spoon , mix ( drop : dry ingredients ) in apple sauce and vanilla extract until a soft dough forms . ",
+        "shape ( result : tart crust ) dough into 1-inch balls and place ( drop : tart crust ) in prepared muffin pans . ",
+        "press dough in bottom and up the side of each muffin cup . ",
+        "bake ( habitat : oven ) the dough - lined cup for about 8 - 10 minutes . ",
+        "remove the muffin pan from the oven and let rest ( habitat : prepared muffin pans ) for a few minutes . ",
+        "spoon ( tool : teaspoon ) 1 teaspoon of preserves into each muffin cup . ",
+        "in a small bowl mix ( result : mixture ) together sugar , egg and coconut with a fork until well blended ( drop : mixture # tool : fork ) . ",
+        "spoon ( result : tarts # tool : teaspoon ) a teaspoon of coconut mixture over preserves in each cup . ",
+        "bake ( drop : tarts # habitat : oven ) 23 -33 minutes or until cookie crusts are lightly golden brown . ",
+        "cool ( drop : tarts ) in pans on a cooling rack for 30 minutes . ",
+        "gently remove each cookie tart , sprinkle ( drop : tarts ) with confectioner 's sugar and serve ( drop : tarts ) ! "
+    ],
+    "r-857": [
+        "slice ( tool : knife # habitat : cutting board ) tomatoes and mozzarella cheese same thickness . ",
+        "arrange the tomatoes , mozzarella , and basil alternating in a circle around a decorative serving dish . ",
+        "drizzle ( drop : basil , tomatoes , mozzarella cheese # habitat : decorative serving dish ) with olive oil . ",
+        "serve ( drop : basil , tomatoes , mozzarella cheese # habitat : decorative serving dish ) with salt and pepper to individual taste . "
+    ],
+    "r-1304": [
+        "slice sausage into 1/4 inch pieces . ",
+        "drain ( tool : strainer ) the saurkraut . ",
+        "cut ( tool : knife ) cheese slices into 1/2 \" x 2 - 1/2 \" strips . ",
+        "melt ( habitat : stove ) butter in small skillet . ",
+        "brush ( tool : brush ) rye bread with butter on both sides . ",
+        "place ( drop : rye bread ) on baking sheet . ",
+        "toast ( drop : rye bread # habitat : baking sheet ) at 400 degrees f for 5 minutes . ",
+        "turn ( drop : rye bread # tool : flipper ) . ",
+        "remove ( drop : rye bread # tool : baking sheet ) from oven and build ( drop : rye bread ) rubens ending with criss - crossed cheese slices on top . ",
+        "bake ( drop : rubens # habitat : baking sheet ) for 5 - 10 minutes "
+    ],
+    "f-26NF6ZNY": [
+        "add ( result : berries and sugar ) berries and sugar to a bowl and let macerate ( drop : berries and sugar ) for about 30 minutes . ",
+        "add berries to a food processor ( or blender ) and pulse ( drop : berries and sugar # result : puree ) until smooth . ",
+        "in a large pitcher add ice ( about 1/3 of the way ) , then top ( drop : ice # result : limeade # habitat : large pitcher ) with 2 parts seltzer to one part lemon lime soda . ",
+        "stir ( drop : limeade ) in a few scoops of strawberry puree and add ( drop : limeade ) juice from 1 lime . ",
+        "stir ( drop : limeade ) well then taste ( drop : limeade ) . ",
+        "add more strawberry and lime juice if needed . ",
+        "i add thinly slice lime to the pitcher and garnish the glasses with lime wedges and a sugared rim . "
+    ],
+    "r-4635": [
+        "slice ( tool : knife ) cucumber lengthwise and remove seeds . ",
+        "dice ( tool : knife ) the cucumber and add ( drop : cucumber # result : cucumber salad ) remaining ingredients . ",
+        "mix ( drop : cucumber salad ) thoroughly and chill ( drop : cucumber salad # habitat : refrigerator ) at least 1/2 hour before serving ( drop : cucumber salad ) . ",
+        "this was for 5 servings , but since i like cucumber so well i increased ( drop : cucumber ) it for 10 nice folks . ",
+        "love them leftovers ! . "
+    ],
+    "f-KWBKC77L": [
+        "boil potatoes until fork tender . ",
+        "let the potatoes cool and then quarter ( tool : knife ) the potatoes . ",
+        "heat a frying pan with the butter and a drizzle of olive oil . ",
+        "place the sliced onion and the chopped garlic in the heated pan . ",
+        "saute ( drop : chopped garlic , sliced onion # habitat : frying pan ) until slightly golden ; remove ( drop : sliced onion , chopped garlic ) into a serving bowl . ",
+        "place the potatoes on a hot griddle . ",
+        "sprinkle ( drop : potatoes # habitat : hot griddle ) with seasonings to taste and drizzle ( drop : potatoes # habitat : hot griddle ) with olive oil . ",
+        "when the potatoes have a golden crust on one side , turn ( drop : potatoes # tool : flipper # habitat : hot griddle ) over repeat process on the other side . ",
+        "place ( drop : serving bowl , potatoes ) in the serving bowl with the onions and garlic . ",
+        "toss ( drop : potatoes , sliced onion , chopped garlic # habitat : serving bowl ) and serve ( drop : potatoes # habitat : serving bowl ) . "
+    ],
+    "r-1485": [
+        "season ( result : seasoned fillets ) the fish fillets with salt and pepper , and dip ( drop : seasoned fillets ) in the whipped up egg on both sides . ",
+        "then the fillets are covered with a thick layer of breadcrumb . ",
+        "fry the fish in the oil and butter , until golden brown and crispy . ",
+        "place ( result : fiskefilet med remoulade ) the fish on the buttered ( shadow : butter # tool : butter knife ) rye bread and decorate ( drop : fiskefilet med remoulade ) with lemon wedges and sauce remoulade . "
+    ],
+    "f-67M2BXM3": [
+        "take the butter out of the fridge let it become soft . ",
+        "cut ( tool : knife ) the butter in small pieces and mix it with sugar . ",
+        "add vanilla extract and add ( result : egg sugar butter mixture ) in eggs , one after another . ",
+        "mix ( result : baking soda mix ) baking soda and hot water in a cup and pour into the egg - sugar - butter mixture . ",
+        "mix ( drop : baking soda mix , egg sugar butter mixture # result : egg suger butter soda mixture ) very well , add baking powder and flour , stir well , then add ( result : cookies ) coconut shred and chocolate chips ( or oatmeal ) . ",
+        "preheat the stove at 350f. form the cookies with a tablespoon and fingers . ( ",
+        "remember that they will grow ( drop : cookies ) 2 - 3 sizes larger , so leave enough space between your cookies ) . ",
+        "bake ( drop : cookies ) for 20 - 25 minutes until golden brown . ",
+        "* * * tip from helen * * * if you do n't want your cookies to be very - very sweet add 1 cup of sugar . ",
+        "if you want your cookies to be more soft add less flour and bake them for 20 minutes until light golden brown . * * * ",
+        "tip from helen * * * ",
+        "enjoy ! "
+    ],
+    "r-2295": [
+        "combine dry ingredients . ",
+        "cut ( drop : dry ingredients ) in butter to coarse crumbs . ",
+        "stir ( drop : coarse crumbs # result : dough ) in raisins and buttermilk . ",
+        "stir ( drop : dough ) just until moistened . ",
+        "place ( drop : dough ) on floured surface , knead ( drop : dough ) a few times ( 6 - 8) . ",
+        "pat ( drop : dough ) into an 8 in circle , cut ( drop : dough # tool : knife ) into 12 wedges . ",
+        "place ( drop : wedges ) on greased cookie sheet . ",
+        "beat ( tool : beaters ) egg white until foamy , brush ( drop : egg white # tool : brush ) scones . ",
+        "sprinkle ( drop : wedges ) with sugar . ",
+        "bake ( drop : wedges # habitat : oven ) at 400degf for 15 minutes or until golden brown . "
+    ],
+    "r-1159": [
+        "put desired quantity of plain greek style yogurt in muslin cloth and allow to hang ( drop : plain greek style yogurt # habitat : muslin cloth ) for 5 - 6 hours . ",
+        "press ( drop : plain greek style yogurt # tool : muslin cloth ) to make sure excess water is drained ( result : dry yogurt chakka ) off . ",
+        "pour this dry yogurt(chakka ) in a bowl . ",
+        "add ( drop : dry yogurt chakka # habitat : bowl ) the same almost the same quantity of sugar . ",
+        "mix ( drop : dry yogurt chakka , sugar # habitat : bowl ) it to form a homogeneous smooth mixture . ",
+        "add ( drop : mixture # habitat : bowl ) cardamon , nutmeg and saffron . ",
+        "garnish with dry fruits(chopped ) . "
+    ],
+    "r-4533": [
+        "heat oven to 350degf. ",
+        "combine ( result : artichoke mixture ) all ingredients , except bagels , basil and oregano in medium bowl . ",
+        "spread 2 tablespoons artichoke mixture over cut surface of each bagel half . ",
+        "place ( drop : bagels ) on ungreased baking sheet . ",
+        "bake ( drop : bagels # habitat : oven ) for 9 - 12 minutes , or until filling is hot and cheese is melted . ",
+        "cut ( tool : knife ) each bagel half in half . ",
+        "serve ( drop : bagels ) warm garnished ( drop : bagels ) with basil and oregano if desired . "
+    ],
+    "r-716": [
+        "combine the apples and the potatoes in a bowl . ",
+        "whisk ( result : dressing # tool : whisk ) together the vinegar oil and the salt and pepper until well blended ( drop : dressing ) . ",
+        "pour ( drop : dressing # result : potato salad ) over the apples and potatoes and toss ( drop : potato salad ) gently but thoroughly . ",
+        "adjust ( drop : potato salad ) seasoning and garnish ( drop : potato salad ) with beets and sliced egg . "
+    ],
+    "f-YGBD7J2L": [
+        "preheat oven to 350 . ",
+        "spray an 8 * 8 inch pan with cooking spray . ",
+        "set ( drop : inch pan ) aside . ",
+        "in a food processor , puree ( result : beet bean mixture ) kidney beans and beets . ",
+        "transfer ( drop : beet bean mixture ) to a large bowl . ",
+        "add ( shadow : beet bean mixture # habitat : large bowl ) remaining ingredients and mix ( drop : beet bean mixture , ingredients # habitat : large bowl ) by hand until smooth and fully combined ( drop : beet bean mixture , ingredients # tool : hand # habitat : large bowl ) . ",
+        "fold batter into the greased pan . ",
+        "bake ( drop : batter ) for 35 - 40 minutes , turning ( habitat : inch pan ) the pan halfway through . ",
+        "when the brownies are done , test them with a toothpick . ",
+        "you want some batter to cling to the toothpick . ",
+        "do not over bake . ",
+        "let cool ( drop : batter ) completely . ",
+        "refrigerate ( drop : batter # habitat : refrigerator ) for one hour . ",
+        "cut ( drop : batter ) into squares or use cookie cutters to make ( tool : cookie cutters ) heart shapes . "
+    ],
+    "f-Q7FS58VW": [
+        "wash mussels and de - beard ( drop : mussels ) , bring a pot of water to a boil ( habitat : stove ) and cook ( habitat : pot ) the mussels , once shells open , take ( habitat : pot ) out mussels , discard shells and put the mussels into a mixing bowl , set ( drop : mussels # habitat : mixing bowl ) aside . ",
+        "keep the water in the pot and continue to bring to boil ( drop : water ) . ",
+        "wash squids and cut ( tool : knife ) into bite size , blanch ( drop : squids ) in the same pot of water used to cook mussels , drain ( drop : squids # tool : strainer ) and mix with mussels . ",
+        "wash ( habitat : sink ) mint leaves , corianders and use the leaves whole . ",
+        "wash tomatoes and slice ( drop : tomatoes # tool : knife ) into thin wedges . ",
+        "onion and shallots skin off and sliced ( drop : onion , shallots ) ",
+        "wash ( habitat : sink ) bird eyes chilies ( if you want milder flavor , replace with big chilies ) cut ( drop : bird eyes chilies # tool : knife ) into small pieces . ",
+        "toss ( drop : bird eyes chilies # result : mixture # habitat : bowl ) in sliced onion , shallots , chilies and tomatoes . ",
+        "add ( drop : mixture # habitat : bowl ) in seasoning , mix ( drop : mixture ) well , taste ( drop : mixture ) test . ",
+        "add ( drop : mixture # habitat : bowl ) more fish sauce or lime juice if desire stronger flavour . ",
+        "top ( drop : mixture # habitat : bowl ) with mint and coriander leaves and gently toss ( drop : mixture , mint leaves , corianders # habitat : bowl ) together . ",
+        "serve ( drop : mixture ) on a platter lined ( habitat : platter ) with lettuce and garnish ( drop : bird eyes chilies ) with extra mint leaves . "
+    ],
+    "r-176": [
+        "mix together the veggies . ",
+        "mix together the remaining ingredients to form a smooth , pourable batter . ",
+        "mix ( result : mixture ) the veggies in the batter the mixture should be of a consistency that you can spoon ( drop : mixture # tool : spoon ) the patties on to the skillet , if not , adjuster ( drop : mixture ) with either water or flour . ",
+        "on a heated sprayed with oil skillet drop ( result : patties # tool : spoon ) spoonfuls of batter ( approx . ",
+        "3 tbsp per patty ) . ",
+        "your heat should be medium . ",
+        "brown ( drop : patties ) well on one side flip ( drop : patties ) and brown ( drop : patties ) on the other . ",
+        "serve ( drop : patties ) hot or cold . "
+    ],
+    "r-4061": [
+        "first cream ( tool : mixer # habitat : bowl ) the butter , add ( drop : butter # habitat : bowl ) sugar gradually , and eggs well beaten . ",
+        "add ( habitat : bowl ) soda dissolved in hot water , and one - half the flour mixed ( habitat : bowl ) and sifted ( tool : sieve # habitat : bowl ) with salt and cinnamon ",
+        "then add ( drop : butter , sugar , soda , hot water , flour , salt , cinnamon # result : dough # tool : mixer # habitat : bowl ) nut meat , fruit , and remaining flour . ",
+        "drop ( drop : dough # shadow : butter # tool : spoon ) by spoonfuls one inch apart on a buttered sheet , and bake ( result : cookies ) in a moderate oven . "
+    ],
+    "f-HX4T28NM": [
+        "melt butter in a medium - sized dutch oven over medium - high heat . ",
+        "add ( habitat : dutch oven ) onions and ginger and saute ( result : butter mixture with onion # habitat : dutch oven ) until the onion is translucent . ",
+        "pour ( habitat : dutch oven ) in the spices and saute ( drop : butter mixture with onion # habitat : dutch oven ) until fragrant . ",
+        "next , place the cauliflower in the pot and add ( habitat : dutch oven ) the chicken stock . ",
+        "bring to a boil ( drop : chicken stock , cauliflower ) , then reduce ( habitat : dutch oven ) the heat and leave to simmer ( drop : cauliflower , chicken stock # result : chicken stock cauliflower # habitat : dutch oven ) for 15 minuets or until the cauliflower is tender . ",
+        "remove ( drop : dutch oven ) from heat and puree ( drop : chicken stock cauliflower ) using an immersion blender . ",
+        "return ( drop : dutch oven ) to heat and add ( habitat : dutch oven ) milk and simmer ( drop : chicken stock cauliflower # result : cauliflower soup # habitat : dutch oven ) until heated through . ",
+        "taste ( drop : cauliflower soup ) and season ( drop : cauliflower soup ) accordingly with salt and pepper . ",
+        "serve ( drop : cauliflower soup ) with crushed roasted chickpeas . "
+    ],
+    "r-2888": [
+        "wash ( shadow : water # habitat : sink ) the beans and soak ( drop : beans # shadow : water # habitat : bowl ) , them , covered ( drop : beans , water # habitat : bowl ) , for 4 hours . ",
+        "drain ( drop : beans , water ) and add ( habitat : bowl ) water or stock . ",
+        "add ( habitat : bowl ) salt . ",
+        "bring to a boil ( drop : beans , water , stock # habitat : pan ) and then simmer ( drop : beans , water , stock ) , covered ( drop : beans ) , for 11/2 hours . ",
+        "sautee ( habitat : pan ) the vegetables and garlic . ",
+        "add ( drop : vegetables , garlic # habitat : pan ) cumin and corriander . ",
+        "cook ( drop : cumin , corriander # habitat : pan ) until vegetables are soft , adding ( drop : vegetables # habitat : pan ) water if needed . ",
+        "add ( habitat : pan ) veggies to cooking beans . ",
+        "about 10 minutes before beans are ready add ( drop : beans # habitat : pan ) the oranges , orange and lemon juice , sherry , black and red pepper . ",
+        "stir ( drop : oranges , orange , lemon juice , sherry , red pepper , beans # shadow : black # tool : spoon # habitat : pan ) , cover ( drop : beans # habitat : pan ) , cook ( drop : oranges , orange , lemon juice , sherry , black , red pepper , beans # result : bean soup # habitat : pan ) 10 more minutes . "
+    ],
+    "r-1333": [
+        "if using fresh corn , cook ( habitat : pot ) it in boiling water for 5 to 10 minutes until tender . ",
+        "drain ( drop : fresh corn ) , keeping water . ",
+        "if you use canned corn , drain and keep liquid . ",
+        "melt the margarine in a large saucepan and cook ( drop : margarine ) the onion until it is soft . ",
+        "sprinkle ( drop : onion # result : roux ) in the flour , mixing ( drop : roux ) well . ",
+        "cook ( drop : roux ) a couple of minutes , stirring ( drop : roux ) constantly . ",
+        "remove pan from heat and slowly pour ( drop : roux # result : bechamel ) in the milk , stirring ( drop : bechamel ) to give a smooth consistency . ",
+        "add ( drop : bechamel # result : soup ) the corn kernels , along with salt and pepper to taste , and about 1/2 cup reserved liquid . ",
+        "bring the soup to a gentle boil , stirring ( drop : soup ) as the mixture thickens ( drop : soup ) . ",
+        "simmer ( drop : soup ) for a few minutes . ",
+        "serve ( drop : soup ) hot . "
+    ],
+    "r-872": [
+        "wash ( shadow : water # habitat : sink ) and dry ( habitat : paper towel ) the scallops and separate ( drop : scallops # tool : knife # habitat : cutting board ) the coral from the white flesh . ",
+        "peel ( tool : hands ) and smash ( tool : knife # habitat : cutting board ) the garlic . ",
+        "melt half the butter in a saucepan and cook ( drop : butter # habitat : saucepan ) the white flesh very gently for 10 minutes , until tender . ",
+        "season ( shadow : salt , pepper ) to taste . ",
+        "place ( drop : scallops ) on paper towel and keep hot between two plates over a pan of hot water . ",
+        "pour out the butter from the pan , wipe ( habitat : saucepan ) it out with paper and add ( habitat : saucepan ) the remaining butter and the coral , cook ( drop : butter , coral # habitat : saucepan ) for 1 minute only on each side . ",
+        "add ( habitat : saucepan ) the white flesh and the herbs and garlic , leave ( drop : garlic , scallops # habitat : saucepan ) over the heat just long enough to mix ( drop : herbs , garlic , scallops # result : mixture # tool : spoon # habitat : saucepan ) thoroughly and divide ( drop : mixture ) between the heated shells , ( plates ) . ",
+        "serve ( drop : mixture # habitat : coral ) immediately with a dry rose wine . "
+    ],
+    "r-3769": [
+        "first put together like superior nut cake , and put ( drop : superior nut cake # shadow : oil , flour ) on an oiled and floured pan with a pastry bag or a spoon . ",
+        "separate ( tool : fork # habitat : second bowl ) the whites from the yolks of the eggs , beat ( tool : fork # habitat : bowl ) the yolks stiff . ",
+        "beat ( tool : fork # habitat : bowl ) in the sugar , a little at a time , and beat ( drop : sugar , yolks # habitat : bowl ) till very stiff . ",
+        "beat ( drop : sugar , yolks # result : beaten yolk mixture # tool : fork # habitat : bowl ) in the vanilla . ",
+        "add ( habitat : second bowl ) the salt to the whites , and beat ( drop : salt , whites # habitat : second bowl ) till stiff and dry . ",
+        "pour ( result : mixture # habitat : second bowl ) the beaten yolk mixture onto the whites ; sift ( drop : mixture # habitat : second bowl ) over it some flour , and sprinkle ( drop : mixture , flour # habitat : second bowl ) over it some nuts , and fold ( drop : nuts , mixture , flour # tool : fork # habitat : second bowl ) them in . ",
+        "sift ( drop : mixture , flour , nuts # habitat : second bowl ) on more flour and sprinkle ( drop : mixture , flour # tool : second bowl ) on more nuts , continuing ( drop : mixture # tool : fork # habitat : second bowl ) thus till all the flour and nuts are folded ( drop : nuts , flour , mixture # result : dough # tool : fork ) in . "
+    ],
+    "r-4526": [
+        "cream ( result : mixture # tool : beaters ) crisco and sugar ",
+        "add ( drop : mixture # result : dough ) salt , egg , and flour sifted with baking powder and soda . ",
+        "mix ( drop : dough ) and turn ( drop : dough ) out on floured baking board . ",
+        "dough should be soft . ",
+        "roll ( drop : dough ) very thin and cut ( drop : dough # result : cookies ) out with cookie cutter . ",
+        "spread one - half of cookies with filling , then place remaining cookies on top and press ( drop : cookies ) edges together . ",
+        "place ( drop : cookies ) on criscoed tins and bake ( drop : cookies ) in moderately hot oven fifteen minutes . "
+    ],
+    "r-4474": [
+        "cream ( result : mixture # tool : beaters ) the butter or margarine . ",
+        "gradually add ( drop : mixture # result : mixture ) sugar and beaten egg . ",
+        "dissolve ( result : sour cream mixture ) baking soda in sour cream . ",
+        "add ( drop : sour cream mixture # result : dough ) to first mixture alternately with pastry flour sifted ( result : dry ingredients ) with salt and baking powder . ",
+        "add ( drop : dough ) the vanilla and raisins . ",
+        "add ( drop : dough ) cup nut meats . ",
+        "drop ( drop : dough # result : cookies # tool : spoon ) by spoonfuls on greased ( shadow : cooking spray # habitat : tin sheet ) tin sheet , and bake ( drop : cookies ) in a moderate oven . ",
+        "double the amount of flour may be used , nuts and raising omitted , and mixture chilled and rolled out and cut in any desired shape , before baking . "
+    ],
+    "f-CKJFC4NR": [
+        "in a small bowl whisk ( tool : whisk ) together jam and water . ",
+        "add ( result : dressing mixture # habitat : small bowl ) the rest of the dressing ingredients and whisk ( tool : whisk ) until combined ( result : dressing ) . ",
+        "place all salad ingredients ( except the cashews ) in a large bowl and pour ( habitat : large bowl ) in the dressing . ",
+        "toss ( drop : salad ingredients , dressing # result : salad # habitat : large bowl ) until the ingredients are evenly distributed and coated with dressing . ",
+        "serve salad sprinkled with cashews . "
+    ],
+    "f-SJPFNVTY": [
+        "preheat ( tool : oven ) 180oc. grease ( shadow : fat ) the muffin moulds i needed 12 moulds and 2 small ones . ",
+        "mix ( habitat : bowl ) the flax seeds with the warm water and set ( drop : flax seeds ) aside . ",
+        "mix ( habitat : bowl ) all the dry ingredients with a wire whisk . ",
+        "add ( shadow : dry ingredients # habitat : bowl ) the wet ingredients one by one . ",
+        "combine ( drop : dry ingredients , wet ingredients # result : batter # tool : spoon # habitat : bowl ) well . ",
+        "spoon ( drop : batter ) with an ice cream scoop in the moulds till 3/4 full . ",
+        "garnish ( drop : batter # habitat : muffin moulds ) with chocolate chips . ",
+        "bake ( drop : batter # habitat : muffin moulds ) for 20 minutes or till the tooth pick inserted come out clean . ",
+        "my best guide for checking the cake is when it pulls ( drop : batter ) away from the mould . "
+    ],
+    "r-4969": [
+        "in a food processor , combine ( result : guacamole ) onion , chilies , cilantro and salt ; reserve ( drop : guacamole ) . ",
+        "coarsely mash ( tool : fork ) ( do not puree ) california avocados . ",
+        "fold ( drop : california avocados # result : guacamole ) in reserved onion mixture , then tomato . ",
+        "serve ( drop : guacamole ) with tortilla chips . "
+    ],
+    "r-1007": [
+        "put all the cake ingredients in a mixer or food processor and process ( result : mixture # tool : mixer ) until soft . ",
+        "put the mixture into a piping - bag with a 1 inch fluted nozzle and pipe ( drop : mixture # tool : piping bag ) into 12 paper liners placed ( tool : paper liners # habitat : bun tin ) in a bun tin , using a circular movement . ",
+        "bake ( drop : mixture # result : mixture # habitat : bun tin ) in a pre - heated ( tool : oven ) oven 350 degf until pale in color . ",
+        "transfer ( drop : mixture ) to a wire cooling rack . ",
+        "when cool ( drop : mixture ) , sift ( shadow : mixture # tool : sieve ) the icing sugar over the tops , and put a little lemon in the centre of each tart . "
+    ],
+    "r-901": [
+        "bring large pot of water to a boil . ",
+        "boil ( drop : water ) greens for about 5 minutes , just till tender , and then plunge ( drop : greens ) into water to stop cooking . ",
+        "squeeze ( drop : greens ) out as much water as possible and set ( drop : greens ) aside ( you can do this step before you make the rest of the soup . ) . ",
+        "bring broth to simmer in large pot over med - high heat . ",
+        "add ( drop : broth ) garlic and greens , and beans ( if using canned , rinse and drain to rid the excess sodium ! ) ",
+        "simmer ( drop : broth ) gently for about ten minutes , partially covered ( drop : broth # tool : lid ) . ",
+        "sprinkle ( drop : broth ) with salt and pepper . ",
+        "ladle ( tool : ladle ) soup into bowls . ",
+        "pass cheese and pepper flakes at table . "
+    ],
+    "r-103": [
+        "put the split peas in a large bowl filled ( habitat : large bowl ) with cold water and let the peas soak ( habitat : large bowl ) overnight . ",
+        "drain ( tool : strainer ) the peas and reduce to a paste using a food processor . ",
+        "add the onions , chile and ground turmeric to the paste and form ( drop : paste # tool : hands ) into small balls , roughly the size of a golf ball . ",
+        "next , slightly flatten ( tool : hands ) the balls ( 1/2-inch thick ) . ",
+        "deep - fry the fritters to a golden brown . ",
+        "drain the fritters on absorbent paper and serve hot . "
+    ],
+    "r-5079": [
+        "in one bowl add diced tomatoes and onion ; chopped cilantro , lime juice , and california chile pepper . ",
+        "mix ( result : tomato mixture ) well . ",
+        "in another bowl halve ( tool : knife ) and pit ( tool : knife # habitat : bowl ) avocado and them scoop ( tool : spoon # habitat : bowl ) out avocado pulp into bowl . ",
+        "using a fork mask until creamy with some chunks . ",
+        "add ( result : guacamole ) tomato mixture to avocado mix ( drop : guacamole ) well and tabasco sauce , salt and pepper to taste . ",
+        "serve ( drop : guacamole ) with tortilla chips and enjoy ! . "
+    ],
+    "r-1094": [
+        "combine ( result : chicken mixture ) chicken , celery , apple , pineapple , raisins and 11/2 teaspoons of the sesame seeds in a large bowl . ",
+        "mix ( tool : spoon # habitat : small bowl ) mayonnaise , curry powder and salt . ",
+        "pour ( habitat : large bowl ) mayonnaise over chicken mixture and toss ( drop : chicken mixture , mayonnaise # habitat : large bowl ) to coat . ",
+        "sprinkle ( drop : chicken mixture ) with remaining sesame seeds . ",
+        "serve ( drop : chicken mixture ) by itself or over a bed of greens . "
+    ],
+    "r-253": [
+        "steam ( habitat : pot ) chicken and when cooked ( drop : chicken ) remove flesh from carcass , discarding skin . ",
+        "while still warm toss chicken meat in bowl with vinaigrette mixed ( tool : whisk # habitat : bowl ) with csr white sugar . ",
+        "wash cucumber and score skin with prongs of fork ; slice ( drop : cucumber # tool : knife ) across into rounds . ",
+        "slice ( tool : knife ) capsicum into thin strips . ",
+        "cut ( tool : knife ) apple into quarters , remove ( tool : knife ) core and slice quarters across into pieces ",
+        "add ( result : chicken salad ) cucumber , capsicum , apple , celery and spring onion to chicken in bowl . ",
+        "beat ( result : curry mayo # tool : whisk ) curry paste into mayonnaise and pour ( drop : curry mayo ) over chicken salad . ",
+        "mix ( drop : chicken salad ) carefully , coating ( drop : chicken salad ) all surfaces . ",
+        "cover ( drop : chicken salad ) and chill ( drop : chicken salad ) overnight . "
+    ],
+    "r-4791": [
+        "combine cornstarch , mustard , and salt in the top of a double boiler . ",
+        "combine ( result : egg mixture ) water and beaten eggs . ",
+        "slowly add ( drop : egg mixture # result : base ) to the cornstarch mixture , stirring ( drop : base ) constantly , until smooth . ",
+        "cook ( drop : base # habitat : pot ) over simmering water for 5 minutes , stirring ( drop : base ) constantly . ",
+        "mix ( drop : base ) with the lemon and vinegar very slowly ",
+        "continue cooking ( drop : base ) and stirring ( drop : base ) over simmering water for 10 more minutes . ",
+        "remove ( drop : base ) from heat . ",
+        "add ( drop : base ) the sweetener ; mix ( drop : base ) well . ",
+        "pour ( drop : base ) into a pint jar , cover ( drop : base # habitat : pint jar ) , and store ( drop : pint jar ) in a refrigerator . ",
+        "stir ( drop : base ) well before each use . "
+    ],
+    "r-2630": [
+        "shred ( tool : knife # habitat : cutting board ) cabbage finely , grate ( tool : grater # habitat : cutting board ) carrots . ",
+        "mix ( result : mixture # tool : spoon # habitat : bowl ) all the ingredients together and squeeze ( drop : mixture ) a little on the table . ",
+        "put ( drop : mixture ) in a wood container and leave ( drop : mixture # habitat : wood container ) at room temperature . ",
+        "after 2 - 3 days the cabbage begins to \" bubble ( habitat : wood container ) \" - at this point it must be refrigerated ( habitat : wood container ) . ",
+        "it will be ready to eat ( drop : mixture ) in two days after that . "
+    ],
+    "r-1043": [
+        "dissolve ( habitat : bowl ) yeast in warm water with 1 tablespoon flour ; stir ( drop : warm water , yeast , flour # result : yeast mixture # tool : spoon ) and set ( drop : yeast mixture # habitat : bowl ) aside to rise ( drop : yeast mixture # habitat : bowl ) . ",
+        "fry ( habitat : stove ) bacon in for 2 minutes - let cool ( drop : bacon ) . ",
+        "add ( result : ham bacon onion mixture ) ham and the green onions ; set ( drop : ham bacon onion mixture ) aside to cool . ",
+        "beat ( tool : whisk # habitat : bowl ) eggs and add ( habitat : bowl ) enough flour to make ( result : batter # habitat : bowl ) a soft batter . ",
+        "add ( drop : batter # habitat : bowl ) the raised yeast and mix ( drop : batter , ham bacon onion mixture # tool : whisk # habitat : bowl ) . ",
+        "add ( habitat : bowl ) ham , bacon and onions and mix ( drop : batter # tool : whisk ) . ",
+        "add ( drop : batter # habitat : bowl ) cheese , salt and pepper to taste . ",
+        "put ( drop : batter ) into a large bowl to rise for about 2 or 3 hours . ",
+        "bake ( drop : batter # habitat : oven ) at 375 f for about 1 hour or until top is nice and brown . "
+    ],
+    "r-4715": [
+        "preheat oven to 350degf. ",
+        "sift ( tool : sifter ) together flour , baking powder , and salt . ",
+        "beat ( tool : whisk ) egg yolks in a small bowl , rapidly , until very thick and lemon colored , adding ( drop : egg yolks # habitat : small bowl ) almond and vanilla flavorings during the beating . ",
+        "with clean beaters , beat ( habitat : bowl ) the egg whites until stiff and shiny ; begin to add ( drop : egg whites # tool : measuring tablespoon # habitat : bowl ) sugar , not more than 1 tablespoon at a time , and beat ( drop : egg whites # tool : beaters # habitat : bowl ) constantly . ",
+        "continue to beat ( tool : beaters # habitat : bowl ) rapidly until whites are very stiff and glossy . ",
+        "gently fold ( drop : egg whites # habitat : bowl ) in the beaten egg yolks . ",
+        "in the same manner fold ( drop : egg whites # habitat : bowl ) in the dry ingredients until well mixed ( drop : dry ingredients , egg whites , egg yolks # result : mixture ) . ",
+        "using a small spatula and a measuring tablespoon , measure ( drop : mixture ) and droop ( drop : mixture ) onto ungreased baking sheets , spacing 2 inches apart . ",
+        "bake ( drop : mixture ) for 10 minutes until light and golden brown . ",
+        "remove ( drop : mixture ) at once from sheet to cool . "
+    ],
+    "r-1389": [
+        "mince ( result : mixture # tool : knife ) the fish with the onions , at least twice . ",
+        "stir ( drop : mixture # result : mixture ) in the flour , eggs , salt and pepper , adding ( drop : mixture # result : batter ) the milk gradually and stir ( drop : batter ) well . ",
+        "leave to stand ( drop : batter ) for 30 minutes . ",
+        "form ( drop : batter ) the fish balls with a tablespoon and fry ( drop : fish balls # shadow : oil # habitat : pan ) on both sides . ",
+        "served ( drop : fish balls ) with brown sauce or tomato sauce , boiled potatoes and vegetables of your choice . "
+    ],
+    "r-422": [
+        "in large saucepan place minced pork with water ; cook ( drop : pork , water # habitat : large saucepan ) slowly over med heat until pork is cooked through but still tender . ",
+        "remove ( drop : pork ) from heat and add ( drop : pork # habitat : large saucepan ) lemon juice , fish sauce , dried and fresh chile . ",
+        "stir ( drop : lemon juice , fish sauce , dried and fresh chile # tool : spoon # habitat : large saucepan ) . ",
+        "when cooled ( drop : fish sauce , dried and fresh chile , pork # shadow : lemon juice ) , add ( drop : pork ) onion , shallots , peanuts , ginger , mint and coriander leaves . ",
+        "toss ( drop : onion , shallots , peanuts , ginger , mint , coriander leaves , pork , lemon juice , fish sauce , dried and fresh chile # habitat : large saucepan ) lightly . ",
+        "serve ( drop : onion , shallots , peanuts , ginger , mint , coriander leaves , pork # habitat : plate ) on a bed of lettuce leaves and garnish ( drop : pork # tool : plate ) with mounds of peanuts , ginger and chile . ",
+        "decorate ( drop : pork # habitat : plate ) with mint and coriander sprigs if desired . "
+    ],
+    "r-1166": [
+        "decorate an oblong dish with lettuce leaves . ",
+        "peel ( tool : knife ) , core ( tool : knife ) and dice ( tool : knife ) the apples . ",
+        "mix ( drop : apples # habitat : bowl ) immediately with the herring , add ( habitat : bowl ) all other ingredients except the mayonnaise and garnish , and toss ( drop : ingredients , apples , herring # result : mixture # habitat : bowl ) them together in the dressing . ",
+        "spread ( tool : spatula ) the mixture evenly over the lettuce leaves , and cover ( drop : mixture # tool : spatula # habitat : oblong dish ) generously with mayonnaise . ",
+        "decorate ( drop : mixture , oblong dish ) with the garnish . ",
+        "for the garnish , chop ( tool : knife ) the egg whites . ",
+        "rub the yolks through a sieve . ",
+        "scatter ( drop : yolks , egg whites , mixture # habitat : oblong dish ) both on the mayonnaise with the slices of gherkin and parsley . "
+    ],
+    "f-CYTQDZKG": [
+        "-buy stonyfield organic pain yogurt . ",
+        "you will only need 2 tablespoons so freeze ( drop : stonyfield organic pain yogurt ) the rest or just eat ( drop : stonyfield organic pain yogurt ) it . ",
+        "the stonyfield has the most good bacteria i could find . ",
+        "-buy stonyfield fat free organic milk , half gallon . ",
+        "you can buy full fat . ",
+        "i buy the fat free because it has less calories . ",
+        "-heat the milk in a sterilized saucepan over medium heat until it reaches 180 degrees . ",
+        "this will kill ( habitat : sterilized saucepan ) bad bacteria . ",
+        "this takes about 10 minutes . ",
+        "cool ( habitat : sterilized saucepan ) the milk down to 110 degrees . ",
+        "-in a sterile glass bowl or measuring cup , add the two tablespoons of organic yogurt and some of the milk . ",
+        "mix ( drop : stonyfield organic pain yogurt , stonyfield fat free organic milk # habitat : measuring cup ) until combined ( drop : stonyfield organic pain yogurt , stonyfield fat free organic milk # result : yogurt milk mixture ) and then add back to the milk that is in the saucepan . ",
+        "mix ( drop : yogurt milk mixture , stonyfield fat free organic milk # result : mixture # habitat : saucepan ) well . ",
+        "-add water to your yogurt maker . ",
+        "there should be a water line inside . ",
+        "fill ( habitat : yogurt maker ) water to that line . ",
+        "-strain your milk mixture right into the yogurt maker and let it go for 10 to 14 hours . ",
+        "that is usually how long i let mine go for . ",
+        "i strain my cooled milk just in case there is some milk that cooked . ",
+        "-after your yogurt is done immediately put in the fridge and cool ( habitat : fridge ) for a couple hours . ",
+        "once your yogurt is cooled , eat or strain . ",
+        "i always strain my yogurt because i like it thick . ",
+        "i put a coffee filter in a strainer , add ( habitat : strainer ) some yogurt and strain ( tool : coffee filter # habitat : strainer ) for an hour or so . ",
+        "this will have to be done in steps . ",
+        "once strained ( drop : mixture # tool : coffee filter # habitat : strainer ) add ( drop : mixture ) to a sterilized glass dish and add ( habitat : sterilized glass dish ) any flavoring . ",
+        "i would not add ( habitat : sterilized glass dish ) berries or anything like that until you are ready to eat . ",
+        "-don't forget to take ( tool : spoon # habitat : sterilized glass dish ) out a couple tablespoons of your homemade yogurt before you flavor it . ",
+        "you need to save ( drop : mixture ) that as a yogurt starter for the next batch you make . ",
+        "every time i do make yogurt i boil water in my saucepan to sterilize it and then add the boiling water to the container i make ( habitat : container ) the yogurt in , so that is sterilized too . ",
+        "make sure your thermometer is sterilized in the boiling water . ",
+        "dry ( drop : container , sterilized saucepan ) with a clean paper towel before you add your milk to the saucepan and to the yogurt maker . "
+    ],
+    "r-135": [
+        "boil ( result : boiled potatoes # habitat : pot ) the sweet potatoes for 5 minutes in just enough water to cover them . ",
+        "stir ( drop : boiled potatoes # result : liquid ) in the ginger , cinnamon , chile , lemon , honey and salt and boil ( drop : liquid # result : sauce ) for another 10 minutes , or until the potatoes are cooked . ",
+        "the sauce should be like syrup , but if it has n't reached that consistency , lift out the potatoes and boil the sauce until it is thicker . ",
+        "mix ( drop : syrup # result : dressing ) in the coriander , and capers . ",
+        "reintroduce ( result : potato salad ) the potatoes to the dressing if necessary . ",
+        "allow it to cool ( drop : potato salad ) before serving ( drop : potato salad ) . "
+    ],
+    "f-D7RYT56T": [
+        "preheat oven to 350 degrees f and line a cookie sheet with parchment paper . ",
+        "in a large mixing bowl , mix together the cake flour and sugar . ",
+        "then add ( habitat : large mixing bowl ) the peanut butter and canola oil . ",
+        "form ( habitat : large mixing bowl ) a pasty dough , then separate ( habitat : large mixing bowl ) the dough with your hands to form small crumbs . ",
+        "add the water and form ( habitat : large mixing bowl ) into a messy dough . ",
+        "add ( result : dough with chocolate chips # habitat : large mixing bowl ) the bittersweet chocolate chips and knead ( drop : pasty dough ) gently with hands . ",
+        "separate ( tool : hands ) dough into 12 to 14 bite - sized balls . ",
+        "flatten ( tool : hands ) each piece and bake ( habitat : oven ) at 350 degrees f for 22 to 25 minutes . ",
+        "let it cool ( drop : pasty dough ) down for 30 minutes before serving ( drop : pasty dough ) . ",
+        "enjoy ! "
+    ],
+    "r-191": [
+        "place ( result : salad ) the bell peppers , cucumbers , tomatoes , scallions , mint , parsley and cilantro in a large bowl . ",
+        "in a separate bowl combine ( result : dressing ) the garlic with the olive oil and lemon juice . ",
+        "season ( drop : salad ) to taste with salt and freshly ground black pepper . ",
+        "pour the dressing over the salad and toss ( drop : salad ) lightly to mix . ",
+        "toast the pita breads in a toaster until crisp and serve ( drop : pita breads ) along side ( or crumbled on top ) of salad . "
+    ],
+    "f-4Z5SV5FY": [
+        "season veal scaloppine with salt and pepper , then dust with flour . ",
+        "in a skillet add the butter and the vegetable oil , and heat over medium - high . ",
+        "saute the scaloppine 2 - 3 minutes on one side . ",
+        "flip the scaloppine over and saute the other side 1 - 2 minutes with the pan covered . ",
+        "transfer the scaloppine to a warmed platter ; pour off the fat from the pan . ",
+        "deglaze pan with wine and add minced garlic . ",
+        "cook until garlic is slightly brown and liquid is nearly evaporated , about 2 minutes . ",
+        "add broth , lemon juice and capers . ",
+        "return veal scaloppine to pan and cook on each side for 1 minute . ",
+        "transfer to a warm plates . ",
+        "finish sauce with butter and lemons . ",
+        "once butter melts , pour sauce over veal . ",
+        "garnish with chopped fresh parsley and serve . "
+    ],
+    "r-98": [
+        "fry ( result : soup base ) the garlic , onion , fish sauce and chili powder in cooking oil for 2 - 3 minutes . ",
+        "add ( drop : soup base # result : soup ) the chicken , mushrooms , fish cake , onions and 2 quarts of water and boil ( drop : soup ) for 15 minutes . ",
+        "add ( drop : soup ) the bean vermicelli ( bean thread ) and pepper . ",
+        "boil ( drop : soup ) in low heat for 10 minutes . ",
+        "serve ( drop : soup ) sprinkled ( drop : soup ) with green onion . "
+    ],
+    "r-4326": [
+        "reconstitute ( habitat : bowl ) beef broth with 1/2 cup water . ",
+        "saute the first 3 ingredients over medium - high heat in a teflon fry pan for a few minutes , stirring ( tool : spoon # habitat : teflon fry pan ) frequently . ",
+        "add ( drop : ingredients # habitat : teflon fry pan ) the 1/2 cup of reconstituted low sodium beef broth and let simmer ( habitat : teflon fry pan ) for a minute or so more . ",
+        "then add ( drop : beef broth # habitat : teflon fry pan ) the green beans , sliced mushrooms , and wine . ",
+        "cover ( habitat : teflon fry pan ) and let simmer ( drop : ingredients , beef broth # habitat : teflon fry pan ) over medium heat for a few minutes . ",
+        "remove ( habitat : lid ) cover and simmer ( drop : green beans , sliced mushrooms , wine , beef broth # habitat : teflon fry pan ) until the beans reach the desired tenderness . "
+    ],
+    "f-4BPH5RC2": [
+        "in a bowl combine the flour , salt & baking powder . ",
+        "scramble ( tool : fork ) the egg & add ( drop : egg ) it to the flour . ",
+        "then with a fork , mix ( drop : flour ) in the egg & enough seltzer water to make a thin batter . ",
+        "allow to sit ( drop : batter ) in the fridge for at least an hour . ",
+        "the mixture will separate , stir ( drop : batter ) it with a fork a few times before use ( drop : batter ) . ",
+        "temperature to fry ( drop : batter # shadow : oil ) 350 degrees ",
+        "dip ( drop : squash blossom ) into the batter & allow the access to drip ( result : battered blossom ) off . ",
+        "fry ( drop : battered blossom , oil ) at 350 degree until golden ( drop : battered blossom ) brown . ",
+        "sprinkle ( drop : battered blossom ) with salt & serve ( drop : battered blossom ) immediately with an cold glass of prosecco . "
+    ],
+    "r-4139": [
+        "grate ( tool : grater # habitat : bowl ) 1 tbsp carrot finely , keep ( drop : carrot # habitat : bowl ) aside . ",
+        "finely chop ( tool : knife # habitat : cutting board ) cabbage , keep ( drop : cabbage # habitat : cutting board ) aside . ",
+        "pressure ( habitat : pressure cooker ) cook remaining carrots with bottle gourd till very soft . ",
+        "cool ( drop : carrots , bottle gourd # habitat : bowl ) and blend ( drop : carrots , bottle gourd # result : pulp ) in mixie . ",
+        "strain ( drop : pulp # shadow : liquid # habitat : sink ) . ",
+        "heat ( habitat : pan ) butter , add ( habitat : pan ) the pulp and bring to just about boil ( drop : pulp # habitat : pan ) . ",
+        "add ( drop : pulp # result : soup # habitat : pan ) the grated carrot and cabbage and salt . ",
+        "take ( drop : soup ) in serving bowl . ",
+        "add ( drop : soup # habitat : serving bowl ) a swirl of whipped cream . ",
+        "sprinkle ( habitat : serving bowl ) freshly ground pepper and chopped mint before serving ( drop : soup # habitat : serving bowl ) . "
+    ],
+    "r-474": [
+        "chop ( tool : knife ) onions into fine strips then fry ( drop : onions ) gently until slightly softened ( drop : onions ) , then leave to cool ( drop : onions ) . ",
+        "mix ( result : batter ) flour , seasonings , milk and eggs together to form ( drop : batter ) a smooth paste , add ( drop : paste ) water to make a slightly runny consistency . ",
+        "add ( drop : paste # result : bhaji ) the onion and mix ( drop : bhaji ) thoroughly . ",
+        "heat the oil in pan for deep frying , when medium heat drop ( tool : spoon ) spoonfuls of the mixture in and fry ( drop : bhaji ) until deep golden and crispy . "
+    ],
+    "f-XNVJGJVP": [
+        "place slices of the potatoes and onion in the food processor , using the shredding blade . ",
+        "place the shredded potato and onion in a kitchen towel and squeeze ( drop : slices , onion ) the excess juice . ",
+        "place ( drop : slices , onion ) in large bowl and add ( habitat : large bowl ) the rest of the ingredients and mix ( drop : ingredients , slices , onion # result : batter # habitat : large bowl ) . ",
+        "place about 1/2 inch of oil in a large cast iron frying pan and heat ( drop : oil # habitat : stove ) . ",
+        "using two tablespoons , spoon ( tool : tablespoons # habitat : stove ) the batter into the oil . ",
+        "when one side is crisp , carefully turn ( drop : batter ) over and finish cooking ( drop : batter # result : batter ) on the other side . ",
+        "place ( drop : batter ) on paper towels to drain ( drop : batter ) the excess oil . "
+    ],
+    "r-815": [
+        "divide ( tool : knife # habitat : cutting board ) each lamb slice into two pieces and bring lamb , water , cloves , and turmeric to a boil ( drop : cloves # habitat : pot ) on high heat . ",
+        "mix ( result : yogurt mixture # tool : spoon # habitat : bowl ) the fennel and ginger powders in the yogurt and add ( habitat : pot ) to the lamb . ",
+        "bring to a boil ( drop : yogurt mixture , water , cloves , turmeric , lamb slice # result : lamb mixture # habitat : pot ) again . ",
+        "add ( drop : lamb mixture # habitat : pot ) salt , reduce ( habitat : pot ) heat to low , cover ( drop : lamb mixture # habitat : lid ) and cook ( drop : lamb mixture # shadow : salt # habitat : pot ) for about 40 minutes . ",
+        "set ( drop : lamb mixture # habitat : pot ) aside . ",
+        "heat ( habitat : pan ) the butter , add ( habitat : pan ) cinnamon , cumin and cardamoms , fry ( drop : cinnamon , cumin , cardamoms # habitat : pan ) and add ( drop : cinnamon , cumin , cardamoms # habitat : pot ) to the lamb mixture . ",
+        "cook ( habitat : pot ) lamb for another 10 minutes and serve ( drop : lamb mixture ) hot . "
+    ],
+    "r-217": [
+        "place fruit in serving bowl . ",
+        "pour ( result : fruit salad ) orange juice over fruit and mix ( drop : fruit salad ) gently . ",
+        "garnish with almonds or coconut . ",
+        "cover ( drop : fruit salad ) and chill ( drop : fruit salad ) several hours before serving ( drop : fruit salad ) . "
+    ],
+    "r-2892": [
+        "cut ( tool : knife # habitat : cutting board ) chicken into 4 pieces ",
+        "wash ( shadow : water # habitat : sink ) chicken well with salt and lemon ",
+        "rinse ( drop : chicken # shadow : water # habitat : sink ) , and season ( drop : chicken ) with salt and pepper ",
+        "place chicken , gizzard , onions , carrots and water in a stockpot and simmer ( drop : gizzard , onions , carrots , water , chicken # result : soup # habitat : stockpot ) 2 hours ",
+        "add ( habitat : stockpot ) the garlic ( peeled whole)tomato , salt , pepper and cook ( drop : garlic , peeled whole tomato , salt , pepper # habitat : stockpot ) another 30 minutes or until chicken is very tender . ",
+        "remove ( drop : chicken # tool : hands ) bones and skin , and shred ( tool : bowl ) chicken . ",
+        "return shredded chicken to pot , add ( drop : chicken , soup # habitat : stockpot ) the rice and cook ( drop : seasonings , chicken # habitat : stockpot ) until rice is very soft , almost creamy . ",
+        "stir ( drop : chicken , rice # tool : spoon # habitat : stockpot ) in parsley and cilantro . ",
+        "check ( habitat : stockpot ) seasonings ",
+        "boil ( drop : parsley , cilantro # habitat : stockpot ) a few minutes and serve ( drop : soup ) very hot . "
+    ],
+    "r-4384": [
+        "1 bring large pot of water to boil . ",
+        "2 wash asparagus and snap off tough bottoms os stems . ",
+        "3 when water is boiling , add asparagus and let water return to a boil . ",
+        "4 cook ( drop : asparagus ) about 3 minutes , until asparagus is crisp but tender . ",
+        "5 remove asparagus , run ( drop : asparagus ) it under cold water , and refrigerate ( drop : asparagus # habitat : refrigerator ) to chill ( drop : asparagus # habitat : refrigerator ) . ",
+        "6 at serving time , line six salad plates with lettuce and arrange ( result : salad # habitat : salad plates ) four spears on each . ",
+        "7 top salads with 1 tbsp of buttermilk mayonnaise or commercial light mayonnaise and sprinkle ( drop : salad ) with 1 ts chopped pecans . "
+    ],
+    "r-3562": [
+        "combine rice , eggplant , onion , eggs , cheese , flour , salt , pepper and pepper sauce in mixing bowl . ",
+        "mix ( drop : rice , eggplant , onion , eggs , cheese , flour , salt , pepper , pepper sauce # result : mixture # tool : whisk # habitat : mixing bowl ) well . ",
+        "heat 3 tablespoons oil in large skillet over medium heat . ",
+        "drop ( tool : spoon ) mixture by tablespoonfuls into skillet . ",
+        "cook ( drop : mixture # habitat : large skillet ) several fritters at a time until golden brown on both sides , turning ( drop : fritters # tool : spatula # habitat : large skillet ) once . ",
+        "keep warm while frying ( drop : mixture # habitat : large skillet ) remaining fritters , adding ( habitat : large skillet ) oil as needed . "
+    ],
+    "r-3402": [
+        "preheat oven to 350degf. ",
+        "beat ( result : mixture # tool : whisk ) cake mix , oil , water and egg in large bowl until well blended . ",
+        "add ( drop : mixture # habitat : large bowl ) cereal ; mix ( drop : cereal , mixture # result : dough # tool : whisk # habitat : large bowl ) well . ",
+        "drop ( tool : tablespoon ) tablespoonfuls of dough , 2 inches apart , onto ungreased baking sheets . ",
+        "bake ( drop : dough # habitat : oven ) 11 minutes or just until cookies begin to brown ( this may be hard to see since the cookies are dark in color , so watch carefully ) . ",
+        "cool ( drop : cookies ) on wire racks . "
+    ],
+    "r-1687": [
+        "wash the cauliflower , remove the stems and cut ( drop : cauliflower ) it in pieces . ",
+        "use a saucepan to prepare the sauce for the cauliflower . ",
+        "wash and mash ( result : tomato mash ) the tomatoes . ",
+        "peel and chop ( tool : knife ) the onions . ",
+        "add ( result : mixture ) the olive oil into the saucepan together with the tomato mash , the onions the cinnamon , the sugar , salt and pepper . ",
+        "stir the mixture and let the sauce boil . ",
+        "when it boils put ( drop : sauce ) the cauliflower and let it simmer until the sauce thickens ( result : kounoupidi kokkinisto ) and the cauliflower is tender . ",
+        "serve ( drop : kounoupidi kokkinisto ) cold . "
+    ],
+    "r-311": [
+        "halve ( tool : knife # habitat : cutting board ) the potatoes and place ( shadow : salted water ) in a saucepan of lightly salted water . ",
+        "bring to a boil ( drop : potatoes # habitat : saucepan ) and then simmer ( drop : potatoes , salted water # habitat : saucepan ) for 12 - 15 minutes . ",
+        "drain ( drop : salted water # habitat : sink ) and plunge ( drop : potatoes # habitat : bowl ) into cold water . ",
+        "bring another pan of lightly salted water to a boil . ",
+        "add ( drop : salted water # habitat : pan ) the green beans , cauliflower , and cabbage , and cooked ( drop : salted water # result : cooked vegetables # tool : pan ) for about 3 minutes . ",
+        "drain ( drop : salted water , cooked vegetables # habitat : sink ) and plunge ( drop : cooked vegetables # habitat : bowl ) into cold water . ",
+        "drain ( drop : cold water # habitat : sink ) the vegetables . ",
+        "arrange ( drop : cooked vegetables ) in piles on a large platter with the raw carrot , cucumber , and bean sprouts . ",
+        "shell ( tool : hands ) the eggs , cut ( drop : eggs # tool : knife # habitat : cutting board ) into quarters , and arrange ( drop : eggs ) on the plate . ",
+        "cover ( habitat : large platter ) and set ( drop : eggs , raw carrot , cucumber , bean sprouts , cooked vegetables # habitat : large platter ) aside . "
+    ],
+    "r-1165": [
+        "mix ( result : mixture # habitat : bowl ) all the ingredients together . ",
+        "refrigerate ( drop : mixture # habitat : refrigerator ) for a couple of hours for best flavor . ",
+        "spread ( drop : mixture ) on a platter lined ( habitat : platter ) with lettuce leaves . ",
+        "smooth ( result : huzarensla # habitat : platter ) the mayonnaise over the top , decorate ( habitat : platter ) with sliced ( tool : knife ) hard boiled egg , sliced tomato , parsley and a dusting of paprika . ",
+        "serve ( drop : huzarensla ) with your favorite bread . "
+    ]
+}
