@@ -62,10 +62,15 @@ model, tokenizer = get_premodel(type='T5', path=r"/data/home/acw664/number_reaso
 #If only hidden or hidden+part is used, only one file data is required
 #Specific reference to different experimental codes
 
-train_dataloader, validation_dataloader = get_dataloader(tokenizer,                                                     train_qa_path="datas/QAs/train_qa.json",                                                 train_text_path=r"datas/data3/data/train3.json",                            			  train_text_path_entity=r"datas/data3/entity/train3.json",                                 
-							  val_qa_path="datas/QAs/val_qa.json",                 									  val_text_path=r"datas/data3/data/val3.json",
-							  val_text_path_entity=r"datas/data3/entity/val3.json",
-							  batchsize=batchsize)
+train_dataloader, validation_dataloader = get_dataloader(tokenizer,                                                     
+							train_qa_path="datas/QAs/train_qa.json",                                                 
+							train_text_path=r"datas/data3/data/train3.json",
+							train_text_path_entity=r"datas/data3/entity/train3.json",                                 
+
+							val_qa_path="datas/QAs/val_qa.json",
+							val_text_path=r"datas/data3/data/val3.json",
+							val_text_path_entity=r"datas/data3/entity/val3.json",
+							batchsize=batchsize)
 							  
 							  
 							  
