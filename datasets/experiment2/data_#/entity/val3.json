@@ -1,0 +1,996 @@
+{
+    "f-L37JNNBL": [
+        "cut # tool : knife # habitat : cutting board #  # entity : B-EVENT # the bread # participant : cut # in small # entity : B-EVENT # cubes and place # drop : bread #  # entity : B-EVENT # in a bowl # participant : place # . ",
+        "in a small # participant : saute # frying pan saute # entity : B-EVENT # the onion # participant : saute # with the butter # participant : saute # . ",
+        "add # habitat : small frying pan #  # entity : B-EVENT # the speak # participant : add # and pancetta # participant : add # and saute # drop : pancetta , speak , onion , butter # habitat : small frying pan #  # entity : B-EVENT # for a couple of minutes . ",
+        "when done place # drop : speak , pancetta , onion # result : bread onion mix # habitat : bowl #  # entity : B-EVENT # with the bread # participant : place # . ",
+        "in a small # participant : mix # bowl mix # tool : whisk #  # entity : B-EVENT # the eggs # participant : mix # with the milk # participant : mix # , add # habitat : small bowl #  # entity : B-EVENT # the parsley # participant : add # , salt # participant : add # , and pepper # participant : add # . ",
+        "mix # drop : parsley , salt , pepper , eggs , milk # result : mixture # tool : whisk # habitat : small bowl #  # entity : B-EVENT # well . ",
+        "add # habitat : bowl #  # entity : B-EVENT # the mixture # participant : add # to the bread # participant : add # onion mix . ",
+        "let it rest # drop : bread onion mix # habitat : bowl #  # entity : B-EVENT # for 30 minutes to 1 hour to flavor # drop : bread onion mix # habitat : bowl #  # entity : B-EVENT # thoroughly . ",
+        "add # habitat : bowl #  # entity : B-EVENT # the flour # participant : add # to the mixture # participant : add # , mix # drop : flour , mixture # tool : whisk # habitat : bowl #  # entity : B-EVENT # well , and then prepare # drop : mixture #  # entity : B-EVENT # balls . ",
+        "add # entity : B-EVENT # some flour # participant : add # to your hands # participant : add #  # entity : B-TOOL # and roll # drop : mixture # result : balls #  # entity : B-EVENT # in the cavity of your hands # participant : roll #  # entity : B-TOOL # . ",
+        "if the bread # participant : add # mix is too soft add # habitat : bowl #  # entity : B-EVENT # more flour # participant : add # , if too hard add # drop : bread mix # habitat : bowl #  # entity : B-EVENT # a bit more milk # participant : add # . ",
+        "form # drop : bread mix , milk , flour #  # entity : B-EVENT # small # participant : form # balls , 2 inches diameter , in the cavity of your hand # participant : form #  # entity : B-TOOL # and roll # drop : balls # tool : hand #  # entity : B-EVENT # them lightly in the flour # participant : roll # to barely cover # drop : balls , flour #  # entity : B-EVENT # . ",
+        "bring stock # participant : boil # to a boil # habitat : pot #  # entity : B-EVENT # and then add # drop : stock #  # entity : B-EVENT # the canederli # participant : add # . ",
+        "when they float # drop : balls # habitat : pot #  # entity : B-EVENT # to the surface , boil # drop : stock , balls # habitat : pot #  # entity : B-EVENT # for another 10 minutes , then drain # drop : stock , balls # habitat : sink #  # entity : B-EVENT # with a slotted # participant : drain #  # entity : B-TOOL # spoon # entity : I-TOOL # . ",
+        "place # entity : B-EVENT # 2 - 3 canederli # participant : place # in each serving # participant : place # bowl , and top # drop : balls # habitat : serving bowl #  # entity : B-EVENT # with chicken # participant : top # stock . "
+    ],
+    "r-1248": [
+        "this step is done the night before , or 1 hour before if the rice is to be dried # entity : B-EVENT # in a microwave oven . ",
+        "in a large # participant : combine # saucepan or dutch # participant : combine # oven combine # entity : B-EVENT # rice # participant : combine # and water # participant : combine # over high heat . ",
+        "bring to a boil # drop : water , rice # habitat : stove #  # entity : B-EVENT # , cover # entity : B-EVENT # , reduce # tool : stove #  # entity : B-EVENT # heat to medium and cook # drop : rice # habitat : stove #  # entity : B-EVENT # 10 minutes then reduce # tool : stove #  # entity : B-EVENT # heat to low and cook # drop : rice # habitat : stove #  # entity : B-EVENT # an additional 30 minutes without removing # entity : B-EVENT # lid # entity : B-TOOL # . ",
+        "the crusty # participant : stick # rice around the sides and bottom will stick # entity : B-EVENT # to the pan # participant : stick # and will be used # entity : B-EVENT # in the soup . ",
+        "take # entity : B-EVENT # off the top layer of soft rice and reserve # drop : soft rice #  # entity : B-EVENT # for another use . ",
+        "lift # entity : B-EVENT # out the crusty # participant : lift # rice and place # drop : crusty rice #  # entity : B-EVENT # on a cookie # participant : place # sheet to dry # drop : crusty rice # habitat : cookie sheet #  # entity : B-EVENT # at room temperature , or place # drop : crusty rice #  # entity : B-EVENT # in a glass # participant : place # baking dish in a microwave # participant : place # oven for 10 minutes on low . "
+    ],
+    "r-3146": [
+        "boil # habitat : stove #  # entity : B-EVENT # water # participant : boil # , add # drop : water # habitat : pot #  # entity : B-EVENT # salt # participant : add # to taste # entity : B-EVENT # , and whisk # tool : whisk #  # entity : B-EVENT # in the cornmeal # participant : whisk # . ",
+        "lower # tool : stove #  # entity : B-EVENT # the heat and stir # tool : whisk #  # entity : B-EVENT # the cornmeal # participant : stir # for 10 minutes . ",
+        "the coarser the meal , the longer it will take . ",
+        "pour # entity : B-EVENT # the cooked # entity : B-EVENT # cereal # participant : pour # onto a cookie # participant : pour # sheet . ",
+        "once it has cooled # drop : cornmeal #  # entity : B-EVENT # , slice # drop : cornmeal # tool : knife #  # entity : B-EVENT # it into pieces for frying # drop : cornmeal #  # entity : B-EVENT # . ",
+        "fry # habitat : stove #  # entity : B-EVENT # the slices # participant : fry # in butter # participant : fry # or oil # participant : fry # in a non - stick # participant : fry # pan . "
+    ],
+    "r-4866": [
+        "juice # result : juice #  # entity : B-EVENT # and grate # entity : B-EVENT # the rind # participant : grate # of the orange # participant : juice # ; remove # entity : B-EVENT # seeds # participant : remove # from the juice . ",
+        "cream # result : mixture #  # entity : B-EVENT # together shortening # participant : cream # and sugar # participant : cream # replacement . ",
+        "add # drop : mixture #  # entity : B-EVENT # egg # participant : add # , orange # participant : add # juice and grated # participant : add # orange rind , beating # drop : mixture #  # entity : B-EVENT # until light and fluffy . ",
+        "combine # result : flour mixture #  # entity : B-EVENT # flour # participant : combine # , baking # participant : combine # powder , baking # participant : combine # soda and salt in sifter # participant : combine #  # entity : B-TOOL # , and add # drop : flour mixture #  # entity : B-EVENT # alternately with buttermilk # participant : add # to creamed # participant : add # mixture . ",
+        "stir # drop : creamed mixture #  # entity : B-EVENT # to blend # drop : creamed mixture , flour mixture #  # entity : B-EVENT # . ",
+        "drop # drop : creamed mixture # result : cookies #  # entity : B-EVENT # by teaspoonfuls onto lightly greased # entity : B-EVENT # cookie # participant : drop # sheets , 2 to 3 inches ( 5 to 7 cm ) apart . ",
+        "bake # drop : cookies #  # entity : B-EVENT # at 375degf ( 190degc ) for 10 to 12 minutes . "
+    ],
+    "r-1587": [
+        "make # drop : flour , water # tool : spoon # habitat : bowl #  # entity : B-EVENT # a soft dough with the specified ingredients . ",
+        "divide # tool : spoon # habitat : bowl #  # entity : B-EVENT # the dough # participant : divide # into balls # participant : divide # , as per the required size . ",
+        "chop # tool : knife # habitat : cutting board #  # entity : B-EVENT # the onions # participant : chop # , green # participant : chop # chillies and the coriander # participant : chop # leaves . ",
+        "boil # shadow : water # tool : pot #  # entity : B-EVENT # the potatoes # participant : boil # ; remove # drop : potatoes # tool : knife # habitat : bowl #  # entity : B-EVENT # the skin # participant : remove # and mash # drop : potatoes # tool : fork # habitat : bowl #  # entity : B-EVENT # . ",
+        "add # drop : potatoes # habitat : bowl #  # entity : B-EVENT # the rest of the ingredients # participant : add # and mix # drop : potatoes # result : filling # tool : fork # habitat : bowl #  # entity : B-EVENT # well . ",
+        "take # entity : B-EVENT # each portion of the dough # participant : take # , flatten # drop : soft # tool : palm #  # entity : B-EVENT # it on palm # participant : take #  # entity : B-TOOL # . ",
+        "stuff # tool : spoon # habitat : bowl #  # entity : B-EVENT # the filling # participant : stuff # in the dough # participant : stuff # and roll # drop : filling , soft # habitat : bowl #  # entity : B-EVENT # into balls # participant : stuff # . ",
+        "with a rolling # participant : flatten #  # entity : B-TOOL # pin # entity : I-TOOL # , flatten # habitat : surface #  # entity : B-EVENT # the balls # participant : flatten # into 1/2 \\\" thick round parathas . ",
+        "grease # entity : B-EVENT # a pan # participant : grease # with a little oil # participant : grease # and heat # drop : oil # habitat : pan #  # entity : B-EVENT # on a medium flame . ",
+        "cook # habitat : pan #  # entity : B-EVENT # the parathas # participant : cook # until both sides are golden and cooked # drop : round parathas # habitat : pan #  # entity : B-EVENT # through . "
+    ],
+    "f-5V4PTMT2": [
+        "saute # tool : pot # habitat : pot #  # entity : B-EVENT # onion # participant : saute # and garlic # participant : saute # in olive # participant : saute # oil for 5 minutes . ",
+        "add # drop : onion , garlic # habitat : pot #  # entity : B-EVENT # the carrot # participant : add # , saute # drop : carrot , onion , garlic , olive oil # habitat : pot #  # entity : B-EVENT # for another 2 minutes . ",
+        "add # drop : onion , garlic , carrot # habitat : pot #  # entity : B-EVENT # tomatoes # participant : add # , bay # participant : add # leaf and water # participant : add # , stir # drop : water , bay leaf , tomatoes , carrot , onion , garlic , olive oil # tool : spoon # habitat : pot #  # entity : B-EVENT # and bring to the boil # drop : tomatoes , bay leaf , water , carrot , onion , garlic , olive oil # result : soup # tool : pot #  # entity : B-EVENT # . ",
+        "stir # drop : soup # tool : spoon # habitat : pot #  # entity : B-EVENT # in lentils # participant : stir # , season # drop : soup # habitat : pot #  # entity : B-EVENT # with salt # participant : season # and cook # drop : soup # habitat : pot #  # entity : B-EVENT # for 5 minutes . ",
+        "before serving # drop : soup # habitat : bowl #  # entity : B-EVENT # sprinkle # drop : soup #  # entity : B-EVENT # with chopped # participant : sprinkle # parsley . "
+    ],
+    "f-VKP2M7P3": [
+        "wash # shadow : water # habitat : sink #  # entity : B-EVENT # n wipe # drop : water #  # entity : B-EVENT # all the lady # participant : wash # 's fingers . ",
+        "cut # drop : lady s fingers # tool : knife # habitat : cutting board #  # entity : B-EVENT # into long n thin pieces . ",
+        "sprinkle # drop : lady s fingers # habitat : cutting board #  # entity : B-EVENT # salt # participant : sprinkle # , turmeric # participant : sprinkle # powder , red # participant : sprinkle # chilly pd ",
+        "and lime juice . ",
+        "put # habitat : pan #  # entity : B-EVENT # oil to heat # entity : B-EVENT # , now sprinkle # drop : oil # habitat : pan #  # entity : B-EVENT # bengal # participant : sprinkle # gram flour ",
+        "just before frying # entity : B-EVENT # . ",
+        "fry # drop : lady s fingers , bengal gram flour # habitat : pan #  # entity : B-EVENT # until crisp . ",
+        "sprinkle # drop : lady s fingers , bengal gram flour # habitat : pan #  # entity : B-EVENT # chaat # participant : sprinkle # masala pd and ",
+        "serve # drop : lady s fingers , chaat masala pd , bengal gram flour #  # entity : B-EVENT # with a lime # participant : serve # wedge . "
+    ],
+    "r-1561": [
+        "place # entity : B-EVENT # each chop # participant : place # between two sheets # participant : pound # of plastic and pound # drop : chop #  # entity : B-EVENT # with the smooth side of a meat # participant : pound #  # entity : B-TOOL # tenderizer # entity : I-TOOL # until thin ( 1/4 \\\" - 3/8 \\\" ) . ",
+        "dip # entity : B-EVENT # meat # participant : dip # into flour # participant : dip # and coat # drop : chop # shadow : flour #  # entity : B-EVENT # . ",
+        "blend # result : batter # tool : blender #  # entity : B-EVENT # together cheese # participant : blend # , eggs # participant : blend # , parsley # participant : blend # , salt # participant : blend # , pepper # participant : blend # , nutmeg # participant : blend # and milk # participant : blend # . ",
+        "dip # entity : B-EVENT # cutlets # participant : dip # into this batter # participant : dip # , coat # entity : B-EVENT # with crumbs # participant : coat # and refrigerate # drop : chop # habitat : refrigerator #  # entity : B-EVENT # for 1 hour . ",
+        "cook # result : pan juices # habitat : stove #  # entity : B-EVENT # breaded # participant : cook # cutlets in butter # participant : cook # until golden brown on both sides . ",
+        "pour # entity : B-EVENT # pan # participant : pour # juices over cutlets # participant : pour # and serve # drop : chop #  # entity : B-EVENT # with lemon # participant : serve # slices . "
+    ],
+    "r-866": [
+        "put # entity : B-EVENT # onions # participant : put # in skillet # participant : put # with wine # participant : put # , vinegar # participant : put # , salt # participant : put # , pepper # participant : put # , and lemon # participant : put # slices . ",
+        "simmer until onions are just tender but still crisp in the center . ",
+        "stir # result : mixture # tool : spoon # habitat : skillet #  # entity : B-EVENT # in tomato # participant : stir # paste and raisins # participant : stir # and cook # drop : mixture # habitat : stove #  # entity : B-EVENT # for several minutes . ",
+        "remove # tool : spoon # habitat : skillet #  # entity : B-EVENT # the onions # participant : remove # to a dish # participant : remove # . ",
+        "let the juices # participant : cook # cook # habitat : skillet #  # entity : B-EVENT # down with the raisins until the liquid # participant : cook # is almost a glaze # participant : cook # . ",
+        "pour # drop : mixture # habitat : dish #  # entity : B-EVENT # over the onions # participant : pour # and chill # drop : onions #  # entity : B-EVENT # . ",
+        "serve # drop : onions #  # entity : B-EVENT # as an hors - d'oeuvre or with cold # participant : serve # meat . "
+    ],
+    "r-1372": [
+        "knead # tool : hands #  # entity : B-EVENT # the dough # participant : knead # using all the ingredients # participant : knead # and keep it aside for 1/2 hour in a thick # participant : knead # bottomed pan . ",
+        "heat # habitat : pan #  # entity : B-EVENT # the oil # participant : heat # , put # habitat : pan #  # entity : B-EVENT # the chopped # participant : put # onions and green # participant : put # chillies . ",
+        "fry # drop : chopped onions , green chillies # habitat : pan #  # entity : B-EVENT # for 1 minute , then add # drop : chopped onions , green chillies # habitat : pan #  # entity : B-EVENT # the cubed # participant : add # vegetables and ginger # participant : add # - garlic # participant : add # paste , soy # participant : add # sauce , aginomoto # participant : add # and salt # participant : add # . ",
+        "cook # drop : cubed vegetables , ginger , garlic paste , soy sauce , aginomoto , salt , chopped onions , green chillies # result : vegetable mixture # habitat : pan #  # entity : B-EVENT # for three minutes . ",
+        "let it cool # drop : vegetable mixture # habitat : pan #  # entity : B-EVENT # . ",
+        "now roll # habitat : thick bottomed pan #  # entity : B-EVENT # the dough # participant : roll # like a thin chapathi . ",
+        "in the middle of the chapathi place # drop : chapathi # tool : spoon # habitat : thick bottomed pan #  # entity : B-EVENT # the vegetable # participant : place # stuff and roll # drop : vegetable mixture , chapathi # tool : hands #  # entity : B-EVENT # it . ",
+        "paste # drop : vegetable mixture , chapathi # habitat : thick bottomed pan #  # entity : B-EVENT # it with little water # participant : paste # . ",
+        "now fry # drop : vegetable mixture , chapathi # habitat : thick bottomed pan #  # entity : B-EVENT # it in oil # participant : fry # till it turns # entity : B-EVENT # golden # drop : vegetable mixture , chapathi # result : vegetable roll # habitat : thick bottomed pan #  # entity : B-EVENT # brown # entity : I-EVENT # . ",
+        "serve # drop : vegetable roll #  # entity : B-EVENT # hot with tomato # participant : serve # ketch - up . "
+    ],
+    "f-7CZ2YJKZ": [
+        "boil # entity : B-EVENT # the potatoes # participant : boil # until fork # entity : B-TOOL # tender ; drain # entity : B-EVENT # and cut # entity : B-EVENT # the potatoes # participant : boil # into quarters . ",
+        "add # drop : potatoes # habitat : bowl #  # entity : B-EVENT # the garlic # participant : add # while the potatoes are still warm . ",
+        "in a small # participant : blanch # sauce pot quickly blanch # entity : B-EVENT # the tomatoes # participant : blanch # for a minute . ",
+        "set # habitat : small sauce pot #  # entity : B-EVENT # the tomatoes # participant : set # aside to cool # entity : B-EVENT # . ",
+        "when the tomatoes # participant : cool # are cool # entity : B-EVENT # gently remove # drop : tomatoes #  # entity : B-EVENT # the skin # participant : remove # and dice # tool : knife # habitat : cutting board #  # entity : B-EVENT # the tomatoes # participant : cool # . ",
+        "add # habitat : bowl #  # entity : B-EVENT # tomatoes # participant : add # to the potatoes # participant : add # and garlic # participant : add # . ",
+        "add # drop : potatoes , garlic , tomatoes # habitat : bowl #  # entity : B-EVENT # the basil # participant : add # , salt # participant : add # , red # participant : add # pepper flakes , black # participant : add # pepper and oregano # participant : add # . ",
+        "combine # entity : B-EVENT # the olive # participant : combine # oil , lemon # participant : combine # juice and parmesan # participant : combine # cheese in a small # participant : combine # bowl and mix # drop : olive oil , lemon juice , parmesan cheese # result : dressing # tool : spoon # habitat : small bowl #  # entity : B-EVENT # . ",
+        "add # drop : garlic , tomatoes , basil , red pepper flakes , salt , black pepper , oregano # tool : bowl #  # entity : B-EVENT # this dressing # participant : add # to the potatoes # participant : add # and toss # drop : dressing , potatoes # result : potato salad # habitat : bowl #  # entity : B-EVENT # . ",
+        "place # drop : potato salad # habitat : bowl #  # entity : B-EVENT # in the refrigerator # participant : place # to cool # drop : potato salad # tool : refrigerator # habitat : bowl #  # entity : B-EVENT # before serving # drop : potato salad # tool : bowl #  # entity : B-EVENT # . "
+    ],
+    "f-BBJPV8GX": [
+        "in a large # participant : whisk # bowl , whisk # result : mixture # tool : whisk #  # entity : B-EVENT # together all ingredients # participant : whisk # . ",
+        "in batches , pulse # entity : B-EVENT # mixture # participant : pulse # in a food # participant : pulse # processor until smooth and well combined # drop : mixture # tool : food processor #  # entity : B-EVENT # . ",
+        "store # drop : mixture #  # entity : B-EVENT # in a sealed # participant : store # container in a dry and dark place . ",
+        "to make # entity : B-EVENT # hot chocolate , put # entity : B-EVENT # 1/3 cup of mixture # participant : put # into a mug # participant : put # and mix # drop : mixture # result : hot chocolate # habitat : mug #  # entity : B-EVENT # with hot # participant : mix # water or milk # participant : mix # . ",
+        "top # drop : hot chocolate #  # entity : B-EVENT # with marshmallows # participant : top # and a sprinkle of cinnamon # participant : top # . "
+    ],
+    "f-N8CYRK3G": [
+        "briefly saute # habitat : pot #  # entity : B-EVENT # onion # participant : saute # , and garlic # participant : saute # in hot # participant : saute # olive oil . ",
+        "add # drop : onion , garlic # habitat : pot #  # entity : B-EVENT # bacon # participant : add # and celery # participant : add # , stir # drop : celery , bacon # tool : spoon # habitat : pot #  # entity : B-EVENT # and saute # drop : bacon , celery # habitat : pot #  # entity : B-EVENT # over medium flame for 5 minutes . ",
+        "add # drop : bacon , celery # habitat : pot #  # entity : B-EVENT # peas # participant : add # , pasta # participant : add # and water # participant : add # , season # drop : pasta , water , peas # habitat : pot #  # entity : B-EVENT # with salt # participant : season # , bring to the boil # drop : water , pasta , peas # habitat : pot #  # entity : B-EVENT # . ",
+        "reduce # entity : B-EVENT # flame and cook # drop : water , bacon , celery # result : soup with peas and pasta # habitat : pot #  # entity : B-EVENT # for about 20 minutes or until the pasta # participant : cook # is al dente and peas # participant : cook # are done . ",
+        "before serving # drop : soup with peas and pasta # habitat : bowl #  # entity : B-EVENT # , season # drop : soup with peas and pasta # habitat : pot #  # entity : B-EVENT # with pepper # participant : season # , and sprinkle # drop : soup with peas and pasta # habitat : pot #  # entity : B-EVENT # with fresh , chopped # participant : sprinkle # parsley . "
+    ],
+    "r-5040": [
+        "in a large # participant : brown # skillet , brown # habitat : stove #  # entity : B-EVENT # ground # participant : brown # beef . ",
+        "drain # shadow : ground beef # result : fat #  # entity : B-EVENT # fat . ",
+        "add # result : mixture # habitat : large skillet #  # entity : B-EVENT # sloppy # participant : add # joes seasoning mix , pinto # participant : add # beans , tomato # participant : add # sauce , ketchup # participant : add # and chilis # participant : add # . ",
+        "cover # drop : mixture # tool : lid # habitat : large skillet #  # entity : B-EVENT # and simmer # drop : mixture # habitat : stove #  # entity : B-EVENT # 10 minutes . ",
+        "serve # drop : mixture #  # entity : B-EVENT # over hamburger # participant : serve # rolls or place # entity : B-EVENT # 3 tablespoons mixture # participant : place # along center of 8 warmed # participant : place # flour tortillas ; garnish # drop : warmed flour tortillas #  # entity : B-EVENT # with shredded # participant : garnish # cheese , if desired . ",
+        "fold # entity : B-EVENT # over edges of tortillas # participant : fold # . "
+    ],
+    "f-K5V6TGM6": [
+        "preheat # entity : B-EVENT # the oven # participant : preheat # at 350deg . ",
+        "line # entity : B-EVENT # a baking # participant : line # sheet with parchment # participant : line #  # entity : B-TOOL # paper # entity : I-TOOL # or a silpat # participant : line #  # entity : B-TOOL # sheet # entity : I-TOOL # . ",
+        "roll # tool : silpat sheet # habitat : parchment paper #  # entity : B-EVENT # out the puff # participant : roll # pastry until is doubled # habitat : silpat sheet #  # entity : B-EVENT # in size , and thin ",
+        "cut # drop : puff pastry #  # entity : B-EVENT # in half to have two sheets # entity : B-TOOL # . ",
+        "in a large # participant : mix # bowl mix # result : turkey and cheese mix # tool : spoon #  # entity : B-EVENT # the chopped # participant : mix # turkey , 1 egg # participant : mix # , ricotta # participant : mix # , and mozzarella # participant : mix # , dash of nutmeg # participant : mix # and salt # participant : mix # and pepper # participant : mix # to taste . ",
+        "divide # tool : large bowl #  # entity : B-EVENT # the turkey # participant : divide # and cheese # participant : divide # mix in half and place # drop : turkey and cheese mix # tool : spoon # habitat : silpat sheet #  # entity : B-EVENT # on each puff # participant : place # pastry half , leaving # entity : B-EVENT # 1 inch space on the three ends . ",
+        "brush # tool : brush # habitat : parchment paper #  # entity : B-EVENT # the edge of the pastry # participant : brush # with the beaten # participant : brush # egg . ",
+        "bring the puff pastry over the mixture and seal # drop : turkey and cheese mix , puff pastry # habitat : parchment paper #  # entity : B-EVENT # the edges with a fork # participant : seal #  # entity : B-TOOL # . ",
+        "brush # tool : brush # habitat : parchment paper #  # entity : B-EVENT # all over the pastry # participant : brush # with the beaten # participant : brush # egg and place # drop : puff pastry , beaten egg , turkey and cheese mix # habitat : baking sheet #  # entity : B-EVENT # in the warm # participant : place # oven . ",
+        "cook # drop : puff pastry # habitat : oven #  # entity : B-EVENT # for 30 - 40 minutes or until the top is nice golden . ",
+        "remove # drop : puff pastry #  # entity : B-EVENT # from oven # participant : remove # and let rest # drop : puff pastry # habitat : baking sheet #  # entity : B-EVENT # for a couple of minutes and serve # drop : puff pastry #  # entity : B-EVENT # . "
+    ],
+    "f-GH38KR62": [
+        "gently simmer the string beans until tender . ",
+        "heat a large frying pan with olive oil ; add the onions , garlic and ginger and saute until the garlic is fragrant and the onions are slightly golden . ",
+        "lift # habitat : pot #  # entity : B-EVENT # the string # participant : lift # beans out of the water # participant : lift # with a slotted # participant : lift #  # entity : B-TOOL # spoon # entity : I-TOOL # and carefully add # drop : string beans # habitat : pan #  # entity : B-EVENT # them to the sauteed # participant : add # garlic , onions # participant : add # and ginger # participant : add # . ",
+        "saute # habitat : pan #  # entity : B-EVENT # the sting # participant : saute # beans for another minute or two . ",
+        "mix # habitat : bowl #  # entity : B-EVENT # the ingredients # participant : mix # for the dressing and add # drop : dressing # habitat : pan #  # entity : B-EVENT # to the string # participant : add # beans . "
+    ],
+    "r-2151": [
+        "place # entity : B-EVENT # puff # participant : place # pastry in a baking # participant : place # tray and bake # habitat : oven #  # entity : B-EVENT # slightly until golden brown in color . ",
+        "do not burn # entity : B-EVENT # . ",
+        "heat # entity : B-EVENT # milk # participant : heat # in a non # participant : heat # stick pan and dissolve # habitat : non stick pan #  # entity : B-EVENT # sugar # participant : dissolve # . ",
+        "add # result : milk mixture #  # entity : B-EVENT # cinnamon # participant : add # and bring to boil # entity : B-EVENT # . ",
+        "then set # entity : B-EVENT # a side . ",
+        "the sweetness of the milk should be a bit more than you like . ",
+        "break # entity : B-EVENT # the baked # participant : break # pastry in a 20x30 cm pyrex and the almonds # participant : break # , hazel # participant : break # nut and then the milk # participant : break # ",
+        "heat # entity : B-EVENT # oven # participant : heat # at 250degc and bake # entity : B-EVENT # the pastry # participant : bake # , nuts # participant : bake # and milk # participant : bake # for 15 minutes . ",
+        "if it pastry # participant : absorbs # absorbs # entity : B-EVENT # all the milk # participant : absorbs # , add # entity : B-EVENT # a bit more . ",
+        "remove # entity : B-EVENT # the pyrex # participant : remove # from the oven # participant : remove # and mix # entity : B-EVENT # the butter # participant : mix # and heavy # participant : mix # cream together and dd on top of the dessert # participant : remove # . ",
+        "sprinkle # entity : B-EVENT # with dry # participant : sprinkle # coconut . ",
+        "bake # drop : puff pastry # habitat : oven #  # entity : B-EVENT # again for an additional 15 minutes . ",
+        "if no golden crust # participant : develops # develops # entity : B-EVENT # on top , then grill # drop : puff pastry #  # entity : B-EVENT # for 2 more minutes . ",
+        "serve # drop : puff pastry #  # entity : B-EVENT # hot . "
+    ],
+    "r-1690": [
+        "shell # tool : hands # habitat : bowl #  # entity : B-EVENT # the peas # participant : shell # , if needed . ",
+        "rinse # drop : peas # habitat : sink #  # entity : B-EVENT # them in cold # participant : rinse # water and drain # drop : cold water , peas # habitat : sink #  # entity : B-EVENT # . ",
+        "saute # habitat : pan #  # entity : B-EVENT # the onions # participant : saute # in the olive # participant : saute # oil . ",
+        "add # drop : onions , olive oil # habitat : pan #  # entity : B-EVENT # the tomatoes # participant : add # , peas # participant : add # , salt # participant : add # and the dill # participant : add # . ",
+        "add # drop : tomatoes , salt , dill , onions , olive oil , peas # habitat : pan #  # entity : B-EVENT # the water # participant : add # and bring to a boil # drop : water , tomatoes , salt , dill , onions , peas # habitat : pan #  # entity : B-EVENT # . ",
+        "stir # drop : water , tomatoes , salt , dill , peas # tool : spoon # habitat : pan #  # entity : B-EVENT # , cover # drop : water , salt , dill , tomatoes , peas # habitat : pan #  # entity : B-EVENT # and cook # drop : water , tomatoes , salt , dill , onions , olive oil , peas # habitat : pan #  # entity : B-EVENT # slowly for about 50 minutes . "
+    ],
+    "r-87": [
+        "soak # habitat : bowl #  # entity : B-EVENT # cracked # participant : soak # wheat in 6 cups of hot # participant : soak # water for 30 minutes . ",
+        "cut # tool : knife # habitat : cutting board #  # entity : B-EVENT # cucumber # participant : cut # and tomato # participant : cut # in to small cubes and chop # tool : knife # habitat : cutting board #  # entity : B-EVENT # green # participant : chop # onion in thin slices and add # entity : B-EVENT # parsley # participant : add # to it and mix # drop : parsley , green onion , cucumber , tomato # result : veggies # tool : hands # habitat : cutting board #  # entity : B-EVENT # them well . ",
+        "drain # drop : hot water #  # entity : B-EVENT # the wheat # participant : drain # add # drop : olive oil # tool : bowl #  # entity : B-EVENT # the paste # participant : add # , salt # participant : add # , cumin # participant : add # , lemon # participant : add # and olive oil and mix # drop : olive oil , lemon , cumin , salt , paste , wheat # result : mixture # tool : spoon # habitat : bowl #  # entity : B-EVENT # well . ",
+        "then add # drop : mixture #  # entity : B-EVENT # all the veggies # participant : add # and mix # drop : mixture , veggies # tool : spoon # habitat : bowl #  # entity : B-EVENT # well . ",
+        "serve # drop : mixture , veggies # habitat : bowl #  # entity : B-EVENT # it at room temperature . ",
+        "you may serve # drop : mixture , veggies # habitat : plate #  # entity : B-EVENT # it with romaine # participant : serve # lettuce . ",
+        "the guests can serve # drop : mixture # tool : hands # habitat : plate #  # entity : B-EVENT # themselves by filling # tool : hands #  # entity : B-EVENT # a romaine # participant : serve # lettuce with tabouleh # participant : serve # . ",
+        "garnish # drop : tabouleh , romaine lettuce , mixture # habitat : plate #  # entity : B-EVENT # it with kalamata # participant : garnish # . "
+    ],
+    "r-1554": [
+        "in a large # participant : combine # saucepan combine # entity : B-EVENT # potatoes # participant : combine # with salted # participant : combine # water to cover # drop : potatoes # shadow : salted water #  # entity : B-EVENT # by 1 inch and simmer # drop : potatoes #  # entity : B-EVENT # until just tender , about 20 minutes . ",
+        "while potatoes # participant : cooking # are cooking # habitat : large saucepan #  # entity : B-EVENT # , in a large # participant : cook # heavy skillet cook # habitat : stove #  # entity : B-EVENT # bacon # participant : cook # over moderate heat , stirring # drop : bacon # tool : spatula # habitat : large heavy skillet #  # entity : B-EVENT # , until browned # drop : bacon # habitat : stove #  # entity : B-EVENT # and crisp and transfer # drop : bacon #  # entity : B-EVENT # with a slotted # participant : transfer #  # entity : B-TOOL # spoon # entity : I-TOOL # to paper # participant : transfer # towels to drain # drop : bacon # habitat : paper towels #  # entity : B-EVENT # . ",
+        "drain # tool : strainer #  # entity : B-EVENT # potatoes # participant : drain # and let stand # drop : potatoes #  # entity : B-EVENT # until cool enough to handle # entity : B-EVENT # . ",
+        "cut # tool : knife #  # entity : B-EVENT # potatoes # participant : cut # into eighths and in a bowl # participant : combine # combine # drop : potatoes # result : mixture #  # entity : B-EVENT # with bacon # participant : combine # . ",
+        "keep # entity : B-EVENT # mixture warm , covered # drop : mixture # habitat : bowl #  # entity : B-EVENT # . ",
+        "pour # entity : B-EVENT # off all but 3 tablespoons fat # participant : saute # from skillet # participant : pour # and saute # habitat : large heavy skillet #  # entity : B-EVENT # onion # participant : saute # over moderately high heat , stirring # drop : onion # tool : spatula # habitat : large heavy skillet #  # entity : B-EVENT # , until softened # drop : onion # habitat : large heavy skillet #  # entity : B-EVENT # , about 3 minutes . ",
+        "add # result : onion mixture # habitat : large heavy skillet #  # entity : B-EVENT # sugar # participant : add # , 2 tablespoons vinegar # participant : add # , and broth # participant : add # and simmer # habitat : large heavy skillet #  # entity : B-EVENT # 2 minutes . ",
+        "add onion mixture to warm potatoes with parsley and remaining 1 tablespoon vinegar , tossing gently , and season with salt and pepper . ",
+        "serve # entity : B-EVENT # potato # participant : serve # salad warm or at room temperature , garnished # drop : potato salad #  # entity : B-EVENT # with parsley # participant : garnished # . "
+    ],
+    "r-3598": [
+        "combine # entity : B-EVENT # rice # participant : combine # , lentils # participant : combine # , tomato # participant : combine # , broccoli # participant : combine # , cheese # participant : combine # and green # participant : combine # onions in large # participant : combine # mixing bowl . ",
+        "blend # result : yogurt mixture # tool : blender #  # entity : B-EVENT # yogurt # participant : blend # , sour # participant : blend # cream , mustard # participant : blend # , sugar # participant : blend # , salt # participant : blend # and pepper # participant : blend # . ",
+        "toss # drop : yogurt mixture # result : rice salad #  # entity : B-EVENT # with rice # participant : toss # mixture ; chill # drop : rice salad #  # entity : B-EVENT # . ",
+        "serve # drop : rice salad #  # entity : B-EVENT # on lettuce # participant : serve # leaves . "
+    ],
+    "r-4663": [
+        "melt # entity : B-EVENT # chocolate # participant : melt # in top of double # participant : melt # boiler over boiling # participant : melt # water . ",
+        "add # drop : chocolate # result : mixture #  # entity : B-EVENT # evaporated # participant : add # milk and mix # drop : mixture #  # entity : B-EVENT # . ",
+        "cook # drop : mixture #  # entity : B-EVENT # 2 - 3 minutes , then add # drop : mixture #  # entity : B-EVENT # vanilla # participant : add # and sweetener # participant : add # . ",
+        "spread # drop : mixture #  # entity : B-EVENT # on small # participant : spread # foil pie pan or plate # participant : spread # . ",
+        "chill # drop : mixture #  # entity : B-EVENT # . ",
+        "cut # drop : mixture # result : pieces #  # entity : B-EVENT # into 8 pieces . ",
+        "form # drop : pieces # result : balls #  # entity : B-EVENT # into egg - shaped balls and then roll # drop : balls #  # entity : B-EVENT # lightly in pudding # participant : roll # powder or chopped # participant : roll # nuts . "
+    ],
+    "r-1357": [
+        "bring the water # participant : boil # to the boil # entity : B-EVENT # in a pan # participant : boil # with vinegar # participant : boil # , bay # participant : boil # leaves , and some salt # participant : boil # . ",
+        "add # habitat : pan #  # entity : B-EVENT # the halibut # participant : add # and simmer # drop : halibut # result : stock # habitat : pan #  # entity : B-EVENT # at low heat until the fish # participant : add # is cooked # habitat : pan #  # entity : B-EVENT # through and just beginning to come # entity : B-EVENT # off the bones . ",
+        "strain # habitat : strainer #  # entity : B-EVENT # most of the stock # participant : strain # into a clean pan # participant : strain # , add # drop : stock # habitat : pan #  # entity : B-EVENT # prunes # participant : add # and bring to the boil # drop : prunes , stock #  # entity : B-EVENT # , but leave # drop : halibut #  # entity : B-EVENT # half a cup or so in the pan # participant : leave # with the fish and keep # entity : B-EVENT # warm . ",
+        "beat # tool : whisk # habitat : bowl #  # entity : B-EVENT # the softened # participant : beat # butter into the flour # participant : beat # , and whisk # drop : flour , softened butter # tool : whisk # habitat : bowl #  # entity : B-EVENT # into the soup # participant : whisk # to thicken # entity : B-EVENT # it . ",
+        "simmer # drop : halibut , stock # habitat : pan #  # entity : B-EVENT # for 5 to 8 minutes , then add # habitat : pan #  # entity : B-EVENT # lemon # participant : add # juice and sugar # participant : add # and season # drop : lemon juice , sugar , halibut # habitat : pan #  # entity : B-EVENT # to taste # entity : B-EVENT # . ",
+        "serve # entity : B-EVENT # the fish # participant : serve # on a separate plate # participant : serve # but with the soup # participant : serve # . ",
+        "serve # drop : stock #  # entity : B-EVENT # hot in small # participant : serve # bowls to 4 with the rest of the meal # participant : serve # - there will be plenty of fish on the side for all . "
+    ],
+    "r-2609": [
+        "put # entity : B-EVENT # meat # participant : put # in the cold # participant : put # water to make broth tastier . ",
+        "boil # drop : broth #  # entity : B-EVENT # and then remove # entity : B-EVENT # the grease # participant : remove # and froth # participant : remove # from the broth # participant : remove # surface with a spoon # participant : remove #  # entity : B-TOOL # . ",
+        "cook # drop : broth #  # entity : B-EVENT # at a low heat for 1 hour . ",
+        "pour # drop : broth #  # entity : B-EVENT # cold # participant : pour # water in to keep the same quantity of broth . ",
+        "add # drop : broth #  # entity : B-EVENT # chopped # participant : add # carrot , shredded # participant : add # cabbage , salt # participant : add # . ",
+        "bring to boil # drop : broth #  # entity : B-EVENT # again then add # drop : broth #  # entity : B-EVENT # potatoes # participant : cut # cut # tool : knife #  # entity : B-EVENT # in cubes # participant : add # . ",
+        "chop # result : chopped veggies # tool : knife #  # entity : B-EVENT # onion # participant : chop # , parsley # participant : chop # root , turnip # participant : chop # , tomatoes # participant : chop # finely and fry # drop : chopped veggies #  # entity : B-EVENT # in the pan # participant : fry # with fat # participant : fry # . ",
+        "put # drop : chopped veggies , broth # result : soup #  # entity : B-EVENT # everything in the pan # participant : put # and boil # drop : soup #  # entity : B-EVENT # at a low heat for 30 minutes . ",
+        "five minutes before finishing , put # drop : soup #  # entity : B-EVENT # pepper # participant : put # , salt # participant : put # , 2 bay # participant : put # leaves . "
+    ],
+    "f-ZTHXDG8L": [
+        "rinse # entity : B-EVENT # and soak # entity : B-EVENT # green # participant : rinse # sago in water # participant : soak # for 30 minutes , drain # drop : green sago # tool : strainer #  # entity : B-EVENT # well . ",
+        "boil # habitat : stove #  # entity : B-EVENT # sugar # participant : boil # , pandan # participant : boil # leaves and water # participant : boil # together till sugar # participant : boil # dissolved # habitat : pot #  # entity : B-EVENT # as sugar syrup . ",
+        "mix # tool : spoon # habitat : pot #  # entity : B-EVENT # green # participant : mix # sago and sugar # participant : mix # syrup together , stir # drop : green sago , sugar syrup # tool : spoon # habitat : pot #  # entity : B-EVENT # well . ",
+        "pour # drop : green sago #  # entity : B-EVENT # into a 8 # participant : pour # inches square tin # participant : pour # ( grease # habitat : inches #  # entity : B-EVENT # tin # participant : pour # with oil # participant : grease # ) and steam # drop : green sago # habitat : inches #  # entity : B-EVENT # for 30 minutes and leave # drop : green sago # habitat : inches #  # entity : B-EVENT # to cool # drop : green sago # habitat : inches #  # entity : B-EVENT # . ",
+        "steam # habitat : stove #  # entity : B-EVENT # white # participant : steam # coconut with 1/8 tsp salt # participant : steam # for 10 minutes . ",
+        "cut # habitat : inches #  # entity : B-EVENT # cooked # entity : B-EVENT # green # participant : cut # sago with a knife # participant : cut #  # entity : B-TOOL # or plastic # participant : cut #  # entity : B-TOOL # cutter # entity : I-TOOL # ( grease # drop : knife , plastic cutter #  # entity : B-EVENT # with little oil # participant : grease # ) into small # participant : cut # pieces and coat # drop : green sago #  # entity : B-EVENT # with white # participant : coat # grated coconut and serve # drop : green sago #  # entity : B-EVENT # . "
+    ],
+    "r-4105": [
+        "preheat oven to 450 degf and line a baking sheet with foil , coat with cooking spray . ",
+        "toss corn , chile and onion pieces with oil in large bowl , then spread single layer on prepared baking sheet . ",
+        "roast for 15 - 20 minutes , until vegetables are lightly browned . ",
+        "when cool # entity : B-EVENT # , peel # entity : B-EVENT # chilies # participant : peel # if desired , and chop # tool : knife #  # entity : B-EVENT # chilies # participant : peel # and onion # participant : chop # finely . ",
+        "set # drop : chilies , onion #  # entity : B-EVENT # aside with roasted # participant : set # corn . ",
+        "in large # participant : mash # mixing bowl , coarsely # entity : B-EVENT # mash # tool : masher #  # entity : B-EVENT # avocados # participant : mash # with limejuice # participant : mash # . ",
+        "stir # shadow : avocados # result : avocados # tool : spatula # habitat : large mixing bowl #  # entity : B-EVENT # in chopped # participant : stir # roasted chilies and onion # participant : stir # , corn # participant : stir # , salsa # participant : stir # , and cilantro # participant : stir # . ",
+        "season # drop : avocados #  # entity : B-EVENT # to taste with salt # participant : season # , pepper # participant : season # and a few drops ofhot pepper # participant : season # sauce if desired . ",
+        "transfer # entity : B-EVENT # guacamole # participant : transfer # to serving # participant : transfer # bowl and serve # drop : avocados #  # entity : B-EVENT # with colorful # participant : serve # tortilla chips . "
+    ],
+    "r-3424": [
+        "peel # tool : peeler #  # entity : B-EVENT # mangoes # participant : peel # and julienne # drop : mangoes # tool : knife #  # entity : B-EVENT # 1 - 11/2 pieces . ",
+        "discard # entity : B-EVENT # seed # participant : discard # and place # drop : mangoes #  # entity : B-EVENT # into large # participant : place # pot . ",
+        "stir # drop : mangoes #  # entity : B-EVENT # in all spices # participant : stir # . ",
+        "bring to boil # drop : mangoes #  # entity : B-EVENT # stirring # drop : mangoes #  # entity : B-EVENT # 4 - 5 minutes , reduce # entity : B-EVENT # heat . ",
+        "cover # entity : B-EVENT # the pan # participant : cover # and simmer # drop : mangoes # result : chutney #  # entity : B-EVENT # until slightly thick about 15 minutes ( chutney will thicken while it cools # entity : B-EVENT # also ) . ",
+        "let chutney # participant : cool # cool # entity : B-EVENT # completely and place # drop : chutney #  # entity : B-EVENT # in sterile # participant : place # fruit jar . ",
+        "keeps the same as preserves . "
+    ],
+    "f-VNY3ST44": [
+        "-roast your chicken until it is done . ",
+        "-once cool enough to touch # entity : B-EVENT # , shred # entity : B-EVENT # the meat # participant : shred # with your hands # participant : shred #  # entity : B-TOOL # in a bowl # participant : shred # . ",
+        "-add all the ingredients to the slightly warm chicken . ",
+        "these are the list of ingredients i added # result : chicken salad #  # entity : B-EVENT # . ",
+        "if you like more or less then you add # drop : ingredients #  # entity : B-EVENT # what you like . ",
+        "-refrigerate the chicken for a couple of hours . ",
+        "if it becomes # entity : B-EVENT # a little too dry add # drop : chicken #  # entity : B-EVENT # some more of the chicken # participant : add # juice or yogurt # participant : add # or mayo # participant : add # . ",
+        "all of this is what you prefer . ",
+        "-serve the chicken salad on the lettuce . ",
+        "add # drop : chicken salad #  # entity : B-EVENT # any topping # participant : add # you like . ",
+        "i added # drop : chicken salad #  # entity : B-EVENT # tomatoes # participant : added # this time . ",
+        "bacon is good , cheese , caramelized onions , red peppers or just plain chicken salad is very good . "
+    ],
+    "r-1671": [
+        "heat # habitat : stove #  # entity : B-EVENT # the butter # participant : heat # in a saucepan # participant : heat # and roast # habitat : oven #  # entity : B-EVENT # the onions # participant : roast # . ",
+        "add # drop : butter # habitat : saucepan #  # entity : B-EVENT # some water # participant : add # , the corn # participant : add # flour and stir # drop : butter , corn flour , water # tool : spoon #  # entity : B-EVENT # . ",
+        "add # result : soup #  # entity : B-EVENT # 5 cups of water # participant : add # , the rest of the ingredients # participant : add # and simmer # drop : soup # habitat : stove #  # entity : B-EVENT # until the vegetables # participant : add # are tender . ",
+        "remove # drop : soup # habitat : saucepan #  # entity : B-EVENT # from heat . ",
+        "sieve # tool : sieve #  # entity : B-EVENT # soup # participant : sieve # if you desire . ",
+        "serve # drop : soup #  # entity : B-EVENT # hot . "
+    ],
+    "f-QKBWTZYD": [
+        "line # entity : B-EVENT # a cookie # participant : line # sheet with wax # participant : line #  # entity : B-TOOL # paper # entity : I-TOOL # . ",
+        "set # drop : cookie sheet #  # entity : B-EVENT # aside . ",
+        "place # entity : B-EVENT # dark # participant : place # chocolate melts in a medium # participant : place # microwavable bowl . ",
+        "microwave # drop : medium microwavable bowl #  # entity : B-EVENT # on medium power for 30 seconds . ",
+        "stir # entity : B-EVENT # mixture # participant : stir # and continue to microwave # entity : B-EVENT # for 30 second intervals until chocolate # participant : stir # is completely melted # entity : B-EVENT # . ",
+        "reserving # entity : B-EVENT # about two tablespoons , pour # entity : B-EVENT # dark # participant : pour # chocolate onto prepared # participant : pour # cookie sheet and spread # shadow : cookie sheet #  # entity : B-EVENT # over surface with a spatula # participant : spread #  # entity : B-TOOL # . ",
+        "place # entity : B-EVENT # cookie sheet in the refrigerator # participant : place # to harden # drop : dark chocolate melts #  # entity : B-EVENT # . ",
+        "in the meantime melt # entity : B-EVENT # white # participant : melt # chocolate melts # entity : B-EVENT # using the same 30 second interval method . ",
+        "once completely melted # drop : white chocolate #  # entity : B-EVENT # stir # drop : white chocolate #  # entity : B-EVENT # in pistachios # participant : stir # and cranberries # participant : stir # . ",
+        "pour # entity : B-EVENT # the white # participant : pour # chocolate mixture over the hardened dark # participant : pour # chocolate on the cookie sheet . ",
+        "dip # entity : B-EVENT # a spatula # participant : dip #  # entity : B-TOOL # into the reserved # participant : dip # dark chocolate and drizzle # entity : B-EVENT # over the top of the bark # participant : drizzle # to decorate # entity : B-EVENT # . ",
+        "return # entity : B-EVENT # cookie sheet to the refrigerator # participant : return # until the bark # participant : hardened # has hardened # entity : B-EVENT # . ",
+        "once completely cooled # drop : bark #  # entity : B-EVENT # and hardened # drop : bark #  # entity : B-EVENT # remove # drop : bark #  # entity : B-EVENT # from the fridge and break # drop : bark #  # entity : B-EVENT # apart into pieces . ",
+        "store # drop : bark #  # entity : B-EVENT # in a sealed container in a cool dark place so it does not melt # entity : B-EVENT # . "
+    ],
+    "f-288WGL8R": [
+        "warm # entity : B-EVENT # the 1 tablespoon olive # participant : warm # oil in a medium # participant : warm # saute pan over medium heat and add # drop : olive oil # habitat : medium saute pan #  # entity : B-EVENT # the garlic # participant : add # and cook # drop : garlic # habitat : medium saute pan #  # entity : B-EVENT # about 1 minute . ",
+        "add # habitat : medium saute pan #  # entity : B-EVENT # the sun - dried # participant : add # tomatoes , spinach # participant : add # , salt # participant : add # , pepper # participant : add # , and thyme # participant : add # . ",
+        "cook # drop : dried tomatoes , spinach , pepper , thyme , garlic # habitat : medium saute pan #  # entity : B-EVENT # until combined # drop : sun , spinach , salt , pepper , thyme , garlic # result : mixture # habitat : medium saute pan #  # entity : B-EVENT # , for 2 more minutes . ",
+        "transfer # entity : B-EVENT # the mixture # participant : transfer # to a medium # participant : transfer # bowl and add # drop : mixture # habitat : medium bowl #  # entity : B-EVENT # the feta # participant : add # and the cream # participant : add # cheese . ",
+        "stir # drop : feta , cream cheese , mixture # tool : spoon # habitat : medium bowl #  # entity : B-EVENT # to combine # drop : mixture # result : mixture # habitat : medium bowl #  # entity : B-EVENT # and set # drop : mixture # habitat : medium bowl #  # entity : B-EVENT # aside . ",
+        "thinly beat # habitat : surface #  # entity : B-EVENT # with a meat # participant : beat #  # entity : B-TOOL # mallet # entity : I-TOOL # each chop # participant : beat # . ",
+        "place # entity : B-EVENT # 1/4 of the spinach # participant : place # and sun # participant : place # - dried # participant : place # tomato mixture on the each chop # participant : place # , fold # drop : mixture # tool : hands #  # entity : B-EVENT # in half and secure # drop : mixture , chop #  # entity : B-EVENT # with a wooden # participant : secure #  # entity : B-TOOL # or metal # participant : secure #  # entity : B-TOOL # toothpick # entity : I-TOOL # . ",
+        "season # entity : B-EVENT # the outside of the pork # participant : season # with pepper # participant : season # . ",
+        "in a small # participant : combine # bowl combine # result : chicken broth mixture #  # entity : B-EVENT # the chicken # participant : combine # broth , lemon # participant : combine # zest , lemon # participant : combine # juice , and mustard # participant : combine # . ",
+        "warm # entity : B-EVENT # the remaining 1 tablespoon olive # participant : warm # oil in a large , heavy # participant : warm # skillet over medium - high heat . ",
+        "add # habitat : heavy skillet #  # entity : B-EVENT # the pork # participant : add # and cook # drop : chop # habitat : heavy skillet #  # entity : B-EVENT # for 5 minutes per side until golden and cooked # drop : chop # habitat : heavy skillet #  # entity : B-EVENT # through . ",
+        "transfer # entity : B-EVENT # the pork # participant : transfer # to a side # participant : transfer # dish and tent # drop : chop # habitat : side dish #  # entity : B-EVENT # with foil # participant : tent #  # entity : B-TOOL # to keep warm . ",
+        "add # entity : B-EVENT # the chicken # participant : add # broth mixture to the skillet # participant : add # over medium - high heat . ",
+        "scrape # entity : B-EVENT # up the bottom of the pan # participant : scrape # and cook # drop : chicken broth mixture # habitat : heavy skillet #  # entity : B-EVENT # for 8 minutes to reduce # drop : chicken broth mixture # result : sauce # habitat : heavy skillet #  # entity : B-EVENT # the broth # participant : reduce # by half . ",
+        "before serving # entity : B-EVENT # spoon # tool : spoon # habitat : side dish #  # entity : B-EVENT # some sauce # participant : spoon # over the pork # participant : spoon # . ",
+        "* cook # entity : B-EVENT # spinach # participant : cook # in a microwave # participant : cook # oven with 2 tablespoons water # participant : cook # for 2 minutes on max ( this way you preserve # entity : B-EVENT # all the vitamins ) . "
+    ],
+    "r-3566": [
+        "combine # entity : B-EVENT # rice # participant : combine # , apple # participant : combine # , grapes # participant : combine # , pecans # participant : combine # , celery # participant : combine # and onions # participant : combine # in large # participant : combine # bowl . ",
+        "blend # result : liquid mixture # tool : blender #  # entity : B-EVENT # mayonnaise # participant : blend # , sugar # participant : blend # , lemon # participant : blend # juice , salt # participant : blend # , ginger # participant : blend # and pepper # participant : blend # ; ",
+        "toss # drop : liquid mixture #  # entity : B-EVENT # with rice # participant : toss # mixture . ",
+        "chill # drop : rice mixture #  # entity : B-EVENT # . ",
+        "serve # drop : rice mixture #  # entity : B-EVENT # on lettuce # participant : serve # leaves ; garnish # drop : rice mixture #  # entity : B-EVENT # with grapes # participant : garnish # , if desired . "
+    ],
+    "r-4189": [
+        "mix # habitat : bowl #  # entity : B-EVENT # and sift # tool : sieve # habitat : bowl #  # entity : B-EVENT # flour # participant : mix # , baking # participant : mix # soda , powder # participant : mix # and salt # participant : mix # ; add # habitat : bowl #  # entity : B-EVENT # nuts # participant : add # and mix # drop : flour , baking soda , powder , salt , nuts # result : dry ingredients #  # entity : B-EVENT # . ",
+        "cream # tool : mixer # habitat : mixing bowl #  # entity : B-EVENT # butter and add # habitat : mixing bowl #  # entity : B-EVENT # sugar # participant : add # gradually and cream # drop : butter , sugar # tool : mixer # habitat : mixing bowl #  # entity : B-EVENT # until fluffy . ",
+        "add # habitat : mixing bowl #  # entity : B-EVENT # well - beaten # entity : B-EVENT # egg # entity : I-EVENT # and chocolate # participant : add # . ",
+        "add # entity : B-EVENT # extract # participant : add # to milk # participant : add # . ",
+        "add # habitat : mixing bowl #  # entity : B-EVENT # dry # participant : add # ingredients alternately with milk # participant : add # to creamed # participant : add # mixture , mixing # drop : dry ingredients , creamed mixture , milk # tool : mixer # habitat : mixing bowl #  # entity : B-EVENT # just enough after each addition to combine # result : dough # tool : mixer # habitat : mixing bowl #  # entity : B-EVENT # ingredients . ",
+        "drop # drop : dough # result : dough #  # entity : B-EVENT # by spoonfuls on ungreased # participant : drop # baking sheets . ",
+        "bake # drop : dough #  # entity : B-EVENT # in a preheated # participant : bake # oven for 12 minutes . ",
+        "when cool spread # drop : dough # tool : knife #  # entity : B-EVENT # with chocolate # participant : spread # frosting . ",
+        "combine # tool : spoon # habitat : bowl #  # entity : B-EVENT # chocolate # participant : combine # , slightly beaten # entity : B-EVENT # egg # participant : combine # yolk , and cream # participant : combine # ; add # habitat : bowl #  # entity : B-EVENT # sugar # participant : add # and mix # result : chocolate frosting # tool : spoon # habitat : bowl #  # entity : B-EVENT # well . "
+    ],
+    "f-TNY55QQF": [
+        "in a large # participant : combine # ziploc bag , combine # entity : B-EVENT # the garlic # participant : combine # paste , cumin # participant : combine # , cinnamon # participant : combine # , and black # participant : combine # pepper , and blend # drop : garlic paste , cinnamon , cumin , black pepper # result : blended spices # habitat : large ziploc bag #  # entity : B-EVENT # thoroughly . ",
+        "add # entity : B-EVENT # cubed # participant : add # chicken to the bag # participant : add # and seal # drop : large ziploc bag #  # entity : B-EVENT # it . ",
+        "massage # shadow : cubed chicken #  # entity : B-EVENT # the bag # participant : massage # until all surfaces of the meat # participant : coated # are coated # entity : B-EVENT # with the blended # participant : coated # spices . ",
+        "allow this to marinate # drop : blended spices , cubed chicken # habitat : large ziploc bag #  # entity : B-EVENT # for a minimum of 20 minutes , but not longer than overnight . ",
+        "add # habitat : stove #  # entity : B-EVENT # olive # participant : add # oil to tagine # participant : add # over medium heat . ",
+        "when tagine # participant : heated # and oil # participant : heated # are thoroughly heated # entity : B-EVENT # , add # habitat : tagine #  # entity : B-EVENT # marinated # participant : add # chicken and cover # tool : lid # habitat : tagine #  # entity : B-EVENT # tagine # participant : heated # . ",
+        "let cook # drop : cubed chicken # habitat : tagine #  # entity : B-EVENT # without lifting lid # entity : B-TOOL # for 3 minutes , after which , occasionally check # entity : B-EVENT # and turn # tool : tongs # habitat : tagine #  # entity : B-EVENT # chicken # participant : check # pieces until brown . ",
+        "add # result : tagine contents # habitat : tagine #  # entity : B-EVENT # potatoes # participant : add # , spinach # participant : add # , figs # participant : add # , lemon # participant : add # juice , and raisins # participant : add # . ",
+        "carefully fold tagine # participant : blended # contents together until thoroughly blended # entity : B-EVENT # . ",
+        "cook # habitat : stove #  # entity : B-EVENT # for 10 minutes at medium heat , folding # tool : spoon # habitat : tagine #  # entity : B-EVENT # contents occasionally , then reduce # tool : stove #  # entity : B-EVENT # heat and let simmer # drop : tagine contents # habitat : tagine #  # entity : B-EVENT # without lifting # entity : B-EVENT # lid # entity : B-TOOL # for an additional 5 minutes . "
+    ],
+    "r-1932": [
+        "in a saucepan # participant : melt # , melt # entity : B-EVENT # butter . ",
+        "add # drop : butter # habitat : saucepan #  # entity : B-EVENT # flour # participant : add # and stir # drop : flour # tool : spoon # habitat : saucepan #  # entity : B-EVENT # until slightly brown # entity : B-EVENT # . ",
+        "add # drop : flour # habitat : saucepan #  # entity : B-EVENT # chicken # participant : add # broth and hot # participant : add # water . ",
+        "stir # drop : chicken broth , hot water # result : soup # tool : spoon # habitat : saucepan #  # entity : B-EVENT # constantly . ",
+        "add # drop : soup # habitat : saucepan #  # entity : B-EVENT # cream # participant : add # , cheez # participant : add # whiz , worcestershire # participant : add # sauce , guinness # participant : add # and garlic # participant : add # powder . ",
+        "simmer # drop : cream , cheez whiz , worcestershire sauce , guinness , garlic powder , soup # habitat : saucepan #  # entity : B-EVENT # over medium low heat for 15 minutes . ",
+        "ladle # drop : soup #  # entity : B-EVENT # on soup # participant : ladle # bowls and garnish # drop : soup # habitat : soup bowls #  # entity : B-EVENT # with chives # participant : garnish # . ",
+        "serve # drop : soup , chives # habitat : soup bowls #  # entity : B-EVENT # piping hot . "
+    ],
+    "r-3585": [
+        "drain # entity : B-EVENT # pineapple # participant : drain # , reserving # entity : B-EVENT # 1/4 cup juice # participant : reserving # . ",
+        "combine # entity : B-EVENT # rice # participant : combine # , pineapple # participant : combine # , coconut # participant : combine # , almonds # participant : combine # and cherries # participant : combine # in mixing # participant : combine # bowl . ",
+        "blend # result : liquid mixture # tool : blender #  # entity : B-EVENT # sour # participant : blend # cream , sugar # participant : blend # , salt # participant : blend # and reserved # participant : blend # pineapple # participant : blend # juice . ",
+        "pour # drop : liquid mixture #  # entity : B-EVENT # over rice # participant : pour # mixture ; toss # drop : liquid mixture , rice mixture #  # entity : B-EVENT # lightly . ",
+        "serve # drop : rice mixture #  # entity : B-EVENT # on lettuce # participant : serve # leaves , if desired . ",
+        "garnish # drop : rice mixture #  # entity : B-EVENT # with almonds # participant : garnish # . "
+    ],
+    "f-F3FXLVSH": [
+        "prepare # entity : B-EVENT # the omelet # participant : prepare # with the scramble # participant : prepare # eggs and set # drop : omelet , scramble eggs #  # entity : B-EVENT # aside until cool # entity : B-EVENT # to the touch . ",
+        "cut # drop : omelet #  # entity : B-EVENT # in thin slices and set # drop : omelet #  # entity : B-EVENT # aside ",
+        "in a wok # participant : fry # or large # participant : fry # cooking pan over medium heat fry # entity : B-EVENT # the carrots # participant : fry # and the peas # participant : fry # with the olive # participant : fry # oil until lightly brown # entity : B-EVENT # . ",
+        "add # habitat : wok #  # entity : B-EVENT # the garlic # participant : add # , the cabbage # participant : add # and water # participant : add # . ",
+        "add # habitat : large cooking pan #  # entity : B-EVENT # the cooked # participant : add # rice . ",
+        "keep stirring # drop : cooked rice # result : wok # tool : spoon # habitat : large cooking pan #  # entity : B-EVENT # until the rice # participant : stirring # brown # entity : B-EVENT # lightly . ",
+        "add # drop : cooked rice # habitat : large cooking pan #  # entity : B-EVENT # the ketjap # participant : add # or soya # participant : add # sauce and give it another minute . ",
+        "remove # drop : cooked rice #  # entity : B-EVENT # from heat and add # drop : cooked rice # habitat : plate #  # entity : B-EVENT # the thin slices of the omelet # participant : add # . ",
+        "season # drop : omelet , cooked rice # habitat : plate #  # entity : B-EVENT # with salt # participant : season # and pepper # participant : season # and fry # drop : omelet , cooked rice # habitat : wok #  # entity : B-EVENT # for a few minutes . ",
+        "stir # drop : omelet , cooked rice # tool : large cooking pan # habitat : wok #  # entity : B-EVENT # and serve # drop : omelet , cooked rice #  # entity : B-EVENT # . "
+    ],
+    "f-HFXGKQCY": [
+        "in 2-qt . ",
+        "microwave - safe dish , combine # entity : B-EVENT # apples # participant : combine # and water # participant : combine # ( or wine # participant : combine # ) . ",
+        "cover # entity : B-EVENT # with lid # participant : cover #  # entity : B-TOOL # or vented # participant : cover #  # entity : B-TOOL # plastic # entity : I-TOOL # wrap # entity : I-TOOL # ; microwave # habitat : dish #  # entity : B-EVENT # on high ( 100 % ) 12 to 14 minutes or until apples # participant : microwave # are tender . ",
+        "check # entity : B-EVENT # the apples # participant : check # every 4 or so minutes , turn # entity : B-EVENT # the bowl # participant : turn # around if you do not have a turn # entity : B-TOOL # table # entity : I-TOOL # in your microwave . ",
+        "stir # entity : B-EVENT # in the sugar # participant : stir # ( optional ) and russian # participant : stir # mulling spice or chinese # participant : stir # 5 spice . ",
+        "return # entity : B-EVENT # the bow to the microwave and cook # entity : B-EVENT # for 3 minutes or until the sugar dissolves # entity : B-EVENT # . ",
+        "stir # entity : B-EVENT # and set # entity : B-EVENT # aside to cool # entity : B-EVENT # before serving # entity : B-EVENT # . ",
+        "if you prefer a finer sauce , mash # entity : B-EVENT # or puree # entity : B-EVENT # the apples # participant : mash # after it has cooled # entity : B-EVENT # . ",
+        "this makes 4 cups . "
+    ],
+    "r-1279": [
+        "cream # result : creamed mixture # tool : mixer # habitat : bowl #  # entity : B-EVENT # butter # participant : cream # and sugar # participant : cream # well . ",
+        "stir # drop : creamed mixture # tool : mixer # habitat : bowl #  # entity : B-EVENT # in molasses # participant : stir # and mix # drop : molasses , creamed mixture # result : creamed mixture # tool : mixer # habitat : bowl #  # entity : B-EVENT # well . ",
+        "stir # tool : spoon # habitat : bowl #  # entity : B-EVENT # soda # participant : stir # into the sour # participant : stir # milk . ( ",
+        "to turn # tool : spoon # habitat : bowl #  # entity : B-EVENT # sweet # participant : turn # milk sour quickly , and 11/2 tablespoons of lemon # participant : turn # juice or 11/3 tablespoons of vinegar # participant : turn # to lukewarm sweet # participant : turn # milk . ",
+        "let stand # drop : sweet milk #  # entity : B-EVENT # a few minutes to sour # entity : B-EVENT # before you use # entity : B-EVENT # it ) . ",
+        "add # habitat : bowl #  # entity : B-EVENT # milk # participant : add # alternately to the creamed # participant : add # mixture with the sifted # participant : add # dry ingredients and the eggs # participant : add # . ",
+        "beat # drop : milk , sifted dry ingredients , eggs , creamed mixture # result : batter # tool : whisk # habitat : bowl #  # entity : B-EVENT # well after each addition of the beaten # participant : beat # eggs . ",
+        "pour # drop : batter #  # entity : B-EVENT # into 2 greased # shadow : oil # tool : baking pans #  # entity : B-EVENT # and floured # shadow : flour # habitat : baking pans #  # entity : B-EVENT # baking # participant : pour # pans ( 9 * 12 ) . ",
+        "bake # drop : batter # result : gingerbread # habitat : baking pans #  # entity : B-EVENT # 45 to 55 minutes in a preheated 325of oven # participant : bake # . ",
+        "serve # drop : gingerbread #  # entity : B-EVENT # plain or warm with your favorite hard # participant : serve # sauce . "
+    ],
+    "f-MVQ2L3GY": [
+        "preheat # entity : B-EVENT # your oven # participant : preheat # to 375 degrees f. ",
+        "slice # tool : knife #  # entity : B-EVENT # the squash # participant : slice # length wise and place # drop : squash #  # entity : B-EVENT # face down in a casserole # participant : place # dish with about 1/4 \\\" water # participant : place # on the bottom . ",
+        "bake # drop : squash , water # habitat : casserole dish #  # entity : B-EVENT # for about 30 minutes or until the squash # participant : bake # is tender . ",
+        "cool # drop : water , squash # habitat : casserole dish #  # entity : B-EVENT # a bit , then when you can touch # tool : hands #  # entity : B-EVENT # the squash # participant : touch # , scoop # drop : squash # tool : spoon # habitat : casserole dish #  # entity : B-EVENT # out the seeds # participant : scoop # . ",
+        "scoop # tool : spoon # habitat : casserole dish #  # entity : B-EVENT # the squash # participant : scoop # flesh into a bowl # participant : scoop # and set # drop : squash # habitat : bowl #  # entity : B-EVENT # aside . ",
+        "in a large # participant : heat # stock pot , heat # entity : B-EVENT # the butter # participant : heat # and saute # drop : butter # habitat : large stock pot #  # entity : B-EVENT # the onions # participant : saute # over low - to - medium heat until they 're translucent . ",
+        "add # habitat : large stock pot #  # entity : B-EVENT # the garlic # participant : add # , curry # participant : add # powder , red # participant : add # pepper flakes and salt # participant : add # and pepper # participant : add # to the onion # participant : add # . ",
+        "add # drop : garlic , curry powder , red pepper flakes , salt , pepper #  # entity : B-EVENT # the squash # participant : add # and cauliflower # participant : add # into the pot # participant : add # along with the stock # participant : add # , and simmer # drop : cauliflower , squash , garlic , curry powder , red pepper flakes , salt , pepper # shadow : stock # habitat : large stock pot #  # entity : B-EVENT # for about 20 minutes . ",
+        "puree # result : mixture #  # entity : B-EVENT # the squash # participant : puree # and cauliflower # participant : puree # ( along with the liquid # participant : puree # ) in batches in a blender # participant : puree # . ",
+        "add # habitat : blender #  # entity : B-EVENT # a bit more stock # participant : add # ( a little at a time ) if you think the mixture is too thick . ",
+        "transfer # entity : B-EVENT # the soup # participant : transfer # to bowls # participant : transfer # and serve # drop : mixture # habitat : bowls #  # entity : B-EVENT # with a dollop of sour # participant : serve # cream . "
+    ],
+    "r-582": [
+        "in a big # participant : saute # pot , saute # entity : B-EVENT # beef # participant : saute # with soy # participant : saute # sauce , sesame # participant : saute # oil , and chili # participant : saute # powder for 4 - 5 minutes . ",
+        "add # drop : beef , soy sauce , sesame oil , chili powder # habitat : big pot #  # entity : B-EVENT # water # participant : add # and bean # participant : add # sprouts , cover # habitat : big pot #  # entity : B-EVENT # lid # participant : cover #  # entity : B-TOOL # and bring to a boil # drop : bean sprouts , water , beef , chili powder , soy sauce # habitat : lid #  # entity : B-EVENT # . ",
+        "reduce # habitat : big pot #  # entity : B-EVENT # heat to medium low , cook # drop : water , bean sprouts , beef # habitat : big pot #  # entity : B-EVENT # for 20 minutes , add # drop : water # habitat : big pot #  # entity : B-EVENT # fern brake , cook # drop : fern brake , bean sprouts , water # result : soup # habitat : big pot #  # entity : B-EVENT # for another 20 - 30 minutes until beef # participant : cook # gets # entity : B-EVENT # tender . ",
+        "at the last minute add # drop : beef , water , bean sprouts , soup # habitat : big pot #  # entity : B-EVENT # green # participant : add # onions , salt # participant : add # and pepper # participant : add # to taste # entity : B-EVENT # . "
+    ],
+    "r-1676": [
+        "wash # habitat : sink #  # entity : B-EVENT # cauliflower # participant : wash # well and remove # drop : cauliflower #  # entity : B-EVENT # the stems ( optionally you can keep part of the stems as long as you boil # drop : stems #  # entity : B-EVENT # them enough to tender ) . ",
+        "boil # drop : cauliflower #  # entity : B-EVENT # until tender . ",
+        "drain # tool : strainer #  # entity : B-EVENT # the cauliflower # participant : drain # well and place # drop : cauliflower #  # entity : B-EVENT # in a bowl # participant : place # . ",
+        "pour # drop : cauliflower # habitat : bowl #  # entity : B-EVENT # some olive # participant : pour # oil and sprinkle # drop : cauliflower # habitat : bowl #  # entity : B-EVENT # with lemon # participant : sprinkle # juice . "
+    ],
+    "r-2430": [
+        "cook # shadow : water # habitat : pot #  # entity : B-EVENT # whole # participant : cook # potatoes without peeling # entity : B-EVENT # . ",
+        "when they are done , let them cool # drop : whole potatoes # habitat : bowl #  # entity : B-EVENT # and then peel # drop : whole potatoes # result : potato skin # tool : peeler # habitat : bowl #  # entity : B-EVENT # and mash # drop : whole potatoes # tool : masher # habitat : bowl #  # entity : B-EVENT # . ",
+        "add # drop : whole potatoes # result : dough # habitat : bowl #  # entity : B-EVENT # wheat # participant : add # groats , oil # participant : add # , flour # participant : add # and eggs # participant : add # . ",
+        "knead # drop : dough #  # entity : B-EVENT # well - it should be hard , not sticky . ",
+        "fry # entity : B-EVENT # bread # participant : fry # crumbs in a pan # participant : fry # ( without oil ! ) ",
+        "until golden and set # habitat : bowl #  # entity : B-EVENT # aside . ",
+        "mix # drop : bread crumbs # habitat : bowl #  # entity : B-EVENT # with sugar # participant : mix # . ",
+        "boil # entity : B-EVENT # water # participant : boil # in shallow and wide pot # participant : boil # . ",
+        "take # tool : hands # habitat : bowl #  # entity : B-EVENT # little # participant : take # dough and place # drop : dough #  # entity : B-EVENT # around plum # participant : place # to make # drop : plum , dough # tool : hands #  # entity : B-EVENT # a little ball . ",
+        "put # drop : little ball # habitat : pot #  # entity : B-EVENT # them in boiling # participant : put # water - they are done when they start floating # drop : water , little ball # habitat : pot #  # entity : B-EVENT # . ",
+        "take # drop : little ball # habitat : pot #  # entity : B-EVENT # them out with latticed # participant : take #  # entity : B-TOOL # spoon # entity : I-TOOL # and roll # result : bowl #  # entity : B-EVENT # them into mixed # participant : roll # bread crumbs and sugar # participant : roll # . "
+    ],
+    "r-104": [
+        "clean # habitat : sink #  # entity : B-EVENT # and wash # shadow : water # habitat : sink #  # entity : B-EVENT # the beans # participant : clean # . ",
+        "warm # entity : B-EVENT # the oil # participant : warm # in a pot # participant : warm # and simmer # habitat : pot #  # entity : B-EVENT # the onions # participant : simmer # and throw # drop : beans # habitat : pot #  # entity : B-EVENT # in the rest of the ingredients # participant : throw # , except for the potatoes , with a little bit of water # participant : throw # and leave the beans # participant : cook # to slowly cook # habitat : pot #  # entity : B-EVENT # for 20 minutes . ",
+        "cut # tool : knife #  # entity : B-EVENT # the potatoes # participant : cut # in 4 wedges and put # drop : potatoes #  # entity : B-EVENT # them in the pot # participant : put # last . ",
+        "if needed put # habitat : pot #  # entity : B-EVENT # in more water # participant : put # and let the food # participant : boil # boil # result : cooked beans and potatoes # habitat : pot #  # entity : B-EVENT # for a while . ",
+        "serve # drop : cooked beans and potatoes #  # entity : B-EVENT # hot . "
+    ],
+    "r-1897": [
+        "mix # tool : spoon # habitat : bowl #  # entity : B-EVENT # the flour # participant : mix # with the baking # participant : mix # powder . ",
+        "separate # entity : B-EVENT # the egg # participant : separate # whites from the yolks # participant : separate # . ",
+        "beat # result : yolk mixture # tool : whisk #  # entity : B-EVENT # the yolks # participant : beat # with the sugar # participant : beat # and the vanilla # participant : beat # powder . ",
+        "beat # tool : whisk # habitat : bowl #  # entity : B-EVENT # the egg # participant : beat # whites to make # drop : egg whites # tool : whisk #  # entity : B-EVENT # a tight meringue . ",
+        "pour # entity : B-EVENT # in the yolk # participant : pour # mixture the flour # participant : pour # and the meringue # participant : pour # and stir # drop : flour , yolk mixture , meringue # result : mixture # tool : spoon #  # entity : B-EVENT # lightly . ",
+        "empty the mixture in a buttered baking pan . ",
+        "clean the apples , cut them in thin slices and place them on top of the dough , in a way that half of each slice of apple is dipped into the dough . ",
+        "bake # drop : mixture #  # entity : B-EVENT # in moderate oven # participant : bake # for 30 minutes . ",
+        "remove from the oven , let it cool and dredge icing sugar over the apple pie . "
+    ],
+    "r-2881": [
+        "thinly slice # tool : knife # habitat : cutting board #  # entity : B-EVENT # the tomatoes # participant : slice # and arrange # drop : tomatoes # tool : hands #  # entity : B-EVENT # them around the edge of a round # participant : arrange # platter . ",
+        "drain # drop : liquid # habitat : sink #  # entity : B-EVENT # the hearts # participant : drain # of palm and cut # drop : hearts of palm # tool : knife # habitat : cutting board #  # entity : B-EVENT # them diagonally into 1/2-inch # participant : drain # slices . ",
+        "arrange them in the center of the platter . ",
+        "drizzle # habitat : round platter #  # entity : B-EVENT # the salad # participant : drizzle # with olive # participant : drizzle # oil and vinegar # participant : drizzle # , sprinkle # drop : salad # habitat : round platter #  # entity : B-EVENT # with salt # participant : sprinkle # and grind # drop : salad # tool : grinder # habitat : round platter #  # entity : B-EVENT # some fresh # participant : grind # pepper over it . "
+    ],
+    "r-4529": [
+        "cream # result : mixture #  # entity : B-EVENT # crisco # participant : cream # and sugar # participant : cream # together ",
+        "add # drop : mixture #  # entity : B-EVENT # salt # participant : add # , eggs # participant : add # well beaten # entity : B-EVENT # , soda # participant : add # mixed # entity : B-EVENT # with milk # participant : add # , spices # participant : add # , raisins # participant : add # , nuts # participant : add # , and enough flour # participant : add # to make stiff dough . ",
+        "about 5 cupfuls flour will be sufficient . ",
+        "roll # drop : mixture #  # entity : B-EVENT # out , cut # drop : mixture # result : cookies #  # entity : B-EVENT # with cookie # participant : cut #  # entity : B-TOOL # cutter # entity : I-TOOL # ",
+        "lay # drop : cookies #  # entity : B-EVENT # on criscoed # participant : lay # tins and bake # drop : cookies #  # entity : B-EVENT # in moderate oven # participant : bake # from ten to twelve minutes . "
+    ],
+    "r-1346": [
+        "cook # entity : B-EVENT # the chopped # participant : cook # chicken pieces till they become # entity : B-EVENT # soft . ",
+        "set # entity : B-EVENT # the cooked # entity : B-EVENT # chicken # participant : set # pieces aside . ",
+        "heat # habitat : stove #  # entity : B-EVENT # a kadai # participant : heat # , add # habitat : kadai #  # entity : B-EVENT # the cumin # participant : add # seeds , aniseeds # participant : add # and pepper # participant : add # and roast # drop : aniseeds , cumin seeds , pepper # result : roasted spices #  # entity : B-EVENT # them dry till a good aroma arises # entity : B-EVENT # . ",
+        "after cooling # drop : roasted spices #  # entity : B-EVENT # , grind # tool : spice grinder #  # entity : B-EVENT # the roasted # participant : grind # spices to a fine powder . ",
+        "add # entity : B-EVENT # this powder # participant : add # and salt # participant : add # to the chicken # participant : mix # stock and mix # entity : B-EVENT # them thoroughly . ",
+        "heat # habitat : stove #  # entity : B-EVENT # a kadai # participant : heat # and just melt # entity : B-EVENT # the butter # participant : heat # . ",
+        "add # habitat : kadai #  # entity : B-EVENT # the chicken # participant : add # pieces to the melted # participant : add # butter and fry # drop : chopped chicken pieces # shadow : melted butter # habitat : kadai #  # entity : B-EVENT # them for a few minutes . ",
+        "in the meanwhile , boil # habitat : stove #  # entity : B-EVENT # the chicken # participant : boil # stock well ; add # drop : chicken stock # result : soup # habitat : pot #  # entity : B-EVENT # the chicken # participant : add # pieces and serve # drop : soup #  # entity : B-EVENT # hot . "
+    ],
+    "r-586": [
+        "in a big # participant : combine # bowl , combine # entity : B-EVENT # all ingredients # participant : combine # for batter with a whisk # participant : combine #  # entity : B-TOOL # . ",
+        "or you can purchase # entity : B-EVENT # \\\" korean # participant : purchase # pancake mix \\\" from korean market , and combine # habitat : big bowl #  # entity : B-EVENT # 1cup water # participant : combine # with 3/4 cup ( to 1 cup ) mixture # participant : purchase # . ",
+        "combine # habitat : big bowl #  # entity : B-EVENT # all vegetables # participant : combine # and seafood # participant : combine # into a batter # participant : combine # and mix # drop : seafood , vegetables , batter # habitat : big bowl #  # entity : B-EVENT # well . ",
+        "in a non - stick # participant : put # pan , put # entity : B-EVENT # 3 - 4 tbsp vegetable # participant : put # oil . ",
+        "make # habitat : stick pan #  # entity : B-EVENT # a pancake # participant : make # about 4 - 5 inches in diameter . ",
+        "serve # drop : pancake #  # entity : B-EVENT # with soy # participant : serve # dipping sauce . "
+    ],
+    "r-4859": [
+        "cream # tool : mixer # habitat : bowl #  # entity : B-EVENT # margarine # participant : cream # , sugars # participant : cream # and dry # participant : cream # sugar substitute together at medium speed until light and fluffy . ",
+        "add # entity : B-EVENT # egg # participant : add # whites , flavorings # participant : add # , and water # participant : add # , and mix # result : creamy mixture # habitat : bowl #  # entity : B-EVENT # at medium speed for 30 seconds , scraping # tool : spatula # habitat : bowl #  # entity : B-EVENT # down the bowl # participant : add # before and after adding # habitat : bowl #  # entity : B-EVENT # egg # participant : add # whites , flavorings # participant : add # , and water # participant : add # . ",
+        "stir # result : dry mixture # habitat : bowl #  # entity : B-EVENT # flour # participant : stir # , baking # participant : stir # powder , salt # participant : stir # , oatmeal # participant : stir # and walnuts # participant : stir # together to blend # result : dry mixture #  # entity : B-EVENT # , and add # drop : dry mixture # habitat : bowl #  # entity : B-EVENT # to creamy # participant : add # mixture . ",
+        "mix # drop : dry mixture , creamy mixture # result : dough # habitat : bowl #  # entity : B-EVENT # to blend . ",
+        "drop # result : cookie #  # entity : B-EVENT # dough # participant : drop # by 11/2 tsp onto cookie # participant : drop # sheets that have been sprayed # habitat : cookie sheets #  # entity : B-EVENT # with pan # participant : sprayed # spray or lined # habitat : cookie sheets #  # entity : B-EVENT # with aluminum # participant : lined #  # entity : B-TOOL # foil # entity : I-TOOL # . ",
+        "press # habitat : cookie sheets #  # entity : B-EVENT # each cookie # participant : press # down lightly with the back of a tablespoon # participant : press #  # entity : B-TOOL # dipped # entity : B-EVENT # in color # participant : dipped # water . ",
+        "bake # drop : cookie # habitat : cookie sheets #  # entity : B-EVENT # at 350degf for 12 to 14 minutes , or until cookies # participant : browned # are lightly browned # entity : B-EVENT # . ",
+        "remove # drop : cookie #  # entity : B-EVENT # them to a wire # participant : remove # rack and cool # drop : cookie # habitat : wire rack #  # entity : B-EVENT # to room to temperature . "
+    ],
+    "r-1246": [
+        "shred # tool : knife # habitat : bowl #  # entity : B-EVENT # the cabbage # participant : shred # fine . ",
+        "grate # result : vegetables # tool : grater # habitat : bowl #  # entity : B-EVENT # onion # participant : grate # and apple # participant : grate # into the cabbage # participant : grate # . ",
+        "cook # entity : B-EVENT # in butter # participant : cook # melted # habitat : pan #  # entity : B-EVENT # over low heat until vegetables # participant : cook # are limp , shaking # drop : vegetables # habitat : pan #  # entity : B-EVENT # the pan # participant : cook # now and then to prevent # entity : B-EVENT # scorching # entity : B-EVENT # . ",
+        "add # drop : vegetables , wine # habitat : pan #  # entity : B-EVENT # the remaining ingredients # participant : add # . ",
+        "mix # drop : vegetables , wine # tool : spoon # habitat : pan #  # entity : B-EVENT # well and let come to a boil # drop : vegetables , wine # result : cabbage with wine # habitat : pan #  # entity : B-EVENT # . ",
+        "reduce # entity : B-EVENT # heat as low as possible and let simmer # drop : cabbage with wine , pan #  # entity : B-EVENT # 15 minutes . "
+    ],
+    "f-FKQCYKYR": [
+        "get ready two small saucepans . ",
+        "in one have together 1/2 of the squash # participant : simmer # and 1/2 of the apple # participant : simmer # - bring to a simmer # habitat : small saucepans #  # entity : B-EVENT # , and simmer # habitat : small saucepans #  # entity : B-EVENT # until just tender when pierced # drop : squash , apple # habitat : small saucepans #  # entity : B-EVENT # with a fork # participant : pierced #  # entity : B-TOOL # . ",
+        "in the other , add # habitat : saucepan #  # entity : B-EVENT # in the rest of the vegetables # participant : add # along with 1 cup of water # participant : add # - bring this to a rolling boil # drop : vegetables , water # habitat : saucepan #  # entity : B-EVENT # , reduce # entity : B-EVENT # to a simmer # drop : vegetables , water # habitat : saucepan #  # entity : B-EVENT # , and simmer # drop : vegetables , water # habitat : saucepan #  # entity : B-EVENT # until very very tender . ",
+        "when very tender , remove # habitat : saucepan #  # entity : B-EVENT # the vegetables # participant : remove # from the heat , and blend # result : soup # tool : soup #  # entity : B-EVENT # these vegetables # participant : remove # together ( without draining # entity : B-EVENT # ) with the braggs # participant : blend # , spices # participant : blend # , sriracha # participant : blend # and the additional 1/2 cup water # participant : blend # . ",
+        "mix # tool : spoon # habitat : small saucepans #  # entity : B-EVENT # the blended part of the soup with the simmered squash and apples . ",
+        "mix # drop : squash , apple , soup # tool : spoon # habitat : small saucepans #  # entity : B-EVENT # in the cubed # participant : mix # tofu , gently re # entity : B-EVENT # - heat # drop : cubed tofu , squash , apple , soup # result : butternut soup # habitat : small saucepans #  # entity : B-EVENT # and serve # drop : butternut soup # habitat : bowl #  # entity : B-EVENT # . "
+    ],
+    "r-1710": [
+        "in a food # participant : combine # processor , combine # result : mixture #  # entity : B-EVENT # the garlic # participant : combine # , 1/2 of the diced # participant : combine # cucumber , 1/2 of the diced # participant : combine # bell peppers , the red # participant : combine # onions , 1/2 of the tomatoes # participant : combine # , the pineapple # participant : combine # and its juice # participant : combine # , vinegar # participant : combine # , cayenne # participant : combine # , cumin # participant : combine # , bread # participant : combine # chunks if you have them , tomato # participant : combine # juice and puree # participant : combine # until smooth . ",
+        "transfer to a bowl , then stir in the remaining diced cucumbers , bell peppers , and tomatoes . ",
+        "salt # participant : taste # and pepper # participant : taste # to taste # drop : mixture # habitat : bowl #  # entity : B-EVENT # . ",
+        "refrigerate # drop : mixture # result : fridge # habitat : bowl #  # entity : B-EVENT # for 1 to 2 hours until cold . "
+    ],
+    "f-VFCBT2LK": [
+        "heat # habitat : stove #  # entity : B-EVENT # 1 tablespoon oil # participant : heat # in a frying # participant : heat # pan , add # habitat : frying pan #  # entity : B-EVENT # cheese # participant : add # cubes and fry # drop : cheese cubes # result : golden fried cheese cubes # habitat : frying pan #  # entity : B-EVENT # till light golden . ",
+        "remove # drop : golden fried cheese cubes # tool : spoon #  # entity : B-EVENT # from oil and keep # drop : golden fried cheese cubes #  # entity : B-EVENT # aside . ",
+        "take # entity : B-EVENT # palak # participant : take # , qasuri # participant : take # methi in a pan # participant : take # add # habitat : pan #  # entity : B-EVENT # 1 cup water # participant : add # and boil # drop : palak , qasuri methi #  # entity : B-EVENT # for 5 - 10 minutes . ",
+        "drain # drop : qasuri methi , palak # tool : strainer #  # entity : B-EVENT # and keep aside . ",
+        "now in another pan # participant : heat # heat # habitat : stove #  # entity : B-EVENT # butter # participant : heat # add # habitat : stove #  # entity : B-EVENT # onion # participant : add # and fry # habitat : stove #  # entity : B-EVENT # till soft , add # habitat : pan #  # entity : B-EVENT # tomato # participant : add # , garlic # participant : add # , ginger # participant : add # and spices # participant : add # fry # drop : garlic , ginger , spices # habitat : pan #  # entity : B-EVENT # for few minutes then add # result : mixture # habitat : pan #  # entity : B-EVENT # boiled # participant : add # palak , soya # participant : add # and fresh # participant : add # coriander and cook # drop : mixture # habitat : pan #  # entity : B-EVENT # till done and thick . ",
+        "now mash # drop : mixture #  # entity : B-EVENT # manually with gotni # participant : mash #  # entity : B-TOOL # or in an electric # participant : mash #  # entity : B-TOOL # grinder # entity : I-TOOL # / crusher # participant : mash #  # entity : B-TOOL # to a smooth texture . ",
+        "heat # drop : mixture , pan #  # entity : B-EVENT # again in the same pan # participant : mix # add # entity : B-EVENT # golden # participant : add # fried cheese cubes and mix # drop : mixture , golden fried cheese cubes # result : palak paneer # tool : spoon #  # entity : B-EVENT # . ",
+        "turn # entity : B-EVENT # off flame quickly . ",
+        "delicious palak paneer is ready . "
+    ],
+    "r-486": [
+        "slice # tool : knife #  # entity : B-EVENT # as many tomatoes # participant : slice # as you think you are going to need . ",
+        "arrange # entity : B-EVENT # the slices # participant : arrange # in a flat # participant : arrange # dish ( we use a quiche # participant : arrange # dish ) . ",
+        "thinly slice # tool : knife #  # entity : B-EVENT # the shallots # participant : slice # or spring # participant : slice # onions . ",
+        "sprinkle # habitat : flat dish #  # entity : B-EVENT # the sliced # participant : sprinkle # shallots or onions # participant : sprinkle # over the top of the tomato # participant : sprinkle # slices . ",
+        "pour # result : mixture #  # entity : B-EVENT # the wasabi # participant : pour # infused vinegar over the tomatoes # participant : pour # , leave # drop : tomatoes # habitat : flat dish #  # entity : B-EVENT # 10 minutes . ",
+        "pour # habitat : flat dish #  # entity : B-EVENT # some olive # participant : pour # oil onto the mixture # participant : pour # to suit your taste . ",
+        "optional . ",
+        "serve # drop : mixture #  # entity : B-EVENT # either by itself as an appetiser or as part of the main meal . "
+    ],
+    "r-714": [
+        "mince # entity : B-EVENT # the endives # participant : mince # , reserving # entity : B-EVENT # a few small # participant : reserving # leaves for garnish # entity : B-EVENT # . ",
+        "saute # habitat : stove #  # entity : B-EVENT # the onion # participant : saute # , garlic # participant : saute # , and endives # participant : saute # in the butter # participant : saute # for 3 minutes . ",
+        "add # result : mixture # habitat : stove #  # entity : B-EVENT # the potatoes # participant : add # and chicken # participant : add # broth , bring to a boil # drop : mixture # habitat : stove #  # entity : B-EVENT # then turn # tool : stove #  # entity : B-EVENT # down the heat and simmer # drop : mixture # habitat : stove #  # entity : B-EVENT # for about 15 minutes , or until the potatoes # participant : add # are soft . ",
+        "place # entity : B-EVENT # the mixture # participant : place # into a blender # participant : place # container or use an immersion blender . ",
+        "blend # tool : blender container #  # entity : B-EVENT # until smooth . ",
+        "add # drop : mixture #  # entity : B-EVENT # the milk # participant : add # , salt # participant : add # , and pepper # participant : add # and blend # drop : mixture # tool : immersion blender #  # entity : B-EVENT # some more . ",
+        "serve # drop : mixture #  # entity : B-EVENT # hot or cold and garnish # entity : B-EVENT # with chopped # participant : garnish # endive leaves , chives # participant : garnish # , and dill # participant : garnish # . "
+    ],
+    "r-2323": [
+        "saute # habitat : pan #  # entity : B-EVENT # onion # participant : saute # in butter # participant : saute # until it is soft . ",
+        "then add # tool : pan #  # entity : B-EVENT # sugar # participant : add # , salt # participant : add # , and nutmeg # participant : add # and toss # drop : sugar , salt , nutmeg #  # entity : B-EVENT # in pan # participant : toss # . ",
+        "turn # habitat : pan #  # entity : B-EVENT # down heat to still cook # habitat : pan #  # entity : B-EVENT # , but not to get onions # participant : cook # dark , but golden brown . ",
+        "add # drop : onion , sugar , salt , nutmeg # result : soup # habitat : pan #  # entity : B-EVENT # hot # participant : add # broth and all other liquids # participant : add # . ",
+        "bring to a boil # drop : soup # habitat : pan #  # entity : B-EVENT # , then reduce # habitat : pan #  # entity : B-EVENT # heat and simmer # drop : soup # habitat : pan #  # entity : B-EVENT # for 10 minutes . ",
+        "ladle # tool : ladle # habitat : pan #  # entity : B-EVENT # soup # participant : ladle # into 6 ovenproof # participant : ladle # casserole dishes or pots # participant : ladle # and top # drop : soup # habitat : pots #  # entity : B-EVENT # each with a piece of french # participant : top # bread . ",
+        "put # drop : soup , french bread # habitat : pots #  # entity : B-EVENT # about 2 tbs of the swiss # participant : put # cheese on top and cook # drop : swiss cheese , french bread , soup # habitat : pots #  # entity : B-EVENT # at 300degf for 10 minutes . ",
+        "serve # drop : french bread , swiss cheese , soup # habitat : pots #  # entity : B-EVENT # with additional swiss # participant : serve # cheese and parmesan # participant : serve # . "
+    ],
+    "r-3567": [
+        "combine # result : rice filling #  # entity : B-EVENT # rice # participant : combine # , beans # participant : combine # , corn # participant : combine # , cream # participant : combine # cheese , goat # participant : combine # cheese , tomato # participant : combine # , onion # participant : combine # and jalapeno # participant : combine # in large # participant : combine # bowl . ",
+        "heat # habitat : stove #  # entity : B-EVENT # small amount of oil # participant : heat # in shallow # participant : heat # large skillet over high heat . ",
+        "heat # habitat : shallow large skillet #  # entity : B-EVENT # tortillas # participant : heat # , one at a time , 3 to 5 seconds . ",
+        "drain # drop : tortillas #  # entity : B-EVENT # on paper # participant : drain #  # entity : B-TOOL # towels # entity : I-TOOL # . ",
+        "tortillas should be soft and pliable . ",
+        "place # tool : spoon #  # entity : B-EVENT # 1/2 cup rice # participant : place # filling across center of each tortilla # participant : place # . ",
+        "roll # drop : tortillas # result : enchiladas #  # entity : B-EVENT # up ; place # drop : enchiladas #  # entity : B-EVENT # seam - side down into two 11x7-inch # participant : place # baking dishes coated # habitat : x inch baking dishes #  # entity : B-EVENT # with cooking # participant : coated #  # entity : B-TOOL # spray # entity : I-TOOL # . ",
+        "pour # habitat : x inch baking dishes #  # entity : B-EVENT # sauce over enchiladas # participant : pour # . ",
+        "top # drop : enchiladas #  # entity : B-EVENT # with cheese # participant : top # and salsa # participant : top # . ",
+        "bake # drop : enchiladas # habitat : oven #  # entity : B-EVENT # at 400degf for 15 to 20 minutes or until cheese # participant : melted # is melted # tool : oven #  # entity : B-EVENT # . "
+    ],
+    "r-2503": [
+        "add # result : meringue base #  # entity : B-EVENT # sugar # participant : add # and salt # participant : add # to egg # participant : add # whites . ",
+        "beat # drop : meringue base # result : meringue # tool : beaters #  # entity : B-EVENT # till stiff peaks form # entity : B-EVENT # and very stiff and thick . ",
+        "fold # result : nut mixture #  # entity : B-EVENT # nuts # participant : fold # into meringue # participant : fold # . ",
+        "melt # entity : B-EVENT # butter # participant : melt # in a pan # participant : melt # . ",
+        "stir # result : mixture #  # entity : B-EVENT # nut # participant : stir # mixture into melted # participant : stir # butter . ",
+        "bake # drop : mixture # habitat : oven #  # entity : B-EVENT # for at least 30 minutes . ",
+        "stir # drop : mixture #  # entity : B-EVENT # every 10 minutes during baking # drop : mixture #  # entity : B-EVENT # . ",
+        "remove # drop : mixture #  # entity : B-EVENT # from pan # participant : remove # immediately . "
+    ],
+    "f-C6MB75FQ": [
+        "preheat # entity : B-EVENT # oven # participant : preheat # to 350 f. ",
+        "mix # entity : B-EVENT # all the dry # participant : mix # ingredients together in a bowl # participant : mix # . ",
+        "add # habitat : bowl #  # entity : B-EVENT # vanilla # participant : add # , water # participant : add # , and butter # participant : add # . ",
+        "blend # drop : dry ingredients , vanilla , water , butter #  # entity : B-EVENT # together using a blender # participant : blend # until a dough forms # result : dough #  # entity : B-EVENT # . ",
+        "roll # tool : rolling pin #  # entity : B-EVENT # the dough # participant : roll # into a sheet approx 1/3 inch thick . ",
+        "cover # drop : sheet #  # entity : B-EVENT # with parchment # participant : cover #  # entity : B-TOOL # paper # entity : I-TOOL # / cookie # participant : cover # sheet & refrigerate # drop : sheet # habitat : refrigerator #  # entity : B-EVENT # for at least 30 minutes . ",
+        "cut # drop : sheet # result : cookies #  # entity : B-EVENT # into 1 inch x1 inch squares using your pizza # participant : cut #  # entity : B-TOOL # cutter # entity : I-TOOL # . ",
+        "sprinkle # drop : sheet , cookies #  # entity : B-EVENT # the top with sugar # participant : sprinkle # . ",
+        "now place # drop : cookies #  # entity : B-EVENT # on baking # participant : place # sheets and bake # drop : cookies # habitat : cookie sheet #  # entity : B-EVENT # until the edges are just brown , about 15 - 18 minutes . ",
+        "let cool # drop : cookies #  # entity : B-EVENT # on sheets # participant : cool # for 5 minutes , then transfer # drop : cookies #  # entity : B-EVENT # to wire # participant : transfer # racks . "
+    ],
+    "f-VDQ5HMPP": [
+        "divide # entity : B-EVENT # and cut # result : squares #  # entity : B-EVENT # with a knife # participant : cut #  # entity : B-TOOL # each sheet of puff # participant : divide # pastry into 8 equal squares . ",
+        "you should have 16 squares . ",
+        "smear # entity : B-EVENT # the center of only 8 squares of dough # participant : smear # with 1 tablespoon of dijon # participant : smear # mustard . ",
+        "place # drop : squares #  # entity : B-EVENT # one or two slices of mozzarella # participant : place # on mustard # participant : place # , sprinkle # drop : squares #  # entity : B-EVENT # with 1 tablespoon of swiss # participant : sprinkle # cheese . ",
+        "cover # entity : B-EVENT # each pastry # participant : cover # squares with the remaining 8 squares from the other pastry sheet . ",
+        "with a fork # participant : press #  # entity : B-TOOL # press # drop : squares #  # entity : B-EVENT # the square edges to paste # drop : squares #  # entity : B-EVENT # them together and close # entity : B-EVENT # the square # participant : close # . ",
+        "place # entity : B-EVENT # the filled # participant : place # squares on the baking # participant : place # sheet lined # entity : B-EVENT # with parchment # entity : B-TOOL # paper # entity : I-TOOL # or a silicon # participant : place #  # entity : B-TOOL # surface # entity : I-TOOL # and bake # drop : filled squares #  # entity : B-EVENT # in the oven # participant : bake # at 200degc for 15 - 20 minutes or until golden in colour . ",
+        "serve # drop : filled squares #  # entity : B-EVENT # hot or warm with fresh # participant : serve # vegetables ( tomatoes , spring onions , lettuce ) . "
+    ],
+    "r-2109": [
+        "soak # habitat : bowl #  # entity : B-EVENT # raisins # participant : soak # in whiskey # participant : soak # for 1 hour . ",
+        "drain # drop : raisins #  # entity : B-EVENT # and set # drop : raisins #  # entity : B-EVENT # aside . ",
+        "in another bowl # participant : combine # , combine # entity : B-EVENT # all other ingredients # participant : combine # except for the lettuce and tenderloin . ",
+        "whisk # drop : ingredients # tool : whisk # habitat : bowl #  # entity : B-EVENT # until smooth . ",
+        "refrigerate # drop : ingredients # habitat : bowl #  # entity : B-EVENT # for 1 hour . ",
+        "when ready to serve # drop : ingredients #  # entity : B-EVENT # , arrange # entity : B-EVENT # lettuce # participant : arrange # in a large # participant : arrange # platter or salad # participant : arrange # bowl . ",
+        "pour # entity : B-EVENT # dressing # participant : pour # . ",
+        "slice # tool : knife #  # entity : B-EVENT # tenederloin # participant : slice # and arrange # habitat : salad bowl #  # entity : B-EVENT # on top of salad # participant : arrange # . ",
+        "sprinkle # entity : B-EVENT # raisins # participant : sprinkle # . "
+    ],
+    "r-1813": [
+        "in a wide , shallow soup pot , heat oil and lightly saute garlic ( just until golden , not burned ) . ",
+        "add # habitat : pan #  # entity : B-EVENT # bread # participant : add # , that has been previously sliced # drop : bread # tool : knife #  # entity : B-EVENT # very thinly , and fry # drop : bread # habitat : stove #  # entity : B-EVENT # until golden # drop : bread #  # entity : B-EVENT # brown # entity : I-EVENT # . ",
+        "remove # drop : soup # tool : pot #  # entity : B-EVENT # from heat and add # drop : soup # habitat : pot #  # entity : B-EVENT # paprika # participant : remove # . ",
+        "stir # drop : soup # tool : spoon # habitat : pot #  # entity : B-EVENT # well . ",
+        "add # drop : soup # habitat : pot #  # entity : B-EVENT # water # participant : add # and stir # entity : B-EVENT # . ",
+        "salt # drop : soup # shadow : salt # habitat : pot #  # entity : B-EVENT # to taste # entity : B-EVENT # . ",
+        "heat # habitat : stove #  # entity : B-EVENT # soup # participant : heat # over medium low heat for about a half an hour . ",
+        "when the soup is just about done , add # drop : soup # habitat : pot #  # entity : B-EVENT # the eggs # participant : add # . ",
+        "serve # drop : soup #  # entity : B-EVENT # hot . "
+    ],
+    "f-883DLCS5": [
+        "whisk # result : mixture #  # entity : B-EVENT # the flour # participant : whisk # , baking # participant : whisk # powder and spices # participant : whisk # , set # drop : mixture #  # entity : B-EVENT # aside . ",
+        "cream # result : cream mixture #  # entity : B-EVENT # the sugar # participant : cream # and butter # participant : cream # . ",
+        "add # drop : cream mixture #  # entity : B-EVENT # the egg # participant : add # and extracts # participant : add # and mix # drop : cream mixture #  # entity : B-EVENT # until well - blended # drop : cream mixture #  # entity : B-EVENT # . ",
+        "gradually add # drop : cream mixture # result : dough #  # entity : B-EVENT # the flour # participant : add # mixture and beat # entity : B-EVENT # just until combined # entity : B-EVENT # , scraping # entity : B-EVENT # down the bowl # participant : scraping # , especially the bottom . ( ",
+        "the dough will be quite thick ... you may need to knead # drop : dough #  # entity : B-EVENT # in stray bits of flour # participant : knead # from the bottom of the bowl by hand # participant : knead #  # entity : B-TOOL # . ) ",
+        "roll # drop : dough #  # entity : B-EVENT # on a floured # participant : roll # surface and cut # drop : dough # result : shapes #  # entity : B-EVENT # into shapes . ",
+        "place # drop : shapes #  # entity : B-EVENT # on parchment # participant : place # lined baking sheets and bake # drop : shapes #  # entity : B-EVENT # for 9 - 12 minutes , depending on the size of your cutter # entity : B-TOOL # . ",
+        "let sit # entity : B-EVENT # a few minutes on the sheet , then transfer # drop : shapes #  # entity : B-EVENT # to a cooling # participant : transfer # rack . "
+    ],
+    "r-3949": [
+        "place # entity : B-EVENT # cream # participant : place # cheese , parmesan # participant : place # cheese , tofu # participant : place # , salt # participant : place # and pepper # participant : place # in a blender # participant : place # and blend # drop : cream cheese , parmesan cheese , tofu , salt , pepper # result : mixture # habitat : blender #  # entity : B-EVENT # until smooth . ",
+        "fold # drop : mixture # tool : spatula # habitat : bowl #  # entity : B-EVENT # in spinach # participant : fold # . ",
+        "add # drop : mixture , spinach # tool : bowl #  # entity : B-EVENT # onion # participant : add # and tomato # participant : add # or salsa # participant : add # . ",
+        "cut # tool : knife # habitat : cutting board #  # entity : B-EVENT # out a hole into the top of the bread # participant : cut # large enough to pour # drop : bread #  # entity : B-EVENT # the dip # participant : pour # into . ",
+        "the dip # participant : poured # can also be poured # entity : B-EVENT # into a dish # participant : poured # if bread is unavailable . ",
+        "add # drop : bread # habitat : dish #  # entity : B-EVENT # a sprinkle of chives # participant : add # on top of dip # participant : add # . ",
+        "let cool # drop : chives , bread # habitat : dish #  # entity : B-EVENT # one hour or so . ",
+        "serve # drop : top of the bread , bread , mixture # habitat : dish #  # entity : B-EVENT # with fresh # participant : serve # sliced vegetables , the top # participant : cut # of the bread cut # tool : knife # habitat : cutting board #  # entity : B-EVENT # into pieces , and/or your favorite whole # participant : serve # grain cracker . "
+    ],
+    "f-ZTMMHNGC": [
+        "cut # entity : B-EVENT # the pumpkin # participant : cut # into large chunks # participant : cut # , and place # drop : pumpkin #  # entity : B-EVENT # on a parchment # participant : place # or foil # participant : place # - lined # participant : place # baking sheet . ",
+        "drizzle # drop : pumpkin # habitat : lined baking sheet #  # entity : B-EVENT # with oil # participant : drizzle # and roast # drop : pumpkin # habitat : lined baking sheet #  # entity : B-EVENT # at 200'c until fork # entity : B-TOOL # - tender and golden . ",
+        "in a blender # participant : mash # mash # entity : B-EVENT # the roasted # participant : mash # pumpkin # participant : mash # until smooth . ",
+        "transfer # drop : pumpkin #  # entity : B-EVENT # into a soup # participant : transfer # pot . ",
+        "add # drop : pumpkin # habitat : soup pot #  # entity : B-EVENT # cream # participant : add # , sour # participant : add # cream , wine # participant : add # and vegetable # participant : add # stock , stir # drop : cream , sour cream , wine , vegetable stock # tool : spoon # habitat : soup pot #  # entity : B-EVENT # and combine # drop : cream , sour cream , wine , vegetable stock , pumpkin # result : soup # habitat : soup pot #  # entity : B-EVENT # . ",
+        "bring the soup # participant : boil # to a boil # habitat : soup pot #  # entity : B-EVENT # , then immediately remove # drop : soup # habitat : soup pot #  # entity : B-EVENT # from the flame . ",
+        "sprinkle # drop : soup # habitat : bowl #  # entity : B-EVENT # with chopped # participant : sprinkle # fresh sage leaves serve # drop : soup # habitat : bowl #  # entity : B-EVENT # with croutons # participant : serve # . "
+    ],
+    "r-1662": [
+        "soak # shadow : water # habitat : container #  # entity : B-EVENT # the beans # participant : soak # for 12 hours . ",
+        "wash them well and place them in a deep saucepan . ",
+        "boil # drop : beans # shadow : water # habitat : pot #  # entity : B-EVENT # them for 20 minutes . ",
+        "chop the onion , the carrots and the celery and add them in the saucepan . ",
+        "add # habitat : mixture #  # entity : B-EVENT # olive # participant : add # oil ( as much as desired ) , salt # participant : add # and pepper # participant : add # . ",
+        "stir # tool : spoon # habitat : saucepan #  # entity : B-EVENT # the mixture # participant : stir # and add # drop : mixture # habitat : saucepan #  # entity : B-EVENT # plenty of water # participant : add # . ",
+        "boil the soup in low temperature until the beans are tender . "
+    ],
+    "r-68": [
+        "firstly , heat # habitat : stove #  # entity : B-EVENT # the vegetable # participant : heat # oil in a medium - sized pan # participant : heat # . ",
+        "when the oil is hot , add # habitat : pan #  # entity : B-EVENT # the almonds # participant : add # and toss # drop : almonds # habitat : pan #  # entity : B-EVENT # until they brown # drop : almonds # habitat : stove #  # entity : B-EVENT # . ",
+        "drain # tool : strainer #  # entity : B-EVENT # the almonds # participant : drain # , making sure any excess water is removed # entity : B-EVENT # , then mix # drop : almonds #  # entity : B-EVENT # them with the walnut # participant : mix # oil and salt # participant : mix # in a blender # participant : mix # until they form # result : paste #  # entity : B-EVENT # a smooth paste . ",
+        "add # habitat : blender #  # entity : B-EVENT # the honey # participant : add # and blend # drop : paste #  # entity : B-EVENT # for another few seconds . ",
+        "pour # drop : paste #  # entity : B-EVENT # into an airtight # participant : pour # jar and refrigerate # drop : paste # habitat : refrigerator #  # entity : B-EVENT # . ",
+        "the paste will be good for two months from the day it is made # entity : B-EVENT # . "
+    ],
+    "r-17": [
+        "drain # shadow : liquid # habitat : sink #  # entity : B-EVENT # warm # participant : drain # chickpeas and reserve # participant : drain # 1 tbsp . ",
+        "beat chickpeas in a food processor . ",
+        "blend # tool : spoon # habitat : bowl #  # entity : B-EVENT # chickpeas # participant : blend # with sesame # participant : blend # paste , lemon # participant : blend # juice , crushed # participant : blend # garlic , and salt # participant : blend # into a puree . ",
+        "adjust # drop : puree #  # entity : B-EVENT # flavor and consistency with lemon # participant : adjust # juice and salt # participant : adjust # if necessary ( hommas should be thick and smooth ) . ",
+        "serve # drop : puree #  # entity : B-EVENT # in hommas # participant : serve # bowls . ",
+        "pour olive oil in center and garnish with the reserved chickpeas , chopped parsley and cumin . "
+    ],
+    "r-2218": [
+        "heat # entity : B-EVENT # oil # participant : heat # in a large # participant : heat # pot over medium - high heat . ",
+        "add # habitat : large pot #  # entity : B-EVENT # onion # participant : add # and cook # drop : onion # habitat : large pot #  # entity : B-EVENT # 5 minutes , until softened # habitat : large pot #  # entity : B-EVENT # but not browned # entity : B-EVENT # . ",
+        "add # result : soup #  # entity : B-EVENT # broth # participant : add # , asparagus # participant : add # , celery # participant : add # , salt # participant : add # , pepper # participant : add # and half of the tarragon # participant : add # to the pot # participant : add # . ",
+        "bring to a boil # drop : soup # habitat : large pot #  # entity : B-EVENT # . ",
+        "lower # drop : soup # habitat : large pot #  # entity : B-EVENT # heat , cover # drop : soup # habitat : large pot #  # entity : B-EVENT # and simmer # drop : soup # habitat : large pot #  # entity : B-EVENT # 20 minutes , until asparagus # participant : simmer # is very tender . ",
+        "in a blender # participant : puree #  # entity : B-TOOL # , puree # entity : B-EVENT # soup # participant : puree # in batches until smooth . ",
+        "return # drop : soup #  # entity : B-EVENT # to pot # participant : return # . ",
+        "add # drop : soup # habitat : large pot #  # entity : B-EVENT # nondairy # participant : add # creamer and remaining tarragon # participant : add # . ",
+        "heat # habitat : large pot #  # entity : B-EVENT # soup # participant : heat # through over medium heat . "
+    ],
+    "r-482": [
+        "in a small # participant : cream # bowl , with a hand # participant : cream # mixer or whisk # participant : cream #  # entity : B-TOOL # , cream # result : mixture #  # entity : B-EVENT # butter # participant : cream # and sugar # participant : cream # . ",
+        "transfer # drop : mixture #  # entity : B-EVENT # to the top of a double # participant : transfer # boiler and place # drop : mixture # habitat : double boiler #  # entity : B-EVENT # over , but not touching # entity : B-EVENT # simmering # participant : place # water . ",
+        "beat # drop : mixture # tool : whisk # habitat : double boiler #  # entity : B-EVENT # in egg # participant : beat # yolks and salt # participant : beat # . ",
+        "slowly add # drop : egg yolks , mixture # habitat : double boiler #  # entity : B-EVENT # hot # participant : add # cream and stir # drop : hot cream , egg yolks , salt , mixture # tool : whisk #  # entity : B-EVENT # until thickened # drop : mixture # habitat : double boiler #  # entity : B-EVENT # , add # drop : mixture #  # entity : B-EVENT # bourbon # participant : add # and stir # drop : mixture , bourbon , hot cream , egg yolks , salt # tool : whisk # habitat : double boiler #  # entity : B-EVENT # until an even consistency is obtained # drop : mixture , bourbon # result : sauce # habitat : double boiler #  # entity : B-EVENT # , keep # habitat : double boiler #  # entity : B-EVENT # warm . ",
+        "serve # drop : sauce # habitat : plate #  # entity : B-EVENT # over any dessert # participant : serve # , pudding # participant : serve # , ice cream or poundcake # participant : serve # . "
+    ],
+    "r-1151": [
+        "mix # tool : spoon # habitat : bowl #  # entity : B-EVENT # the sugar # participant : mix # and milk # participant : mix # well and when the sugar is dissolved # tool : spoon # habitat : bowl #  # entity : B-EVENT # add # drop : sugar , milk # habitat : bowl #  # entity : B-EVENT # the flour # participant : add # and form # drop : flour # tool : spoon # habitat : bowl #  # entity : B-EVENT # a batter . ",
+        "beat # tool : spoon # habitat : bowl #  # entity : B-EVENT # the batter # participant : beat # till smooth and add # drop : batter # habitat : bowl #  # entity : B-EVENT # the rest of the ingredients # participant : add # . ",
+        "heat # habitat : pan #  # entity : B-EVENT # enough ghee # participant : heat # for deep - frying and put # drop : ghee # habitat : pan #  # entity : B-EVENT # two tablespoons of the batter # participant : put # in it and spread # drop : batter # tool : spoon # habitat : pan #  # entity : B-EVENT # it into a thin round shape . ",
+        "fry # drop : batter # result : pancake # habitat : pan #  # entity : B-EVENT # till golden brown and drain # drop : pancake # habitat : sink #  # entity : B-EVENT # the excess ghee # participant : drain # . ",
+        "serve # drop : pancake #  # entity : B-EVENT # when hot . "
+    ],
+    "r-1917": [
+        "thinly slice # tool : knife # habitat : cutting board #  # entity : B-EVENT # a european # participant : slice # cucumber . ",
+        "mix # tool : spoon # habitat : bowl #  # entity : B-EVENT # dressing # participant : mix # and pour # drop : dressing #  # entity : B-EVENT # over cucumber # participant : pour # slices in serving # participant : pour # bowl . ",
+        "make # habitat : serving bowl #  # entity : B-EVENT # salad # participant : make # to let dressing # participant : penetrate # penetrate # habitat : serving bowl #  # entity : B-EVENT # ( about one - half hour ) . ",
+        "sprinkle # drop : salad , european cucumber , dressing # habitat : serving bowl #  # entity : B-EVENT # with fine chopped # entity : B-EVENT # fresh # participant : sprinkle # parsley . "
+    ],
+    "f-MP8RP4LZ": [
+        "mix # tool : spoon # habitat : bowl #  # entity : B-EVENT # all the above ingredients # participant : mix # until you are able to roll # entity : B-EVENT # the dough # participant : roll # with some ease . ",
+        "let it rest # drop : dough # habitat : bowl #  # entity : B-EVENT # , covered # result : plastic wrap # habitat : bowl #  # entity : B-EVENT # in a dark spot for at least 30 minutes . ",
+        "roll # shadow : dough #  # entity : B-EVENT # it out to a 1/4 of inch and use favorite # participant : make #  # entity : B-TOOL # cutters # entity : I-TOOL # to make # drop : dough # habitat : cutting board #  # entity : B-EVENT # cookies . ",
+        "place # entity : B-EVENT # the cookies # participant : place # on parchment # participant : place # paper . ",
+        "with a small # participant : brush #  # entity : B-TOOL # brush # entity : I-TOOL # , brush # drop : cookies # habitat : parchment paper #  # entity : B-EVENT # over a light coat of egg # participant : brush # white . ",
+        "bake in the oven at 375f for 10 minutes or when golden . ",
+        "let it cool # drop : cookies # habitat : parchment paper #  # entity : B-EVENT # off and sprinkle # drop : cookies # habitat : parchment paper #  # entity : B-EVENT # powder # participant : sprinkle # sugar over it . "
+    ],
+    "r-3119": [
+        "melt butter in large skillet . ",
+        "saute # habitat : stove #  # entity : B-EVENT # onion # participant : saute # , green # participant : saute # pepper , and beef # participant : saute # until browned # drop : beef # habitat : stove #  # entity : B-EVENT # . ",
+        "drain fat . ",
+        "drain # entity : B-EVENT # tomatoes # participant : drain # , and add # result : liquid #  # entity : B-EVENT # enough water # participant : add # to juice # entity : B-EVENT # to make 11/2 cups . ",
+        "add # result : mixture # habitat : large skillet #  # entity : B-EVENT # tomatoes # participant : add # , bay # participant : add # leaf , salt # participant : add # , sugar # participant : add # , and liquid # participant : add # . ",
+        "bring to a slow boil # drop : mixture # habitat : stove #  # entity : B-EVENT # . ",
+        "cover # drop : mixture # habitat : large skillet #  # entity : B-EVENT # and simmer # drop : mixture # habitat : large skillet #  # entity : B-EVENT # for 5 minutes . ",
+        "add # drop : mixture # habitat : stove #  # entity : B-EVENT # rice # participant : add # . ",
+        "cover # drop : mixture # habitat : stove #  # entity : B-EVENT # and simmer # drop : mixture # habitat : stove #  # entity : B-EVENT # another 5 minutes . "
+    ],
+    "f-STVS2QHR": [
+        "mash # tool : fork # habitat : bowl #  # entity : B-EVENT # eggs # participant : mash # & mix # drop : eggs # result : egg mixture # tool : fork # habitat : bowl #  # entity : B-EVENT # with salad # participant : mix # cream or mayonnaise # participant : mix # . ",
+        "if you prefer a sweeter taste , go with salad cream . ",
+        "i like mine with mayo . ",
+        "clean # shadow : water # habitat : sink #  # entity : B-EVENT # & devein # tool : knife # habitat : cutting board #  # entity : B-EVENT # prawns # participant : clean # ; separate # drop : prawns # habitat : cutting board #  # entity : B-EVENT # the heads # participant : separate # . ",
+        "blanch # shadow : water # habitat : pot #  # entity : B-EVENT # prawns # participant : blanch # & heads # participant : blanch # . ",
+        "drain # drop : water , prawns # habitat : sink #  # entity : B-EVENT # & transfer # drop : prawns , heads # habitat : bowl #  # entity : B-EVENT # to ice # participant : transfer # water to prevent them from over - cooking # entity : B-EVENT # . ",
+        "dice # tool : knife #  # entity : B-EVENT # prawns # participant : dice # & set # drop : prawns # habitat : bowl #  # entity : B-EVENT # aside . ",
+        "remove # shadow : apple , mango #  # entity : B-EVENT # apple # participant : remove # & mango # participant : remove # skin & dice # drop : apple , mango #  # entity : B-EVENT # fruits # participant : dice # into small cubes . ",
+        "soak # habitat : bowl #  # entity : B-EVENT # apple # participant : soak # in salt # participant : soak # water , lemon # participant : soak # juice or cider # participant : soak # vinegar to prevent it from browning # entity : B-EVENT # . ",
+        "i usually use the traditional method of soaking # entity : B-EVENT # in salt water handed down by my mom . ",
+        "add # drop : apple , mango , prawns # result : mixture # habitat : bowl #  # entity : B-EVENT # them into egg # participant : add # mixture , together with the diced # entity : B-EVENT # prawns # entity : I-EVENT # . ",
+        "remove # tool : spoon #  # entity : B-EVENT # excess \\\" sauce # participant : remove # \\\" from beancurd # participant : remove # skin & stuff # tool : spoon #  # entity : B-EVENT # mixture # participant : stuff # into the pockets # participant : stuff # . ",
+        "you may have to cut # drop : pockets # tool : knife #  # entity : B-EVENT # & adjust # drop : pockets # result : inari prawn salad #  # entity : B-EVENT # the pocket height . ",
+        "cut # habitat : cutting board #  # entity : B-EVENT # up watermelon # participant : cut # & start plating # drop : watermelon , inari prawn salad #  # entity : B-EVENT # your dish # participant : plating # . ",
+        "chill # habitat : fridge #  # entity : B-EVENT # your appetizer # participant : chill # & you 're ready impress # entity : B-EVENT # your guests with this inari age laughing prawns # participant : chill # salad ( xihadaxiaoxiashala ) ! "
+    ],
+    "r-1754": [
+        "peel plantains and slice into 1 inch thick sections . ",
+        "place water , salt and garlic in a large baking pan . ",
+        "soak # habitat : baking pan #  # entity : B-EVENT # the plantain # participant : soak # slices in the garlic # participant : soak # mixture for 20 minutes . ",
+        "pour oil in a pan set at 365 degrees . ",
+        "fry # tool : spatula # habitat : pan #  # entity : B-EVENT # plantains # participant : fry # until they are golden # drop : plantain slices #  # entity : B-EVENT # brown # entity : I-EVENT # on all sides . ",
+        "flatten each plantain between sheets of wax paper with a plate or the palm of your hand . ",
+        "dip # entity : B-EVENT # flattened # participant : dip # plantains into garlic # participant : dip # mixture and place # drop : plantain slices #  # entity : B-EVENT # on a paper # participant : place # towl . ",
+        "place plantains into the oil once again and fry until crispy and golden brown . ",
+        "sprinkle # drop : plantain slices #  # entity : B-EVENT # with salt # participant : sprinkle # to taste # entity : B-EVENT # . ",
+        "serve # drop : plantain slices #  # entity : B-EVENT # promptly after frying # entity : B-EVENT # for best taste . "
+    ],
+    "r-2623": [
+        "cut # tool : knife #  # entity : B-EVENT # cold # participant : cut # boiled potatoes into 1/2 \\\" cubes . ",
+        "add # entity : B-EVENT # chopped # participant : add # green onions , fresh # participant : add # tomatoes , crushed hard # participant : add # - boiled eggs and miracle # participant : add # whip and sour # participant : add # cream to taste # entity : B-EVENT # . ",
+        "mix # drop : cold boiled potatoes , chopped green onions , fresh tomatoes , hard boiled eggs , miracle whip , sour cream # result : cold boiled potatoes #  # entity : B-EVENT # until completely coated # result : cold boiled potatoes #  # entity : B-EVENT # . ",
+        "cover # entity : B-EVENT # and let sit # drop : cold boiled potatoes #  # entity : B-EVENT # in the fridge # participant : sit # 3 or 4 hours to allow the flavors to blend # entity : B-EVENT # . ",
+        "serve # drop : cold boiled potatoes #  # entity : B-EVENT # with hot # participant : serve # or cold meats . "
+    ],
+    "r-348": [
+        "steam # entity : B-EVENT # pipis # participant : steam # to open , scrub # entity : B-EVENT # out sand and remove # entity : B-EVENT # from shells . ",
+        "set # entity : B-EVENT # aside . ",
+        "brown # entity : B-EVENT # rice # participant : brown # in oil # participant : brown # , ( until opaque ) , add # entity : B-EVENT # onion # participant : add # , garlic # participant : add # , soy # participant : add # and chilli and stir # entity : B-EVENT # in . ",
+        "add # entity : B-EVENT # water and put # entity : B-EVENT # the lid # entity : B-TOOL # on , let it bubble # entity : B-EVENT # away until the rice soaks # entity : B-EVENT # up the water . ",
+        "taste # entity : B-EVENT # the rice then and if it is not tender or to your liking , add # entity : B-EVENT # more water as before until rice is \\\" al dente \\\" . ",
+        "when rice is cooked # entity : B-EVENT # , turn # entity : B-EVENT # heat down and stir # entity : B-EVENT # in tomato , pipis , tuna , lemon juice and oyster sauce . "
+    ],
+    "r-2576": [
+        "peel # tool : peeler #  # entity : B-EVENT # the kappa # participant : peel # and boil # shadow : water # habitat : pot #  # entity : B-EVENT # till soft ( around 15 minutes ) in sufficient water # participant : boil # after it become soft , stain # entity : B-EVENT # the water # participant : stain # . ",
+        "make # entity : B-EVENT # the past # participant : add # of cumin # participant : make # seeds , garlic # participant : make # , grated # participant : make # coconut , green # participant : make # chilly and add # entity : B-EVENT # the past # participant : add # in boiled # participant : add # kappa along with the turmeric # participant : add # powder . ",
+        "put # entity : B-EVENT # a pan # participant : put # on stove and pour # entity : B-EVENT # the coconut # participant : pour # oil and boil # habitat : pan #  # entity : B-EVENT # the oil # participant : pour # in medium fire , after 1 minute add # result : mixture # habitat : pan #  # entity : B-EVENT # the mustard # participant : add # seeds , onion # participant : add # pieces , dried # participant : add # red chilly , curry # participant : add # leaves and fry # entity : B-EVENT # all the ingredients # participant : fry # 1/2 minutes . ",
+        "pour # entity : B-EVENT # this mixture # participant : pour # into tapioca # participant : pour # and mix # result : kappa #  # entity : B-EVENT # well . ",
+        "serve # drop : kappa #  # entity : B-EVENT # with fish # participant : serve # curry and rice # participant : serve # . "
+    ],
+    "r-759": [
+        "in a thick # participant : add # pan , add # result : soup #  # entity : B-EVENT # mutton # participant : add # , mutton # participant : add # bones , 10 glasses of water # participant : add # , carrots # participant : add # , onions # participant : add # , bay # participant : add # leaves , pepper # participant : add # corns , salt # participant : add # and boil # drop : soup # habitat : stove #  # entity : B-EVENT # on low heat for 2 hours . ",
+        "when the water # participant : evaporates # evaporates # entity : B-EVENT # and becomes # entity : B-EVENT # 6 glasses of water # participant : evaporates # , remove # drop : soup # tool : thick pan # habitat : stove #  # entity : B-EVENT # from heat , sieve # drop : soup # tool : sieve #  # entity : B-EVENT # and place # drop : soup #  # entity : B-EVENT # in another bowl # participant : place # . ",
+        "to the above soup # participant : thickens # , add # habitat : thick pan #  # entity : B-EVENT # barley # participant : add # powder and cook # drop : soup # habitat : thick pan #  # entity : B-EVENT # until the soup # participant : thickens # thickens # entity : B-EVENT # . ",
+        "also add # habitat : thick pan #  # entity : B-EVENT # salt # participant : add # and pepper # participant : add # powder to taste # entity : B-EVENT # , boiled # participant : add # mutton pieces and cook # drop : soup # habitat : thick pan #  # entity : B-EVENT # for another 5 minutes . ",
+        "serve # drop : soup #  # entity : B-EVENT # hot . "
+    ],
+    "f-KTY57GSL": [
+        "take # entity : B-EVENT # your cauliflower # participant : take # , cut # drop : cauliflower # tool : knife # habitat : cutting board #  # entity : B-EVENT # the leaves # participant : cut # , wash # drop : cauliflower # habitat : sink #  # entity : B-EVENT # it and put # drop : cauliflower # habitat : bowl #  # entity : B-EVENT # aside . ",
+        "set # entity : B-EVENT # a saucepan # participant : set # with water # participant : set # ( that will be able to fit in your cauliflower # participant : put # ) on medium gas and as soon as the water # participant : set # will start boiling # entity : B-EVENT # put # drop : water # result : saucepan #  # entity : B-EVENT # your cauliflower # participant : put # in it for 5 - 7 minutes . ",
+        "your cauliflower should be soft , but a little bit crunchy . ",
+        "* * * tip from helen * * * boiling # entity : B-EVENT # reduces # entity : B-EVENT # the levels of these compounds , with losses of 20 - 30 % after five minutes , 40 - 50 % after ten minutes , and 75 % after thirty minutes.[14 ] however , other preparation methods , such as steaming # entity : B-EVENT # , microwaving # entity : B-EVENT # , and stir # entity : B-EVENT # frying , had no significant effect on the compounds * * * tip from helen * * * ",
+        "drain # habitat : saucepan #  # entity : B-EVENT # the water # participant : drain # and let the cauliflower # participant : cool # cool # habitat : bowl #  # entity : B-EVENT # off . ",
+        "after it cooled off cut the cauliflower into flowerets ( if they are big you can cut them in halves ) . ",
+        "take an egg , beat it up with water and add the flower . ",
+        "season # entity : B-EVENT # the cauliflower # participant : season # , add # habitat : bowl #  # entity : B-EVENT # salt # participant : add # and pepper # participant : add # to the egg # participant : add # - water - flour mix . ",
+        "set # entity : B-EVENT # a frying # participant : set # pan on medium gas , add # habitat : frying pan #  # entity : B-EVENT # cooking # participant : add # oil ; coat # habitat : bowl #  # entity : B-EVENT # the cauliflower # participant : coat # in egg # participant : coat # - water - flower mix and fry # drop : cooking oil , cauliflower # habitat : frying pan #  # entity : B-EVENT # on each side until golden # entity : B-EVENT # brown # entity : I-EVENT # . ",
+        "your cauliflower is ready , it 's good warn and when it 's cold from the fridge , it 's good with dips . ",
+        "enjoy ! "
+    ],
+    "r-192": [
+        "parsley # participant : minced # , green # participant : minced # chile and onions # participant : minced # must be finely minced # tool : knife # habitat : cutting board #  # entity : B-EVENT # . ",
+        "combine # result : parsley mixture # tool : spoon # habitat : bowl #  # entity : B-EVENT # the parsley # participant : combine # , tomatoes # participant : combine # , onions # participant : combine # , cucumber # participant : combine # and green # participant : combine # chile . ",
+        "soak # habitat : bowl #  # entity : B-EVENT # the bulgur # participant : soak # cracked wheat in water # participant : soak # for about two hours , drain # drop : bulgur cracked wheat , water # habitat : sink #  # entity : B-EVENT # and remove # drop : bulgur cracked wheat # habitat : sink #  # entity : B-EVENT # as much water # participant : remove # as possible , and . ",
+        "add # drop : bulgur cracked wheat , parsley mixture # habitat : bowl #  # entity : B-EVENT # to the parsley mixture . ",
+        "combine # habitat : bowl #  # entity : B-EVENT # the lemon # participant : combine # juice , olive # participant : combine # oil , garlic # participant : combine # , salt # participant : combine # and pepper # participant : combine # ; mix # drop : lemon juice , olive oil , garlic , salt , pepper # result : lemon mixture # tool : spoon # habitat : bowl #  # entity : B-EVENT # well . ",
+        "add # entity : B-EVENT # the lemon # participant : add # mixture to the salad # participant : add # , mix # drop : lemon mixture , parsley mixture # tool : spoon #  # entity : B-EVENT # and refrigerate # drop : lemon mixture , parsley mixture # habitat : fridge #  # entity : B-EVENT # till serving # entity : B-EVENT # . ",
+        "place # entity : B-EVENT # romaine # participant : place # lettuce leaves open face up on a platter # participant : place # , spoon # tool : tablespoon # habitat : platter #  # entity : B-EVENT # 2 or 3 tablespoons of wheat # participant : spoon # mixture on each leaf # participant : place # . ",
+        "and eat # entity : B-EVENT # by holding # entity : B-EVENT # the entire lettuce # participant : eat # leaf by the small end , making a boat with the lettuce # participant : eat # leaf to hold # entity : B-EVENT # the wheat # participant : hold # mixture in the middle . ",
+        "tabouleh should be eaten # entity : B-EVENT # within two days . "
+    ],
+    "r-470": [
+        "cook # result : mixture #  # entity : B-EVENT # the onion # participant : cook # and bacon # participant : cook # until the onion # participant : cook # is softened # entity : B-EVENT # . ",
+        "add # drop : mixture #  # entity : B-EVENT # the garlic # participant : add # and cook # drop : mixture #  # entity : B-EVENT # for another couple of minutes . ",
+        "add # drop : mixture #  # entity : B-EVENT # the tomatoes # participant : add # and break # entity : B-EVENT # them up in the pan # participant : break # . ",
+        "add # drop : mixture #  # entity : B-EVENT # the chicken # participant : add # stock and herbs # participant : add # and simmer # drop : mixture #  # entity : B-EVENT # for about 20 minutes . ",
+        "remove # drop : mixture #  # entity : B-EVENT # the herb # participant : remove # sprigs , add # drop : mixture #  # entity : B-EVENT # the beans # participant : add # and cook # drop : mixture #  # entity : B-EVENT # for about 5 more minutes to heat # drop : mixture #  # entity : B-EVENT # through . ",
+        "add # drop : mixture #  # entity : B-EVENT # the tabasco # participant : add # and pepper # participant : add # to taste # entity : B-EVENT # . ",
+        "sprinkle # drop : mixture #  # entity : B-EVENT # liberally with chopped # participant : sprinkle # parsley . ",
+        "serve # drop : mixture #  # entity : B-EVENT # with shaved # participant : serve # parmesan and crusty # participant : serve # bread . "
+    ],
+    "r-1044": [
+        "soak # shadow : water # habitat : bowl #  # entity : B-EVENT # the beans # participant : soak # overnight . ",
+        "cut # tool : knife # habitat : cutting board #  # entity : B-EVENT # the sauerkraut # participant : cut # into strips . ",
+        "cook # habitat : pan #  # entity : B-EVENT # the meat # participant : cook # , potatoes # participant : cook # , beans # participant : cook # and sauerkraut # participant : cook # separately . # ",
+        "when the meat # participant : cooked # is cooked # entity : B-EVENT # , bone # drop : meat # tool : hands #  # entity : B-EVENT # it and cut # drop : meat # tool : knife # habitat : cutting board #  # entity : B-EVENT # into cubes # participant : cut # . ",
+        "dice # tool : knife # habitat : cutting board #  # entity : B-EVENT # the potatoes # participant : dice # . ",
+        "crush # tool : fork # habitat : bowl #  # entity : B-EVENT # the beans # participant : crush # . ",
+        "make # habitat : bowl #  # entity : B-EVENT # a roux with the fat # participant : make # , flour # participant : make # and onion # participant : make # . ",
+        "put # entity : B-EVENT # meat # participant : put # and vegetables # participant : put # into a pot # participant : put # ; add # drop : vegetables , cubes # habitat : pot #  # entity : B-EVENT # the roux # participant : add # and the bay # participant : add # leaves . ",
+        "cover # drop : bay leaves , vegetables , cubes , roux # result : soup # habitat : pot #  # entity : B-EVENT # with the stock # participant : cover # ; cook # drop : stock , soup #  # entity : B-EVENT # 5 minutes longer . ",
+        "before serving # drop : soup #  # entity : B-EVENT # , add # drop : soup # habitat : pot #  # entity : B-EVENT # the sour # participant : add # cream . "
+    ],
+    "f-KND4S2Q4": [
+        "combine # entity : B-EVENT # all of the ingredients # participant : combine # for the marinade in a bowl and stir # drop : ingredients # tool : spoon #  # entity : B-EVENT # . ",
+        "place # habitat : bowl #  # entity : B-EVENT # ribs # participant : place # in the marinade # participant : place # and refrigerate # drop : ribs , marinade # habitat : bowl #  # entity : B-EVENT # for at least one hour or more or up to overnight . ",
+        "preheat # entity : B-EVENT # oven # participant : preheat # to 325 degrees f. ",
+        "place # entity : B-EVENT # the ribs # participant : place # in a roasting # participant : place # pan with the marinade # participant : place # . ",
+        "bake # drop : ribs , marinade # habitat : oven #  # entity : B-EVENT # uncovered for 2 - 2 1/2 hours or until the ribs # participant : bake # are fall # entity : B-EVENT # off the bone tender . ",
+        "allow the marinade # participant : evaporate # to evaporate # habitat : oven #  # entity : B-EVENT # in the cooking process . ",
+        "let the ribs # participant : cool # cool # habitat : roasting pan #  # entity : B-EVENT # slightly ; then separate # entity : B-EVENT # the ribs # participant : cool # with a cooking # participant : separate #  # entity : B-TOOL # scissor # entity : I-TOOL # and plate # drop : ribs #  # entity : B-EVENT # . "
+    ],
+    "f-XSP7NMWM": [
+        "in a large # participant : add # heavy bottom pan add # entity : B-EVENT # the chicken # participant : add # stock , shallot # participant : add # , ginger # participant : add # , sugar # participant : add # , carrot # participant : add # and bring to a simmering # entity : B-EVENT # boil # drop : chicken stock , shallot , ginger , sugar , carrot # habitat : large heavy bottom pan #  # entity : B-EVENT # . ",
+        "on a cutting # participant : smash # board smash # entity : B-EVENT # the 2 garlic # participant : smash # cloves add # drop : garlic cloves #  # entity : B-EVENT # sea # participant : add # salt and smash # entity : B-EVENT # the garlic # participant : smash # and salt # participant : add # together with the blade # participant : smash #  # entity : B-TOOL # of your knife # participant : smash #  # entity : B-TOOL # , the flat part of the knife # participant : smash #  # entity : B-TOOL # . ",
+        "continue # drop : garlic cloves , sea salt # tool : blade # habitat : cutting board #  # entity : B-EVENT # the process until you have a chunky paste . ",
+        "add # habitat : large heavy bottom pan #  # entity : B-EVENT # the garlic # participant : add # paste to the chicken # participant : add # stock . ",
+        "add # drop : chicken stock , chunky paste # habitat : large heavy bottom pan #  # entity : B-EVENT # the red # participant : add # curry and the mushrooms # participant : add # . ",
+        "add # drop : red curry , mushrooms , chunky paste , chicken stock # habitat : large heavy bottom pan #  # entity : B-EVENT # the pad # participant : add # thai noodles and cook # drop : pad thai noodles # habitat : large heavy bottom pan #  # entity : B-EVENT # for 3 minutes . ",
+        "add # drop : pad thai noodles , red curry , mushrooms , chicken stock , chunky paste # habitat : large heavy bottom pan #  # entity : B-EVENT # the shrimps # participant : add # and the bok # participant : add # choy and cook # drop : shrimps , bok choy # habitat : large heavy bottom pan #  # entity : B-EVENT # until the noodles # participant : cook # are cooked # drop : pad thai noodles # result : pad thai soup #  # entity : B-EVENT # . ",
+        "serve # drop : pad thai soup #  # entity : B-EVENT # in a bowl # participant : serve # , garnish # drop : pad thai soup # habitat : bowl #  # entity : B-EVENT # with red # participant : garnish # chili peppers slices , scallions # participant : garnish # and sprinkle # drop : pad thai soup #  # entity : B-EVENT # lemon # participant : sprinkle # juice over it . "
+    ],
+    "r-2586": [
+        "mix # entity : B-EVENT # all the ingredients # participant : mix # for the vinaigrette and reserve # entity : B-EVENT # . ",
+        "combine # entity : B-EVENT # all the ingredients # participant : combine # for the salad . ",
+        "add # entity : B-EVENT # the vinaigrette # participant : add # and mix # drop : salad #  # entity : B-EVENT # thoroughly . ",
+        "the vinaigrette # participant : added # can be added # entity : B-EVENT # well in advance of serving # drop : salad #  # entity : B-EVENT # . "
+    ],
+    "f-X57BHD5Q": [
+        "season # entity : B-EVENT # the salmon # participant : season # fillets with generous amount of coriander # participant : season # , salt # participant : season # and pepper # participant : season # . ",
+        "in a large # participant : filled # pan filled # entity : B-EVENT # with salted # participant : filled # water , cook # habitat : stove #  # entity : B-EVENT # the red # participant : cook # potatoes rounds . ",
+        "when almost done 6 to 8 minutes , slightly tender when pierced # entity : B-EVENT # with a knife # entity : B-TOOL # add # entity : B-EVENT # the frozen # participant : add # peas . ",
+        "cook # drop : red potatoes rounds , frozen peas # habitat : stove #  # entity : B-EVENT # for another 2 minutes . ",
+        "drain # drop : red potatoes rounds , frozen peas # tool : strainer #  # entity : B-EVENT # and transfer # drop : frozen peas , red potatoes rounds #  # entity : B-EVENT # to a large # participant : transfer # salad bowl . ",
+        "drizzle # drop : red potatoes rounds , frozen peas # habitat : large salad bowl #  # entity : B-EVENT # with some olive # participant : drizzle # oil and season # drop : red potatoes rounds , frozen peas # habitat : large salad bowl #  # entity : B-EVENT # with salt # participant : season # and pepper # participant : season # . ",
+        "mix # drop : red potatoes rounds , frozen peas # habitat : large salad bowl #  # entity : B-EVENT # well and set # drop : red potatoes rounds , frozen peas # habitat : large salad bowl #  # entity : B-EVENT # aside . ",
+        "line # entity : B-EVENT # a cookie # participant : line # sheet with aluminum # participant : line # foil . ",
+        "spread # entity : B-EVENT # the lime # participant : spread # on the cookie # participant : spread # sheet . ",
+        "sit # habitat : cookie sheet #  # entity : B-EVENT # in top the salmon # participant : sit # fillets and place # entity : B-EVENT # a couple more slices of lime # participant : place # over the fillets # participant : sit # . ",
+        "bake # drop : salmon fillets #  # entity : B-EVENT # in the oven # participant : bake # for 15 to 18 minutes . ",
+        "remove # drop : salmon fillets # tool : cookie sheet #  # entity : B-EVENT # from the oven # participant : remove # and lightly drizzle # entity : B-EVENT # olive # participant : drizzle # oil over the fillets # participant : drizzle # . ",
+        "add # drop : frozen peas # result : salad # habitat : large salad bowl #  # entity : B-EVENT # the thinly sliced # participant : add # radishes , baby # participant : add # green and arugula # participant : add # to the potatoes # participant : add # . ",
+        "add # drop : salad # habitat : large salad bowl #  # entity : B-EVENT # the vinegar # participant : add # and more olive # participant : add # oil to season # drop : vinegar , salad , olive oil #  # entity : B-EVENT # and toss # drop : salad #  # entity : B-EVENT # well . ",
+        "divide # entity : B-EVENT # the salad # participant : divide # amongst 4 dishes # participant : divide # and place # habitat : dishes #  # entity : B-EVENT # the salmon # participant : place # fillets over it . "
+    ],
+    "f-3S27HH2Q": [
+        "preheat # entity : B-EVENT # oven # participant : preheat # to 350 degrees f. and line # entity : B-EVENT # two baking # participant : line # sheets with parchment # participant : line #  # entity : B-TOOL # paper # entity : I-TOOL # . ",
+        "using a stand # participant : beat #  # entity : B-TOOL # mixer # entity : I-TOOL # , beat # result : mixture #  # entity : B-EVENT # together the butter # participant : beat # , sugar # participant : beat # , tangerine # participant : beat # zest , vanilla # participant : beat # , baking # participant : beat # powder , and salt # participant : beat # . ",
+        "beat # drop : mixture # result : mixture # habitat : stand mixer #  # entity : B-EVENT # in the egg # participant : beat # . ",
+        "the mixture may look slightly curdled # entity : B-EVENT # which is fine . ",
+        "add # drop : mixture # habitat : stand mixer #  # entity : B-EVENT # the flour # participant : add # and dried # participant : add # cranberries and nuts # participant : add # , stirring # drop : nuts , dried cranberries , flour , mixture # habitat : stand mixer #  # entity : B-EVENT # until well combined # drop : mixture # result : dough #  # entity : B-EVENT # . ",
+        "drop # tool : teaspoon # habitat : parchment paper #  # entity : B-EVENT # the dough # participant : drop # by heaping teaspoons onto the baking # participant : drop # sheets . ",
+        "using the flat bottom of a glass # participant : dipped #  # entity : B-TOOL # dipped # entity : B-EVENT # in sugar # participant : dipped # or a spoon # participant : flatten #  # entity : B-TOOL # , flatten # tool : glass #  # entity : B-EVENT # each cookie # participant : flatten # slightly . ",
+        "bake # result : cookies # habitat : parchment paper #  # entity : B-EVENT # the cookies # participant : bake # for 7 - 10 minutes , or until they 're barely set # result : cookies #  # entity : B-EVENT # and a light golden brown around the edges . ",
+        "make sure not to over bake # entity : B-EVENT # your cookies or they will not be soft and chewy once they are cool . ",
+        "remove # entity : B-EVENT # cookies # participant : remove # from the oven # participant : remove # and transfer # drop : cookies #  # entity : B-EVENT # to a wire # participant : transfer # rack to cool # drop : cookies # habitat : wire rack #  # entity : B-EVENT # completely . "
+    ],
+    "r-4962": [
+        "drain # habitat : bowl #  # entity : B-EVENT # pineapple # participant : drain # , reserving # habitat : measuring cup #  # entity : B-EVENT # 1/2 cup juice # participant : reserving # . ",
+        "freeze # habitat : bowl #  # entity : B-EVENT # pineapple # participant : freeze # chunks . ",
+        "place # entity : B-EVENT # juice # participant : place # , buttermilk # participant : place # , vanilla # participant : place # , sweetener # participant : place # and frozen # participant : place # pineapple into a blender # participant : place # container . ",
+        "blend # result : smoothie # habitat : blender container #  # entity : B-EVENT # until smooth . ",
+        "pour # drop : smoothie #  # entity : B-EVENT # into glasses # participant : pour # and garnish # drop : smoothie # habitat : glasses #  # entity : B-EVENT # with mint if desired . "
+    ],
+    "f-P7KZGDKX": [
+        "season # entity : B-EVENT # chicken # participant : season # on all sides with salt # participant : season # , pepper # participant : season # , and rosemary # participant : season # pressing # entity : B-EVENT # down on the chicken # participant : season # . ",
+        "in a frying # participant : add # pan add # drop : chicken #  # entity : B-EVENT # the olive # participant : add # oil and place # habitat : frying pan #  # entity : B-EVENT # the chicken # participant : place # skin side down into the frying # participant : add # pan . ",
+        "set # entity : B-EVENT # the pan # participant : set # over medium heat . ",
+        "once the skin is golden and crisp , turn and cook another 5 minutes on the other side . ",
+        "remove # entity : B-EVENT # chicken # participant : remove # from the pan and set # drop : chicken # habitat : plate #  # entity : B-EVENT # aside . ",
+        "preheat # entity : B-EVENT # oven # participant : preheat # at 350f. ",
+        "fry # entity : B-EVENT # the garlic # participant : fry # in the chicken # participant : fry # fat and add # drop : garlic , chicken fat # habitat : frying pan #  # entity : B-EVENT # brandy # participant : add # or white # participant : add # wine , and lemon # participant : add # juice in the skillet # participant : fry # and scrape # tool : spatula # habitat : frying pan #  # entity : B-EVENT # any bits # participant : scrape # off the bottom of the pan # participant : fry # . ",
+        "place # entity : B-EVENT # the chicken # participant : place # back in the skillet # participant : place # , add # drop : chicken # habitat : frying pan #  # entity : B-EVENT # the peas # participant : add # . ",
+        "place # drop : chicken #  # entity : B-EVENT # in the hot # participant : place # oven and bake # habitat : oven #  # entity : B-EVENT # for another 20 minutes . ",
+        "add # drop : chicken # habitat : oven #  # entity : B-EVENT # chicken # participant : add # stock so the pan # participant : add # will not become # entity : B-EVENT # dry . ",
+        "season # drop : salt , pepper #  # entity : B-EVENT # the chicken # participant : season # if needed . ",
+        "serve # drop : chicken # habitat : plate #  # entity : B-EVENT # with lemon # participant : serve # wedges "
+    ],
+    "r-3996": [
+        "in large # participant : beat # bowl , beat # tool : spoon #  # entity : B-EVENT # oil # participant : beat # and vinegar # participant : beat # for 10 seconds . ",
+        "add # drop : oil , vinegar # result : dressing # habitat : large bowl #  # entity : B-EVENT # garlic # participant : add # , mint # participant : add # , mustard # participant : add # and pepper # participant : add # , mixing # drop : garlic , mint , mustard , pepper , vinegar , oil # tool : spoon # habitat : large bowl #  # entity : B-EVENT # well . ",
+        "rinse # shadow : water # habitat : sink #  # entity : B-EVENT # quinoa # participant : rinse # in a fine # participant : rinse # sieve and place # drop : quinoa #  # entity : B-EVENT # a large # participant : place # saucepan with peas # participant : place # , corn # participant : place # and 2 quarts of water # participant : place # . ",
+        "boil # drop : peas , corn , water , quinoa # habitat : large saucepan #  # entity : B-EVENT # for 10 to 15 minutes , adding # drop : quinoa , peas , corn # habitat : large saucepan #  # entity : B-EVENT # more water # participant : adding # if necessary . ",
+        "add # drop : water , quinoa , peas , corn # habitat : large saucepan #  # entity : B-EVENT # salt # participant : add # . ",
+        "remove # drop : peas , corn # habitat : large saucepan #  # entity : B-EVENT # from heat , strain # drop : water , quinoa , peas , corn # tool : fine sieve # habitat : sink #  # entity : B-EVENT # and set # drop : peas , corn , quinoa # habitat : bowl #  # entity : B-EVENT # aside to cool # drop : peas , corn , quinoa # habitat : bowl #  # entity : B-EVENT # . ",
+        "add # tool : spoon # habitat : large bowl #  # entity : B-EVENT # jalapenos # participant : add # , two thirds of the cilantro # participant : add # and half the tomatoes # participant : add # to dressing # participant : add # ; toss # drop : peas , corn , dressing , tomatoes , cilantro , jalapenos # habitat : bowl #  # entity : B-EVENT # with quinoa # participant : toss # . ",
+        "garnish # drop : quinoa , jalapenos , cilantro , tomatoes , peas , corn , dressing # result : quinoa salad # habitat : bowl #  # entity : B-EVENT # with remaining tomatoes # participant : garnish # and cilantro # participant : garnish # . "
+    ],
+    "r-1841": [
+        "place # entity : B-EVENT # the bacon # participant : place # in a single layer # participant : place # on a parchment # participant : place # paper lined sheet pan . ",
+        "cook # tool : layer # habitat : layer #  # entity : B-EVENT # bacon # participant : cook # for 12 - 15 minutes in a preheated 375deg f oven # participant : cook # . ",
+        "drain # drop : bacon # habitat : sink #  # entity : B-EVENT # grease # participant : drain # and crumble # tool : fork # habitat : layer #  # entity : B-EVENT # the bacon # participant : crumble # ; reserve # habitat : layer #  # entity : B-EVENT # . ",
+        "place dried cranberries in a small saute pan with water and simmer until almost all the liquid is absorbed . ",
+        "in a bowl , toss the mozzarella with the blue cheese until well blended . ",
+        "fry the simplot classic skin - on potato boats in a fryer at 350deg f for 5 1/2 minutes ; drain . ",
+        "for each serving , place # entity : B-EVENT # 4 prepared simplot # participant : place # classic skin - on potato boats on a sheet # participant : place # pan , sprinkle # habitat : sheet pan #  # entity : B-EVENT # with 2 oz . ",
+        "of cheese blend , 1/2 oz . ",
+        "of bacon , and 1/2 oz . ",
+        "of cranberries , and top # habitat : sheet pan #  # entity : B-EVENT # with 1/2 oz . ",
+        "cheese . ",
+        "place the pan under a salamander or in a hot oven until the cheese melts . ",
+        "sprinkle # drop : simplot classic skin on potato boats # habitat : sheet pan #  # entity : B-EVENT # with the chopped # participant : sprinkle # chives . ",
+        "transfer # drop : simplot classic skin on potato boats #  # entity : B-EVENT # to a serving # participant : transfer # plate along with 3 oz . ",
+        "of ranch dressing . ",
+        "serve # drop : simplot classic skin on potato boats # habitat : serving plate #  # entity : B-EVENT # warm and plain or with other appetizers # participant : serve # or vegetables # participant : serve # . "
+    ],
+    "r-1974": [
+        "brown # entity : B-EVENT # the beef # participant : brown # in a large # participant : brown # heavy skillet . ",
+        "drain # entity : B-EVENT # the fat # participant : drain # from the pan # participant : drain # and add # drop : beef # result : mixture # habitat : pan #  # entity : B-EVENT # onion # participant : add # , soups # participant : add # , and enchilada # participant : add # sauce . ",
+        "stir until well blended and add cheese slowly allowing to melt before adding more . ",
+        "add # drop : mixture # habitat : pan #  # entity : B-EVENT # chiles # participant : add # and season # drop : mixture # habitat : pan #  # entity : B-EVENT # with salt # participant : season # and pepper # participant : season # . ",
+        "reduce # tool : stove #  # entity : B-EVENT # heat to low and cook # drop : mixture #  # entity : B-EVENT # for 4 - 5 minutes longer . ",
+        "transfer # drop : mixture #  # entity : B-EVENT # to a slow # participant : transfer # - cooker or chafing # participant : transfer # dish and serve # drop : mixture #  # entity : B-EVENT # ! "
+    ],
+    "r-1882": [
+        "mix # result : mixture # tool : spoon #  # entity : B-EVENT # in a bowl # participant : mix # the yoghurt # participant : mix # , oil # participant : mix # , mint # participant : mix # , garlic # participant : mix # . ",
+        "add # drop : mixture # habitat : bowl #  # entity : B-EVENT # salt # participant : add # and pepper # participant : add # and after mixing # drop : mixture # tool : spoon #  # entity : B-EVENT # well add # drop : mixture # habitat : bowl #  # entity : B-EVENT # the cubes # participant : add # of ostrich # participant : add # meat . ",
+        "cover # habitat : bowl #  # entity : B-EVENT # the bowl and place # drop : mixture , cubes #  # entity : B-EVENT # it in the fridge # participant : place # for an hour . ",
+        "after an hour remove # entity : B-EVENT # the marinated # participant : remove # meat from the fridge # participant : remove # and thread # drop : cubes # result : skewered meat #  # entity : B-EVENT # it on skewers # participant : thread #  # entity : B-TOOL # together with the bay # participant : thread # leaves . ",
+        "bake # drop : skewered meat #  # entity : B-EVENT # in preheated # participant : bake # oven for 10 minutes in 180 c. ",
+        "baste # drop : skewered meat #  # entity : B-EVENT # them regularly with the mix # participant : baste # that you used for marinating # entity : B-EVENT # the meat . ",
+        "serve # drop : skewered meat #  # entity : B-EVENT # hot with rice # participant : serve # . ",
+        "you can use # entity : B-EVENT # the yoghurt # participant : use # mix as a sauce # participant : use # for the rice . "
+    ],
+    "r-3712": [
+        "heat # entity : B-EVENT # garlic # participant : heat # with oil # participant : heat # in large # participant : heat # skillet over medium - high heat ; discard # habitat : trash #  # entity : B-EVENT # garlic # participant : heat # . ",
+        "cook # habitat : large skillet #  # entity : B-EVENT # broccoli # participant : cook # , zucchini # participant : cook # and mushrooms # participant : cook # in oil # participant : cook # until almost tender crisp . ",
+        "add # drop : broccoli , zucchini , mushrooms # habitat : large skillet #  # entity : B-EVENT # tomatoes # participant : add # and parsley # participant : add # ; cook # drop : tomatoes , parsley , broccoli # shadow : mushrooms # result : vegetables # habitat : large skillet #  # entity : B-EVENT # one minute longer . ",
+        "remove # habitat : large skillet #  # entity : B-EVENT # vegetables # participant : remove # ; set # entity : B-EVENT # aside . ",
+        "melt # entity : B-EVENT # butter # participant : melt # in same skillet # participant : melt # ; stir # drop : butter # tool : spoon # habitat : large skillet #  # entity : B-EVENT # in cream # participant : stir # , cheese # participant : stir # and pepper # participant : stir # . ",
+        "cook # drop : cream , cheese , pepper # habitat : large skillet #  # entity : B-EVENT # over medium heat , stirring # drop : cream , cheese , pepper # tool : spoon # habitat : large skillet #  # entity : B-EVENT # until smooth . ",
+        "add # drop : cream , cheese , pepper # habitat : large skillet #  # entity : B-EVENT # rice # participant : add # ; toss # drop : rice , cream , cheese , pepper # habitat : large skillet #  # entity : B-EVENT # to coat # shadow : rice #  # entity : B-EVENT # . ",
+        "stir # drop : rice , cream , cheese , pepper # tool : spoon # habitat : large skillet #  # entity : B-EVENT # in reserved vegetables # participant : stir # ; heat # drop : vegetables # habitat : large skillet #  # entity : B-EVENT # gently . "
+    ],
+    "r-1076": [
+        "bring salted # participant : boil # water to boil # habitat : pot #  # entity : B-EVENT # ; add # habitat : pot #  # entity : B-EVENT # polenta # participant : add # , stirring # drop : salted water # habitat : pot #  # entity : B-EVENT # constantly with a wooden # participant : stirring #  # entity : B-TOOL # spoon # entity : I-TOOL # . ",
+        "add # drop : polenta # habitat : pot #  # entity : B-EVENT # butter # participant : add # and cheese # participant : add # ; cook # drop : butter , cheese , polenta # habitat : pot #  # entity : B-EVENT # over low heat , stirring # drop : cheese , butter , polenta # result : polenta mixture # tool : wooden spoon # habitat : pot #  # entity : B-EVENT # continuously for 25 minutes . ",
+        "polenta # participant : served # can be served # habitat : plate #  # entity : B-EVENT # with italian # participant : served # sauce , or rinse # habitat : sink #  # entity : B-EVENT # a shallow # participant : rinse # baking dish with cold # participant : rinse # water , pour # habitat : shallow baking dish #  # entity : B-EVENT # in polenta # participant : pour # mixture , spreading # drop : polenta mixture # tool : wooden spoon # habitat : shallow baking dish #  # entity : B-EVENT # so it is 1/2 inch thick . ",
+        "cover # drop : polenta mixture # habitat : lid #  # entity : B-EVENT # ; cut # drop : polenta mixture # tool : knife # habitat : cutitng board #  # entity : B-EVENT # into 2 inch squares ; saute # drop : polenta mixture # habitat : pan #  # entity : B-EVENT # in 1/4 cup butter # participant : saute # over moderate heat , turning # drop : polenta mixture # habitat : pan #  # entity : B-EVENT # 3 or 4 times until lightly browned # drop : polenta mixture #  # entity : B-EVENT # and serve # drop : polenta mixture #  # entity : B-EVENT # as a starch with any kind of meat # participant : serve # . "
+    ],
+    "f-VHRZX28X": [
+        "in a small # participant : combine # bowl combine # entity : B-EVENT # the lemon # participant : combine # juice , shallots # participant : combine # , a pinch of salt # participant : combine # and pepper # participant : combine # . ",
+        "whisk # result : vinaigrette # tool : whisk # habitat : small bowl #  # entity : B-EVENT # in the olive # participant : whisk # oil in a steady stream until it is incorporated # drop : shallots , salt , pepper , lemon juice , olive oil # tool : whisk # habitat : small bowl #  # entity : B-EVENT # well and emulsified # shadow : olive oil # result : vinaigrette #  # entity : B-EVENT # . ",
+        "cut # tool : knife #  # entity : B-EVENT # the stalks of the fennel # participant : cut # bulbs . ",
+        "sliced # drop : fennel bulbs # tool : knife #  # entity : B-EVENT # off the tough bottom end and remove # entity : B-EVENT # any though or discolored outer layers . ",
+        "slice # tool : knife #  # entity : B-EVENT # each bulb # participant : slice # in half lengthwise , and then slice # tool : mandoline #  # entity : B-EVENT # the fennel # participant : slice # as thin as you can . ",
+        "if you have a mandoline # entity : B-TOOL # it will be easier . ",
+        "put # entity : B-EVENT # the slices # participant : put # in a bowl # participant : put # with room enough to toss # entity : B-EVENT # them . ",
+        "stem # tool : knife #  # entity : B-EVENT # the tomatoes # participant : stem # and cut # drop : tomatoes # tool : knife #  # entity : B-EVENT # them in half . ",
+        "i remove # shadow : tomatoes #  # entity : B-EVENT # the seeds . ",
+        "place # drop : tomatoes #  # entity : B-EVENT # them in the same bowl # participant : place # as the fennel and add # habitat : bowl #  # entity : B-EVENT # the basil # participant : add # . ",
+        "toss # drop : tomatoes , basil , stalks # result : mixture #  # entity : B-EVENT # with enough vinaigrette # participant : toss # to coat # drop : mixture #  # entity : B-EVENT # them well . ",
+        "season # drop : mixture # habitat : bowl #  # entity : B-EVENT # with salt # participant : season # and pepper # participant : season # to taste # entity : B-EVENT # . "
+    ],
+    "r-808": [
+        "heat # entity : B-EVENT # oil # participant : heat # in a pan # participant : heat # and fry # tool : pan #  # entity : B-EVENT # the chopped # participant : fry # spring onions and ginger # participant : fry # - garlic # participant : fry # paste for 2 minutes . ",
+        "also add # drop : chopped spring onions , ginger , garlic paste # habitat : pan #  # entity : B-EVENT # capsicum # participant : add # , mushrooms # participant : add # , potatoes # participant : add # and fry # drop : capsicum , mushrooms , potatoes # result : vegetables # habitat : pan #  # entity : B-EVENT # for few more minutes . ",
+        "then add # habitat : pan #  # entity : B-EVENT # soy # participant : add # sauce , chili # participant : add # sauce , tomato # participant : add # ketchup , salt # participant : add # , pepper # participant : add # powder and stir # drop : pepper powder , salt , tomato ketchup , chili sauce , soy sauce # habitat : pan #  # entity : B-EVENT # until the sauce # participant : add # is coated # drop : chili sauce # habitat : pan #  # entity : B-EVENT # to the vegetables # participant : coated # . ",
+        "cook # habitat : pan #  # entity : B-EVENT # until the vegetables # participant : cook # are tender and remove # drop : vegetables # habitat : pan #  # entity : B-EVENT # from heat . ",
+        "garnish # habitat : plate #  # entity : B-EVENT # with coriander # participant : garnish # leaves and serve # habitat : plate #  # entity : B-EVENT # hot with plain # participant : serve # rice or chapaties # participant : serve # . "
+    ]
+}
