@@ -57,8 +57,48 @@ Question IDs are question types, then there are in total 19 kind of classes in t
 3). N/A comes just from randomly mix one question from other recipe with current one. 
 
 
+f-N8CYRK3G:
+# question 1-3 = What should be cooked in the pot?
+# answer 1-3 = the water, bacon and celery
+
+# question 1-8 = What should be added to the pot?
+# answer 1-8 = the bacon, celery, onion and garlic
+pred: "the peas, pasta, water, bacon, celery, bacon, celery,"
+
+# question 1-5 = What should be added to the pot?
+# answer 1-5 = the peas, pasta, water, bacon and celery
 
 
+f-GH38KR62:
+# question 1-1 = What should be added to the pan?
+# answer 1-1 = the string beans and dressing
 
+r-87:
+# question 1-1 = What should be served on the plate with the hand?
+# answer 1-1 = the mixture
 
+1357
+# question 1-7 = What should be served in the small bowl?  (预测错误，因为没有part)
+# answer 1-7 = the meal and stock
 
+# question 1-1 = What should be simmered in the pan? (normal)
+# answer 1-1 = the halibut
+
+# question 1-0 = What should be left in the pan? (normal)
+# answer 1-0 = the halibut
+
+r-1671
+# question 1-1 = What should be stirred with the spoon? (预测错误，因为没加part)
+# answer 1-1 = the butter, corn flour and water
+
+#加part后可能会引入噪声
+f-288WGL8R （这篇很奇怪，出现了许多n/a）
+# question 1-12 = What should be tented with the foil? (预测错误，因为没加part)
+# answer 1-12 = the chop
+
+r-4189
+# question 1-2 = What should be mixed? (预测错误，因为没加part)
+# answer 1-2 = the flour, baking soda, powder, salt and nuts
+
+# question 1-3 = What should be simmered in the tagine? (正常抽风)
+# answer 1-3 = the tagine contents
