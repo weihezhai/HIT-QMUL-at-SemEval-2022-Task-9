@@ -43,7 +43,7 @@ In the code directory, there are codes for three experiments. The descriptions o
 
 Therefore, there are three folders in the code directory, corresponding to the codes of the three experiments.
 
-![](1.png)
+![](pic/1.png)
 
 
 
