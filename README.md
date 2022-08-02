@@ -2,7 +2,7 @@
 typora-root-url: pic
 ---
 
-# ITNLP_Semeval2022_Task6
+# HIT&QMUL_Semeval2022_Task9
 #### **[This project is for semeval 2022 Task9](https://competitions.codalab.org/competitions/34056#participate)**
 
 #### The following will illustrate this work from data processing,  experimental code and experimental data.
